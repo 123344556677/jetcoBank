@@ -242,11 +242,6 @@ const Sidebar = (props) => {
                   type="text"
                   className="navbar-search"
                 />
-                <InputGroupAddon addonType="prepend" className="searchbar-icon">
-                  <InputGroupText>
-                    <img src={filterIcon} alt="filter-icon" className="pr-2" />
-                  </InputGroupText>
-                </InputGroupAddon>
               </InputGroup>
             </FormGroup>
           </Form>
