@@ -1,0 +1,39 @@
+.bg-default{
+    background-color: white!important;
+}
+.home-div{
+    overflow-x: hidden;
+}
+.login-text{
+    color: #776a6a!important;
+    font-size: 12px!important;
+    font-style: Roboto!important;
+    font-weight: 700!important;
+}
+.login-icon{
+    color: #91DF46;
+}
+.login-button{
+    border-radius: 20px 20px 20px 20px;
+    background-color:#91DF46 ;
+    color: white;
+
+}
+.signup-link{
+color: #91DF46;
+}
+.homeImage{
+      max-width: 80%;
+      max-height: 80%; 
+      width: auto;
+      height:auto; 
+      object-fit: cover;
+}
+.forgot-text{
+    color:#B4B5B5
+}
+.login-icon{
+    font-size: 16px!important;
+}
+
+

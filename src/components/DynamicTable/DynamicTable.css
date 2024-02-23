@@ -1,0 +1,44 @@
+
+.table-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.table-wrapper::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+ 
+}
+
+.table-wrapper::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 8px;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.table-wrapper:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.table-headings{
+    color: #000000;
+}
+.table-data{
+    color: #000000;
+}
+.action-button{
+    border-radius: 20px 20px 20px 20px;
+    font-size: 12px;
+}
+
+

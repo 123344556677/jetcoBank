@@ -1,0 +1,33 @@
+.admin-navbar{
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.1);
+}
+.navbar-search input[type="text"] {
+  background-color: #F5F9FD; /* Change this to your desired background color */
+}
+.navbar-search{
+    font-size: 12px;
+    border-radius: 20px 20px 20px 20px;
+}
+.navbar-search::placeholder {
+  color: #9A9A9A!important; 
+}
+.navbar-profile-name{
+  color:#294566
+}
+.navbar-bell-icon-holder{
+  border-radius: 1000px 1000px 1000px 1000px;
+  box-shadow:2px 2px 4px 2px rgba(0, 0, 0, 0.1) ;
+}
+.navbar-bell-icon{
+color:#91DF46;
+}
+.navbar-username{
+  color:#91DF46;
+  font-style: bold;
+}
+.login-time{
+  color: #B4B5B5;
+  font-size: 10px;
+  font-style: bold;
+  font-weight: 700;
+}
