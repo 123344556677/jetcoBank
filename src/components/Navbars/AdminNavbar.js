@@ -68,7 +68,7 @@ const AdminNavbar = (props) => {
             <UncontrolledDropdown nav>
               <DropdownToggle
                 nav
-                className="nav-link-icon navbar-bell-icon-holder mr-3"
+                className=" navbar-bell-icon-holder mr-3"
               >
                 <i className="ni ni-bell-55 navbar-bell-icon" />
               </DropdownToggle>

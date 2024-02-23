@@ -57,7 +57,7 @@ var ps;
 
 const Sidebar = (props) => {
   const [collapseOpen, setCollapseOpen] = useState();
-  const navigate=useNavigate()
+  const navigate = useNavigate();
   // verifies if routeName is the one active (in browser input)
   const activeRoute = (routeName) => {
     return props.location.pathname.indexOf(routeName) > -1 ? "active" : "";
@@ -76,7 +76,7 @@ const Sidebar = (props) => {
       return (
         <NavItem key={key}>
           <NavLink
-            to={prop.layout + prop.path}
+            to={prop?.name === "Log Out" ? prop.path : prop.layout + prop.path}
             tag={NavLinkRRD}
             onClick={closeCollapse}
           >
@@ -124,7 +124,7 @@ const Sidebar = (props) => {
               alt={logo.imgAlt}
               className="navbar-brand-img"
               src={sidebarLogo}
-              onClick={()=>navigate('/')}
+              onClick={() => navigate("/")}
             />
           </NavbarBrand>
         ) : null}
