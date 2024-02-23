@@ -7,3 +7,9 @@ background-color: white;
     font-weight: 700;
     font-style: bold;
 }
+.add-button{
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid #91DF46;
+    background-color: white;
+    color: #91DF46 ;
+}

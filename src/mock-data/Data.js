@@ -95,7 +95,7 @@ export  const userData=[
     value:"54.214"
 },
 {
-    value:"Active"
+    value:"Inactive"
 },
 {
     value:"Down Town"

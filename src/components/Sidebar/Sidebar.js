@@ -80,7 +80,7 @@ const Sidebar = (props) => {
             tag={NavLinkRRD}
             onClick={closeCollapse}
           >
-            <i className={prop.icon} />
+            <i className={`${prop.icon} sidebar-icon`} />
             {prop.name}
           </NavLink>
         </NavItem>

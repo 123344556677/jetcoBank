@@ -17,6 +17,7 @@
 */
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import filterIcon from "../../assets/img/icons/common/filter-icon.png";
 // reactstrap components
 import {
   DropdownMenu,
@@ -33,6 +34,7 @@ import {
   Nav,
   Container,
   Media,
+  Badge,
 } from "reactstrap";
 
 const AdminNavbar = (props) => {
@@ -48,11 +50,11 @@ const AdminNavbar = (props) => {
             className="navbar-username mb-0  d-none d-lg-inline-block"
             to="/"
           >
-            Hello Jackson
+            Hello Jackson!
             <p className="login-time">1:45 pm 19 Jan 2022</p>
           </Link>
 
-          <Form className="navbar-search navbar-search-dark form-inline mr-4 d-none d-md-flex ml-lg-auto">
+          <Form className="navbar-search  form-inline mr-4 d-none d-md-flex ml-lg-auto">
             <FormGroup className="mb-0">
               <InputGroup className="input-group-alternative">
                 <Input
@@ -60,6 +62,11 @@ const AdminNavbar = (props) => {
                   type="text"
                   className="navbar-search"
                 />
+                <InputGroupAddon addonType="prepend" className="searchbar-icon">
+                  <InputGroupText>
+                    <img src={filterIcon} alt="filter-icon" className="pr-2" />
+                  </InputGroupText>
+                </InputGroupAddon>
               </InputGroup>
             </FormGroup>
           </Form>
@@ -68,9 +75,16 @@ const AdminNavbar = (props) => {
             <UncontrolledDropdown nav>
               <DropdownToggle
                 nav
-                className=" navbar-bell-icon-holder mr-3"
+                className="navbar-bell-icon-holder mr-3 position-relative"
               >
-                <i className="ni ni-bell-55 navbar-bell-icon" />
+                <i className="ni ni-bell-55 navbar-bell-icon mb-1" />
+
+                <Badge
+                  className="noti-badge position-absolute top-0 end-0 mb-0  rounded-pill"
+                  size="sm"
+                >
+                  3
+                </Badge>
               </DropdownToggle>
               <DropdownMenu
                 aria-labelledby="navbar-default_dropdown_1"
@@ -83,15 +97,18 @@ const AdminNavbar = (props) => {
                 <DropdownItem>Something else here</DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
+
             <UncontrolledDropdown nav>
               <DropdownToggle className="pr-0" nav>
                 <Media className="align-items-center">
-                  <span className="avatar avatar-sm rounded-circle">
+                  <div className="position-relative">
                     <img
                       alt="..."
                       src={require("../../assets/img/theme/team-4-800x800.jpg")}
+                      className="navbar-profile-icon"
                     />
-                  </span>
+                    <span className="online-badge position-absolute top-0 end-0  rounded-circle" />
+                  </div>
                   <Media className="ml-2 d-none d-lg-block">
                     <span className="mb-0 text-sm font-weight-bold navbar-profile-name">
                       Jessica Jones

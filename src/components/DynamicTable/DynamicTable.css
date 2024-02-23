@@ -32,13 +32,30 @@
 }
 .table-headings{
     color: #000000;
+    font-size: 12px!important;
+    text-transform: none!important;
 }
 .table-data{
     color: #000000;
+    font-size: 12px!important;
+}
+.active-color{
+    color: #91DF46;
+    font-size: 12px!important;
+}
+.inactive-color{
+    color: #DF4655;
+    font-size: 12px!important;
 }
 .action-button{
     border-radius: 20px 20px 20px 20px;
     font-size: 12px;
+}
+.block-button{
+    border-radius: 20px 20px 20px 20px;
+    font-size: 12px;
+    background-color:#91DF46;
+    color: white;
 }
 
 

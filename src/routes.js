@@ -29,14 +29,14 @@ var routes = [
   {
     path: "/dashboard",
     name: "Dashboard",
-    icon: "ni ni-tv-2 text-success",
+    icon: "ni ni-tv-2 ",
     component: <UserListing />,
     layout: "/admin",
   },
   {
     path: "/",
     name: "Log Out",
-    icon: "fa fa-sign-out text-success",
+    icon: "fa fa-sign-out",
     component: <Index />,
     layout: "/admin",
   },

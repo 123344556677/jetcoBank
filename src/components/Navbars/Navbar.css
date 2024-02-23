@@ -1,9 +1,7 @@
 .admin-navbar{
     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.1);
 }
-.navbar-search input[type="text"] {
-  background-color: #F5F9FD; /* Change this to your desired background color */
-}
+
 .navbar-search{
     font-size: 12px;
     border-radius: 20px 20px 20px 20px;
@@ -12,22 +10,78 @@
   color: #9A9A9A!important; 
 }
 .navbar-profile-name{
-  color:#294566
+  color:#294566;
+  font-size:16px
 }
-.navbar-bell-icon-holder{
-  border-radius: 100px 100px 100px 100px;
-  box-shadow:2px 2px 4px 2px rgba(0, 0, 0, 0.1) ;
+.navbar-bell-icon-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.1);
+  height: 50px;
+  width: 50px;
 }
-.navbar-bell-icon{
-color:#91DF46;
+
+.navbar-bell-icon {
+  color: #91DF46;
+  font-size: 25px;
 }
 .navbar-username{
-  color:#91DF46;
+  color:#5AB303;
   font-style: bold;
+  font-size: 18px;
 }
 .login-time{
   color: #B4B5B5;
   font-size: 10px;
-  font-style: bold;
-  font-weight: 700;
+  font-weight: 600;
+}
+.searchbar-icon{
+  background-color: #F5F9FD!important; 
+  border-radius: 20px 20px;
+}
+.filter-icon{
+  color: #000000;
+}
+.navbar-search .input-group{
+  background-color: #F5F9FD!important;  
+  border: none!important;
+  height: 40px;
+}
+.noti-badge{
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  right:8px;
+  top:3px;
+  height:20px;
+  width:20px;
+}
+
+.avatar-wrapper {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.avatar {
+  position: relative;
+}
+
+.online-badge {
+  width: 10px;
+  height: 10px;
+  right:1px;
+  background-color: #91DF46;
+}
+.navbar-profile-icon{
+  height:50px!important;
+  width:50px!important;
+  border-radius: 50%;
+}
+.sidebar-icon{
+  color:#91DF46;
 }
