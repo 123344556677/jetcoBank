@@ -17,11 +17,17 @@
 */
 /*eslint-disable*/
 import { useState } from "react";
-import { NavLink as NavLinkRRD, Link, useNavigate } from "react-router-dom";
+import {
+  NavLink as NavLinkRRD,
+  Link,
+  useNavigate,
+  useLocation,
+} from "react-router-dom";
 // nodejs library to set properties for components
 import { PropTypes } from "prop-types";
 import sidebarLogo from "../../assets/img/brand/jetcoLogo.png";
 import filterIcon from "../../assets/img/icons/common/filter-icon.png";
+import "./Sidebar.css";
 
 // reactstrap components
 import {
@@ -54,6 +60,8 @@ import {
   Col,
   Badge,
 } from "reactstrap";
+import DyamicAccordion from "components/Accordion/DyamicAccordion";
+import { UserAccordionItems } from "mock-data/AccordionData";
 
 var ps;
 
@@ -64,6 +72,7 @@ const Sidebar = (props) => {
   const activeRoute = (routeName) => {
     return props.location.pathname.indexOf(routeName) > -1 ? "active" : "";
   };
+
   // toggles collapse between opened and closed (true/false)
   const toggleCollapse = () => {
     setCollapseOpen((data) => !data);
@@ -72,19 +81,86 @@ const Sidebar = (props) => {
   const closeCollapse = () => {
     setCollapseOpen(false);
   };
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleAccordion = () => setIsOpen(!isOpen);
+  const location = useLocation();
   // creates the links that appear in the left menu / Sidebar
+  const createNavLink = (prop) => {
+    const linkTo =
+      prop?.name === "Log Out" ? prop.path : prop.layout + prop.path;
+    const isActive = prop?.layout + prop?.path === location?.pathname;
+
+    const handleAccordionIcon = () => {
+        return isOpen ? "ni ni-bold-up" : "ni ni-bold-down";
+      
+    };
+
+    return (
+      <NavLink
+        to={linkTo}
+        tag={NavLinkRRD}
+        onClick={closeCollapse}
+        className={`sidebar-container ${isActive ? "active" : ""}`}
+      >
+        <i
+          className={`${prop.icon} ${
+            isActive ? "sidebar-icon-active" : "sidebar-icon"
+          }`}
+        />
+        <span
+          className={`ml-3 sidebar-items ${
+            isActive ? "sidebar-items-active" : ""
+          }`}
+          onClick={toggleAccordion}
+        >
+          {prop.name}
+        </span>
+        {prop?.name === "User Management" && (
+          <i
+            className={`${handleAccordionIcon()} ${
+              isActive ? "sidebar-icon-active ml-3" : "sidebar-icon ml-3"
+            }`}
+            onClick={toggleAccordion}
+          />
+        )}
+      </NavLink>
+    );
+  };
+
   const createLinks = (routes) => {
     return routes.map((prop, key) => {
+      if (
+        [
+          "AgentListing",
+          "MerchantListing",
+          "NotaryListing",
+          "GovtOfficialsListing",
+          "FinancialListing",
+          "MinistryListing",
+          "UserListing",
+          "TaxPreparerListing",
+          "VendorListing",
+          "CourierDispatchListing",
+        ].includes(prop?.name)
+      ) {
+        return null; // Skip rendering for certain routes
+      }
+
       return (
         <NavItem key={key}>
-          <NavLink
-            to={prop?.name === "Log Out" ? prop.path : prop.layout + prop.path}
-            tag={NavLinkRRD}
-            onClick={closeCollapse}
-          >
-            <i className={`${prop.icon} sidebar-icon`} />
-            {prop.name}
-          </NavLink>
+          {prop?.name === "User Management" ? (
+            <>
+              {createNavLink(prop)}
+              <DyamicAccordion
+                isOpenVal={isOpen}
+                accordionVal={UserAccordionItems}
+              />
+            </>
+          ) : (
+            createNavLink(prop)
+          )}
         </NavItem>
       );
     });
@@ -133,47 +209,47 @@ const Sidebar = (props) => {
         {/* User */}
         <Nav className="align-items-center d-md-none">
           <UncontrolledDropdown nav>
-              <DropdownToggle
-                nav
-                className="navbar-bell-icon-holder mr-3 position-relative"
-              >
-                <i className="ni ni-bell-55 navbar-bell-icon mb-1" />
+            <DropdownToggle
+              nav
+              className="navbar-bell-icon-holder mr-3 position-relative"
+            >
+              <i className="ni ni-bell-55 navbar-bell-icon mb-1" />
 
-                <Badge
-                  className="noti-badge position-absolute top-0 end-0 mb-0  rounded-pill"
-                  size="sm"
-                >
-                  3
-                </Badge>
-              </DropdownToggle>
-              <DropdownMenu
-                aria-labelledby="navbar-default_dropdown_1"
-                className="dropdown-menu-arrow"
-                right
+              <Badge
+                className="noti-badge position-absolute top-0 end-0 mb-0  rounded-pill"
+                size="sm"
               >
-                <DropdownItem>Action</DropdownItem>
-                <DropdownItem>Another action</DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>Something else here</DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
+                3
+              </Badge>
+            </DropdownToggle>
+            <DropdownMenu
+              aria-labelledby="navbar-default_dropdown_1"
+              className="dropdown-menu-arrow"
+              right
+            >
+              <DropdownItem>Action</DropdownItem>
+              <DropdownItem>Another action</DropdownItem>
+              <DropdownItem divider />
+              <DropdownItem>Something else here</DropdownItem>
+            </DropdownMenu>
+          </UncontrolledDropdown>
           <UncontrolledDropdown nav>
             <DropdownToggle nav>
               <Media className="align-items-center">
-                  <div className="position-relative">
-                    <img
-                      alt="..."
-                      src={require("../../assets/img/theme/team-4-800x800.jpg")}
-                      className="navbar-profile-icon"
-                    />
-                    <span className="online-badge position-absolute top-0 end-0  rounded-circle" />
-                  </div>
-                  <Media className="ml-2 d-none d-lg-block">
-                    <span className="mb-0 text-sm font-weight-bold navbar-profile-name">
-                      Jessica Jones
-                    </span>
-                  </Media>
+                <div className="position-relative">
+                  <img
+                    alt="..."
+                    src={require("../../assets/img/theme/team-4-800x800.jpg")}
+                    className="navbar-profile-icon"
+                  />
+                  <span className="online-badge position-absolute top-0 end-0  rounded-circle" />
+                </div>
+                <Media className="ml-2 d-none d-lg-block">
+                  <span className="mb-0 text-sm font-weight-bold navbar-profile-name">
+                    Jessica Jones
+                  </span>
                 </Media>
+              </Media>
             </DropdownToggle>
             <DropdownMenu className="dropdown-menu-arrow" right>
               <DropdownItem className="noti-title" header tag="div">

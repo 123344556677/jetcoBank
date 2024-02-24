@@ -69,7 +69,7 @@ const Home = () => {
               <Button
                 className="btn  my-4 login-button pl-5 pr-5 w-md-auto "
                 type="button"
-                onClick={() => navigate("/admin/dashboard")}
+                onClick={() => navigate("/admin/userManagement")}
               >
                 Sign In
               </Button>

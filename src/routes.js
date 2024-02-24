@@ -24,13 +24,94 @@ import Tables from "views/examples/Tables.js";
 import Icons from "views/examples/Icons.js";
 import Home from "components/Home/Home";
 import UserListing from "components/Users/UserListing";
+import AgentListing from "components/Users/AgentListing";
+import MerchantListing from "components/Users/MerchantListing";
+import NotaryListing from "components/Users/NotaryListing";
+import GovtOfficialsListing from "components/Users/GovtOfficialstListing";
+import FinancialListing from "components/Users/FinancialListing";
+import MinistryListing from "components/Users/MinistryListing";
+import userIcon from './assets/img/icons/common/manage-icon.png'
+import UserManagement from "components/Users/UserManagement";
+import TaxPreparersListing from "components/Users/TaxPreparersListing";
+import VendorsListing from "components/Users/VendorsListing";
+import CourierDisptachListing from "components/Users/CourierDispatchListing";
 
 var routes = [
   {
-    path: "/dashboard",
-    name: "Dashboard",
-    icon: "ni ni-tv-2 ",
+    path: "/userManagement",
+    name: "User Management",
+    icon: "ni ni-single-02",
+    component: <UserManagement/>,
+    layout: "/admin",
+  },
+  {
+    path: "/userManagement/user",
+    name: "UserListing",
+    icon: "ni ni-single-02",
     component: <UserListing />,
+    layout: "/admin",
+  },
+  {
+    path: "/userManagement/agent",
+    name: "AgentListing",
+    icon: "ni ni-tv-2 ",
+    component: <AgentListing/>,
+    layout: "/admin",
+  },
+  {
+    path: "/userManagement/merchant",
+    name: "MerchantListing",
+    icon: "ni ni-tv-2 ",
+    component: <MerchantListing/>,
+    layout: "/admin",
+  },
+  {
+    path: "/userManagement/notary",
+    name: "NotaryListing",
+    icon: "ni ni-tv-2 ",
+    component: <NotaryListing/>,
+    layout: "/admin",
+  },
+  {
+    path: "/userManagement/govt",
+    name: "GovtOfficialsListing",
+    icon: "ni ni-tv-2 ",
+    component:<GovtOfficialsListing/>,
+    layout: "/admin",
+  },
+  {
+    path: "/userManagement/financial",
+    name: "FinancialListing",
+    icon: "ni ni-tv-2 ",
+    component:<FinancialListing/>,
+    layout: "/admin",
+  },
+  {
+    path: "/userManagement/ministry",
+    name: "MinistryListing",
+    icon: "ni ni-tv-2 ",
+    component:<MinistryListing/>,
+    layout: "/admin",
+  },
+  {
+    path: "/userManagement/taxPreparer",
+    name: "TaxPreparerListing",
+    icon: "ni ni-tv-2 ",
+    component:<TaxPreparersListing/>,
+    layout: "/admin",
+  },
+  {
+    path: "/userManagement/vendorandcontactor",
+    name: "VendorListing",
+    icon: "ni ni-tv-2 ",
+    component:<VendorsListing/>,
+    layout: "/admin",
+  },
+  {
+    path: "/userManagement/courierandorder",
+    name: "CourierDispatchListing",
+    icon: "ni ni-tv-2 ",
+    component:<CourierDisptachListing/>,
     layout: "/admin",
   },
   {

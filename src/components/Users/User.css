@@ -1,15 +1,66 @@
-.main-div{
-box-shadow:2px 2px 4px 2px rgba(50, 49, 49, 0.3);
-border-radius: 20px 20px 20px 20px;
-background-color: white;
+.main-div {
+    box-shadow: 2px 2px 4px 2px rgba(50, 49, 49, 0.3);
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
 }
-.pages-heading{
+
+.pages-heading {
     font-weight: 700;
     font-style: bold;
 }
-.add-button{
+
+.add-button {
     border-radius: 20px 20px 20px 20px;
     border: 1px solid #91DF46;
     background-color: white;
-    color: #91DF46 ;
+    color: #91DF46;
+}
+
+.top-bar {
+    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 8%);
+    width: auto;
+}
+
+.pages-heading-one {
+    font-style: bold;
+    color: #CECECE;
+    cursor: pointer;
+}
+
+.pages-heading-one-active {
+    font-weight: 700;
+    font-style: bold;
+    cursor: pointer;
+}
+
+.user-card {
+    width: 291px;
+    height: 147px;
+    border-radius: 0 35px 35px 35px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.06);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden !important;
+}
+
+.user-card-title {
+    color: #222222;
+    font-size: 15px;
+}
+
+.user-card-text {
+    color: #91DF46;
+    font-size: 26px;
+    font-weight: 700;
+    
 }
