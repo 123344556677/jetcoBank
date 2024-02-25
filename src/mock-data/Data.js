@@ -743,6 +743,125 @@ export  const regMinistryData=[
 ],
 
 ]
+export  const officiantServicesHeadings=[
+{
+    title:"Sr."
+},
+{
+    title:"Minsitry Name"
+},
+{
+    title:"I'D no."
+},
+{
+    title:"Email"
+},
+{
+    title:"Officiant Contact"
+},
+{
+    title:"Officiant Services"
+},
+{
+    title:"Status"
+},
+{
+    title:"Joining Date"
+},
+{
+    title:"Rcent Service Date"
+},
+]
+export  const officiantServicesData=[
+[
+{
+    value:"1"
+},
+{
+    value:"Shamsi Ali"
+},
+{
+    value:"554299"
+},
+{
+    value:"Shamsiali@gmail.com"
+},
+{
+    value:"957-65877-300"
+},
+{
+    value:"Wedding"
+},
+{
+    value:"Active"
+},
+{
+    value:"14 Dec 2023"
+},
+{
+    value:"14 Dec 2023"
+},
+],
+[
+{
+    value:"2"
+},
+{
+    value:"Shamsi Ali"
+},
+{
+    value:"554299"
+},
+{
+    value:"Shamsiali@gmail.com"
+},
+{
+    value:"957-65877-300"
+},
+{
+    value:"Religious Ceremonies"
+},
+{
+    value:"Inactive"
+},
+{
+    value:"14 Dec 2023"
+},
+{
+    value:"14 Dec 2023"
+},
+],
+[
+{
+    value:"3"
+},
+{
+    value:"Shamsi Ali"
+},
+{
+    value:"554299"
+},
+{
+    value:"Shamsiali@gmail.com"
+},
+{
+    value:"957-65877-300"
+},
+{
+    value:"Funeral Memorials"
+},
+{
+    value:"Active"
+},
+{
+    value:"14 Dec 2023"
+},
+{
+    value:"14 Dec 2023"
+},
+],
+]
+
 export const userManagementData=[
     {
         title:"Total Users",
@@ -1390,6 +1509,163 @@ export  const courierData=[
 },
 ],
 ]
+export  const orderHeadings=[
+{
+    title:"Sr."
+},
+{
+    title:"Courier Name"
+},
+{
+    title:"I'D no."
+},
+{
+    title:"Order I'D"
+},
+{
+    title:"Contact"
+},
+{
+    title:"Email"
+},
+{
+    title:"Service Type"
+},
+{
+    title:"Recipitent Name"
+},
+{
+    title:"Sender Name"
+},
+{
+    title:"Location"
+},
+{
+    title:"Date"
+},
+]
+export  const orderData=[
+[
+{
+    value:"1"
+},
+{
+    value:"Shamsi Ali"
+},
+{
+    value:"554299"
+},
+{
+    value:"554299"
+},
+{
+    value:"957-65877-300"
+},
+{
+    value:"Shamsiali@gmail.com"
+},
+{
+    value:"Depository Services"
+},
+{
+    value:"Arif Asghar"
+},
+{
+    value:"Adil Ramzan"
+},
+{
+    value:"Sanima Mor..."
+},
+{
+    value:"14 Dec 2023"
+},
+],
+[
+{
+    value:"2"
+},
+{
+    value:"Shamsi Ali"
+},
+{
+    value:"554299"
+},
+{
+    value:"554299"
+},
+{
+    value:"957-65877-300"
+},
+{
+    value:"Shamsiali@gmail.com"
+},
+{
+    value:"Package Delivery"
+},
+{
+    value:"Arif Asghar"
+},
+{
+    value:"Adil Ramzan"
+},
+{
+    value:"Sanima Mor..."
+},
+{
+    value:"14 Dec 2023"
+},
+],
+[
+{
+    value:"3"
+},
+{
+    value:"Shamsi Ali"
+},
+{
+    value:"554299"
+},
+{
+    value:"554299"
+},
+{
+    value:"957-65877-300"
+},
+{
+    value:"Shamsiali@gmail.com"
+},
+{
+    value:"ATM Services"
+},
+{
+    value:"Arif Asghar"
+},
+{
+    value:"Adil Ramzan"
+},
+{
+    value:"Sanima Mor..."
+},
+{
+    value:"14 Dec 2023"
+},
+],
+]
+export  const orderSubHeadings=[
+{
+    title:"Active"
+},
+{
+    title:"Pending"
+},
+{
+    title:"Completed"
+},
+{
+    title:"Cancelled"
+},
+]
+
 
 
 

@@ -117,6 +117,7 @@ const Sidebar = (props) => {
         >
           {prop.name}
         </span>
+        
         {prop?.name === "User Management" && (
           <i
             className={`${handleAccordionIcon()} ${
@@ -143,6 +144,19 @@ const Sidebar = (props) => {
           "TaxPreparerListing",
           "VendorListing",
           "CourierDispatchListing",
+          "AddUser",
+          "AddAgent",
+          "AddMerchant",
+          "AddMinistry",
+          "AddRepresentative",
+          "AddVendor",
+          "AddNotary",
+          "AddContractor",
+          "AddOfficial",
+          "AddInstituition",
+          "AddCourier",
+          "AddOrder"
+
         ].includes(prop?.name)
       ) {
         return null; // Skip rendering for certain routes

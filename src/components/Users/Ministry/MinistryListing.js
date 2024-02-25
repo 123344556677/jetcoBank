@@ -1,12 +1,15 @@
 import React, { useState } from "react";
-import "./User.css";
+import "../User.css";
 import DynamicTable from "components/DynamicTable/DynamicTable";
 import { userData } from "mock-data/Data";
 import { AgentHeadings } from "mock-data/Data";
-import TopBar from "./TopBar";
+import TopBar from "../TopBar";
 import { ministryHeadings } from "mock-data/ToBarData";
 import { regMinistryHeadings } from "mock-data/Data";
 import { regMinistryData } from "mock-data/Data";
+import { useNavigate } from "react-router-dom";
+import { officiantServicesHeadings } from "mock-data/Data";
+import { officiantServicesData } from "mock-data/Data";
 
 const MinistryListing = () => {
   const [activeMinistry, setActiveMinistry] = useState();
@@ -49,8 +52,8 @@ const MinistryListing = () => {
           activeMinistry==="Official Services"&&
           <DynamicTable
 
-            headings={AgentHeadings}
-            tableData={userData}
+            headings={officiantServicesHeadings}
+            tableData={officiantServicesData}
           />
         }
         </div>

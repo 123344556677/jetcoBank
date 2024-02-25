@@ -64,3 +64,19 @@
     font-weight: 700;
     
 }
+.form-top-text{
+    font-size: 18px;
+    color: #91DF46;
+}
+
+.pages-sub-heading{
+    font-size: 14px;
+    color: #A3B6CC;
+    cursor: pointer;
+}
+
+.pages-sub-heading-active {
+    font-size: 14px;
+    cursor: pointer;
+    color:#000000;
+}

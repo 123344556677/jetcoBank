@@ -1,0 +1,14 @@
+.form-label{
+    font-size: 15px;
+    color: #8EE30A;
+}
+.form-button{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.description-input{
+    padding-bottom: 50px!important;
+}
+.form-input {
+    border: 1px solid #aadc64!important;
+}

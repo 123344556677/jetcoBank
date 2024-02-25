@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./User.css";
+import "../User.css";
 import DynamicTable from "components/DynamicTable/DynamicTable";
-import TopBar from "./TopBar";
+import TopBar from "../TopBar";
 import { VendorHeadings } from "mock-data/ToBarData";
 import { vendorsHeadings } from "mock-data/Data";
 import { vendorsData } from "mock-data/Data";
@@ -12,6 +12,7 @@ const VendorsListing = () => {
   const [activeVendors, setActiveVendors] = useState();
   const handleActiveVendors = (val) => {
     setActiveVendors(val);
+    console.log(val,"vendor value------>")
   };
   return (
     <div className="pt-5 pt-md-8 mb-3 ml-lg-2 mr-lg-2">
@@ -19,7 +20,7 @@ const VendorsListing = () => {
         <br />
         <TopBar
           headings={VendorHeadings}
-          buttonValue="Vendor"
+          buttonValue={activeVendors==="Vendors"?"Vendor":"Contractor"}
           checkActiveLink={handleActiveVendors}
           defaultValue="Vendors"
         />

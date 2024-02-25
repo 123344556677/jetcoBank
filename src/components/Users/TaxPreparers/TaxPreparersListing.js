@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./User.css";
+import "../User.css";
 import DynamicTable from "components/DynamicTable/DynamicTable";
-import TopBar from "./TopBar";
+import TopBar from "../TopBar";
 import { taxPreparersHeadings } from "mock-data/ToBarData";
 import { networkTaxHeadings } from "mock-data/Data";
 import { networkTaxData } from "mock-data/Data";

@@ -1,10 +1,13 @@
 import React, { useState } from "react";
-import "./User.css";
+import "../User.css";
 import DynamicTable from "components/DynamicTable/DynamicTable";
-import TopBar from "./TopBar";
+import TopBar from "../TopBar";
 import { CourierDisptachHeadings } from "mock-data/ToBarData";
 import { courierHeadings } from "mock-data/Data";
 import { courierData } from "mock-data/Data";
+import { orderHeadings } from "mock-data/Data";
+import { orderData } from "mock-data/Data";
+import TopSubBar from "../TopSubBar";
 
 const CourierDisptachListing= () => {
   const [activeCouriers, setActiveCourier] = useState();
@@ -17,10 +20,11 @@ const CourierDisptachListing= () => {
         <br />
         <TopBar
           headings={CourierDisptachHeadings}
-          buttonValue="Courier"
+          buttonValue={activeCouriers==="Couriers"?"Courier":"Order"}
           checkActiveLink={handleActiveCourierDsipatch}
           defaultValue="Couriers"
         />
+        {activeCouriers === "Orders Management" && <TopSubBar defaultValue="Active" />}
         <div className="mt-3">
         {
           activeCouriers==="Couriers"&&
@@ -32,8 +36,8 @@ const CourierDisptachListing= () => {
         {
           activeCouriers==="Orders Management"&&
           <DynamicTable
-            headings={courierHeadings}
-            tableData={courierData}
+            headings={orderHeadings}
+            tableData={orderData}
           />
         }
         </div>
