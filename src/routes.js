@@ -1,28 +1,11 @@
-/*!
-
-=========================================================
-* Argon Dashboard React - v1.2.4
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-dashboard-react
-* Copyright 2024 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-dashboard-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import Index from "views/Index.js";
-import Profile from "views/examples/Profile.js";
-import Maps from "views/examples/Maps.js";
-import Register from "views/examples/Register.js";
-import Login from "views/examples/Login.js";
-import Tables from "views/examples/Tables.js";
-import Icons from "views/examples/Icons.js";
-import Home from "components/Home/Home";
+// import Profile from "views/examples/Profile.js";
+// import Maps from "views/examples/Maps.js";
+// import Register from "views/examples/Register.js";
+// import Login from "views/examples/Login.js";
+// import Tables from "views/examples/Tables.js";
+// import Icons from "views/examples/Icons.js";
+// import Home from "components/Home/Home";
 import UserListing from "components/Users/User/UserListing";
 import AgentListing from "components/Users/Agent/AgentListing";
 import MerchantListing from "components/Users/Merchant/MerchantListing";
@@ -47,6 +30,17 @@ import AddGovtOfficial from "components/Users/GovtOfficial/AddGovtOfficial";
 import AddFinancialInstituition from "components/Users/FinancialInstituition/AddFinancialInstituition";
 import AddCourier from "components/Users/CourierOrder/AddCourier";
 import AddOrder from "components/Users/CourierOrder/AddOrder";
+import UserProfile from "components/Users/User/UserProfile";
+import AgentProfile from "components/Users/Agent/AgentProfile";
+import MerchantProfile from "components/Users/Merchant/MerchantProfile";
+import MinistryProfile from "components/Users/Ministry/MinistryProfile";
+import NotaryProfile from "components/Users/Notary/NotaryProfile";
+import TaxPrepareresProfile from "components/Users/TaxPreparers/TaxPrepareresProfile";
+import VendorProfile from "components/Users/VendorsConractors/VendorProfile";
+import ContractorProfile from "components/Users/VendorsConractors/ContractorProfile";
+import GovtOfficialProfile from "components/Users/GovtOfficial/GovtOfficialProfile";
+import FinancialDetails from "components/Users/FinancialInstituition/FinancialDetails";
+import CourierOrderView from "components/Users/CourierOrder/CourierOrderView";
 
 
 var routes = [
@@ -209,6 +203,83 @@ var routes = [
     name: "AddOrder",
     icon: "ni ni-tv-2 ",
     component:<AddOrder/>,
+    layout: "/admin",
+  },
+  {
+    path: "/userManagement/userProfile",
+    name: "UserProfile",
+    icon: "ni ni-tv-2 ",
+    component:<UserProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/userManagement/agentProfile",
+    name: "AgentProfile",
+    icon: "ni ni-tv-2 ",
+    component:<AgentProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/userManagement/merchantProfile",
+    name: "MerchantProfile",
+    icon: "ni ni-tv-2 ",
+    component:<MerchantProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/userManagement/ministryProfile",
+    name: "MinstryProfile",
+    icon: "ni ni-tv-2 ",
+    component:<MinistryProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/userManagement/notaryProfile",
+    name: "NotaryProfile",
+    icon: "ni ni-tv-2 ",
+    component:<NotaryProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/userManagement/taxPreparersProfile",
+    name: "TaxPreparersProfile",
+    icon: "ni ni-tv-2 ",
+    component:<TaxPrepareresProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/userManagement/vendorProfile",
+    name: "VendorProfile",
+    icon: "ni ni-tv-2 ",
+    component:<VendorProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/userManagement/contractorProfile",
+    name: "ContractorProfile",
+    icon: "ni ni-tv-2 ",
+    component:<ContractorProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/userManagement/govtOfficialProfile",
+    name: "GovtOfficialProfile",
+    icon: "ni ni-tv-2 ",
+    component:<GovtOfficialProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/userManagement/financialDetail",
+    name: "FinancialDetails",
+    icon: "ni ni-tv-2 ",
+    component:<FinancialDetails/>,
+    layout: "/admin",
+  },
+  {
+    path: "/userManagement/couriersAndorders",
+    name: "CouriersAndOrders",
+    icon: "ni ni-tv-2 ",
+    component:<CourierOrderView/>,
     layout: "/admin",
   },
   {

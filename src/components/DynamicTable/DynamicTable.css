@@ -38,6 +38,7 @@
 .table-data{
     color: #000000;
     font-size: 12px!important;
+    cursor: pointer;
 }
 .active-color{
     color: #91DF46;

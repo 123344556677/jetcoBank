@@ -30,6 +30,7 @@ const VendorsListing = () => {
           <DynamicTable
             headings={vendorsHeadings}
             tableData={vendorsData}
+            component="Vendor"
           />
         }
         {
@@ -37,6 +38,7 @@ const VendorsListing = () => {
           <DynamicTable
             headings={contractorsHeadings}
             tableData={contractorsData}
+            component="Contractor"
           />
         }
         </div>

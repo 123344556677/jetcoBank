@@ -31,6 +31,7 @@ const CourierDisptachListing= () => {
           <DynamicTable
             headings={courierHeadings}
             tableData={courierData}
+            component="CourierandOrder"
           />
         }
         {
@@ -38,6 +39,7 @@ const CourierDisptachListing= () => {
           <DynamicTable
             headings={orderHeadings}
             tableData={orderData}
+            component="CourierandOrder"
           />
         }
         </div>

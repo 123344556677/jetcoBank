@@ -22,7 +22,7 @@ const GovtOfficialsListing = () => {
             Add Official
           </Button>
         </div>
-        <DynamicTable headings={GovtOfficialsHeadings} tableData={GovtOfficialsData} />
+        <DynamicTable headings={GovtOfficialsHeadings} tableData={GovtOfficialsData} component="govtOfficial" />
       </div>
     </div>
   );

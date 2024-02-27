@@ -450,7 +450,7 @@ export const addOrderForm=[
         label:"Package Description",
         name:"packageDescription",
         type:"textarea",
-        placeholder:"pakage description"
+        placeholder:"package description"
     },
     {
         label:"Delivery Instructions",

@@ -155,7 +155,20 @@ const Sidebar = (props) => {
           "AddOfficial",
           "AddInstituition",
           "AddCourier",
-          "AddOrder"
+          "AddOrder",
+          "UserProfile",
+          "AgentProfile",
+          "MerchantProfile",
+          "NotaryProfile",
+          "MinstryProfile",
+          "ContractorProfile",
+          "VendorProfile",
+          "TaxPreparersProfile",
+          "GovtOfficialProfile",
+          "CouriersAndOrders",
+          "FinancialDetails"
+
+
 
         ].includes(prop?.name)
       ) {

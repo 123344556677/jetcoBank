@@ -22,7 +22,7 @@ const FinancialListing = () => {
             Add Financial Instituitions
           </Button>
         </div>
-        <DynamicTable headings={financialHeadings} tableData={financialData} />
+        <DynamicTable headings={financialHeadings} tableData={financialData} component="financialInstituition" />
       </div>
     </div>
   );

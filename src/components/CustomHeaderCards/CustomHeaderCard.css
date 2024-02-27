@@ -1,0 +1,32 @@
+.header-card{
+    width: 291px;
+    height: 147px;
+    border-radius:27px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.06);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.polygon-img{
+    width: 14px;
+    height: 9px;
+}
+.percent{
+    color: #28B76A;
+    font-size: 17px;
+}
+.card-image{
+    width: 76px;
+    height: 77px;
+     margin-left: 20px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+

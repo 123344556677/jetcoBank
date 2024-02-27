@@ -32,6 +32,7 @@ const MinistryListing = () => {
           <DynamicTable
             headings={regMinistryHeadings}
             tableData={regMinistryData}
+            component="Ministry"
           />
         }
         {
@@ -51,9 +52,9 @@ const MinistryListing = () => {
         {
           activeMinistry==="Official Services"&&
           <DynamicTable
-
             headings={officiantServicesHeadings}
             tableData={officiantServicesData}
+            component="Ministry"
           />
         }
         </div>

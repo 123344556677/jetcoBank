@@ -1665,6 +1665,157 @@ export  const orderSubHeadings=[
     title:"Cancelled"
 },
 ]
+export  const transactionHeadings=[
+{
+    title:"Sr."
+},
+{
+    title:"Transaction Type"
+},
+{
+    title:"Transaction Date"
+},
+{
+    title:"Branch"
+},
+{
+    title:"Transaction Amount"
+},
+{
+    title:"Agreement Time"
+},
+{
+    title:"Status"
+},
+]
+export  const transactionData=[
+[
+{
+    value:"1"
+},
+{
+    value:"Credits Union"
+},
+{
+    value:"14 Dec 2023"
+},
+{
+    value:"Down Town"
+},
+{
+    value:"54.214"
+},
+{
+    value:"8 days (14 Dec 2023)"
+},
+{
+    value:"Active"
+},
+],
+[
+{
+    value:"2"
+},
+{
+    value:"Investment Bank"
+},
+{
+    value:"14 Dec 2023"
+},
+{
+    value:"Down Town"
+},
+{
+    value:"54.214"
+},
+{
+    value:"8 days (14 Dec 2023)"
+},
+{
+    value:"Inactive"
+},
+],
+[
+{
+    value:"3"
+},
+{
+    value:"Pension Funds"
+},
+{
+    value:"14 Dec 2023"
+},
+{
+    value:"Down Town"
+},
+{
+    value:"54.214"
+},
+{
+    value:"8 days (14 Dec 2023)"
+},
+{
+    value:"Active"
+},
+],
+]
+export const cardData=[
+    {
+        title:"Current Balance",
+        amount:"$5416.14",
+        percent:"4%",
+        duration:"Per Years",
+        icon:require("../assets/img/icons/common/finance-icon.png")
+    },
+    {
+        title:"Total Transactions",
+        amount:"$5401",
+        percent:"4%",
+        duration:"Per Month",
+        icon:require("../assets/img/icons/common/Swap.png")
+    },
+    {
+        title:"Total Send Amounts",
+        amount:"$5416.14",
+        percent:"4%",
+        duration:"Per Month",
+        icon:require("../assets/img/icons/common/refund-icon.png")
+    },
+    {
+        title:"Total Receive Amount",
+        amount:"$5416.14",
+        percent:"4%",
+        duration:"Per Years",
+        icon:require("../assets/img/icons/common/hand-money-dollar.png")
+    },
+]
+export const courierOrderCardData=[
+    {
+        title:"Total Orders",
+        amount:"5416",
+        icon:require("../assets/img/icons/common/product-icon.png")
+    },
+    {
+        title:"Active Orders",
+        amount:"5416",
+        icon:require("../assets/img/icons/common/home-delivery-icon.png")
+    },
+    {
+        title:"Pending Orders",
+        amount:"5416",
+        icon:require("../assets/img/icons/common/product-delivery-icon.png")
+    },
+    {
+        title:"Completed Orders",
+        amount:"5416",
+        icon:require("../assets/img/icons/common/product-package-delivered-icon.png")
+    },
+    {
+        title:"Cancelled Orders",
+        amount:"5416",
+        icon:require("../assets/img/icons/common/package-cancelled-icon.png")
+    },
+]
 
 
 

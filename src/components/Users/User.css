@@ -43,8 +43,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .card-container {
@@ -62,14 +60,15 @@
     color: #91DF46;
     font-size: 26px;
     font-weight: 700;
-    
+
 }
-.form-top-text{
+
+.form-top-text {
     font-size: 18px;
     color: #91DF46;
 }
 
-.pages-sub-heading{
+.pages-sub-heading {
     font-size: 14px;
     color: #A3B6CC;
     cursor: pointer;
@@ -78,5 +77,77 @@
 .pages-sub-heading-active {
     font-size: 14px;
     cursor: pointer;
-    color:#000000;
+    color: #000000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    /* max-width: auto!important; */
+}
+
+
+.profile-bar {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    border-radius: 38px 38px 38px 38px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.03);
+    border: none;
+    /* padding: 0 10px; */
+}
+
+.profile-bar-button {
+    background-color: white !important;
+    box-shadow: none !important;
+    border: none;
+    text-align: center;
+    padding: 6px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 38px;
+}
+
+.profile-bar-button.active {
+    background-color: #91DF46 !important;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.06) !important;
+    color: white !important;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 38px;
+}
+
+.profile-img {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+}
+
+.transaction-bar {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.total-transactions {
+    color: #CECECE;
+    font-size: 18px;
+    font-weight: none;
+}
+
+.card-heading {
+    font-size: 14px;
+    color: #222222;
+}
+
+@media (max-width: 791px) and (min-width: 500px) {
+    .profile-bar {
+        box-shadow: none;
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 791px) {
+    .profile-bar {
+        box-shadow: none;
+    }
 }
