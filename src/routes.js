@@ -41,6 +41,8 @@ import ContractorProfile from "components/Users/VendorsConractors/ContractorProf
 import GovtOfficialProfile from "components/Users/GovtOfficial/GovtOfficialProfile";
 import FinancialDetails from "components/Users/FinancialInstituition/FinancialDetails";
 import CourierOrderView from "components/Users/CourierOrder/CourierOrderView";
+import AccountsAndBranch from "components/AccountsBranchOffice/AccountsAndBranch";
+import AccountCreationListing from "components/AccountsBranchOffice/AccountCreation/AccountCreationListing";
 
 
 var routes = [
@@ -280,6 +282,20 @@ var routes = [
     name: "CouriersAndOrders",
     icon: "ni ni-tv-2 ",
     component:<CourierOrderView/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch",
+    name: "Accounts, Branch & Office",
+    icon: "ni ni-single-02",
+    component:<AccountsAndBranch/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/accountListing",
+    name: "AccountListing",
+    icon: "ni ni-single-02",
+    component:<AccountCreationListing/>,
     layout: "/admin",
   },
   {

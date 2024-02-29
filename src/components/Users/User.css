@@ -21,6 +21,15 @@
     width: auto;
 }
 
+.top-bar .d-flex {
+  flex-wrap: wrap; /* Allow flex items to wrap onto multiple lines */
+}
+
+.top-bar .pages-heading-one {
+  white-space: nowrap; /* Prevent headings from wrapping */
+}
+
+
 .pages-heading-one {
     font-style: bold;
     color: #CECECE;
@@ -130,7 +139,7 @@
 
 .total-transactions {
     color: #CECECE;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: none;
 }
 

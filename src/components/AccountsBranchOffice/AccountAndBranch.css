@@ -1,0 +1,12 @@
+.account-top-bar{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden !important;
+    background-color: white;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.06);
+
+}
+.account-bar-item-active{
+    border-bottom:2px solid #91DF46;
+    padding: 2px;
+}

@@ -62,12 +62,14 @@ import {
 } from "reactstrap";
 import DyamicAccordion from "components/Accordion/DyamicAccordion";
 import { UserAccordionItems } from "mock-data/AccordionData";
+import { AccountBranchAccordionItems } from "mock-data/AccordionData";
 
 var ps;
 
 const Sidebar = (props) => {
   const [collapseOpen, setCollapseOpen] = useState();
   const navigate = useNavigate();
+  const location = useLocation();
   // verifies if routeName is the one active (in browser input)
   const activeRoute = (routeName) => {
     return props.location.pathname.indexOf(routeName) > -1 ? "active" : "";
@@ -84,17 +86,20 @@ const Sidebar = (props) => {
 
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleAccordion = () => setIsOpen(!isOpen);
-  const location = useLocation();
+  // const toggleAccordion = () => setIsOpen(!isOpen);
+  const [activeAccordion, setActiveAccordion] = useState(null);
+
+  const handleAccordionToggle = (name) => {
+    setActiveAccordion(activeAccordion === name ? null : name);
+  };
+  
   // creates the links that appear in the left menu / Sidebar
-  const createNavLink = (prop) => {
-    const linkTo =
-      prop?.name === "Log Out" ? prop.path : prop.layout + prop.path;
+ const createNavLink = (prop) => {
+    const linkTo = prop?.name === 'Log Out' ? prop.path : prop.layout + prop.path;
     const isActive = prop?.layout + prop?.path === location?.pathname;
 
-    const handleAccordionIcon = () => {
-        return isOpen ? "ni ni-bold-up" : "ni ni-bold-down";
-      
+    const handleAccordionIcon = (name) => {
+      return activeAccordion === name ? 'ni ni-bold-up' : 'ni ni-bold-down';
     };
 
     return (
@@ -102,96 +107,91 @@ const Sidebar = (props) => {
         to={linkTo}
         tag={NavLinkRRD}
         onClick={closeCollapse}
-        className={`sidebar-container ${isActive ? "active" : ""}`}
+        className={`sidebar-container ${isActive ? 'active' : ''}`}
       >
-        <i
-          className={`${prop.icon} ${
-            isActive ? "sidebar-icon-active" : "sidebar-icon"
-          }`}
-        />
-        <span
-          className={`ml-3 sidebar-items ${
-            isActive ? "sidebar-items-active" : ""
-          }`}
-          onClick={toggleAccordion}
-        >
+        <i className={`${prop.icon} ${isActive ? 'sidebar-icon-active' : 'sidebar-icon'}`} />
+        <span className={`ml-3 sidebar-items ${isActive ? 'sidebar-items-active' : ''}`} onClick={() => handleAccordionToggle(prop.name)}>
           {prop.name}
         </span>
         
-        {prop?.name === "User Management" && (
+        {(prop?.name === 'User Management' || prop?.name === 'Accounts, Branch & Office') && (
           <i
-            className={`${handleAccordionIcon()} ${
-              isActive ? "sidebar-icon-active ml-3" : "sidebar-icon ml-3"
-            }`}
-            onClick={toggleAccordion}
+            className={`${handleAccordionIcon(prop.name)} ${isActive ? 'sidebar-icon-active ml-2' : 'sidebar-icon ml-2'}`}
+            onClick={() => handleAccordionToggle(prop.name)}
           />
         )}
       </NavLink>
     );
   };
 
-  const createLinks = (routes) => {
+const createLinks = (routes) => {
     return routes.map((prop, key) => {
-      if (
-        [
-          "AgentListing",
-          "MerchantListing",
-          "NotaryListing",
-          "GovtOfficialsListing",
-          "FinancialListing",
-          "MinistryListing",
-          "UserListing",
-          "TaxPreparerListing",
-          "VendorListing",
-          "CourierDispatchListing",
-          "AddUser",
-          "AddAgent",
-          "AddMerchant",
-          "AddMinistry",
-          "AddRepresentative",
-          "AddVendor",
-          "AddNotary",
-          "AddContractor",
-          "AddOfficial",
-          "AddInstituition",
-          "AddCourier",
-          "AddOrder",
-          "UserProfile",
-          "AgentProfile",
-          "MerchantProfile",
-          "NotaryProfile",
-          "MinstryProfile",
-          "ContractorProfile",
-          "VendorProfile",
-          "TaxPreparersProfile",
-          "GovtOfficialProfile",
-          "CouriersAndOrders",
-          "FinancialDetails"
-
-
-
-        ].includes(prop?.name)
-      ) {
+      if ([
+        'AgentListing',
+        'MerchantListing',
+        'NotaryListing',
+        'GovtOfficialsListing',
+        'FinancialListing',
+        'MinistryListing',
+        'UserListing',
+        'TaxPreparerListing',
+        'VendorListing',
+        'CourierDispatchListing',
+        'AddUser',
+        'AddAgent',
+        'AddMerchant',
+        'AddMinistry',
+        'AddRepresentative',
+        'AddVendor',
+        'AddNotary',
+        'AddContractor',
+        'AddOfficial',
+        'AddInstituition',
+        'AddCourier',
+        'AddOrder',
+        'UserProfile',
+        'AgentProfile',
+        'MerchantProfile',
+        'NotaryProfile',
+        'MinstryProfile',
+        'ContractorProfile',
+        'VendorProfile',
+        'TaxPreparersProfile',
+        'GovtOfficialProfile',
+        'CouriersAndOrders',
+        'FinancialDetails'
+      ].includes(prop?.name)) {
         return null; // Skip rendering for certain routes
       }
 
       return (
         <NavItem key={key}>
-          {prop?.name === "User Management" ? (
+          {prop?.name === 'User Management' && (
             <>
               {createNavLink(prop)}
               <DyamicAccordion
-                isOpenVal={isOpen}
+                isOpenVal={activeAccordion === 'User Management'}
                 accordionVal={UserAccordionItems}
               />
             </>
-          ) : (
-            createNavLink(prop)
           )}
+          {prop?.name === 'Accounts, Branch & Office' && (
+            <>
+              {createNavLink(prop)}
+              <DyamicAccordion
+                isOpenVal={activeAccordion === 'Accounts, Branch & Office'}
+                accordionVal={AccountBranchAccordionItems}
+              />
+            </>
+          )}
+          {prop?.name === 'Log Out' && createNavLink(prop)}
         </NavItem>
       );
     });
   };
+
+
+
 
   const { bgColor, routes, logo } = props;
   let navbarBrandProps;

@@ -460,3 +460,26 @@ export const addOrderForm=[
     },
 
 ]
+export const addContactForm=[
+    {
+        label:"Write your message here",
+        name:"message",
+        type:"textarea",
+        placeholder:"write your message...",
+        defaultValue:"Anyway, I'm pretty sure I'm just imagining things, but it made me think of you! How's everything going on your end? Let's catch up soon!"
+    },
+    {
+        label:"Name",
+        name:"name",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Email",
+        name:"email",
+        type:"email",
+        placeholder:"email"
+    },
+    
+
+]

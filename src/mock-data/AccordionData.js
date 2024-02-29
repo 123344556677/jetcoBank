@@ -40,3 +40,21 @@ export const UserAccordionItems=[
         link:"userManagement/courierandorder"
     },
 ]
+export const AccountBranchAccordionItems=[
+    {
+        title:"Account Creation & Manage",
+        link:"accountsAndBranch/accountListing"
+    },
+    {
+        title:"Manage Offices/ Branches",
+        link:"userManagement/agent"
+    },
+    {
+        title:"Role Management",
+        link:"userManagement/merchant"
+    },
+    {
+        title:"Feature Control",
+        link:"userManagement/ministry"
+    },
+]
