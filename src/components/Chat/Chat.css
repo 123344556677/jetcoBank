@@ -84,7 +84,7 @@
 
 
 .message-section {
-  height: calc(100vh - 20px);
+  height: calc(100vh - 10px);
   overflow-y: auto;
   display: flex;
   flex-direction: column;

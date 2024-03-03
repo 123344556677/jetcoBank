@@ -45,7 +45,7 @@ const DynamicForm = ({ formData, component,buttonValue }) => {
               className="action-button bg-white form-button button-shadow mt-1"
               style={{ color: "#8EE30A", fontSize: "14px" }}
             >
-              send to one user
+              Send to one user
             </Button>
             <Button
               type="submit"
