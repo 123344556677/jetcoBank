@@ -31,6 +31,7 @@ const MinistryListing = () => {
             headings={regMinistryHeadings}
             tableData={regMinistryData}
             component="Ministry"
+            parentComponent="UserManagement"
           />
         }
         {
@@ -47,6 +48,7 @@ const MinistryListing = () => {
             headings={officiantServicesHeadings}
             tableData={officiantServicesData}
             component="Ministry"
+            parentComponent="UserManagement"
           />
         }
         </div>

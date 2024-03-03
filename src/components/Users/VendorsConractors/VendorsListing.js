@@ -12,7 +12,6 @@ const VendorsListing = () => {
   const [activeVendors, setActiveVendors] = useState();
   const handleActiveVendors = (val) => {
     setActiveVendors(val);
-    console.log(val,"vendor value------>")
   };
   return (
     <div className="pt-5 pt-md-8 mb-3 ml-lg-2 mr-lg-2">
@@ -31,6 +30,7 @@ const VendorsListing = () => {
             headings={vendorsHeadings}
             tableData={vendorsData}
             component="Vendor"
+            parentComponent="UserManagement"
           />
         }
         {
@@ -39,6 +39,7 @@ const VendorsListing = () => {
             headings={contractorsHeadings}
             tableData={contractorsData}
             component="Contractor"
+            parentComponent="UserManagement"
           />
         }
         </div>

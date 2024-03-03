@@ -22,7 +22,7 @@ const NotaryListing = () => {
             Add Notary
           </Button>
         </div>
-        <DynamicTable headings={notaryHeadings} tableData={notaryData} component="Notary"/>
+        <DynamicTable headings={notaryHeadings} tableData={notaryData} component="Notary" parentComponent="UserManagement"/>
       </div>
     </div>
   );

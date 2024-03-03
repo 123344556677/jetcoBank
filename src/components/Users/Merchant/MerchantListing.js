@@ -22,7 +22,7 @@ const MerchantListing = () => {
             Add Merchant
           </Button>
         </div>
-        <DynamicTable headings={merchantHeadings} tableData={userData} component="Merchant" />
+        <DynamicTable headings={merchantHeadings} tableData={userData} component="Merchant" parentComponent="UserManagement" />
       </div>
     </div>
   );

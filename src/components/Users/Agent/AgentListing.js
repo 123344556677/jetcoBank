@@ -23,7 +23,7 @@ const AgentListing = () => {
             Add Agent
           </Button>
         </div>
-        <DynamicTable headings={AgentHeadings} tableData={userData} component="Agent" />
+        <DynamicTable headings={AgentHeadings} tableData={userData} component="Agent" parentComponent="UserManagement" />
       </div>
     </div>
   );

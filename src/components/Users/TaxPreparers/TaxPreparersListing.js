@@ -28,11 +28,12 @@ const TaxPreparersListing = () => {
             <DynamicTable
               headings={networkTaxHeadings}
               tableData={networkTaxData}
-              component="taxPreparers" 
+              component="taxPreparers"
+              parentComponent="UserManagement" 
             />
           )}
           {activeRepresentative === "Tax Representative" && (
-            <DynamicTable headings={representativeHeadings} tableData={representativeData} component="taxPreparers" />
+            <DynamicTable headings={representativeHeadings} tableData={representativeData} component="taxPreparers" parentComponent="UserManagement" />
           )}
         </div>
       </div>

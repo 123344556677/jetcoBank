@@ -32,6 +32,7 @@ const CourierDisptachListing= () => {
             headings={courierHeadings}
             tableData={courierData}
             component="CourierandOrder"
+            parentComponent="UserManagement"
           />
         }
         {
@@ -40,6 +41,7 @@ const CourierDisptachListing= () => {
             headings={orderHeadings}
             tableData={orderData}
             component="CourierandOrder"
+            parentComponent="UserManagement"
           />
         }
         </div>
