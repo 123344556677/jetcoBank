@@ -649,3 +649,959 @@ export const courierOrderData=[
         type:"date"
     },
 ]
+export const checkingAccountPersonalData=[
+    {
+        label:"Name:",
+        placeholder:"name",
+        name:"name",
+        type:"text"
+    },
+    {
+        label:"Email:",
+        placeholder:"email",
+        name:"email",
+        type:"email"
+    },
+    {
+        label:"Contact:",
+        placeholder:"contact",
+        name:"contact",
+        type:"number"
+    },
+    {
+        label:"Status:",
+        placeholder:"status",
+        name:"status",
+        type:"text"
+    },
+    {
+        label:"Joining Date:",
+        placeholder:"joining date",
+        name:"joiningDate",
+        type:"date"
+    },
+]
+export const checkingAccountData=[
+    {
+        label:"Branch:",
+        placeholder:"branch",
+        name:"branch",
+        type:"text"
+    },
+    {
+        label:"Account Type:",
+        placeholder:"account type",
+        name:"ccountType",
+        type:"text"
+    },
+    {
+        label:"Account Number:",
+        placeholder:"account number",
+        name:"accountNumber",
+        type:"number"
+    },
+    {
+        label:"Transaction Limit:",
+        placeholder:"transaction limit",
+        name:"transactionLimit",
+        type:"number"
+    },
+
+]
+export const savingAccountPersonalData=[
+    {
+        label:"Name:",
+        placeholder:"name",
+        name:"name",
+        type:"text"
+    },
+    {
+        label:"Email:",
+        placeholder:"email",
+        name:"email",
+        type:"email"
+    },
+    {
+        label:"Contact:",
+        placeholder:"contact",
+        name:"contact",
+        type:"number"
+    },
+    {
+        label:"Status:",
+        placeholder:"status",
+        name:"status",
+        type:"text"
+    },
+    {
+        label:"Joining Date:",
+        placeholder:"joining date",
+        name:"joiningDate",
+        type:"date"
+    },
+]
+export const savingAccountData=[
+    {
+        label:"Branch:",
+        placeholder:"branch",
+        name:"branch",
+        type:"text"
+    },
+    {
+        label:"Account Type:",
+        placeholder:"account type",
+        name:"ccountType",
+        type:"text"
+    },
+    {
+        label:"Account Number:",
+        placeholder:"account number",
+        name:"accountNumber",
+        type:"number"
+    },
+    {
+        label:"Transaction Limit:",
+        placeholder:"transaction limit",
+        name:"transactionLimit",
+        type:"number"
+    },
+    {
+        label:"Interest Rate:",
+        placeholder:"interest",
+        name:"interestRate",
+        type:"number"
+    },
+
+]
+export const corporateAccountPersonalData=[
+    {
+        label:"Name:",
+        placeholder:"name",
+        name:"name",
+        type:"text"
+    },
+    {
+        label:"Email:",
+        placeholder:"email",
+        name:"email",
+        type:"email"
+    },
+    {
+        label:"Contact:",
+        placeholder:"contact",
+        name:"contact",
+        type:"number"
+    },
+    {
+        label:"Status:",
+        placeholder:"status",
+        name:"status",
+        type:"text"
+    },
+    {
+        label:"Joining Date:",
+        placeholder:"joining date",
+        name:"joiningDate",
+        type:"date"
+    },
+    {
+        label:"Company Name:",
+        placeholder:"company name",
+        name:"companyName",
+        type:"text"
+    },
+    {
+        label:"Account Manager:",
+        placeholder:"account manager",
+        name:"accountManager",
+        type:"text"
+    },
+]
+export const corporateAccountData=[
+    {
+        label:"Branch:",
+        placeholder:"branch",
+        name:"branch",
+        type:"text"
+    },
+    {
+        label:"Account Type:",
+        placeholder:"account type",
+        name:"ccountType",
+        type:"text"
+    },
+    {
+        label:"Account Number:",
+        placeholder:"account number",
+        name:"accountNumber",
+        type:"number"
+    },
+
+]
+export const soleProprietorAccountPersonalData=[
+    {
+        label:"Name:",
+        placeholder:"name",
+        name:"name",
+        type:"text"
+    },
+    {
+        label:"Email:",
+        placeholder:"email",
+        name:"email",
+        type:"email"
+    },
+    {
+        label:"Contact:",
+        placeholder:"contact",
+        name:"contact",
+        type:"number"
+    },
+    {
+        label:"Status:",
+        placeholder:"status",
+        name:"status",
+        type:"text"
+    },
+    {
+        label:"Joining Date:",
+        placeholder:"joining date",
+        name:"joiningDate",
+        type:"date"
+    },
+    {
+        label:"Business Name:",
+        placeholder:"business",
+        name:"businessName",
+        type:"text"
+    },
+]
+export const soleProprietorAccountData=[
+    {
+        label:"Branch:",
+        placeholder:"branch",
+        name:"branch",
+        type:"text"
+    },
+    {
+        label:"Account Type:",
+        placeholder:"account type",
+        name:"ccountType",
+        type:"text"
+    },
+    {
+        label:"Account Number:",
+        placeholder:"account number",
+        name:"accountNumber",
+        type:"number"
+    },
+
+]
+export const loanAccountPersonalData=[
+    {
+        label:"Name:",
+        placeholder:"name",
+        name:"name",
+        type:"text"
+    },
+    {
+        label:"Email:",
+        placeholder:"email",
+        name:"email",
+        type:"email"
+    },
+    {
+        label:"Contact:",
+        placeholder:"contact",
+        name:"contact",
+        type:"number"
+    },
+    {
+        label:"Status:",
+        placeholder:"status",
+        name:"status",
+        type:"text"
+    },
+    {
+        label:"Joining Date:",
+        placeholder:"joining date",
+        name:"joiningDate",
+        type:"date"
+    },
+    {
+        label:"Loan Type:",
+        placeholder:"loan type",
+        name:"loanType",
+        type:"text"
+    },
+    {
+        label:"Loan Term:",
+        placeholder:"loan term",
+        name:"loanTerm",
+        type:"text"
+    },
+    {
+        label:"Interest Rate:",
+        placeholder:"interest rate",
+        name:"interestRatet",
+        type:"number"
+    },
+    {
+        label:"Loan Amount:",
+        placeholder:"loan amount",
+        name:"loanAmount",
+        type:"number"
+    },
+]
+export const loanAccountData=[
+    {
+        label:"Branch:",
+        placeholder:"branch",
+        name:"branch",
+        type:"text"
+    },
+    {
+        label:"Account Type:",
+        placeholder:"account type",
+        name:"ccountType",
+        type:"text"
+    },
+    {
+        label:"Account Number:",
+        placeholder:"account number",
+        name:"accountNumber",
+        type:"number"
+    },
+    {
+        label:"Payment Satus:",
+        placeholder:"status",
+        name:"paymentStatus",
+        type:"text"
+    },
+
+]
+export const plansAccountPersonalData=[
+    {
+        label:"Name:",
+        placeholder:"name",
+        name:"name",
+        type:"text"
+    },
+    {
+        label:"Email:",
+        placeholder:"email",
+        name:"email",
+        type:"email"
+    },
+    {
+        label:"Contact:",
+        placeholder:"contact",
+        name:"contact",
+        type:"number"
+    },
+    {
+        label:"Status:",
+        placeholder:"status",
+        name:"status",
+        type:"text"
+    },
+    {
+        label:"Joining Date:",
+        placeholder:"joining date",
+        name:"joiningDate",
+        type:"date"
+    },
+    {
+        label:"Contributions:",
+        placeholder:"contributions",
+        name:"contributions",
+        type:"text"
+    },
+    {
+        label:"Plan Type:",
+        placeholder:"plan type",
+        name:"planType",
+        type:"text"
+    },
+    {
+        label:"Investment Status:",
+        placeholder:"status",
+        name:"investmentStatus",
+        type:"text"
+    },
+]
+export const plansAccountData=[
+    {
+        label:"Branch:",
+        placeholder:"branch",
+        name:"branch",
+        type:"text"
+    },
+    {
+        label:"Account Type:",
+        placeholder:"account type",
+        name:"ccountType",
+        type:"text"
+    },
+    {
+        label:"Account Number:",
+        placeholder:"account number",
+        name:"accountNumber",
+        type:"number"
+    },
+
+]
+export const mortageAccountPersonalData=[
+    {
+        label:"Name:",
+        placeholder:"name",
+        name:"name",
+        type:"text"
+    },
+    {
+        label:"Email:",
+        placeholder:"email",
+        name:"email",
+        type:"email"
+    },
+    {
+        label:"Contact:",
+        placeholder:"contact",
+        name:"contact",
+        type:"number"
+    },
+    {
+        label:"Status:",
+        placeholder:"status",
+        name:"status",
+        type:"text"
+    },
+    {
+        label:"Joining Date:",
+        placeholder:"joining date",
+        name:"joiningDate",
+        type:"date"
+    },
+    {
+        label:"Property Address:",
+        placeholder:"address",
+        name:"propertyAdress",
+        type:"text"
+    },
+    {
+        label:"Loan Amount:",
+        placeholder:"loan amount",
+        name:"loanAmount",
+        type:"number"
+    },
+]
+export const mortageAccountData=[
+    {
+        label:"Branch:",
+        placeholder:"branch",
+        name:"branch",
+        type:"text"
+    },
+    {
+        label:"Account Type:",
+        placeholder:"account type",
+        name:"ccountType",
+        type:"text"
+    },
+    {
+        label:"Account Number:",
+        placeholder:"account number",
+        name:"accountNumber",
+        type:"number"
+    },
+    {
+        label:"Payment Satus:",
+        placeholder:"status",
+        name:"paymentStatus",
+        type:"text"
+    },
+
+]
+export const cashManagementAccountPersonalData=[
+    {
+        label:"Name:",
+        placeholder:"name",
+        name:"name",
+        type:"text"
+    },
+    {
+        label:"Email:",
+        placeholder:"email",
+        name:"email",
+        type:"email"
+    },
+    {
+        label:"Contact:",
+        placeholder:"contact",
+        name:"contact",
+        type:"number"
+    },
+    {
+        label:"Status:",
+        placeholder:"status",
+        name:"status",
+        type:"text"
+    },
+    {
+        label:"Joining Date:",
+        placeholder:"joining date",
+        name:"joiningDate",
+        type:"date"
+    },
+]
+export const cashManagementAccountData=[
+    {
+        label:"Branch:",
+        placeholder:"branch",
+        name:"branch",
+        type:"text"
+    },
+    {
+        label:"Account Type:",
+        placeholder:"account type",
+        name:"ccountType",
+        type:"text"
+    },
+    {
+        label:"Account Number:",
+        placeholder:"account number",
+        name:"accountNumber",
+        type:"number"
+    },
+    {
+        label:"Transaction Limit:",
+        placeholder:"transaction limit",
+        name:"transactionLimit",
+        type:"number"
+    },
+
+]
+export const treasuryManagementAccountPersonalData=[
+    {
+        label:"Name:",
+        placeholder:"name",
+        name:"name",
+        type:"text"
+    },
+    {
+        label:"Email:",
+        placeholder:"email",
+        name:"email",
+        type:"email"
+    },
+    {
+        label:"Contact:",
+        placeholder:"contact",
+        name:"contact",
+        type:"number"
+    },
+    {
+        label:"Status:",
+        placeholder:"status",
+        name:"status",
+        type:"text"
+    },
+    {
+        label:"Joining Date:",
+        placeholder:"joining date",
+        name:"joiningDate",
+        type:"date"
+    },
+    {
+        label:"Services Offered:",
+        placeholder:"services",
+        name:"servicesOffered",
+        type:"text"
+    },
+]
+export const treasuryManagementAccountData=[
+    {
+        label:"Branch:",
+        placeholder:"branch",
+        name:"branch",
+        type:"text"
+    },
+    {
+        label:"Account Type:",
+        placeholder:"account type",
+        name:"ccountType",
+        type:"text"
+    },
+    {
+        label:"Account Number:",
+        placeholder:"account number",
+        name:"accountNumber",
+        type:"number"
+    },
+]
+export const creditAccountPersonalData=[
+    {
+        label:"Name:",
+        placeholder:"name",
+        name:"name",
+        type:"text"
+    },
+    {
+        label:"Email:",
+        placeholder:"email",
+        name:"email",
+        type:"email"
+    },
+    {
+        label:"Contact:",
+        placeholder:"contact",
+        name:"contact",
+        type:"number"
+    },
+    {
+        label:"Status:",
+        placeholder:"status",
+        name:"status",
+        type:"text"
+    },
+    {
+        label:"Joining Date:",
+        placeholder:"joining date",
+        name:"joiningDate",
+        type:"date"
+    },
+]
+export const creditAccountData=[
+    {
+        label:"Branch:",
+        placeholder:"branch",
+        name:"branch",
+        type:"text"
+    },
+    {
+        label:"Account Type:",
+        placeholder:"account type",
+        name:"ccountType",
+        type:"text"
+    },
+    {
+        label:"Account Number:",
+        placeholder:"account number",
+        name:"accountNumber",
+        type:"number"
+    },
+    {
+        label:"Credit Limit:",
+        placeholder:"credit limit",
+        name:"creditLimit",
+        type:"number"
+    },
+    {
+        label:"Available Credit:",
+        placeholder:"available credit",
+        name:"availableCredit",
+        type:"number"
+    },
+]
+export const creditCardAccountPersonalData=[
+    {
+        label:"Name:",
+        placeholder:"name",
+        name:"name",
+        type:"text"
+    },
+    {
+        label:"Card Holder Name:",
+        placeholder:"card holder",
+        name:"cardHolder",
+        type:"text"
+    },
+    {
+        label:"Email:",
+        placeholder:"email",
+        name:"email",
+        type:"email"
+    },
+    {
+        label:"Contact:",
+        placeholder:"contact",
+        name:"contact",
+        type:"number"
+    },
+    {
+        label:"Status:",
+        placeholder:"status",
+        name:"status",
+        type:"text"
+    },
+    {
+        label:"Joining Date:",
+        placeholder:"joining date",
+        name:"joiningDate",
+        type:"date"
+    },
+]
+export const creditCardAccountData=[
+    {
+        label:"Branch:",
+        placeholder:"branch",
+        name:"branch",
+        type:"text"
+    },
+    {
+        label:"Account Type:",
+        placeholder:"account type",
+        name:"ccountType",
+        type:"text"
+    },
+    {
+        label:"Account Number:",
+        placeholder:"account number",
+        name:"accountNumber",
+        type:"number"
+    },
+    {
+        label:"Credit Limit:",
+        placeholder:"credit limit",
+        name:"creditLimit",
+        type:"number"
+    },
+    {
+        label:"Outstanding Balance:",
+        placeholder:"balance",
+        name:"outstandingBalance",
+        type:"number"
+    },
+]
+export const prepaidAccountPersonalData=[
+    {
+        label:"Name:",
+        placeholder:"name",
+        name:"name",
+        type:"text"
+    },
+    {
+        label:"Email:",
+        placeholder:"email",
+        name:"email",
+        type:"email"
+    },
+    {
+        label:"Contact:",
+        placeholder:"contact",
+        name:"contact",
+        type:"number"
+    },
+    {
+        label:"Status:",
+        placeholder:"status",
+        name:"status",
+        type:"text"
+    },
+    {
+        label:"Joining Date:",
+        placeholder:"joining date",
+        name:"joiningDate",
+        type:"date"
+    },
+]
+export const prepaidAccountData=[
+    {
+        label:"Branch:",
+        placeholder:"branch",
+        name:"branch",
+        type:"text"
+    },
+    {
+        label:"Account Type:",
+        placeholder:"account type",
+        name:"ccountType",
+        type:"text"
+    },
+    {
+        label:"Account Number:",
+        placeholder:"account number",
+        name:"accountNumber",
+        type:"number"
+    },
+]
+export const nonProfitAccountPersonalData=[
+    {
+        label:"Name:",
+        placeholder:"name",
+        name:"name",
+        type:"text"
+    },
+    {
+        label:"Email:",
+        placeholder:"email",
+        name:"email",
+        type:"email"
+    },
+    {
+        label:"Contact:",
+        placeholder:"contact",
+        name:"contact",
+        type:"number"
+    },
+    {
+        label:"Status:",
+        placeholder:"status",
+        name:"status",
+        type:"text"
+    },
+    {
+        label:"Joining Date:",
+        placeholder:"joining date",
+        name:"joiningDate",
+        type:"date"
+    },
+    {
+        label:"Organization Name:",
+        placeholder:"organization name",
+        name:"organizationName",
+        type:"text"
+    },
+]
+export const nonProfitAccountData=[
+    {
+        label:"Branch:",
+        placeholder:"branch",
+        name:"branch",
+        type:"text"
+    },
+    {
+        label:"Account Type:",
+        placeholder:"account type",
+        name:"ccountType",
+        type:"text"
+    },
+    {
+        label:"Account Number:",
+        placeholder:"account number",
+        name:"accountNumber",
+        type:"number"
+    },
+]
+export const notForProfitAccountPersonalData=[
+    {
+        label:"Name:",
+        placeholder:"name",
+        name:"name",
+        type:"text"
+    },
+    {
+        label:"Email:",
+        placeholder:"email",
+        name:"email",
+        type:"email"
+    },
+    {
+        label:"Contact:",
+        placeholder:"contact",
+        name:"contact",
+        type:"number"
+    },
+    {
+        label:"Status:",
+        placeholder:"status",
+        name:"status",
+        type:"text"
+    },
+    {
+        label:"Joining Date:",
+        placeholder:"joining date",
+        name:"joiningDate",
+        type:"date"
+    },
+    {
+        label:"Organization Name:",
+        placeholder:"organization name",
+        name:"organizationName",
+        type:"text"
+    },
+    {
+        label:"Organization Mission:",
+        placeholder:"organization mission",
+        name:"organizationMission",
+        type:"text"
+    },
+]
+export const notForProfitAccountData=[
+    {
+        label:"Branch:",
+        placeholder:"branch",
+        name:"branch",
+        type:"text"
+    },
+    {
+        label:"Account Type:",
+        placeholder:"account type",
+        name:"ccountType",
+        type:"text"
+    },
+    {
+        label:"Account Number:",
+        placeholder:"account number",
+        name:"accountNumber",
+        type:"number"
+    },
+]
+export const customAccountPersonalData=[
+    {
+        label:"Name:",
+        placeholder:"name",
+        name:"name",
+        type:"text"
+    },
+    {
+        label:"Email:",
+        placeholder:"email",
+        name:"email",
+        type:"email"
+    },
+    {
+        label:"Contact:",
+        placeholder:"contact",
+        name:"contact",
+        type:"number"
+    },
+    {
+        label:"Status:",
+        placeholder:"status",
+        name:"status",
+        type:"text"
+    },
+    {
+        label:"Joining Date:",
+        placeholder:"joining date",
+        name:"joiningDate",
+        type:"date"
+    },
+    {
+        label:"Custom Attributes:",
+        placeholder:"custom attributes",
+        name:"customAttributes",
+        type:"text"
+    },
+]
+export const customAccountData=[
+    {
+        label:"Branch:",
+        placeholder:"branch",
+        name:"branch",
+        type:"text"
+    },
+    {
+        label:"Account Type:",
+        placeholder:"account type",
+        name:"ccountType",
+        type:"text"
+    },
+    {
+        label:"Account Number:",
+        placeholder:"account number",
+        name:"accountNumber",
+        type:"number"
+    },
+]

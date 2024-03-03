@@ -17,7 +17,7 @@ const CheckingAccounts = () => {
         <Button
           size="md"
           className="add-button pl-3 pr-3 mr-3"
-          onClick={() => navigate("/admin/userManagement/addAgent")}
+          onClick={() => navigate("/admin/accountsAndBranch/addCheckingAccount")}
         >
           Create Checking Accounts
         </Button>
@@ -25,7 +25,8 @@ const CheckingAccounts = () => {
       <DynamicTable
         headings={accountHeadings}
         tableData={accountsData}
-        component="Checking Account"
+        component="CheckingAccount"
+        parentComponent="AccountManagement"
       />
     </>
   );

@@ -17,7 +17,7 @@ const PrepaidAccounts = () => {
         <Button
           size="md"
           className="add-button pl-3 pr-3 mr-3"
-          onClick={() => navigate("/admin/userManagement/addAgent")}
+          onClick={() => navigate("/admin/accountsAndBranch/addPrepaidAccount")}
         >
           Create Prepaid Account
         </Button>
@@ -25,7 +25,8 @@ const PrepaidAccounts = () => {
       <DynamicTable
         headings={accountHeadings}
         tableData={accountsData}
-        component="Prepaid Account"
+        component="PrepaidAccount"
+        parentComponent="AccountManagement"
       />
     </>
   );

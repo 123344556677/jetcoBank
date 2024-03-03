@@ -47,11 +47,11 @@ export const AccountBranchAccordionItems=[
     },
     {
         title:"Manage Offices/ Branches",
-        link:"userManagement/agent"
+        link:"accountsAndBranch/manageBranchAndOffices"
     },
     {
         title:"Role Management",
-        link:"userManagement/merchant"
+        link:"accountsAndBranch/roleManagementListing"
     },
     {
         title:"Feature Control",

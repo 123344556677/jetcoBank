@@ -17,7 +17,7 @@ const SoleProprietorAccounts = () => {
         <Button
           size="md"
           className="add-button pl-3 pr-3 mr-3"
-          onClick={() => navigate("/admin/userManagement/addAgent")}
+          onClick={() => navigate("/admin/accountsAndBranch/addSoleProprietorAccount")}
         >
           Create Sole Proprietor Accounts
         </Button>
@@ -25,7 +25,8 @@ const SoleProprietorAccounts = () => {
       <DynamicTable
         headings={accountHeadings}
         tableData={accountsData}
-        component="Sole Proprietor Account"
+        component="SoleProprietorAccount"
+        parentComponent="AccountManagement"
       />
     </>
   );

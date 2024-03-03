@@ -7,8 +7,8 @@ const AddUser = () => {
   return (
     <div className="pt-5 pt-md-8 mb-3 ml-lg-3 mr-lg-3">
       <div className="main-div">
-      <FormTopBar buttonValue="User"/>
-      <DynamicForm formData={addUserForm} component="User"/>
+      <FormTopBar buttonValue="Add User"/>
+      <DynamicForm formData={addUserForm} component="User" buttonValue="Add User"/>
       </div>
     </div>
   )

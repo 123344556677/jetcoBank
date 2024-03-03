@@ -17,7 +17,7 @@ const CustomAccounts = () => {
         <Button
           size="md"
           className="add-button pl-3 pr-3 mr-3"
-          onClick={() => navigate("/admin/userManagement/addAgent")}
+          onClick={() => navigate("/admin/accountsAndBranch/addCustomAccount")}
         >
           Create Custom Accounts
         </Button>
@@ -25,7 +25,8 @@ const CustomAccounts = () => {
       <DynamicTable
         headings={accountHeadings}
         tableData={accountsData}
-        component="Custom Account"
+        component="CustomAccount"
+        parentComponent="AccountManagement"
       />
     </>
   );

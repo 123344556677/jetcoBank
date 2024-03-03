@@ -17,7 +17,7 @@ const TreasuryManagementAccounts = () => {
         <Button
           size="md"
           className="add-button pl-3 pr-3 mr-3"
-          onClick={() => navigate("/admin/userManagement/addAgent")}
+          onClick={() => navigate("/admin/accountsAndBranch/addTreasuryManagementAccount")}
         >
           Create Treasury Management Account
         </Button>
@@ -25,7 +25,8 @@ const TreasuryManagementAccounts = () => {
       <DynamicTable
         headings={accountHeadings}
         tableData={accountsData}
-        component="Treasury Managment Account"
+        component="TreasuryManagementAccount"
+        parentComponent="AccountManagement"
       />
     </>
   );

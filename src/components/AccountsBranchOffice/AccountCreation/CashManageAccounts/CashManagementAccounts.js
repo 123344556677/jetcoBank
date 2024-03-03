@@ -17,7 +17,7 @@ const CashManagementAccounts = () => {
         <Button
           size="md"
           className="add-button pl-3 pr-3 mr-3"
-          onClick={() => navigate("/admin/userManagement/addAgent")}
+          onClick={() => navigate("/admin/accountsAndBranch/addCashManagementAccount")}
         >
           Create Cash Management Account
         </Button>
@@ -25,7 +25,8 @@ const CashManagementAccounts = () => {
       <DynamicTable
         headings={accountHeadings}
         tableData={accountsData}
-        component="Cash Managment Account"
+        component="CashManagementAccount"
+        parentComponent="AccountManagement"
       />
     </>
   );

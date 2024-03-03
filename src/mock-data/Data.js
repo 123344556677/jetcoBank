@@ -2118,6 +2118,296 @@ export const accountsData = [
     },
   ],
 ];
+export const standardBranchHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Branch ID",
+  },
+  {
+    title: "Branch Name",
+  },
+  {
+    title: "Operating Hours",
+  },
+  {
+    title: "Location",
+  },
+  {
+    title: "Registered Users",
+  },
+  {
+    title: "Registered Agents",
+  },
+  {
+    title: "Reistered Accounts",
+  },
+  {
+    title: "Status",
+  },
+];
+export const standardBranchData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "B123456",
+    },
+    {
+      value: "City Center",
+    },
+    {
+      value: "Adil Ramzan",
+    },
+    {
+      value: "9:00 AM - 5:00 PM",
+    },
+    {
+      value: "Main Street Coryville",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "Active",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "B123456",
+    },
+    {
+      value: "Oxford Park",
+    },
+    {
+      value: "Adil Ramzan",
+    },
+    {
+      value: "9:00 AM - 5:00 PM",
+    },
+    {
+      value: "Main Street Coryville",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "Active",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "B123456",
+    },
+    {
+      value: "New Jersey",
+    },
+    {
+      value: "Adil Ramzan",
+    },
+    {
+      value: "9:00 AM - 5:00 PM",
+    },
+    {
+      value: "Main Street Coryville",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "Active",
+    },
+  ],
+];
+export const GroupManagementHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Group I'D",
+  },
+  {
+    title: "Group Name",
+  },
+  {
+    title: "Group Description",
+  },
+  {
+    title: "Role I'D",
+  },
+  {
+    title: "Role Name",
+  },
+  {
+    title: "Role Permission",
+  },
+];
+export const GroupManagementData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "G123456",
+    },
+    {
+      value: "Branch Roles",
+    },
+    {
+      value: "Manage branch operations and customer interactions.",
+    },
+    {
+      value: "R0001",
+    },
+    {
+      value: "Branch-specific operations and data access.",
+    },
+    {
+      value: "Merchant, Agent, Ministry ",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "G123456",
+    },
+    {
+      value: "Agent Roles",
+    },
+    {
+      value: "Facilitate transactions and act as intermediaries.",
+    },
+    {
+      value: "R0001",
+    },
+    {
+      value: "Sales and customer support functionalities",
+    },
+    {
+      value: "Merchant, Agent, Ministry ",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "G123456",
+    },
+    {
+      value: "User Roles",
+    },
+    {
+      value: "Basic functionalities for regular system users.",
+    },
+    {
+      value: "R0001",
+    },
+    {
+      value: "Limited access for general users, typically customers or basic account holders.",
+    },
+    {
+      value: "Merchant, Agent, Ministry ",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+    {
+      value: "G123456",
+    },
+    {
+      value: "Branch Roles",
+    },
+    {
+      value: "Manage branch operations and customer interactions.",
+    },
+    {
+      value: "R0001",
+    },
+    {
+      value: "Branch-specific operations and data access.",
+    },
+    {
+      value: "Merchant, Agent, Ministry ",
+    },
+  ],
+  [
+    {
+      value: "5",
+    },
+    {
+      value: "G123456",
+    },
+    {
+      value: "Agent Roles",
+    },
+    {
+      value: "Facilitate transactions and act as intermediaries.",
+    },
+    {
+      value: "R0001",
+    },
+    {
+      value: "Sales and customer support functionalities",
+    },
+    {
+      value: "Merchant, Agent, Ministry ",
+    },
+  ],
+  [
+    {
+      value: "6",
+    },
+    {
+      value: "G123456",
+    },
+    {
+      value: "User Roles",
+    },
+    {
+      value: "Basic functionalities for regular system users.",
+    },
+    {
+      value: "R0001",
+    },
+    {
+      value: "Limited access for general users, typically customers or basic account holders.",
+    },
+    {
+      value: "Merchant, Agent, Ministry ",
+    },
+  ],
+];
 
 export const inboxColors = ["#F1F6FB", "#FFFFFF"];
 export const profileColors = [

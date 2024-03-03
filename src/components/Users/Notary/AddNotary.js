@@ -7,8 +7,8 @@ const AddNotary = () => {
   return (
     <div className="pt-5 pt-md-8 mb-3 ml-lg-3 mr-lg-3">
       <div className="main-div">
-      <FormTopBar buttonValue="Notary"/>
-      <DynamicForm formData={addNotaryForm} component="Notary"/>
+      <FormTopBar buttonValue="Add Notary"/>
+      <DynamicForm formData={addNotaryForm} component="Notary" buttonValue="Add Notary"/>
       </div>
     </div>
   )

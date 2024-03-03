@@ -17,7 +17,7 @@ const MortageAccounts = () => {
         <Button
           size="md"
           className="add-button pl-3 pr-3 mr-3"
-          onClick={() => navigate("/admin/userManagement/addAgent")}
+          onClick={() => navigate("/admin/accountsAndBranch/addMortageAccount")}
         >
           Create Mortage Account
         </Button>
@@ -25,7 +25,8 @@ const MortageAccounts = () => {
       <DynamicTable
         headings={accountHeadings}
         tableData={accountsData}
-        component="Mortage Account"
+        component="MortageAccount"
+        parentComponent="AccountManagement"
       />
     </>
   );

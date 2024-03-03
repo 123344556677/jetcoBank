@@ -37,3 +37,22 @@ export const CourierDisptachHeadings=[
         title:"Orders Management"
     }
 ]
+export const manageBranchesOfficesHeadings=[
+    {
+        title:"Standard Branch"
+    },
+    {
+        title:"Custom Branch"
+    }
+]
+export const roleManagementHeadings=[
+    {
+        title:"Group Management"
+    },
+    {
+        title:"Create Role "
+    },
+    {
+        title:"Assign Group"
+    }
+]

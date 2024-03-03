@@ -2,13 +2,15 @@ import React from "react";
 import { Button, Table } from "reactstrap";
 import "./DynamicTable.css";
 import { useNavigate } from "react-router-dom";
-import { profileRoutes } from "mock-data/routesData";
+import { routes } from "mock-data/routesData";
 
-const DynamicTable = ({ headings, tableData, component }) => {
+
+const DynamicTable = ({ headings, tableData, component,parentComponent }) => {
   const navigate = useNavigate();
   const handleNavigation = () => {
-    const url = profileRoutes[component];
+    const url = routes[parentComponent]?.[component];
     if (url) {
+       console.log("prent component")
       navigate(url);
     }
   };

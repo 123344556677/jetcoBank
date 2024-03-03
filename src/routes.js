@@ -43,6 +43,40 @@ import FinancialDetails from "components/Users/FinancialInstituition/FinancialDe
 import CourierOrderView from "components/Users/CourierOrder/CourierOrderView";
 import AccountsAndBranch from "components/AccountsBranchOffice/AccountsAndBranch";
 import AccountCreationListing from "components/AccountsBranchOffice/AccountCreation/AccountCreationListing";
+import AddCheckingAccount from "components/AccountsBranchOffice/AccountCreation/CheckingAccounts/AddCheckingAccount";
+import AddSavingAccount from "components/AccountsBranchOffice/AccountCreation/SavingAccounts/AddSavingAccount";
+import AddCorporateAccount from "components/AccountsBranchOffice/AccountCreation/CorporateAccounts/AddCorporateAccount";
+import SoleProprietorAccounts from "components/AccountsBranchOffice/AccountCreation/SoleProprietor/SoleProprietorAccount";
+import AddSoleProprietorAccount from "components/AccountsBranchOffice/AccountCreation/SoleProprietor/AddSoleProprietorAccount";
+import AddLoanAccount from "components/AccountsBranchOffice/AccountCreation/LoanAccounts/AddLoanAccount";
+import AddPlanAccount from "components/AccountsBranchOffice/AccountCreation/PlansAccounts/AddPlanAccount";
+import AddMortageAccount from "components/AccountsBranchOffice/AccountCreation/MortageAccounts/AddMortageAccount";
+import AddCashManagementAccount from "components/AccountsBranchOffice/AccountCreation/CashManageAccounts/AddCashManagementAccount";
+import AddTreasuryManagementAccount from "components/AccountsBranchOffice/AccountCreation/TreasuryManageAccounts/AddTreasuryManagementAccount";
+import AddCreditAccount from "components/AccountsBranchOffice/AccountCreation/CreditAccounts/AddCreditAccount";
+import AddCreditCardAccount from "components/AccountsBranchOffice/AccountCreation/CreditCardAccounts/AddCreditCardAccount";
+import AddPrepaidAccount from "components/AccountsBranchOffice/AccountCreation/PrepaidAccounts/AddPrepaidAccount";
+import AddNotForProfitAccount from "components/AccountsBranchOffice/AccountCreation/NotForProfitAccounts/AddNotForProfitAccount";
+import AddNonProfitAccount from "components/AccountsBranchOffice/AccountCreation/NonProfitAccounts/AddNonProfitAccount";
+import AddCustomAccount from "components/AccountsBranchOffice/AccountCreation/CustomAccounts/AddCustomAccount";
+import CheckingAccuntProfile from "components/AccountsBranchOffice/AccountCreation/CheckingAccounts/CheckingAccuntProfile";
+import SavingAccountProfile from "components/AccountsBranchOffice/AccountCreation/SavingAccounts/SavingAccountProfile";
+import CorporateAccountProfile from "components/AccountsBranchOffice/AccountCreation/CorporateAccounts/CorporateAccountProfile";
+import SoleProprietorAccountProfile from "components/AccountsBranchOffice/AccountCreation/SoleProprietor/SoleProprietorAccountProfile";
+import LoanAccountProfile from "components/AccountsBranchOffice/AccountCreation/LoanAccounts/LoanAccountProfile";
+import PlansAccountProfile from "components/AccountsBranchOffice/AccountCreation/PlansAccounts/PlansAccountProfile";
+import MortageAccountProfile from "components/AccountsBranchOffice/AccountCreation/MortageAccounts/MortageAccountProfile";
+import CashManagementAccountProfile from "components/AccountsBranchOffice/AccountCreation/CashManageAccounts/CashManagementAccountProfile";
+import TreasuryManagementAccountProfile from "components/AccountsBranchOffice/AccountCreation/TreasuryManageAccounts/TreasuryManagementProfile";
+import CreditAccountProfile from "components/AccountsBranchOffice/AccountCreation/CreditAccounts/CreditAccountProfile";
+import CreditCardAccountProfile from "components/AccountsBranchOffice/AccountCreation/CreditCardAccounts/CreditCardAccountProfile";
+import PrepaidAccountProfile from "components/AccountsBranchOffice/AccountCreation/PrepaidAccounts/PrepaidAccountProfile";
+import NonProfitAccountProfile from "components/AccountsBranchOffice/AccountCreation/NonProfitAccounts/NonProfitAccountProfile";
+import NotForProfitAccountProfile from "components/AccountsBranchOffice/AccountCreation/NotForProfitAccounts/NotForProfitAccountProfile";
+import CustomAccountProfile from "components/AccountsBranchOffice/AccountCreation/CustomAccounts/CustomAccountProfile";
+import ManageBranchAndOfficesListing from "components/AccountsBranchOffice/ManageBranchOffices/ManageBranchAndOfficesListing";
+import RoleManagementListing from "components/AccountsBranchOffice/RoleManagement/RoleManagementListing";
+import CreateGroup from "components/AccountsBranchOffice/RoleManagement/CreateGroup";
 
 
 var routes = [
@@ -287,7 +321,7 @@ var routes = [
   {
     path: "/accountsAndBranch",
     name: "Accounts, Branch & Office",
-    icon: "ni ni-single-02",
+    icon: "fa fa-briefcase",
     component:<AccountsAndBranch/>,
     layout: "/admin",
   },
@@ -296,6 +330,237 @@ var routes = [
     name: "AccountListing",
     icon: "ni ni-single-02",
     component:<AccountCreationListing/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/addCheckingAccount",
+    name: "AddCheckingAccount",
+    icon: "ni ni-tv-2 ",
+    component:<AddCheckingAccount/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/addSavingAccount",
+    name: "AddSavingAccount",
+    icon: "ni ni-tv-2 ",
+    component:<AddSavingAccount/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/addCorporateAccount",
+    name: "AddCorporateAccount",
+    icon: "ni ni-tv-2 ",
+    component:<AddCorporateAccount/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/addSoleProprietorAccount",
+    name: "AddSoleProprietorAccount",
+    icon: "ni ni-tv-2 ",
+    component:<AddSoleProprietorAccount/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/addLoanAccount",
+    name: "AddLoanAccount",
+    icon: "ni ni-tv-2 ",
+    component:<AddLoanAccount/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/addPlanAccount",
+    name: "AddPlanAccount",
+    icon: "ni ni-tv-2 ",
+    component:<AddPlanAccount/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/addMortageAccount",
+    name: "AddMortageAccount",
+    icon: "ni ni-tv-2 ",
+    component:<AddMortageAccount/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/addCashManagementAccount",
+    name: "AddCashManagmentAccount",
+    icon: "ni ni-tv-2 ",
+    component:<AddCashManagementAccount/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/addTreasuryManagementAccount",
+    name: "AddTreasuryManagmentAccount",
+    icon: "ni ni-tv-2 ",
+    component:<AddTreasuryManagementAccount/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/addCreditAccount",
+    name: "AddCreditAccount",
+    icon: "ni ni-tv-2 ",
+    component:<AddCreditAccount/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/addCreditCardAccount",
+    name: "AddCreditCardAccount",
+    icon: "ni ni-tv-2 ",
+    component:<AddCreditCardAccount/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/addPrepaidAccount",
+    name: "AddPrepaidAccount",
+    icon: "ni ni-tv-2 ",
+    component:<AddPrepaidAccount/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/addNotForProfitAccount",
+    name: "AddNotForProfitAccount",
+    icon: "ni ni-tv-2 ",
+    component:<AddNotForProfitAccount/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/addNonProfitAccount",
+    name: "AddNonProfitAccount",
+    icon: "ni ni-tv-2 ",
+    component:<AddNonProfitAccount/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/addCustomAccount",
+    name: "AddCustomAccount",
+    icon: "ni ni-tv-2 ",
+    component:<AddCustomAccount/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/checkingAccountProfile",
+    name: "ChekcingAccountProfile",
+    icon: "ni ni-tv-2 ",
+    component:<CheckingAccuntProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/savingAccountProfile",
+    name: "SavingAccountProfile",
+    icon: "ni ni-tv-2 ",
+    component:<SavingAccountProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/corporateAccountProfile",
+    name: "CorporateAccountProfile",
+    icon: "ni ni-tv-2 ",
+    component:<CorporateAccountProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/soleProprietorAccountProfile",
+    name: "SoleProprietorAccountProfile",
+    icon: "ni ni-tv-2 ",
+    component:<SoleProprietorAccountProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/planAccountProfile",
+    name: "PlanAccountProfile",
+    icon: "ni ni-tv-2 ",
+    component:<PlansAccountProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/loanAccountProfile",
+    name: "LoanAccountProfile",
+    icon: "ni ni-tv-2 ",
+    component:<LoanAccountProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/mortageAccountProfile",
+    name: "MortageAccountProfile",
+    icon: "ni ni-tv-2 ",
+    component:<MortageAccountProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/cashManagementAccountProfile",
+    name: "CashManagementAccountProfile",
+    icon: "ni ni-tv-2 ",
+    component:<CashManagementAccountProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/treasuryManagementAccountProfile",
+    name: "TreasuryManagementAccountProfile",
+    icon: "ni ni-tv-2 ",
+    component:<TreasuryManagementAccountProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/creditAccountProfile",
+    name: "CreditAccountProfile",
+    icon: "ni ni-tv-2 ",
+    component:<CreditAccountProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/creditCardAccountProfile",
+    name: "CreditCardAccountProfile",
+    icon: "ni ni-tv-2 ",
+    component:<CreditCardAccountProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/prepaidAccountProfile",
+    name: "PrepaidAccountProfile",
+    icon: "ni ni-tv-2 ",
+    component:<PrepaidAccountProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/nonProfitAccountProfile",
+    name: "NonProfitAccountProfile",
+    icon: "ni ni-tv-2 ",
+    component:<NonProfitAccountProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/notForProfitAccountProfile",
+    name: "NotForProfitAccountProfile",
+    icon: "ni ni-tv-2 ",
+    component:<NotForProfitAccountProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/customAccountProfile",
+    name: "CustomAccountProfile",
+    icon: "ni ni-tv-2 ",
+    component:<CustomAccountProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/manageBranchAndOffices",
+    name: "ManageBranchAndOfficesListing",
+    icon: "ni ni-tv-2 ",
+    component:<ManageBranchAndOfficesListing/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/roleManagementListing",
+    name: "RoleManagementListing",
+    icon: "ni ni-tv-2 ",
+    component:<RoleManagementListing/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/addGroup",
+    name: "CreateGroup",
+    icon: "ni ni-tv-2 ",
+    component:<CreateGroup/>,
     layout: "/admin",
   },
   {

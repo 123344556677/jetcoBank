@@ -2,7 +2,7 @@ import React from "react";
 import "./DynamicForm.css";
 import { Button, Form, FormGroup, Input, Label } from "reactstrap";
 
-const DynamicForm = ({ formData, component }) => {
+const DynamicForm = ({ formData, component,buttonValue }) => {
   return (
     <div>
       <Form className="m-4">
@@ -34,7 +34,7 @@ const DynamicForm = ({ formData, component }) => {
               type="submit"
               className="login-button mt-4 mb-4 form-button"
             >
-              Add {component}
+              {buttonValue}
             </Button>
           </div>
         )}

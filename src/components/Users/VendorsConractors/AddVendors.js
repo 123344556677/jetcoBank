@@ -7,8 +7,8 @@ const AddVendors = () => {
   return (
     <div className="pt-5 pt-md-8 mb-3 ml-lg-3 mr-lg-3">
       <div className="main-div">
-      <FormTopBar buttonValue="Vendor"/>
-      <DynamicForm formData={addVendorForm} component="Vendor"/>
+      <FormTopBar buttonValue="Add Vendor"/>
+      <DynamicForm formData={addVendorForm} component="Vendor" buttonValue="Add Vendor"/>
       </div>
     </div>
   )

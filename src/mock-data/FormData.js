@@ -483,3 +483,593 @@ export const addContactForm=[
     
 
 ]
+export const createCheckingForm=[
+    {
+        label:"Account Holder Name",
+        name:"accountHolderName",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Set Initial Balance",
+        name:"setInitialBalance",
+        type:"text",
+        placeholder:"balance"
+    },
+    {
+        label:"Assign Account Number",
+        name:"accountNumber",
+        type:"number",
+        placeholder:"account number"
+    },
+    {
+        label:"Branch",
+        name:"branch",
+        type:"text",
+        placeholder:"branch"
+    },
+    {
+        label:"Set Transaction Limits",
+        name:"transactionLimits",
+        type:"text",
+        placeholder:"transaction limits"
+    },
+
+]
+export const createSavingForm=[
+    {
+        label:"Account Holder Name",
+        name:"accountHolderName",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Set Initial Balance",
+        name:"setInitialBalance",
+        type:"text",
+        placeholder:"balance"
+    },
+    {
+        label:"Assign Account Number",
+        name:"accountNumber",
+        type:"number",
+        placeholder:"account number"
+    },
+    {
+        label:"Branch",
+        name:"branch",
+        type:"text",
+        placeholder:"branch"
+    },
+    {
+        label:"Set Transaction Limits",
+        name:"transactionLimits",
+        type:"text",
+        placeholder:"transaction limits"
+    },
+    {
+        label:"Set Interest Rate",
+        name:"interestRate",
+        type:"number",
+        placeholder:"interest rate"
+    },
+
+]
+export const createCorporateForm=[
+    {
+        label:"Account Holder Name",
+        name:"accountHolderName",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Set Initial Balance",
+        name:"setInitialBalance",
+        type:"text",
+        placeholder:"balance"
+    },
+    {
+        label:"Assign Account Number",
+        name:"accountNumber",
+        type:"number",
+        placeholder:"account number"
+    },
+    {
+        label:"Branch",
+        name:"branch",
+        type:"text",
+        placeholder:"branch"
+    },
+    {
+        label:"Company Name",
+        name:"companyName",
+        type:"text",
+        placeholder:"company"
+    },
+    {
+        label:"Account Manager",
+        name:"accountManager",
+        type:"text",
+        placeholder:"account manager"
+    },
+
+]
+export const createSoleProprietorForm=[
+    {
+        label:"Account Holder Name",
+        name:"accountHolderName",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Set Initial Balance",
+        name:"setInitialBalance",
+        type:"text",
+        placeholder:"balance"
+    },
+    {
+        label:"Assign Account Number",
+        name:"accountNumber",
+        type:"number",
+        placeholder:"account number"
+    },
+    {
+        label:"Branch",
+        name:"branch",
+        type:"text",
+        placeholder:"branch"
+    },
+    {
+        label:"Business Name",
+        name:"businessName",
+        type:"text",
+        placeholder:"business"
+    },
+
+]
+export const createLoanForm=[
+    {
+        label:"Enter Borrower's Name",
+        name:"borrowerName",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Specify Loan Type",
+        name:"loanType",
+        type:"text",
+        placeholder:"loan type"
+    },
+    {
+        label:"Set Loan Amount",
+        name:"loanAmount",
+        type:"number",
+        placeholder:"amount"
+    },
+    {
+        label:"Assign Account Number",
+        name:"accountNumber",
+        type:"number",
+        placeholder:"account number"
+    },
+    {
+        label:"Branch",
+        name:"branch",
+        type:"text",
+        placeholder:"branch"
+    },
+    {
+        label:"Set Loan Term",
+        name:"loanTerm",
+        type:"text",
+        placeholder:"loan term"
+    },
+    {
+        label:"Set Interest Rate",
+        name:"interestRate",
+        type:"number",
+        placeholder:"interest rate"
+    },
+
+]
+export const createPlanForm=[
+    {
+        label:"Account Holder Name",
+        name:"accountHolderName",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Set Initial Balance",
+        name:"setInitialBalance",
+        type:"text",
+        placeholder:"balance"
+    },
+    {
+        label:"Assign Account Number",
+        name:"accountNumber",
+        type:"number",
+        placeholder:"account number"
+    },
+    {
+        label:"Branch",
+        name:"branch",
+        type:"text",
+        placeholder:"branch"
+    },
+    {
+        label:"specify Plan Type",
+        name:"planType",
+        type:"text",
+        placeholder:"plan type"
+    },
+    {
+        label:"Set Contribution Amount",
+        name:"contributionAmount",
+        type:"number",
+        placeholder:"amount"
+    },
+
+]
+export const createMortageForm=[
+    {
+        label:"Enter Borrower's Name",
+        name:"borrowerName",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Property Address",
+        name:"propertyAdress",
+        type:"text",
+        placeholder:"address"
+    },
+    {
+        label:"Set Initial Balance",
+        name:"setInitialBalance",
+        type:"text",
+        placeholder:"balance"
+    },
+    {
+        label:"Set Loan Amount",
+        name:"loanAmount",
+        type:"number",
+        placeholder:"amount"
+    },
+    {
+        label:"Assign Account Number",
+        name:"accountNumber",
+        type:"number",
+        placeholder:"account number"
+    },
+    {
+        label:"Branch",
+        name:"branch",
+        type:"text",
+        placeholder:"branch"
+    },
+    {
+        label:"Set Loan Term",
+        name:"loanTerm",
+        type:"text",
+        placeholder:"loan term"
+    },
+
+]
+export const createCashManagementForm=[
+    {
+        label:"Account Holder Name",
+        name:"accountHolderName",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Set Initial Balance",
+        name:"setInitialBalance",
+        type:"text",
+        placeholder:"balance"
+    },
+    {
+        label:"Assign Account Number",
+        name:"accountNumber",
+        type:"number",
+        placeholder:"account number"
+    },
+    {
+        label:"Branch",
+        name:"branch",
+        type:"text",
+        placeholder:"branch"
+    },
+    {
+        label:"Set Transaction Limits",
+        name:"transactionLimits",
+        type:"text",
+        placeholder:"transaction limits"
+    },
+
+]
+export const createTreasuryManagementForm=[
+    {
+        label:"Account Holder Name",
+        name:"accountHolderName",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Set Initial Balance",
+        name:"setInitialBalance",
+        type:"text",
+        placeholder:"balance"
+    },
+    {
+        label:"Assign Account Number",
+        name:"accountNumber",
+        type:"number",
+        placeholder:"account number"
+    },
+    {
+        label:"Branch",
+        name:"branch",
+        type:"text",
+        placeholder:"branch"
+    },
+    {
+        label:"Specify Treasury Services",
+        name:"treasuryServices",
+        type:"text",
+        placeholder:"services"
+    },
+
+]
+export const createCreditForm=[
+    {
+        label:"Account Holder Name",
+        name:"accountHolderName",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Set Initial Balance",
+        name:"setInitialBalance",
+        type:"text",
+        placeholder:"balance"
+    },
+    {
+        label:"Assign Account Number",
+        name:"accountNumber",
+        type:"number",
+        placeholder:"account number"
+    },
+    {
+        label:"Branch",
+        name:"branch",
+        type:"text",
+        placeholder:"branch"
+    },
+    {
+        label:"Specify Credit Limit",
+        name:"creditLimit",
+        type:"number",
+        placeholder:"credit limit"
+    },
+    {
+        label:"Set Interest Rate",
+        name:"interestRate",
+        type:"number",
+        placeholder:"interest rate"
+    },
+
+]
+export const createCreditCardForm=[
+    {
+        label:"Account Holder Name",
+        name:"accountHolderName",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Set Initial Balance",
+        name:"setInitialBalance",
+        type:"text",
+        placeholder:"balance"
+    },
+    {
+        label:"Assign Account Number",
+        name:"accountNumber",
+        type:"number",
+        placeholder:"account number"
+    },
+    {
+        label:"Branch",
+        name:"branch",
+        type:"text",
+        placeholder:"branch"
+    },
+    {
+        label:"Specify Credit Limit",
+        name:"creditLimit",
+        type:"number",
+        placeholder:"credit limit"
+    },
+]
+export const createPrepaidForm=[
+    {
+        label:"Account Holder Name",
+        name:"accountHolderName",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Set Initial Balance",
+        name:"setInitialBalance",
+        type:"text",
+        placeholder:"balance"
+    },
+    {
+        label:"Assign Account Number",
+        name:"accountNumber",
+        type:"number",
+        placeholder:"account number"
+    },
+    {
+        label:"Branch",
+        name:"branch",
+        type:"text",
+        placeholder:"branch"
+    },
+]
+export const createNotForProfitForm=[
+    {
+        label:"Account Holder Name",
+        name:"accountHolderName",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Set Initial Balance",
+        name:"setInitialBalance",
+        type:"text",
+        placeholder:"balance"
+    },
+    {
+        label:"Assign Account Number",
+        name:"accountNumber",
+        type:"number",
+        placeholder:"account number"
+    },
+    {
+        label:"Branch",
+        name:"branch",
+        type:"text",
+        placeholder:"branch"
+    },
+    {
+        label:"Organization Name",
+        name:"organizationName",
+        type:"text",
+        placeholder:"organization name"
+    },
+]
+export const createNonProfitForm=[
+    {
+        label:"Account Holder Name",
+        name:"accountHolderName",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Set Initial Balance",
+        name:"setInitialBalance",
+        type:"text",
+        placeholder:"balance"
+    },
+    {
+        label:"Assign Account Number",
+        name:"accountNumber",
+        type:"number",
+        placeholder:"account number"
+    },
+    {
+        label:"Branch",
+        name:"branch",
+        type:"text",
+        placeholder:"branch"
+    },
+    {
+        label:"Organization Name",
+        name:"organizationName",
+        type:"text",
+        placeholder:"organization name"
+    },
+]
+export const createCustomForm=[
+    {
+        label:"Account Holder Name",
+        name:"accountHolderName",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Set Initial Balance",
+        name:"setInitialBalance",
+        type:"text",
+        placeholder:"balance"
+    },
+    {
+        label:"Assign Account Number",
+        name:"accountNumber",
+        type:"number",
+        placeholder:"account number"
+    },
+    {
+        label:"Branch",
+        name:"branch",
+        type:"text",
+        placeholder:"branch"
+    },
+    {
+        label:"Specify Custom Attributes",
+        name:"customAttributes",
+        type:"text",
+        placeholder:"custom attributes"
+    },
+]
+export const createGroupManagementForm=[
+    {
+        label:"Group I'D",
+        name:"groupId",
+        type:"text",
+        placeholder:"group id"
+    },
+    {
+        label:"Group Name",
+        name:"groupName",
+        type:"text",
+        placeholder:"group name"
+    },
+    {
+        label:"Group Type",
+        name:"groupType",
+        type:"text",
+        placeholder:"group type"
+    },
+    {
+        label:"Group Description",
+        name:"groupDescription",
+        type:"textarea",
+        placeholder:"description"
+    },
+]
+export const createRoleForm=[
+    {
+        label:"Role I'D",
+        name:"roleId",
+        type:"text",
+        placeholder:"group id"
+    },
+    {
+        label:"Role Name",
+        name:"roleName",
+        type:"text",
+        placeholder:"role name"
+    },
+    {
+        label:"User Name / Group Name",
+        name:"username",
+        type:"text",
+        placeholder:"username"
+    },
+    {
+        label:"User I'D / Group I'D",
+        name:"userId",
+        type:"text",
+        placeholder:"user id"
+    },
+    {
+        label:"Role Permission",
+        name:"rolePermission",
+        type:"text",
+        placeholder:"role permission"
+    },
+]

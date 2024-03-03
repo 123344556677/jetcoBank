@@ -22,11 +22,11 @@
 }
 
 .top-bar .d-flex {
-  flex-wrap: wrap; /* Allow flex items to wrap onto multiple lines */
+  flex-wrap: wrap; 
 }
 
 .top-bar .pages-heading-one {
-  white-space: nowrap; /* Prevent headings from wrapping */
+  white-space: nowrap; 
 }
 
 
@@ -92,7 +92,6 @@
 .container {
     display: flex;
     justify-content: center;
-    /* max-width: auto!important; */
 }
 
 

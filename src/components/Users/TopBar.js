@@ -2,7 +2,13 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "reactstrap";
 
-const TopBar = ({ headings, buttonValue, checkActiveLink, defaultValue }) => {
+const TopBar = ({
+  headings,
+  buttonValue,
+  checkActiveLink,
+  defaultValue,
+  parentComponent,
+}) => {
   const [activeLink, setActiveLink] = useState(defaultValue);
   const navigate = useNavigate();
   const handleValue = (val) => {
@@ -16,6 +22,22 @@ const TopBar = ({ headings, buttonValue, checkActiveLink, defaultValue }) => {
   useEffect(() => {
     setActiveLink(defaultValue);
   }, [defaultValue]);
+
+  const addButtonLabel = () => {
+    if (activeLink === "Contractors") {
+      return "Add Contractor";
+    } else if (activeLink === "Orders Management") {
+      return "Add Order";
+    } else if (
+      activeLink !== "Standard Branch" &&
+      activeLink !== "Custom Branch"
+    ) {
+      return `Add ${buttonValue}`;
+    }
+  };
+
+  console.log(activeLink,"active link------>")
+
   return (
     <>
       <div className="top-bar">
@@ -35,39 +57,32 @@ const TopBar = ({ headings, buttonValue, checkActiveLink, defaultValue }) => {
               </h4>
             ))}
           </div>
-          <div className="col-auto">
-            {activeLink === "Contractors" ? (
-              <Button
-                size="md"
-                className="add-button pl-3 pr-3 mr-3 mb-1"
-                onClick={() =>
-                  navigate(`/admin/userManagement/add${buttonValue}`)
-                }
-              >
-                Add Contractor
-              </Button>
-            ) : activeLink === "Orders Management" ? (
-              <Button
-                size="md"
-                className="add-button pl-3 pr-3 mr-3 mb-1"
-                onClick={() =>
-                  navigate(`/admin/userManagement/add${buttonValue}`)
-                }
-              >
-                Add Order
-              </Button>
-            ) : (
-              <Button
-                size="md"
-                className="add-button pl-3 pr-3 mr-3 mb-1"
-                onClick={() =>
-                  navigate(`/admin/userManagement/add${buttonValue}`)
-                }
-              >
-                Add {buttonValue}
-              </Button>
+          {activeLink !== "Standard Branch" &&
+            activeLink !== "Custom Branch" && (
+              <div className="col-auto">
+                {parentComponent === "role Management" ? (
+                  <Button
+                    size="md"
+                    className="add-button pl-3 pr-3 mr-3 mb-1"
+                    onClick={() =>
+                      navigate(`/admin/accountsAndBranch/add${buttonValue}`)
+                    }
+                  >
+                    {addButtonLabel()}
+                  </Button>
+                ) : (
+                  <Button
+                    size="md"
+                    className="add-button pl-3 pr-3 mr-3 mb-1"
+                    onClick={() =>
+                      navigate(`/admin/userManagement/add${buttonValue}`)
+                    }
+                  >
+                    {addButtonLabel()}
+                  </Button>
+                )}
+              </div>
             )}
-          </div>
         </div>
       </div>
     </>

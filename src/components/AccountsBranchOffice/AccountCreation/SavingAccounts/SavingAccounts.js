@@ -17,7 +17,7 @@ const SavingAccounts = () => {
         <Button
           size="md"
           className="add-button pl-3 pr-3 mr-3"
-          onClick={() => navigate("/admin/userManagement/addAgent")}
+          onClick={() => navigate("/admin/accountsAndBranch/addSavingAccount")}
         >
           Create Saving Accounts
         </Button>
@@ -25,7 +25,8 @@ const SavingAccounts = () => {
       <DynamicTable
         headings={accountHeadings}
         tableData={accountsData}
-        component="Saving Account"
+        component="SavingAccount"
+        parentComponent="AccountManagement"
       />
     </>
   );

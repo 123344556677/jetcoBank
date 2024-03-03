@@ -17,7 +17,7 @@ const NotForProfitAccounts = () => {
         <Button
           size="md"
           className="add-button pl-3 pr-3 mr-3"
-          onClick={() => navigate("/admin/userManagement/addAgent")}
+          onClick={() => navigate("/admin/accountsAndBranch/addNotForProfitAccount")}
         >
           Create Not-For-Profit Accounts
         </Button>
@@ -25,7 +25,8 @@ const NotForProfitAccounts = () => {
       <DynamicTable
         headings={accountHeadings}
         tableData={accountsData}
-        component="Not For Profit Account"
+        component="NotForProfitAccount"
+        parentComponent="AccountManagement"
       />
     </>
   );
