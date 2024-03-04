@@ -77,6 +77,8 @@ import CustomAccountProfile from "components/AccountsBranchOffice/AccountCreatio
 import ManageBranchAndOfficesListing from "components/AccountsBranchOffice/ManageBranchOffices/ManageBranchAndOfficesListing";
 import RoleManagementListing from "components/AccountsBranchOffice/RoleManagement/RoleManagementListing";
 import CreateGroup from "components/AccountsBranchOffice/RoleManagement/CreateGroup";
+import LogisticsAndSupport from "components/LogisticAndSupport/LogisticsAndSupport";
+import ShippingTrackListing from "components/logisticsAndSupport/ShippingTracks/ShippingTrackListing";
 
 
 var routes = [
@@ -561,6 +563,20 @@ var routes = [
     name: "CreateGroup",
     icon: "ni ni-tv-2 ",
     component:<CreateGroup/>,
+    layout: "/admin",
+  },
+  {
+    path: "/LogisticsAndSupport",
+    name: "Logistics & Support",
+    icon: "ni ni-tv-2 ",
+    component:<LogisticsAndSupport/>,
+    layout: "/admin",
+  },
+  {
+    path: "/logisticsAndSupport/ShippingTrackListing",
+    name: "ShippingTrackListing",
+    icon: "ni ni-tv-2 ",
+    component:<ShippingTrackListing/>,
     layout: "/admin",
   },
   {

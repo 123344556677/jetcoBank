@@ -4,13 +4,12 @@ import "./DynamicTable.css";
 import { useNavigate } from "react-router-dom";
 import { routes } from "mock-data/routesData";
 
-
-const DynamicTable = ({ headings, tableData, component,parentComponent }) => {
+const DynamicTable = ({ headings, tableData, component, parentComponent }) => {
   const navigate = useNavigate();
   const handleNavigation = () => {
     const url = routes[parentComponent]?.[component];
     if (url) {
-       console.log("prent component")
+      console.log("prent component");
       navigate(url);
     }
   };
@@ -37,10 +36,11 @@ const DynamicTable = ({ headings, tableData, component,parentComponent }) => {
                   <td
                     key={colIndex}
                     className={
-                      (cell.value === "Active" && "active-color") ||
-                      (cell.value === "Inactive" && "inactive-color") ||
-                      "table-data"
-                    }
+                      (cell.value === "Active" || cell.value === "In Transit" ? "active-color" :
+                      cell.value === "Inactive"|| cell.value === "Delivered" ? "inactive-color" : "table-data")
+                  }
+                  
+                  
                     onClick={() => handleNavigation()}
                   >
                     {cell.value}

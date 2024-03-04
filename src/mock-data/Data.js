@@ -1884,7 +1884,6 @@ export const inboxChats = [
     message:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
   },
-  
 ];
 export const accountTopBar = [
   {
@@ -1893,75 +1892,75 @@ export const accountTopBar = [
   },
   {
     title: "Saving Accounts",
-    component: <SavingAccounts/>,
+    component: <SavingAccounts />,
   },
   {
     title: "Trust Accounts",
-     component: <TrustAccounts/>,
+    component: <TrustAccounts />,
   },
   {
     title: "Estate Accounts",
-     component: <EstateAccounts/>,
+    component: <EstateAccounts />,
   },
   {
     title: "Pass-Through Accounts",
-     component: <PassThroughAccounts/>,
+    component: <PassThroughAccounts />,
   },
   {
     title: "Corporate Accounts",
-     component: <CorporateAccounts/>,
+    component: <CorporateAccounts />,
   },
   {
     title: "Sole Proprietor Accounts",
-     component:<SoleProprietorAccounts/>,
+    component: <SoleProprietorAccounts />,
   },
   {
     title: "Loans Accounts",
-    component: <LoanAccounts/>,
+    component: <LoanAccounts />,
   },
   {
     title: "Plans Accounts",
-    component: <PlansAccounts/>,
+    component: <PlansAccounts />,
   },
   {
     title: "Auto Loans Accounts",
-    component: <AutoLoansAccounts/>
+    component: <AutoLoansAccounts />,
   },
   {
     title: "Mortage Accounts",
-    component: <MortageAccounts/>
+    component: <MortageAccounts />,
   },
   {
     title: "Cash Management Accounts",
-    component: <CashManagementAccounts/>
+    component: <CashManagementAccounts />,
   },
   {
     title: "Treasury Management Accounts",
-    component: <TreasuryManagementAccounts/>
+    component: <TreasuryManagementAccounts />,
   },
   {
     title: "Credit Accounts",
-    component: <CreditAccounts/>
+    component: <CreditAccounts />,
   },
   {
     title: "Credit Card Accounts",
-    component: <CreditCardAccounts/>
+    component: <CreditCardAccounts />,
   },
   {
     title: "Prepaid Accounts",
-    component: <PrepaidAccounts/>
+    component: <PrepaidAccounts />,
   },
   {
     title: "Non-Profit Accounts",
-    component: <NonProfitAccounts/>
+    component: <NonProfitAccounts />,
   },
   {
     title: "Not-For-Profit Accounts",
-    component: <NotForProfitAccounts/>
+    component: <NotForProfitAccounts />,
   },
   {
     title: "Custom Accounts",
-    component: <CustomAccounts/>
+    component: <CustomAccounts />,
   },
 ];
 export const accountHeadings = [
@@ -2332,7 +2331,8 @@ export const GroupManagementData = [
       value: "R0001",
     },
     {
-      value: "Limited access for general users, typically customers or basic account holders.",
+      value:
+        "Limited access for general users, typically customers or basic account holders.",
     },
     {
       value: "Merchant, Agent, Ministry ",
@@ -2401,10 +2401,303 @@ export const GroupManagementData = [
       value: "R0001",
     },
     {
-      value: "Limited access for general users, typically customers or basic account holders.",
+      value:
+        "Limited access for general users, typically customers or basic account holders.",
     },
     {
       value: "Merchant, Agent, Ministry ",
+    },
+  ],
+];
+export const logisticsAndSupportData = [
+  {
+    title: "Total Shipments",
+    price: "54,214",
+  },
+  {
+    title: "Active Shipments",
+    price: "54,214",
+  },
+  {
+    title: "Cancel Shipments",
+    price: "54,214",
+  },
+  {
+    title: "Pending Shipments",
+    price: "54,214",
+  },
+  {
+    title: "Total Courier",
+    price: "54,214",
+  },
+];
+export const shippingTracckHeadingsTable = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Courier Name",
+  },
+  {
+    title: "I'D no.",
+  },
+  {
+    title: "Service Type",
+  },
+  {
+    title: "Order I'D",
+  },
+  {
+    title: "Status",
+  },
+  {
+    title: "Current Location",
+  },
+  {
+    title: "Dispatch Location",
+  },
+  {
+    title: "Delivery Location",
+  },
+  {
+    title: "Branch",
+  },
+  {
+    title: "Dispatch Date",
+  },
+  {
+    title: "Delivery Date",
+  },
+];
+export const shippingTracckHeadingsTableData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Despository Services",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "In Transit",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Despository Services",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "In Transit",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Despository Services",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "In Transit",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+];
+export const shippingTracckHeadingsTableDataDelivered = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Despository Services",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Delivered",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Despository Services",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Delivered",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Despository Services",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Delivered",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "14 Dec 2023",
     },
   ],
 ];

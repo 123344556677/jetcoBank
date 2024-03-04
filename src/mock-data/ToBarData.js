@@ -56,3 +56,13 @@ export const roleManagementHeadings=[
         title:"Assign Group"
     }
 ]
+export const shippingTrackHeadings=[
+    {
+        title:"Active"
+    },
+    {
+        title:'Delivered'
+    }
+   
+
+]
