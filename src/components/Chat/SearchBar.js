@@ -6,7 +6,7 @@ const SearchBar = () => {
     <Form className="navbar-search navbar-search-dark">
       <FormGroup className="mb-0">
         <InputGroup className="input-group-alternative">
-          <Input placeholder="Search" type="text" className="navbar-search" />
+          <Input placeholder="Search" type="text" className="navbar-search" style={{color:"#8898aa"}} />
         </InputGroup>
       </FormGroup>
     </Form>

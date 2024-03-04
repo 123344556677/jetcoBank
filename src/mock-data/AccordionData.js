@@ -55,6 +55,6 @@ export const AccountBranchAccordionItems=[
     },
     {
         title:"Feature Control",
-        link:"userManagement/ministry"
+        link:"accountsAndBranch/featureConrol"
     },
 ]

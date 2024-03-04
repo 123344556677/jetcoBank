@@ -77,6 +77,9 @@ import CustomAccountProfile from "components/AccountsBranchOffice/AccountCreatio
 import ManageBranchAndOfficesListing from "components/AccountsBranchOffice/ManageBranchOffices/ManageBranchAndOfficesListing";
 import RoleManagementListing from "components/AccountsBranchOffice/RoleManagement/RoleManagementListing";
 import CreateGroup from "components/AccountsBranchOffice/RoleManagement/CreateGroup";
+import FeatureControl from "components/AccountsBranchOffice/FeatureControl/FeatureControl";
+import AddTrustAccount from "components/AccountsBranchOffice/AccountCreation/TrustAccounts/AddTrustAccount";
+import TrustAccountProfile from "components/AccountsBranchOffice/AccountCreation/TrustAccounts/TrustAccountProfile";
 
 
 var routes = [
@@ -543,6 +546,20 @@ var routes = [
     layout: "/admin",
   },
   {
+    path: "/accountsAndBranch/addTrustAccount",
+    name: "AddTrustAccount",
+    icon: "ni ni-tv-2 ",
+    component:<AddTrustAccount/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/trustAccountProfile",
+    name: "AddTrustAccount",
+    icon: "ni ni-tv-2 ",
+    component:<TrustAccountProfile/>,
+    layout: "/admin",
+  },
+  {
     path: "/accountsAndBranch/manageBranchAndOffices",
     name: "ManageBranchAndOfficesListing",
     icon: "ni ni-tv-2 ",
@@ -561,6 +578,13 @@ var routes = [
     name: "CreateGroup",
     icon: "ni ni-tv-2 ",
     component:<CreateGroup/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/featureConrol",
+    name: "FeatureConrol",
+    icon: "ni ni-tv-2",
+    component:<FeatureControl/>,
     layout: "/admin",
   },
   {

@@ -1605,3 +1605,121 @@ export const customAccountData=[
         type:"number"
     },
 ]
+export const TrustAccountData=[
+   {
+        label:"Name:",
+        placeholder:"name",
+        name:"name",
+        type:"text"
+    },
+    {
+        label:"Email:",
+        placeholder:"email",
+        name:"email",
+        type:"email"
+    },
+    {
+        label:"Contact:",
+        placeholder:"contact",
+        name:"contact",
+        type:"number"
+    },
+    {
+        label:"Status:",
+        placeholder:"status",
+        name:"status",
+        type:"text"
+    },
+    {
+        label:"Joining Date:",
+        placeholder:"joining date",
+        name:"joiningDate",
+        type:"date"
+    },
+]
+export const TrustSettlorData=[
+    {
+        label:"Name",
+        name:"name",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Date of Birth",
+        name:"dob",
+        type:"text",
+        placeholder:"date of birth"
+    },
+    {
+        label:"Address",
+        name:"address",
+        type:"text",
+        placeholder:"address"
+    },
+    {
+        label:"Occupation",
+        name:"occupation",
+        type:"text",
+        placeholder:"occupation"
+    },
+]
+
+export const TrustTrusteeData=[
+    {
+        label:"Name",
+        name:"name",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Contact",
+        name:"contact",
+        type:"number",
+        placeholder:"contact"
+    },
+    {
+        label:"Address",
+        name:"address",
+        type:"text",
+        placeholder:"address"
+    },
+]
+export const TrustPurposeData=[
+    {
+        label:"Purpose:",
+        name:"purpose",
+        type:"textarea",
+        placeholder:"purpose",
+        defaultValue:"To provide educational support and financial assistance for the college tuition of John's grandchildren."
+    },
+    {
+        label:"Objectives",
+        name:"objectives",
+        type:"textarea",
+        defaultValue:"Ensure funds are used exclusively for tuition and related educational expenses.Support academic pursuits and achievements",
+        placeholder:"objectives"
+    },
+]
+export const TrustDurationData=[
+    {
+        label:"Duration:",
+        name:"duration",
+        type:"textarea",
+        placeholder:"duration",
+        defaultValue:"20 years from the date of establishment or until the youngest beneficiary completes their education, whichever comes later."
+    },
+]
+export const TrustBeneficiary1Data=[
+    {
+        label:"Name",
+        name:"name",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Relationship",
+        name:"relationship",
+        type:"text",
+        placeholder:"relationship"
+    },
+]

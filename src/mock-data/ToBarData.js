@@ -50,9 +50,20 @@ export const roleManagementHeadings=[
         title:"Group Management"
     },
     {
-        title:"Create Role "
+        title:"Create Role"
     },
     {
         title:"Assign Group"
+    }
+]
+export const featureControlHeadings=[
+    {
+        title:"User Features"
+    },
+    {
+        title:"Agent Features"
+    },
+    {
+        title:"Ministry Features"
     }
 ]

@@ -1073,3 +1073,189 @@ export const createRoleForm=[
         placeholder:"role permission"
     },
 ]
+export const featureForAgents=[
+    {
+        label:"Process Transactions",
+        name:"processTransaction",
+        value:"processTransaction",
+        id:"1",
+    },
+    {
+        label:"View Customer Data",
+        name:"viewCustomerData",
+        value:"viewCustomerData",
+        id:"2",
+    },
+    {
+        label:"Generate Reports",
+        name:"generateReports",
+        value:"generateReports",
+        id:"3",
+    },
+]
+export const featureForUsers=[
+    {
+        label:"Update Profile",
+        name:"updateProfile",
+        value:"updateProfile",
+        id:"1",
+    },
+    {
+        label:"Access User Dashboard",
+        name:"viewCustomerData",
+        value:"viewCustomerData",
+        id:"2",
+    },
+    {
+        label:"Change Password",
+        name:"changePassword",
+        value:"changePassword",
+        id:"3",
+    },
+]
+export const featureForMinistry=[
+    {
+        label:"Access Government Database",
+        name:"governmentDatabase",
+        value:"governmentDatabase",
+        id:"1",
+    },
+    {
+        label:"Monitor Financial Transactions",
+        name:"financialTransactions",
+        value:"financialTransactions",
+        id:"2",
+    },
+    {
+        label:"Regulatory Reporting",
+        name:"regulatoryReporting",
+        value:"regulatoryReporting",
+        id:"3",
+    },
+]
+export const createUserFeatureForm = [
+  {
+    name: "featureSelect",
+    label:"Select Feature Group",
+    type: "select",
+    value: "User", // Default value
+    options: [
+      { title: "User", value: "User" },
+      { title: "Agent", value: "Agent" },
+      { title: "Ministry", value: "Ministry" },
+    ]
+  }
+];
+
+export const createTrustForm=[
+    {
+        label:"Account Holder Name (Settlor or Entry)",
+        name:"accountHolderName",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Set Initial Balance/Assets",
+        name:"setInitialBalance",
+        type:"text",
+        placeholder:"balance"
+    },
+    {
+        label:"Assign Account Number",
+        name:"accountNumber",
+        type:"number",
+        placeholder:"account number"
+    },
+    {
+        label:"Branch",
+        name:"branch",
+        type:"text",
+        placeholder:"branch"
+    },
+]
+export const createTrustSettlorForm=[
+    {
+        label:"Name",
+        name:"name",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Date of Birth",
+        name:"dob",
+        type:"text",
+        placeholder:"date of birth"
+    },
+    {
+        label:"Address",
+        name:"address",
+        type:"text",
+        placeholder:"address"
+    },
+    {
+        label:"Occupation",
+        name:"occupation",
+        type:"text",
+        placeholder:"occupation"
+    },
+]
+
+export const createTrustTrusteeForm=[
+    {
+        label:"Name",
+        name:"name",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Contact",
+        name:"contact",
+        type:"number",
+        placeholder:"contact"
+    },
+    {
+        label:"Address",
+        name:"address",
+        type:"text",
+        placeholder:"address"
+    },
+]
+export const createTrustPurposeForm=[
+    {
+        label:"Purpose:",
+        name:"purpose",
+        type:"textarea",
+        placeholder:"purpose",
+        defaultValue:"To provide educational support and financial assistance for the college tuition of John's grandchildren."
+    },
+    {
+        label:"Objectives",
+        name:"objectives",
+        type:"textarea",
+        defaultValue:"Ensure funds are used exclusively for tuition and related educational expenses.Support academic pursuits and achievements",
+        placeholder:"objectives"
+    },
+]
+export const createTrustDurationForm=[
+    {
+        label:"Duration:",
+        name:"duration",
+        type:"textarea",
+        placeholder:"duration",
+        defaultValue:"20 years from the date of establishment or until the youngest beneficiary completes their education, whichever comes later."
+    },
+]
+export const createTrustBeneficiary1Form=[
+    {
+        label:"Name",
+        name:"name",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Relationship",
+        name:"relationship",
+        type:"text",
+        placeholder:"relationship"
+    },
+]
