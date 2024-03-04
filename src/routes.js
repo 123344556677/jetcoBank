@@ -77,9 +77,14 @@ import CustomAccountProfile from "components/AccountsBranchOffice/AccountCreatio
 import ManageBranchAndOfficesListing from "components/AccountsBranchOffice/ManageBranchOffices/ManageBranchAndOfficesListing";
 import RoleManagementListing from "components/AccountsBranchOffice/RoleManagement/RoleManagementListing";
 import CreateGroup from "components/AccountsBranchOffice/RoleManagement/CreateGroup";
+<<<<<<< HEAD
 import FeatureControl from "components/AccountsBranchOffice/FeatureControl/FeatureControl";
 import AddTrustAccount from "components/AccountsBranchOffice/AccountCreation/TrustAccounts/AddTrustAccount";
 import TrustAccountProfile from "components/AccountsBranchOffice/AccountCreation/TrustAccounts/TrustAccountProfile";
+=======
+import LogisticsAndSupport from "components/LogisticAndSupport/LogisticsAndSupport";
+import ShippingTrackListing from "components/logisticsAndSupport/ShippingTracks/ShippingTrackListing";
+>>>>>>> 2a97c55090f53bc9b74d86a0acd3ef24268fd058
 
 
 var routes = [
@@ -585,6 +590,20 @@ var routes = [
     name: "FeatureConrol",
     icon: "ni ni-tv-2",
     component:<FeatureControl/>,
+    layout: "/admin",
+  },
+  {
+    path: "/LogisticsAndSupport",
+    name: "Logistics & Support",
+    icon: "ni ni-tv-2 ",
+    component:<LogisticsAndSupport/>,
+    layout: "/admin",
+  },
+  {
+    path: "/logisticsAndSupport/ShippingTrackListing",
+    name: "ShippingTrackListing",
+    icon: "ni ni-tv-2 ",
+    component:<ShippingTrackListing/>,
     layout: "/admin",
   },
   {
