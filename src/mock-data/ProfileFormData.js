@@ -608,7 +608,7 @@ export const  accountDetailData=[
         label:"Account Number:",
         placeholder:"account number",
         name:"accountNumber",
-        type:"number"
+        type:"text"
     },
 ]
 export const courierOrderData=[
@@ -1605,7 +1605,7 @@ export const customAccountData=[
         type:"number"
     },
 ]
-export const TrustAccountData=[
+export const TrustAccountPersonalData=[
    {
         label:"Name:",
         placeholder:"name",
@@ -1721,5 +1721,103 @@ export const TrustBeneficiary1Data=[
         name:"relationship",
         type:"text",
         placeholder:"relationship"
+    },
+]
+export const trustAccountData=[
+    {
+        label:"Branch:",
+        placeholder:"branch",
+        name:"branch",
+        type:"text"
+    },
+    {
+        label:"Account Type:",
+        placeholder:"account type",
+        name:"ccountType",
+        type:"text"
+    },
+    {
+        label:"Account Number:",
+        placeholder:"account number",
+        name:"accountNumber",
+        type:"number"
+    },
+]
+export const estateAccountData=[
+    {
+        label:"Branch:",
+        placeholder:"branch",
+        name:"branch",
+        type:"text"
+    },
+    {
+        label:"Account Type:",
+        placeholder:"account type",
+        name:"ccountType",
+        type:"text"
+    },
+    {
+        label:"Account Number:",
+        placeholder:"account number",
+        name:"accountNumber",
+        type:"number"
+    },
+]
+export const passThroughPersonalData=[
+    {
+        label:"Name:",
+        placeholder:" name",
+        name:"Name",
+        type:"text"
+    },
+    {
+        label:"Contact:",
+        placeholder:"contact",
+        name:"contact",
+        type:"number"
+    },
+    {
+        label:"Email:",
+        placeholder:"email",
+        name:"email",
+        type:"email"
+    },
+    {
+        label:"Status:",
+        placeholder:"status",
+        name:"status",
+        type:"text"
+    },
+    {
+        label:"Joining Date:",
+        placeholder:"joining date",
+        name:"joiningDate",
+        type:"date"
+    },
+    {
+        label:"Contractor Service:",
+        placeholder:"contractor service",
+        name:"contractorService",
+        type:"text"
+    },
+]
+export const  passThroughAccountData=[
+    {
+        label:"Branch:",
+        placeholder:"branch",
+        name:"branch",
+        type:"text"
+    },
+    {
+        label:"Sender's Account Number:",
+        placeholder:"account number",
+        name:"senderAccountNumber",
+        type:"text"
+    },
+    {
+        label:"Recipitents's Account Number:",
+        placeholder:"account number",
+        name:"recipitentAccountNumber",
+        type:"text"
     },
 ]

@@ -33,7 +33,8 @@ const TopBar = ({
     if (
       activeLink !== "Standard Branch" &&
       activeLink !== "Custom Branch" &&
-      activeLink !== "Create Role"
+      activeLink !== "Create Role" &&
+      activeLink !== "Assign Group"
     ) {
       return `Add ${buttonValue}`;
     }
@@ -59,7 +60,8 @@ const TopBar = ({
           </div>
           {activeLink !== "Standard Branch" &&
             activeLink !== "Custom Branch" &&
-            activeLink !== "Create Role" && (
+            activeLink !== "Create Role" &&
+            activeLink !== "Assign Group" && (
               <div className="col-auto">
                 <Button
                   size="md"

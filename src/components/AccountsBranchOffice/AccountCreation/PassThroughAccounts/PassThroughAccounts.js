@@ -17,7 +17,9 @@ const PassThroughAccounts = () => {
         <Button
           size="md"
           className="add-button pl-3 pr-3 mr-3"
-          onClick={() => navigate("/admin/userManagement/addAgent")}
+          onClick={() =>
+            navigate("/admin/accountsAndBranch/addPassThroughAccount")
+          }
         >
           Create Pass-Through Accounts
         </Button>
@@ -25,7 +27,8 @@ const PassThroughAccounts = () => {
       <DynamicTable
         headings={accountHeadings}
         tableData={accountsData}
-        component="Pass Through Account"
+        component="PassThroughAccount"
+        parentComponent="AccountManagement"
       />
     </>
   );

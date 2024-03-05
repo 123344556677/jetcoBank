@@ -6,6 +6,7 @@ import { roleManagementHeadings } from "mock-data/ToBarData";
 import React, { useState } from "react";
 import DynamicForm from "components/DynamicForm/DynamicForm";
 import { createRoleForm } from "mock-data/FormData";
+import { createAssignGroupForm } from "mock-data/FormData";
 
 const RoleManagementListing = () => {
   const [activeRole, setActiveRole] = useState();
@@ -36,6 +37,13 @@ const RoleManagementListing = () => {
               formData={createRoleForm}
               component="Create Role"
               buttonValue="Create Role"
+            />
+          )}
+          {activeRole === "Assign Group" && (
+            <DynamicForm
+              formData={createAssignGroupForm}
+              component="Assign Group"
+              buttonValue="Assign Group"
             />
           )}
         </div>

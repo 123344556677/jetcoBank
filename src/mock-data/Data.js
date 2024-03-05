@@ -2702,6 +2702,149 @@ export const shippingTracckHeadingsTableDataDelivered = [
   ],
 ];
 
+export const passThroughHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Sender's Name",
+  },
+  {
+    title: "Sender's Contact",
+  },
+  {
+    title: "Sender's Account",
+  },
+  {
+    title: "Recipitent's Name",
+  },
+  {
+    title: "Recipitent's Contact",
+  },
+  {
+    title: "Recipitent's Account",
+  },
+  {
+    title: "Branch",
+  },
+  {
+    title: "Transaction Amount",
+  },
+  {
+    title: "Transaction Date",
+  },
+  {
+    title: "Status",
+  },
+];
+export const passThroughData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "Credits Union",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Credits Union",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "Cleared",
+    },
+  ],
+   [
+    {
+      value: "2",
+    },
+    {
+      value: "Investment Bank",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Credits Union",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "Cleared",
+    },
+  ],
+   [
+    {
+      value: "3",
+    },
+    {
+      value: "Pension Funds",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Credits Union",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "Cleared",
+    },
+  ],
+];
+
 export const inboxColors = ["#F1F6FB", "#FFFFFF"];
 export const profileColors = [
   {
@@ -2733,3 +2876,4 @@ export const profileColors = [
     childColor: "#DEAD76",
   },
 ];
+

@@ -29,5 +29,7 @@ export const routes = {
     NotForProfitAccount:"/admin/accountsAndBranch/notForProfitAccountProfile",
     CustomAccount:"/admin/accountsAndBranch/customAccountProfile",
     TrustAccount:"/admin/accountsAndBranch/trustAccountProfile",
+    EstateAccount:"/admin/accountsAndBranch/estateAccountProfile",
+    PassThroughAccount:"/admin/accountsAndBranch/passThroughAccountProfile",
   }
 };

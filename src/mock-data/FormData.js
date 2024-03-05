@@ -1259,3 +1259,97 @@ export const createTrustBeneficiary1Form=[
         placeholder:"relationship"
     },
 ]
+export const createPassThroughForm=[
+    {
+        label:"Account Holder Name (Settlor or Entry)",
+        name:"accountHolderName",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Set Initial Balance/Assets",
+        name:"setInitialBalance",
+        type:"text",
+        placeholder:"balance"
+    },
+    {
+        label:"Assign Account Number",
+        name:"accountNumber",
+        type:"number",
+        placeholder:"account number"
+    },
+    {
+        label:"Branch",
+        name:"branch",
+        type:"text",
+        placeholder:"branch"
+    },
+]
+export const createPassThroughSenderContactForm=[
+    {
+        label:"Email",
+        name:"email",
+        type:"email",
+        placeholder:"email"
+    },
+    {
+        label:"Phone",
+        name:"phone",
+        type:"number",
+        placeholder:"phone number"
+    },
+]
+export const createPassThroughSenderAccountForm=[
+    {
+        label:"Account Number",
+        name:"accountNumber",
+        type:"text",
+        placeholder:"account number"
+    },
+    {
+        label:"Bank",
+        name:"bank",
+        type:"text",
+        placeholder:"bank"
+    },
+]
+export const createAssignGroupForm=[
+    {
+        label:"Select Type",
+        name:"selectType",
+        type:"select",
+        options:[{title:"User", value:"User"},{title:"Group",value:"Group"}],
+    },
+    {
+        label:"Add I'D Number",
+        name:"idNumber",
+        type:"text",
+        placeholder:"id number"
+    },
+    {
+        label:"Add User Name",
+        name:"username",
+        type:"text",
+        placeholder:"username"
+    },
+    {
+        label:"Group Name",
+        name:"groupName",
+        type:"text",
+        placeholder:"group name"
+    },
+    {
+        label:"Group I'D",
+        name:"groupId",
+        type:"text",
+        placeholder:"group id"
+    },
+    {
+        label:"Role Permission",
+        name:"rolePermission",
+        type:"text",
+        placeholder:"role permission"
+    },
+]
+
+

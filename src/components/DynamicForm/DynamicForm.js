@@ -147,6 +147,11 @@ const DynamicForm = ({
                   }`}
                   required
                 />
+                {component === "Assign Group" && data?.name === "idNumber" && (
+                  <Button type="submit" className="login-button mt-3">
+                    Add All
+                  </Button>
+                )}
               </>
             )}
           </FormGroup>

@@ -27,7 +27,7 @@ const ShippingTrackListing = () => {
               headings={shippingTracckHeadingsTable}
               tableData={shippingTracckHeadingsTableData}
               component="ShippingListingTrack"
-              parentComponent="logisticsAndSupport"
+              parentComponent="LogisticsAndSupport"
             />
           )}
           {ShippingTrack === "Delivered" && (
@@ -35,7 +35,7 @@ const ShippingTrackListing = () => {
               headings={shippingTracckHeadingsTable}
               tableData={shippingTracckHeadingsTableDataDelivered}
               component="ShippingListingTrack"
-              parentComponent="logisticsAndSupport"
+              parentComponent="LogisticsAndSupport"
             />
           )}
         </div>

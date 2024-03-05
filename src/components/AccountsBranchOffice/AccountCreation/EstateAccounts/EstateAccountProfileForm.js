@@ -6,7 +6,7 @@ import { TrustPurposeData } from "mock-data/ProfileFormData";
 import React from "react";
 import { Button, Form, Input, InputGroup, Label } from "reactstrap";
 
-const TrustAccountProfileForm = () => {
+const EstateAccountProfileForm = () => {
   return (
     <div>
       <Form className="m-5">
@@ -32,7 +32,7 @@ const TrustAccountProfileForm = () => {
             />
           </InputGroup>
         ))}
-        <Label className="form-label mt-5">Settlor Information:</Label>
+        <Label className="form-label mt-5">Deceased Information:</Label>
         {TrustSettlorData?.map((data, index) => (
           <InputGroup className="profile-form-input-group mt-3" key={index}>
             <Button
@@ -55,7 +55,9 @@ const TrustAccountProfileForm = () => {
             />
           </InputGroup>
         ))}
-        <Label className="form-label mt-5">Specify Trustee Details:</Label>
+        <Label className="form-label mt-5">
+          Specify Legal Representative Details:
+        </Label>
         {TrustTrusteeData?.map((data, index) => (
           <InputGroup className="profile-form-input-group mt-3" key={index}>
             <Button
@@ -78,7 +80,9 @@ const TrustAccountProfileForm = () => {
             />
           </InputGroup>
         ))}
-        <Label className="form-label mt-5">Trusts Pupose and Objectives:</Label>
+        <Label className="form-label mt-5">
+          Estate's Pupose and Objectives:
+        </Label>
         {TrustPurposeData?.map((data, index) => (
           <InputGroup className="profile-form-input-group mt-3" key={index}>
             <Button
@@ -182,4 +186,4 @@ const TrustAccountProfileForm = () => {
   );
 };
 
-export default TrustAccountProfileForm;
+export default EstateAccountProfileForm;

@@ -3,10 +3,10 @@ import ProfileForms from "components/ProfileForm/ProfileForms";
 import ProfileBar from "components/Users/ProfileBar";
 import { cardData } from "mock-data/Data";
 import React, { useState } from "react";
-import TrustAccountProfileForm from "./TrustAccountProfileForm";
-import { trustAccountData } from "mock-data/ProfileFormData";
+import EstateAccountProfileForm from "./EstateAccountProfileForm";
+import { estateAccountData } from "mock-data/ProfileFormData";
 
-const TrustAccountProfile = () => {
+const EstateAccountProfile = () => {
   const [activeProfileBarComponent, setProfileBarComponent] = useState();
   const handleProfileBarValue = (data) => {
     setProfileBarComponent(data);
@@ -30,20 +30,20 @@ const TrustAccountProfile = () => {
           <>
             <CustomHeaderCards
               cardValues={cardData}
-              component="Trust Account"
+              component="Estate Account"
             />
             <ProfileForms
-              formData={trustAccountData}
-              component="Trust Account"
+              formData={estateAccountData}
+              component="Estate Account"
             />
           </>
         )}
         {activeProfileBarComponent === "Personal Detail" && (
-          <TrustAccountProfileForm />
+          <EstateAccountProfileForm />
         )}
       </div>
     </div>
   );
 };
 
-export default TrustAccountProfile;
+export default EstateAccountProfile;

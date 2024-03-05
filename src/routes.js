@@ -77,14 +77,15 @@ import CustomAccountProfile from "components/AccountsBranchOffice/AccountCreatio
 import ManageBranchAndOfficesListing from "components/AccountsBranchOffice/ManageBranchOffices/ManageBranchAndOfficesListing";
 import RoleManagementListing from "components/AccountsBranchOffice/RoleManagement/RoleManagementListing";
 import CreateGroup from "components/AccountsBranchOffice/RoleManagement/CreateGroup";
-<<<<<<< HEAD
 import FeatureControl from "components/AccountsBranchOffice/FeatureControl/FeatureControl";
 import AddTrustAccount from "components/AccountsBranchOffice/AccountCreation/TrustAccounts/AddTrustAccount";
 import TrustAccountProfile from "components/AccountsBranchOffice/AccountCreation/TrustAccounts/TrustAccountProfile";
-=======
 import LogisticsAndSupport from "components/LogisticAndSupport/LogisticsAndSupport";
-import ShippingTrackListing from "components/logisticsAndSupport/ShippingTracks/ShippingTrackListing";
->>>>>>> 2a97c55090f53bc9b74d86a0acd3ef24268fd058
+import ShippingTrackListing from "components/LogisticAndSupport/ShippingTracks/ShippingTrackListing";
+import AddEstateAccount from "components/AccountsBranchOffice/AccountCreation/EstateAccounts/AddEstateAccount";
+import EstateAccountProfile from "components/AccountsBranchOffice/AccountCreation/EstateAccounts/EstateAccountProfile";
+import AddPassThroughAccount from "components/AccountsBranchOffice/AccountCreation/PassThroughAccounts/AddPassThroughAccount";
+import PassThroughProfile from "components/AccountsBranchOffice/AccountCreation/PassThroughAccounts/PassThroughProfile";
 
 
 var routes = [
@@ -562,6 +563,34 @@ var routes = [
     name: "AddTrustAccount",
     icon: "ni ni-tv-2 ",
     component:<TrustAccountProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/addEstateAccount",
+    name: "AddEstateAccount",
+    icon: "ni ni-tv-2 ",
+    component:<AddEstateAccount/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/estateAccountProfile",
+    name: "EstateAccountProfile",
+    icon: "ni ni-tv-2 ",
+    component:<EstateAccountProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/addPassThroughAccount",
+    name: "PassThroughAccount",
+    icon: "ni ni-tv-2 ",
+    component:<AddPassThroughAccount/>,
+    layout: "/admin",
+  },
+  {
+    path: "/accountsAndBranch/passThroughAccountProfile",
+    name: "PassThroughAccountProfile",
+    icon: "ni ni-tv-2 ",
+    component:<PassThroughProfile/>,
     layout: "/admin",
   },
   {

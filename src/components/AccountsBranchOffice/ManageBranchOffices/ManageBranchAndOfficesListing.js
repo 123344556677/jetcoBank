@@ -1,9 +1,9 @@
-import DynamicTable from 'components/DynamicTable/DynamicTable'
-import TopBar from 'components/Users/TopBar';
-import { standardBranchData } from 'mock-data/Data';
-import { standardBranchHeadings } from 'mock-data/Data';
-import { manageBranchesOfficesHeadings } from 'mock-data/ToBarData';
-import React, { useState } from 'react'
+import DynamicTable from "components/DynamicTable/DynamicTable";
+import TopBar from "components/Users/TopBar";
+import { standardBranchData } from "mock-data/Data";
+import { standardBranchHeadings } from "mock-data/Data";
+import { manageBranchesOfficesHeadings } from "mock-data/ToBarData";
+import React, { useState } from "react";
 
 const ManageBranchAndOfficesListing = () => {
   const [activeBranch, setActiveBranch] = useState();
@@ -24,16 +24,20 @@ const ManageBranchAndOfficesListing = () => {
             <DynamicTable
               headings={standardBranchHeadings}
               tableData={standardBranchData}
-              component="manageBranchAndOffices" 
+              component="manageBranchAndOffices"
             />
           )}
           {activeBranch === "Custom Branch" && (
-            <DynamicTable headings={standardBranchHeadings} tableData={standardBranchData} component="manageBranchAndOffices" />
+            <DynamicTable
+              headings={standardBranchHeadings}
+              tableData={standardBranchData}
+              component="manageBranchAndOffices"
+            />
           )}
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ManageBranchAndOfficesListing
+export default ManageBranchAndOfficesListing;

@@ -24,9 +24,10 @@ const DynamicTable = ({ headings, tableData, component, parentComponent }) => {
                   {data?.title}
                 </th>
               ))}
-              {component !== "Transaction Detail" && (
-                <th className="table-headings">Actions</th>
-              )}
+              {component !== "Transaction Detail" &&
+                component !== "Pass Through Account" && (
+                  <th className="table-headings">Actions</th>
+                )}
             </tr>
           </thead>
           <tbody>
@@ -36,40 +37,45 @@ const DynamicTable = ({ headings, tableData, component, parentComponent }) => {
                   <td
                     key={colIndex}
                     className={
-                      (cell.value === "Active" || cell.value === "In Transit" ? "active-color" :
-                      cell.value === "Inactive"|| cell.value === "Delivered" ? "inactive-color" : "table-data")
-                  }
-                  
-                  
+                      cell.value === "Active" ||
+                      cell.value === "In Transit" ||
+                      cell.value === "Cleared"
+                        ? "active-color"
+                        : cell.value === "Inactive" ||
+                          cell.value === "Delivered"
+                        ? "inactive-color"
+                        : "table-data"
+                    }
                     onClick={() => handleNavigation()}
                   >
                     {cell.value}
                   </td>
                 ))}
-                {component !== "Transaction Detail" && (
-                  <td className="action-column">
-                    <Button
-                      size="sm"
-                      className="add-button action-button pl-3 pr-3"
-                      outline
-                    >
-                      Edit
-                    </Button>{" "}
-                    <Button
-                      color="danger"
-                      size="sm"
-                      className="action-button  pl-3 pr-3"
-                    >
-                      Delete
-                    </Button>{" "}
-                    <Button
-                      size="sm"
-                      className="action-button block-button pl-3 pr-3"
-                    >
-                      Block
-                    </Button>
-                  </td>
-                )}
+                {component !== "Transaction Detail" &&
+                  component !== "Pass Through Account" && (
+                    <td className="action-column">
+                      <Button
+                        size="sm"
+                        className="add-button action-button pl-3 pr-3"
+                        outline
+                      >
+                        Edit
+                      </Button>{" "}
+                      <Button
+                        color="danger"
+                        size="sm"
+                        className="action-button  pl-3 pr-3"
+                      >
+                        Delete
+                      </Button>{" "}
+                      <Button
+                        size="sm"
+                        className="action-button block-button pl-3 pr-3"
+                      >
+                        Block
+                      </Button>
+                    </td>
+                  )}
               </tr>
             ))}
           </tbody>

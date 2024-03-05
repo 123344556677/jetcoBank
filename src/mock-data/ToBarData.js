@@ -66,6 +66,7 @@ export const featureControlHeadings=[
     {
         title:"Ministry Features"
     }
+]
 export const shippingTrackHeadings=[
     {
         title:"Active"
