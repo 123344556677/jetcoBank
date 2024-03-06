@@ -31,5 +31,7 @@ export const routes = {
     TrustAccount:"/admin/accountsAndBranch/trustAccountProfile",
     EstateAccount:"/admin/accountsAndBranch/estateAccountProfile",
     PassThroughAccount:"/admin/accountsAndBranch/passThroughAccountProfile",
+    AutoLoanAccount:"/admin/accountsAndBranch/autoLoanAccountProfile",
   }
+
 };

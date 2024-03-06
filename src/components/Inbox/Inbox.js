@@ -1,6 +1,7 @@
 import ChatSide from "components/Chat/ChatSide";
 import React, { useState } from "react";
 import InboxUpperBar from "./InboxUpperBar";
+import MoreDropDown from "components/Chat/MoreDropDown";
 
 const Inbox = ({ inboxChat }) => {
   const [activeChat, setActiveChat] = useState(false);

@@ -13,6 +13,31 @@ const DynamicTable = ({ headings, tableData, component, parentComponent }) => {
       navigate(url);
     }
   };
+
+  const getClassName = (value) => {
+  switch (value) {
+    case "Active":
+    case "In Transit":
+    case "Cleared":
+    case "In Route":
+    case "Open":
+      return "active-color";
+    case "Inactive":
+    case "Closed":
+    case "Delivered":
+    case "High":
+      return "inactive-color";
+    case "In Progress":
+      return "progress-color";
+    case "Medium":
+    case "Available":
+      return "medium-color";
+    case "Low":
+      return "closed-color";
+    default:
+      return "table-data";
+  }
+};
   return (
     <div className="table-container">
       <div className="table-wrapper ml-2 mr-2">
@@ -25,7 +50,8 @@ const DynamicTable = ({ headings, tableData, component, parentComponent }) => {
                 </th>
               ))}
               {component !== "Transaction Detail" &&
-                component !== "Pass Through Account" && (
+                component !== "Pass Through Account" &&
+                 component !== "Mailbox Service"&& (
                   <th className="table-headings">Actions</th>
                 )}
             </tr>
@@ -36,23 +62,22 @@ const DynamicTable = ({ headings, tableData, component, parentComponent }) => {
                 {row?.map((cell, colIndex) => (
                   <td
                     key={colIndex}
-                    className={
-                      cell.value === "Active" ||
-                      cell.value === "In Transit" ||
-                      cell.value === "Cleared"
-                        ? "active-color"
-                        : cell.value === "Inactive" ||
-                          cell.value === "Delivered"
-                        ? "inactive-color"
-                        : "table-data"
-                    }
+                    className={getClassName(cell.value)}
                     onClick={() => handleNavigation()}
                   >
+                    {cell.type === "img" && (
+                      <img
+                        src={cell.img}
+                        className="mr-2 table-profile-img"
+                        alt="profile"
+                      />
+                    )}
                     {cell.value}
                   </td>
                 ))}
                 {component !== "Transaction Detail" &&
-                  component !== "Pass Through Account" && (
+                  component !== "Pass Through Account" &&
+                  component !== "Mailbox Service"&& (
                     <td className="action-column">
                       <Button
                         size="sm"

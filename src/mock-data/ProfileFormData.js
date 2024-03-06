@@ -1821,3 +1821,93 @@ export const  passThroughAccountData=[
         type:"text"
     },
 ]
+export const autoLoanPersonalData=[
+    {
+        label:"Name:",
+        placeholder:" name",
+        name:"Name",
+        type:"text"
+    },
+    {
+        label:"Contact:",
+        placeholder:"contact",
+        name:"contact",
+        type:"number"
+    },
+    {
+        label:"Email:",
+        placeholder:"email",
+        name:"email",
+        type:"email"
+    },
+    {
+        label:"Status:",
+        placeholder:"status",
+        name:"status",
+        type:"text"
+    },
+    {
+        label:"Joining Date:",
+        placeholder:"joining date",
+        name:"joiningDate",
+        type:"date"
+    },
+    {
+        label:"Loan Term:",
+        placeholder:"loan term",
+        name:"loanTerm",
+        type:"text"
+    },
+]
+export const autoLoanPersonalVehicleData = [
+  {
+    label: "Make",
+    name: "make",
+    type: "text",
+    placeholder: "make",
+  },
+  {
+    label: "Model",
+    name: "model",
+    type: "text",
+    placeholder: "model",
+  },
+  {
+    label: "Year",
+    name: "year",
+    type: "number",
+    placeholder: "year",
+  },
+  {
+    label: "VIN",
+    name: "vin",
+    type: "text",
+    placeholder: "vin",
+  },
+];
+export const autoLoanAccountData=[
+    {
+        label:"Branch:",
+        placeholder:"branch",
+        name:"branch",
+        type:"text"
+    },
+    {
+        label:"Account Type:",
+        placeholder:"account type",
+        name:"ccountType",
+        type:"text"
+    },
+    {
+        label:"Account Number:",
+        placeholder:"account number",
+        name:"accountNumber",
+        type:"number"
+    },
+    {
+        label:"payment Status:",
+        placeholder:"status",
+        name:"paymentStatus",
+        type:"text"
+    },
+]

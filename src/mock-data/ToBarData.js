@@ -77,3 +77,46 @@ export const shippingTrackHeadings=[
    
 
 ]
+export const supportTicketsMessagesHeadings=[
+    {
+        title:"Support Tickets"
+    },
+    {
+        title:'Messaging'
+    },
+    {
+        title:'Initiate Support Ticket'
+    }
+   
+
+]
+export const courierMailboxServiceHeadings=[
+    {
+        title:"Courier"
+    },
+    {
+        title:'Mailbox Service'
+    },   
+
+]
+export const courierSubheadings=[
+    {
+        title:"Active"
+    },
+    {
+        title:'Delivered'
+    },   
+
+]
+export const mailboxSubheadings=[
+    {
+        title:"Setup"
+    },
+    {
+        title:'Cancel'
+    },  
+    {
+        title:'Renew Mailbox'
+    }, 
+
+]

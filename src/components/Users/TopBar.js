@@ -34,7 +34,10 @@ const TopBar = ({
       activeLink !== "Standard Branch" &&
       activeLink !== "Custom Branch" &&
       activeLink !== "Create Role" &&
-      activeLink !== "Assign Group"
+      activeLink !== "Assign Group" &&
+      activeLink !== "Messaging" &&
+      activeLink !== "Initiate Support Ticket"&&
+      buttonValue!=="no-button"
     ) {
       return `Add ${buttonValue}`;
     }
@@ -61,7 +64,10 @@ const TopBar = ({
           {activeLink !== "Standard Branch" &&
             activeLink !== "Custom Branch" &&
             activeLink !== "Create Role" &&
-            activeLink !== "Assign Group" && (
+            activeLink !== "Assign Group" &&
+            activeLink !== "Messaging" &&
+            activeLink !== "Initiate Support Ticket" && 
+            buttonValue !== "no-button" && (
               <div className="col-auto">
                 <Button
                   size="md"

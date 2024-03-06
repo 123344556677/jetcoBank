@@ -58,6 +58,23 @@
     background-color:#91DF46;
     color: white;
 }
+.table-profile-img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.closed-color{
+    color: #CECECE;
+    font-size: 12px!important;
+}
+.progress-color{
+    color: #6546DF;
+    font-size: 12px!important;
+}
+.medium-color{
+    color: #F3A60C;
+    font-size: 12px!important;
+}
 
 
 

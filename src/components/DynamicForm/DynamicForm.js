@@ -54,6 +54,15 @@ const DynamicForm = ({
             {defaultButton()}
           </>
         );
+        case "Mailbox Setup":
+        return (
+          <>
+            <Button type="submit" className="login-button">
+              Upload
+            </Button>
+            {defaultButton()}
+          </>
+        );
       case "Contact":
         return (
           <div className="inline text-center mt-5">

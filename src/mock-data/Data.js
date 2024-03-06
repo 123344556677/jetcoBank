@@ -2773,7 +2773,7 @@ export const passThroughData = [
       value: "Cleared",
     },
   ],
-   [
+  [
     {
       value: "2",
     },
@@ -2808,7 +2808,7 @@ export const passThroughData = [
       value: "Cleared",
     },
   ],
-   [
+  [
     {
       value: "3",
     },
@@ -2845,6 +2845,584 @@ export const passThroughData = [
   ],
 ];
 
+export const shippingTicketsMessagestData = [
+  {
+    title: "Total Tickets",
+    price: "54,214",
+  },
+  {
+    title: "Open Tickets",
+    price: "54,214",
+  },
+  // {
+  //   title: "In Progress Tickets",
+  //   price: "54,214",
+  // },
+  {
+    title: "Closed Tickets",
+    price: "54,214",
+  },
+  {
+    title: "Delete Tickets",
+    price: "54,214",
+  },
+];
+
+export const supportTicketsHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "I'D no.",
+  },
+  {
+    title: "Requested by",
+  },
+  {
+    title: "Subject",
+  },
+  {
+    title: "Assign",
+  },
+  {
+    title: "Priority",
+  },
+  {
+    title: "Status",
+  },
+  {
+    title: "Create Date",
+  },
+];
+export const supportTicketsData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Shamsi Ali",
+      type: "img",
+      img: require("../assets/img/icons/common/profile1.png"),
+    },
+    {
+      value: "Software Bug Error Message During Checkout",
+    },
+    {
+      value: "Shamsi Ali",
+      type: "img",
+      img: require("../assets/img/icons/common/profile1.png"),
+    },
+    {
+      value: "Medium",
+    },
+    {
+      value: "Open",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Shamsi Ali",
+      type: "img",
+      img: require("../assets/img/icons/common/profile2.png"),
+    },
+    {
+      value: "Billing Inquiry Unrecognized Transaction on Statement",
+    },
+    {
+      value: "Shamsi Ali",
+      type: "img",
+      img: require("../assets/img/icons/common/profile2.png"),
+    },
+    {
+      value: "Low",
+    },
+    {
+      value: "Closed",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Shamsi Ali",
+      type: "img",
+      img: require("../assets/img/icons/common/profile3.png"),
+    },
+    {
+      value: "Product Question Need Assistance with Features",
+    },
+    {
+      value: "Shamsi Ali",
+      type: "img",
+      img: require("../assets/img/icons/common/profile3.png"),
+    },
+    {
+      value: "High",
+    },
+    {
+      value: "In Progress",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+];
+
+export const mailboxServiceData = [
+  {
+    title: "Total Mailboxes",
+    price: "100",
+  },
+  {
+    title: "Open Mailboxes",
+    price: "70",
+  },
+  {
+    title: "Closed Mailboxes",
+    price: "20",
+  },
+  {
+    title: "Available Mailboxes",
+    price: "10",
+  },
+];
+export const shippingCourierHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Courier Name",
+  },
+  {
+    title: "I'D no.",
+  },
+  {
+    title: "Email",
+  },
+  {
+    title: "Contact",
+  },
+  {
+    title: "Service Type",
+  },
+  {
+    title: "Order I'D",
+  },
+  {
+    title: "Current Status",
+  },
+  {
+    title: "Delivery Location",
+  },
+  {
+    title: "ETA",
+  },
+];
+export const shippingCourierData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Shamsiali@gmail.com",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Depository Services",
+    },
+    {
+      value: "554229",
+    },
+    {
+      value: "In Route",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Wed, May 20, 23, by 3:00 PM",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Shamsiali@gmail.com",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Package Delivery",
+    },
+    {
+      value: "554229",
+    },
+    {
+      value: "In Route",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Wed, May 20, 23, by 3:00 PM",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Shamsiali@gmail.com",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "ATM Services",
+    },
+    {
+      value: "554229",
+    },
+    {
+      value: "In Route",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Wed, May 20, 23, by 3:00 PM",
+    },
+  ],
+];
+
+export const CourierDeliveredHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Courier Name",
+  },
+  {
+    title: "I'D no.",
+  },
+  {
+    title: "Email",
+  },
+  {
+    title: "Contact",
+  },
+  {
+    title: "Service Type",
+  },
+  {
+    title: "Order I'D",
+  },
+  {
+    title: "Status",
+  },
+  {
+    title: "Delivery Location",
+  },
+  {
+    title: "Dispatch Location",
+  },
+  {
+    title: "Branch",
+  },
+  {
+    title: "Dispatch Date",
+  },
+  {
+    title: "Delivery Date",
+  },
+];
+export const courierDeliveredData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "xyz@gmail.com",
+    },
+    {
+      value: "957-65788-999",
+    },
+    {
+      value: "Despository Services",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Delivered",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "xyz@gmail.com",
+    },
+    {
+      value: "957-65788-999",
+    },
+    {
+      value: "Despository Services",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Delivered",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "xyz@gmail.com",
+    },
+    {
+      value: "957-65788-999",
+    },
+    {
+      value: "Despository Services",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Delivered",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+];
+
+export const shippingMailBoxHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Mailbox I'D",
+  },
+  {
+    title: "Username",
+  },
+  {
+    title: "Email",
+  },
+  {
+    title: "Contact Number",
+  },
+  {
+    title: "I'D no.",
+  },
+  {
+    title: "Verified Status",
+  },
+  {
+    title: "Virtual Adress",
+  },
+  {
+    title: "Mailbox Status",
+  },
+];
+export const shippingMailboxData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "MB6597-59",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "Shamsiali@gmail.com",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "554229",
+    },
+    {
+      value: "Verified",
+    },
+    {
+      value: "Sanima Mor Near Gourmet Kasur",
+    },
+    {
+      value: "Open",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "MB6597-59",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "Shamsiali@gmail.com",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "554229",
+    },
+    {
+      value: "Verified",
+    },
+    {
+      value: "Sanima Mor Near Gourmet Kasur",
+    },
+    {
+      value: "Available",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "MB6597-59",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "Shamsiali@gmail.com",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "554229",
+    },
+    {
+      value: "Verified",
+    },
+    {
+      value: "Sanima Mor Near Gourmet Kasur",
+    },
+    {
+      value: "Closed",
+    },
+  ],
+
+];
+
 export const inboxColors = ["#F1F6FB", "#FFFFFF"];
 export const profileColors = [
   {
@@ -2876,4 +3454,3 @@ export const profileColors = [
     childColor: "#DEAD76",
   },
 ];
-

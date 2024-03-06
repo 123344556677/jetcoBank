@@ -86,6 +86,10 @@ import AddEstateAccount from "components/AccountsBranchOffice/AccountCreation/Es
 import EstateAccountProfile from "components/AccountsBranchOffice/AccountCreation/EstateAccounts/EstateAccountProfile";
 import AddPassThroughAccount from "components/AccountsBranchOffice/AccountCreation/PassThroughAccounts/AddPassThroughAccount";
 import PassThroughProfile from "components/AccountsBranchOffice/AccountCreation/PassThroughAccounts/PassThroughProfile";
+import SupportTicketsMessagesListing from "components/LogisticAndSupport/SupportTickets&Messages/SupportTickets&MessagesListing";
+import CourierMailboxService from "components/LogisticAndSupport/CourierMailboxService/CourierMailboxService";
+import AddAutoLoansAccount from "components/AccountsBranchOffice/AccountCreation/AutoLoanAccounts/AddAutoLoansAccount";
+import AutoLoanAccountProfile from "components/AccountsBranchOffice/AccountCreation/AutoLoanAccounts/AutoLoanAccountProfile";
 
 
 var routes = [
@@ -447,6 +451,13 @@ var routes = [
     layout: "/admin",
   },
   {
+    path: "/accountsAndBranch/addAutoLoanAccount",
+    name: "AddAutoLoanAccount",
+    icon: "ni ni-tv-2 ",
+    component:<AddAutoLoansAccount/>,
+    layout: "/admin",
+  },
+  {
     path: "/accountsAndBranch/checkingAccountProfile",
     name: "ChekcingAccountProfile",
     icon: "ni ni-tv-2 ",
@@ -594,6 +605,13 @@ var routes = [
     layout: "/admin",
   },
   {
+    path: "/accountsAndBranch/autoLoanAccountProfile",
+    name: "AutoLoanAccountProfile",
+    icon: "ni ni-tv-2 ",
+    component:<AutoLoanAccountProfile/>,
+    layout: "/admin",
+  },
+  {
     path: "/accountsAndBranch/manageBranchAndOffices",
     name: "ManageBranchAndOfficesListing",
     icon: "ni ni-tv-2 ",
@@ -622,9 +640,9 @@ var routes = [
     layout: "/admin",
   },
   {
-    path: "/LogisticsAndSupport",
+    path: "/logisticsAndSupport",
     name: "Logistics & Support",
-    icon: "ni ni-tv-2 ",
+    icon: "fa fa-table",
     component:<LogisticsAndSupport/>,
     layout: "/admin",
   },
@@ -633,6 +651,20 @@ var routes = [
     name: "ShippingTrackListing",
     icon: "ni ni-tv-2 ",
     component:<ShippingTrackListing/>,
+    layout: "/admin",
+  },
+  {
+    path: "/logisticsAndSupport/supportTicketsMessages",
+    name: "SupportTicketMessages",
+    icon: "ni ni-tv-2 ",
+    component:<SupportTicketsMessagesListing/>,
+    layout: "/admin",
+  },
+  {
+    path: "/logisticsAndSupport/courierMailboxService",
+    name: "CourierMailboxService",
+    icon: "ni ni-tv-2 ",
+    component:<CourierMailboxService/>,
     layout: "/admin",
   },
   {

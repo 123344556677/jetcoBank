@@ -178,7 +178,6 @@ const EstateAccountProfileForm = () => {
             Remove
           </Button>
         </div>
-
         <br />
         <br />
       </Form>

@@ -61,7 +61,7 @@ export const AccountBranchAccordionItems=[
 export const LogisticsAndSupportItems=[
     {
         title:"Support Tickets & Messages",
-        link:"accountsAndBranch/accountListing"
+        link:"logisticsAndSupport/supportTicketsMessages"
     },
     {
         title:"Shipping Tracking",
@@ -69,7 +69,7 @@ export const LogisticsAndSupportItems=[
     },
     {
         title:"Courier & Mailbox Service",
-        link:"accountsAndBranch/accountListing"
+        link:"logisticsAndSupport/courierMailboxService"
     },
     
 ]

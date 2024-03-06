@@ -53,6 +53,17 @@
     justify-content: center;
     align-items: center;
 }
+.mailbox-user-card {
+    width: 280px;
+    height: 140px;
+    border-radius: 0 35px 35px 35px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.06);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .card-container {
     display: flex;

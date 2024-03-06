@@ -17,25 +17,26 @@ const ShippingTrackListing = () => {
         <br />
         <TopBar
           headings={shippingTrackHeadings}
-          buttonValue="Ministry"
+          buttonValue="no-button"
           checkActiveLink={handleActiveShippingTrack}
           defaultValue="Active"
+          parentComponent="LogisticAndSupport"
         />
         <div className="mt-3">
           {ShippingTrack === "Active" && (
             <DynamicTable
               headings={shippingTracckHeadingsTable}
               tableData={shippingTracckHeadingsTableData}
-              component="ShippingListingTrack"
-              parentComponent="LogisticsAndSupport"
+              component="ShippingTrackActive"
+              parentComponent="LogisticAndSupport"
             />
           )}
           {ShippingTrack === "Delivered" && (
             <DynamicTable
               headings={shippingTracckHeadingsTable}
               tableData={shippingTracckHeadingsTableDataDelivered}
-              component="ShippingListingTrack"
-              parentComponent="LogisticsAndSupport"
+              component="ShippingTrackDelivered"
+              parentComponent="LogisticAndSupport"
             />
           )}
         </div>
