@@ -28,5 +28,13 @@ export const routes = {
     NonProfitAccount:"/admin/accountsAndBranch/nonProfitAccountProfile",
     NotForProfitAccount:"/admin/accountsAndBranch/notForProfitAccountProfile",
     CustomAccount:"/admin/accountsAndBranch/customAccountProfile",
+    TrustAccount:"/admin/accountsAndBranch/trustAccountProfile",
+    EstateAccount:"/admin/accountsAndBranch/estateAccountProfile",
+    PassThroughAccount:"/admin/accountsAndBranch/passThroughAccountProfile",
+    AutoLoanAccount:"/admin/accountsAndBranch/autoLoanAccountProfile",
+  },
+  FinServicesAndManagement:{
+    FinancialMessaging:"/admin/finServicingAndMessaging/financialMessagingForm"
   }
+
 };

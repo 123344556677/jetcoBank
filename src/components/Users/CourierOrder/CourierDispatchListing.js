@@ -8,6 +8,7 @@ import { courierData } from "mock-data/Data";
 import { orderHeadings } from "mock-data/Data";
 import { orderData } from "mock-data/Data";
 import TopSubBar from "../TopSubBar";
+import { orderSubHeadings } from "mock-data/Data";
 
 const CourierDisptachListing= () => {
   const [activeCouriers, setActiveCourier] = useState();
@@ -24,7 +25,7 @@ const CourierDisptachListing= () => {
           checkActiveLink={handleActiveCourierDsipatch}
           defaultValue="Couriers"
         />
-        {activeCouriers === "Orders Management" && <TopSubBar defaultValue="Active" />}
+        {activeCouriers === "Orders Management" && <TopSubBar defaultValue="Active" headings={orderSubHeadings} />}
         <div className="mt-3">
         {
           activeCouriers==="Couriers"&&

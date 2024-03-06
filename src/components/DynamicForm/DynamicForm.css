@@ -15,3 +15,59 @@
 .button-shadow{
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.05);
 }
+
+.custom-switch-container {
+  display: flex;
+  align-items: center;
+}
+
+.custom-switch-label {
+  color: #000000!important;
+  font-size: 16px!important;
+}
+
+
+
+.custom-switch .custom-control-label::after {
+  border-radius: 8px; /* Make the circle round before check*/
+  background-color: #91DF46!important;
+  top: calc(0.115rem + 1px);
+  width: calc(1.5rem - 4px);
+  height: calc(1.4rem - 4px);
+}
+.custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+  border-radius: 8px; /* Make the circle round after check */
+  background-color: #91DF46;
+  top: calc(0.115rem + 1px);
+  left: calc(-3.2rem + 2px);
+  width: calc(1.5rem - 4px);
+  height: calc(1.4rem - 4px);
+}
+/* container in which circle */
+.custom-control-input:checked ~ .custom-control-label::before {
+    background-color: white!important;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    border: 1px solid #91DF46!important;
+    width:3rem!important;
+    padding:0.25
+}
+
+/* container in which circle */
+.custom-switch .custom-control-label::before {
+  background-color: white!important; 
+  border: 1px solid #91DF46!important;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  width:3rem!important;
+  padding:0.25
+}
+
+.form-control.login-input.form-input option {
+  border: none;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+

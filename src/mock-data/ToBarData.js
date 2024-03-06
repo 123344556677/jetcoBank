@@ -50,10 +50,21 @@ export const roleManagementHeadings=[
         title:"Group Management"
     },
     {
-        title:"Create Role "
+        title:"Create Role"
     },
     {
         title:"Assign Group"
+    }
+]
+export const featureControlHeadings=[
+    {
+        title:"User Features"
+    },
+    {
+        title:"Agent Features"
+    },
+    {
+        title:"Ministry Features"
     }
 ]
 export const shippingTrackHeadings=[
@@ -65,4 +76,89 @@ export const shippingTrackHeadings=[
     }
    
 
+]
+export const supportTicketsMessagesHeadings=[
+    {
+        title:"Support Tickets"
+    },
+    {
+        title:'Messaging'
+    },
+    {
+        title:'Initiate Support Ticket'
+    }
+   
+
+]
+export const courierMailboxServiceHeadings=[
+    {
+        title:"Courier"
+    },
+    {
+        title:'Mailbox Service'
+    },   
+
+]
+export const courierSubheadings=[
+    {
+        title:"Active"
+    },
+    {
+        title:'Delivered'
+    },   
+
+]
+export const mailboxSubheadings=[
+    {
+        title:"Setup"
+    },
+    {
+        title:'Cancel'
+    },  
+    {
+        title:'Renew Mailbox'
+    }, 
+
+]
+export const finanicalMessagingHeadings=[
+    {
+        title:"All Messages"
+    },
+    {
+        title:"SWFT"
+    },
+    {
+        title:"ISO 20022"
+    },
+    {
+        title:"ACH"
+    },
+    {
+        title:"FINCEN"
+    },
+    {
+        title:"Other Messages"
+    },
+   
+]
+export const ledgerListingHeadings=[
+    {
+        title:"All Categories"
+    },
+    {
+        title:"Debits"
+    },
+    {
+        title:"Credits"
+    },
+    {
+        title:"Withdrawals"
+    },
+    {
+        title:"Deposits"
+    },
+    {
+        title:"Balance Sheet"
+    },
+   
 ]

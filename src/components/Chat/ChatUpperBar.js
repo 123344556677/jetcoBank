@@ -2,13 +2,10 @@ import { getInitials } from "components/Common";
 import React, { useState } from "react";
 import {
   Col,
-  DropdownItem,
-  DropdownMenu,
-  DropdownToggle,
   Row,
-  UncontrolledDropdown,
 } from "reactstrap";
 import SearchBar from "./SearchBar";
+import MoreDropDown from "./MoreDropDown";
 
 const ChatUpperBar = () => {
   const [searchbar, setSearchbar] = useState(false);
@@ -50,20 +47,7 @@ const ChatUpperBar = () => {
                 </div>
               </div>
             </div>
-            <UncontrolledDropdown nav className="mt-4">
-              <DropdownToggle className="pr-0" nav>
-                <i className="fa fa-ellipsis-v more-icon"></i>
-              </DropdownToggle>
-              <DropdownMenu className="dropdown-menu-arrow" right>
-                <DropdownItem className="noti-title" header tag="div">
-                  <h6 className="text-overflow m-0">Welcome!</h6>
-                </DropdownItem>
-                <DropdownItem to="/admin/user-profile">
-                  <i className="ni ni-single-02" />
-                  <span>My profile</span>
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
+            <MoreDropDown />
           </div>
         </Col>
       </Row>

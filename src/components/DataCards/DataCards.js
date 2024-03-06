@@ -2,11 +2,11 @@ import { renderSplitText } from "components/Common";
 import React from "react";
 import { Card } from "reactstrap";
 
-const DataCards = ({ cardVal }) => {
+const DataCards = ({ cardVal,component }) => {
   return (
     <div className="card-container">
       {cardVal?.map((data, index) => (
-        <Card className="user-card ml-3 mb-3" key={index}>
+        <Card className={component==="mailbox"?"mailbox-user-card ml-3 mb-3":"user-card ml-3 mb-3"} key={index}>
           <h7 className="text-center user-card-title">
             {renderSplitText(data?.title)}
           </h7>

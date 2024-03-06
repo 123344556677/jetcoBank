@@ -608,7 +608,7 @@ export const  accountDetailData=[
         label:"Account Number:",
         placeholder:"account number",
         name:"accountNumber",
-        type:"number"
+        type:"text"
     },
 ]
 export const courierOrderData=[
@@ -1603,5 +1603,311 @@ export const customAccountData=[
         placeholder:"account number",
         name:"accountNumber",
         type:"number"
+    },
+]
+export const TrustAccountPersonalData=[
+   {
+        label:"Name:",
+        placeholder:"name",
+        name:"name",
+        type:"text"
+    },
+    {
+        label:"Email:",
+        placeholder:"email",
+        name:"email",
+        type:"email"
+    },
+    {
+        label:"Contact:",
+        placeholder:"contact",
+        name:"contact",
+        type:"number"
+    },
+    {
+        label:"Status:",
+        placeholder:"status",
+        name:"status",
+        type:"text"
+    },
+    {
+        label:"Joining Date:",
+        placeholder:"joining date",
+        name:"joiningDate",
+        type:"date"
+    },
+]
+export const TrustSettlorData=[
+    {
+        label:"Name",
+        name:"name",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Date of Birth",
+        name:"dob",
+        type:"text",
+        placeholder:"date of birth"
+    },
+    {
+        label:"Address",
+        name:"address",
+        type:"text",
+        placeholder:"address"
+    },
+    {
+        label:"Occupation",
+        name:"occupation",
+        type:"text",
+        placeholder:"occupation"
+    },
+]
+
+export const TrustTrusteeData=[
+    {
+        label:"Name",
+        name:"name",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Contact",
+        name:"contact",
+        type:"number",
+        placeholder:"contact"
+    },
+    {
+        label:"Address",
+        name:"address",
+        type:"text",
+        placeholder:"address"
+    },
+]
+export const TrustPurposeData=[
+    {
+        label:"Purpose:",
+        name:"purpose",
+        type:"textarea",
+        placeholder:"purpose",
+        defaultValue:"To provide educational support and financial assistance for the college tuition of John's grandchildren."
+    },
+    {
+        label:"Objectives",
+        name:"objectives",
+        type:"textarea",
+        defaultValue:"Ensure funds are used exclusively for tuition and related educational expenses.Support academic pursuits and achievements",
+        placeholder:"objectives"
+    },
+]
+export const TrustDurationData=[
+    {
+        label:"Duration:",
+        name:"duration",
+        type:"textarea",
+        placeholder:"duration",
+        defaultValue:"20 years from the date of establishment or until the youngest beneficiary completes their education, whichever comes later."
+    },
+]
+export const TrustBeneficiary1Data=[
+    {
+        label:"Name",
+        name:"name",
+        type:"text",
+        placeholder:"name"
+    },
+    {
+        label:"Relationship",
+        name:"relationship",
+        type:"text",
+        placeholder:"relationship"
+    },
+]
+export const trustAccountData=[
+    {
+        label:"Branch:",
+        placeholder:"branch",
+        name:"branch",
+        type:"text"
+    },
+    {
+        label:"Account Type:",
+        placeholder:"account type",
+        name:"ccountType",
+        type:"text"
+    },
+    {
+        label:"Account Number:",
+        placeholder:"account number",
+        name:"accountNumber",
+        type:"number"
+    },
+]
+export const estateAccountData=[
+    {
+        label:"Branch:",
+        placeholder:"branch",
+        name:"branch",
+        type:"text"
+    },
+    {
+        label:"Account Type:",
+        placeholder:"account type",
+        name:"ccountType",
+        type:"text"
+    },
+    {
+        label:"Account Number:",
+        placeholder:"account number",
+        name:"accountNumber",
+        type:"number"
+    },
+]
+export const passThroughPersonalData=[
+    {
+        label:"Name:",
+        placeholder:" name",
+        name:"Name",
+        type:"text"
+    },
+    {
+        label:"Contact:",
+        placeholder:"contact",
+        name:"contact",
+        type:"number"
+    },
+    {
+        label:"Email:",
+        placeholder:"email",
+        name:"email",
+        type:"email"
+    },
+    {
+        label:"Status:",
+        placeholder:"status",
+        name:"status",
+        type:"text"
+    },
+    {
+        label:"Joining Date:",
+        placeholder:"joining date",
+        name:"joiningDate",
+        type:"date"
+    },
+    {
+        label:"Contractor Service:",
+        placeholder:"contractor service",
+        name:"contractorService",
+        type:"text"
+    },
+]
+export const  passThroughAccountData=[
+    {
+        label:"Branch:",
+        placeholder:"branch",
+        name:"branch",
+        type:"text"
+    },
+    {
+        label:"Sender's Account Number:",
+        placeholder:"account number",
+        name:"senderAccountNumber",
+        type:"text"
+    },
+    {
+        label:"Recipitents's Account Number:",
+        placeholder:"account number",
+        name:"recipitentAccountNumber",
+        type:"text"
+    },
+]
+export const autoLoanPersonalData=[
+    {
+        label:"Name:",
+        placeholder:" name",
+        name:"Name",
+        type:"text"
+    },
+    {
+        label:"Contact:",
+        placeholder:"contact",
+        name:"contact",
+        type:"number"
+    },
+    {
+        label:"Email:",
+        placeholder:"email",
+        name:"email",
+        type:"email"
+    },
+    {
+        label:"Status:",
+        placeholder:"status",
+        name:"status",
+        type:"text"
+    },
+    {
+        label:"Joining Date:",
+        placeholder:"joining date",
+        name:"joiningDate",
+        type:"date"
+    },
+    {
+        label:"Loan Term:",
+        placeholder:"loan term",
+        name:"loanTerm",
+        type:"text"
+    },
+]
+export const autoLoanPersonalVehicleData = [
+  {
+    label: "Make",
+    name: "make",
+    type: "text",
+    placeholder: "make",
+  },
+  {
+    label: "Model",
+    name: "model",
+    type: "text",
+    placeholder: "model",
+  },
+  {
+    label: "Year",
+    name: "year",
+    type: "number",
+    placeholder: "year",
+  },
+  {
+    label: "VIN",
+    name: "vin",
+    type: "text",
+    placeholder: "vin",
+  },
+];
+export const autoLoanAccountData=[
+    {
+        label:"Branch:",
+        placeholder:"branch",
+        name:"branch",
+        type:"text"
+    },
+    {
+        label:"Account Type:",
+        placeholder:"account type",
+        name:"ccountType",
+        type:"text"
+    },
+    {
+        label:"Account Number:",
+        placeholder:"account number",
+        name:"accountNumber",
+        type:"number"
+    },
+    {
+        label:"payment Status:",
+        placeholder:"status",
+        name:"paymentStatus",
+        type:"text"
     },
 ]

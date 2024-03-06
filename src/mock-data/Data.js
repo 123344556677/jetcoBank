@@ -2702,6 +2702,1844 @@ export const shippingTracckHeadingsTableDataDelivered = [
   ],
 ];
 
+export const passThroughHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Sender's Name",
+  },
+  {
+    title: "Sender's Contact",
+  },
+  {
+    title: "Sender's Account",
+  },
+  {
+    title: "Recipitent's Name",
+  },
+  {
+    title: "Recipitent's Contact",
+  },
+  {
+    title: "Recipitent's Account",
+  },
+  {
+    title: "Branch",
+  },
+  {
+    title: "Transaction Amount",
+  },
+  {
+    title: "Transaction Date",
+  },
+  {
+    title: "Status",
+  },
+];
+export const passThroughData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "Credits Union",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Credits Union",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "Cleared",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "Investment Bank",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Credits Union",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "Cleared",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "Pension Funds",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Credits Union",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "Cleared",
+    },
+  ],
+];
+
+export const shippingTicketsMessagestData = [
+  {
+    title: "Total Tickets",
+    price: "54,214",
+  },
+  {
+    title: "Open Tickets",
+    price: "54,214",
+  },
+  // {
+  //   title: "In Progress Tickets",
+  //   price: "54,214",
+  // },
+  {
+    title: "Closed Tickets",
+    price: "54,214",
+  },
+  {
+    title: "Delete Tickets",
+    price: "54,214",
+  },
+];
+
+export const supportTicketsHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "I'D no.",
+  },
+  {
+    title: "Requested by",
+  },
+  {
+    title: "Subject",
+  },
+  {
+    title: "Assign",
+  },
+  {
+    title: "Priority",
+  },
+  {
+    title: "Status",
+  },
+  {
+    title: "Create Date",
+  },
+];
+export const supportTicketsData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Shamsi Ali",
+      type: "img",
+      img: require("../assets/img/icons/common/profile1.png"),
+    },
+    {
+      value: "Software Bug Error Message During Checkout",
+    },
+    {
+      value: "Shamsi Ali",
+      type: "img",
+      img: require("../assets/img/icons/common/profile1.png"),
+    },
+    {
+      value: "Medium",
+    },
+    {
+      value: "Open",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Shamsi Ali",
+      type: "img",
+      img: require("../assets/img/icons/common/profile2.png"),
+    },
+    {
+      value: "Billing Inquiry Unrecognized Transaction on Statement",
+    },
+    {
+      value: "Shamsi Ali",
+      type: "img",
+      img: require("../assets/img/icons/common/profile2.png"),
+    },
+    {
+      value: "Low",
+    },
+    {
+      value: "Closed",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Shamsi Ali",
+      type: "img",
+      img: require("../assets/img/icons/common/profile3.png"),
+    },
+    {
+      value: "Product Question Need Assistance with Features",
+    },
+    {
+      value: "Shamsi Ali",
+      type: "img",
+      img: require("../assets/img/icons/common/profile3.png"),
+    },
+    {
+      value: "High",
+    },
+    {
+      value: "In Progress",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+];
+
+export const mailboxServiceData = [
+  {
+    title: "Total Mailboxes",
+    price: "100",
+  },
+  {
+    title: "Open Mailboxes",
+    price: "70",
+  },
+  {
+    title: "Closed Mailboxes",
+    price: "20",
+  },
+  {
+    title: "Available Mailboxes",
+    price: "10",
+  },
+];
+export const shippingCourierHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Courier Name",
+  },
+  {
+    title: "I'D no.",
+  },
+  {
+    title: "Email",
+  },
+  {
+    title: "Contact",
+  },
+  {
+    title: "Service Type",
+  },
+  {
+    title: "Order I'D",
+  },
+  {
+    title: "Current Status",
+  },
+  {
+    title: "Delivery Location",
+  },
+  {
+    title: "ETA",
+  },
+];
+export const shippingCourierData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Shamsiali@gmail.com",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Depository Services",
+    },
+    {
+      value: "554229",
+    },
+    {
+      value: "In Route",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Wed, May 20, 23, by 3:00 PM",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Shamsiali@gmail.com",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Package Delivery",
+    },
+    {
+      value: "554229",
+    },
+    {
+      value: "In Route",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Wed, May 20, 23, by 3:00 PM",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Shamsiali@gmail.com",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "ATM Services",
+    },
+    {
+      value: "554229",
+    },
+    {
+      value: "In Route",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Wed, May 20, 23, by 3:00 PM",
+    },
+  ],
+];
+
+export const CourierDeliveredHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Courier Name",
+  },
+  {
+    title: "I'D no.",
+  },
+  {
+    title: "Email",
+  },
+  {
+    title: "Contact",
+  },
+  {
+    title: "Service Type",
+  },
+  {
+    title: "Order I'D",
+  },
+  {
+    title: "Status",
+  },
+  {
+    title: "Delivery Location",
+  },
+  {
+    title: "Dispatch Location",
+  },
+  {
+    title: "Branch",
+  },
+  {
+    title: "Dispatch Date",
+  },
+  {
+    title: "Delivery Date",
+  },
+];
+export const courierDeliveredData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "xyz@gmail.com",
+    },
+    {
+      value: "957-65788-999",
+    },
+    {
+      value: "Despository Services",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Delivered",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "xyz@gmail.com",
+    },
+    {
+      value: "957-65788-999",
+    },
+    {
+      value: "Despository Services",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Delivered",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "xyz@gmail.com",
+    },
+    {
+      value: "957-65788-999",
+    },
+    {
+      value: "Despository Services",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Delivered",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+];
+
+export const shippingMailBoxHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Mailbox I'D",
+  },
+  {
+    title: "Username",
+  },
+  {
+    title: "Email",
+  },
+  {
+    title: "Contact Number",
+  },
+  {
+    title: "I'D no.",
+  },
+  {
+    title: "Verified Status",
+  },
+  {
+    title: "Virtual Adress",
+  },
+  {
+    title: "Mailbox Status",
+  },
+];
+export const shippingMailboxData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "MB6597-59",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "Shamsiali@gmail.com",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "554229",
+    },
+    {
+      value: "Verified",
+    },
+    {
+      value: "Sanima Mor Near Gourmet Kasur",
+    },
+    {
+      value: "Open",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "MB6597-59",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "Shamsiali@gmail.com",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "554229",
+    },
+    {
+      value: "Verified",
+    },
+    {
+      value: "Sanima Mor Near Gourmet Kasur",
+    },
+    {
+      value: "Available",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "MB6597-59",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "Shamsiali@gmail.com",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "554229",
+    },
+    {
+      value: "Verified",
+    },
+    {
+      value: "Sanima Mor Near Gourmet Kasur",
+    },
+    {
+      value: "Closed",
+    },
+  ],
+];
+export const FinServicingAndMessagingHeading = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Sender's Name.",
+  },
+  {
+    title: "Sender's Contact",
+  },
+  {
+    title: "Sender's Account",
+  },
+  {
+    title: "Recipient's Name",
+  },
+  {
+    title: "Recipient's Contact",
+  },
+  {
+    title: "Recipient's Account",
+  },
+  {
+    title: "Branch",
+  },
+  {
+    title: "Transaction Amount",
+  },
+  {
+    title: "Transaction Date",
+  },
+  {
+    title: "Status",
+  },
+];
+
+export const finServicingAndMessagingData = [
+  [
+    {
+      value: "1",
+    },
+
+    {
+      value: "Pension Funds",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Pension Funds",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "Cleared",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+
+    {
+      value: "Credit Union",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Pension Funds",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "Cleared",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+
+    {
+      value: "Investment Bank",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Pension Funds",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "Cleared",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+
+    {
+      value: "Mortgage Lenders",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Pension Funds",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "Cleared",
+    },
+  ],
+  [
+    {
+      value: "5",
+    },
+
+    {
+      value: "Pension Funds",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Pension Funds",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "Cleared",
+    },
+  ],
+];
+
+export const finanicalMessagingHeadingsTable = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Transaction I'D",
+  },
+  {
+    title: "Message Type",
+  },
+  {
+    title: "Sender Name",
+  },
+  {
+    title: "Receiver Name",
+  },
+  {
+    title: "Amount",
+  },
+  {
+    title: "Timestamp",
+  },
+  {
+    title: "Status",
+  },
+];
+export const finanicalMessagingHeadingsTableSWFT = [
+  {
+    title: "Sr.",
+  },
+
+  {
+    title: "Message Code",
+  },
+  {
+    title: "Sender Name",
+  },
+  {
+    title: "Receiver Name",
+  },
+  {
+    title: "Amount",
+  },
+  {
+    title: "Timestamp",
+  },
+  {
+    title: "Status",
+  },
+];
+export const finanicalMessagingHeadingsTableISO = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Message I'D",
+  },
+  {
+    title: "Sender Name",
+  },
+  {
+    title: "Receiver Name",
+  },
+  {
+    title: "Amount",
+  },
+  {
+    title: "Timestamp",
+  },
+  {
+    title: "Status",
+  },
+];
+export const finanicalMessagingHeadingsTableACH = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Transaction I'D",
+  },
+  {
+    title: "Sender Name",
+  },
+  {
+    title: "Receiver Name",
+  },
+  {
+    title: "Amount",
+  },
+  {
+    title: "Timestamp",
+  },
+  {
+    title: "Status",
+  },
+];
+export const finanicalMessagingHeadingsTableFINCEN = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Transaction I'D",
+  },
+
+  {
+    title: "Sender Name",
+  },
+  {
+    title: "Receiver Name",
+  },
+  {
+    title: "Amount",
+  },
+  {
+    title: "Timestamp",
+  },
+  {
+    title: "Status",
+  },
+];
+export const finanicalMessagingHeadingsTableOther = [
+  {
+    title: "Sr.",
+  },
+
+  {
+    title: "Message I'D",
+  },
+  {
+    title: "Sender Name",
+  },
+  {
+    title: "Receiver Name",
+  },
+  {
+    title: "Amount",
+  },
+  {
+    title: "Timestamp",
+  },
+  {
+    title: "Status",
+  },
+];
+export const finanicalMessagingHeadingsTableData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "SWFT001",
+    },
+    {
+      value: "SWT",
+    },
+    {
+      value: "Adil Anas",
+    },
+    {
+      value: "Adil Anas",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "ISO20022-001",
+    },
+    {
+      value: "ISO20022",
+    },
+    {
+      value: "Adil Anas",
+    },
+    {
+      value: "Adil Anas",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "Pending",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "ACH-001",
+    },
+    {
+      value: "ACH",
+    },
+    {
+      value: "Adil Anas",
+    },
+    {
+      value: "Adil Anas",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "Failed",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+    {
+      value: "FINCEN-001",
+    },
+    {
+      value: "FINCEN",
+    },
+    {
+      value: "Adil Anas",
+    },
+    {
+      value: "Adil Anas",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+];
+export const finanicalMessagingHeadingsTableDataSWFT = [
+  [
+    {
+      value: "1",
+    },
+
+    {
+      value: "SWFT001",
+    },
+    {
+      value: "Adil Anas",
+    },
+    {
+      value: "Adil Anas",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+
+    {
+      value: "SWFT002",
+    },
+    {
+      value: "Inzam Anas",
+    },
+    {
+      value: "Inzam Anas",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "Pending",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+
+    {
+      value: "SWFT003",
+    },
+    {
+      value: "Adil Anas",
+    },
+    {
+      value: "Adil Anas",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "Failed",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+
+    {
+      value: "SWFT004",
+    },
+    {
+      value: "Inzam Anas",
+    },
+    {
+      value: "Inzam Anas",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+];
+export const finanicalMessagingHeadingsTableDataISO = [
+  [
+    {
+      value: "1",
+    },
+
+    {
+      value: "ISO20022-001",
+    },
+    {
+      value: "Adil Anas",
+    },
+    {
+      value: "Adil Anas",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+
+    {
+      value: "ISO20022-002",
+    },
+    {
+      value: "Inzam Anas",
+    },
+    {
+      value: "Inzam Anas",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "Pending",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+
+    {
+      value: "ISO20022-003",
+    },
+    {
+      value: "Adil Anas",
+    },
+    {
+      value: "Adil Anas",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "Failed",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+
+    {
+      value: "ISO20022-004",
+    },
+    {
+      value: "Inzam Anas",
+    },
+    {
+      value: "Inzam Anas",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+];
+export const finanicalMessagingHeadingsTableDataACH = [
+  [
+    {
+      value: "1",
+    },
+
+    {
+      value: "ACH-001",
+    },
+    {
+      value: "Adil Anas",
+    },
+    {
+      value: "Adil Anas",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+
+    {
+      value: "ACH-002",
+    },
+    {
+      value: "Inzam Anas",
+    },
+    {
+      value: "Inzam Anas",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "Pending",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+
+    {
+      value: "ACH-003",
+    },
+    {
+      value: "Adil Anas",
+    },
+    {
+      value: "Adil Anas",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "Failed",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+
+    {
+      value: "ACH-004",
+    },
+    {
+      value: "Inzam Anas",
+    },
+    {
+      value: "Inzam Anas",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+];
+export const finanicalMessagingHeadingsTableDataOther = [
+  [
+    {
+      value: "1",
+    },
+
+    {
+      value: "OMFMS-001",
+    },
+    {
+      value: "Adil Anas",
+    },
+    {
+      value: "Adil Anas",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+
+    {
+      value: "OMFMS-002",
+    },
+    {
+      value: "Inzam Anas",
+    },
+    {
+      value: "Inzam Anas",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "Pending",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+
+    {
+      value: "OMFMS-003",
+    },
+    {
+      value: "Adil Anas",
+    },
+    {
+      value: "Adil Anas",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "Failed",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+
+    {
+      value: "OMFMS-004",
+    },
+    {
+      value: "Inzam Anas",
+    },
+    {
+      value: "Inzam Anas",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+];
+export const ledgerTableHeading = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Transaction I'D",
+  },
+
+  {
+    title: "Category",
+  },
+
+  {
+    title: "Amount",
+  },
+  {
+    title: "Timestamp",
+  },
+  {
+    title: "Description",
+  },
+  {
+    title: "Method",
+  },
+  {
+    title: "Status",
+  },
+];
+export const ledgerTableTableData = [
+  [
+    {
+      value: "1",
+    },
+
+    {
+      value: "SWFT001",
+    },
+    {
+      value: "Debit",
+    },
+
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "Purchase of Supllies",
+    },
+    {
+      value: "Operating",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+
+    {
+      value: "ISO20022-002",
+    },
+    {
+      value: "Credit",
+    },
+
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "Client Payment",
+    },
+    {
+      value: "Revenue",
+    },
+    {
+      value: "Pending",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+
+    {
+      value: "ACH-003",
+    },
+
+    {
+      value: "Withdraw",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "ATM Withdrawal",
+    },
+    {
+      value: "ATM",
+    },
+    {
+      value: "Failed",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+
+    {
+      value: "FENCEN-004",
+    },
+    {
+      value: "Deposit",
+    },
+
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "Customer Deposit",
+    },
+    {
+      value: "In-Person",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+];
+export const ledgerTableTableDataCredit = [
+  [
+    {
+      value: "1",
+    },
+
+    {
+      value: "SWFT001",
+    },
+    {
+      value: "Debit",
+    },
+
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "Loan Repayment",
+    },
+    {
+      value: "Loan",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+
+    {
+      value: "ISO20022-002",
+    },
+    {
+      value: "Credit",
+    },
+
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "Client Payment",
+    },
+    {
+      value: "Revenue",
+    },
+    {
+      value: "Pending",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+
+    {
+      value: "ACH-003",
+    },
+
+    {
+      value: "Withdraw",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "ATM Withdrawal",
+    },
+    {
+      value: "ATM",
+    },
+    {
+      value: "Failed",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+
+    {
+      value: "FENCEN-004",
+    },
+    {
+      value: "Deposit",
+    },
+
+    {
+      value: "54,214",
+    },
+    {
+      value: "23-01-15 10:30 AM",
+    },
+    {
+      value: "Customer Deposit",
+    },
+    {
+      value: "In-Person",
+    },
+
+    {
+      value: "Completed",
+    },
+  ],
+];
+
 export const inboxColors = ["#F1F6FB", "#FFFFFF"];
 export const profileColors = [
   {

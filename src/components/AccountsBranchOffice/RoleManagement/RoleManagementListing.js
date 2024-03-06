@@ -4,16 +4,15 @@ import { GroupManagementData } from "mock-data/Data";
 import { GroupManagementHeadings } from "mock-data/Data";
 import { roleManagementHeadings } from "mock-data/ToBarData";
 import React, { useState } from "react";
-import CreateRole from "./CreateRole";
 import DynamicForm from "components/DynamicForm/DynamicForm";
 import { createRoleForm } from "mock-data/FormData";
+import { createAssignGroupForm } from "mock-data/FormData";
 
 const RoleManagementListing = () => {
   const [activeRole, setActiveRole] = useState();
   const handleActiveRole = (val) => {
     setActiveRole(val);
   };
-  console.log(activeRole, "in file");
   return (
     <div className="pt-5 pt-md-8 mb-3 ml-lg-2 mr-lg-2">
       <div className="main-div">
@@ -38,6 +37,13 @@ const RoleManagementListing = () => {
               formData={createRoleForm}
               component="Create Role"
               buttonValue="Create Role"
+            />
+          )}
+          {activeRole === "Assign Group" && (
+            <DynamicForm
+              formData={createAssignGroupForm}
+              component="Assign Group"
+              buttonValue="Assign Group"
             />
           )}
         </div>

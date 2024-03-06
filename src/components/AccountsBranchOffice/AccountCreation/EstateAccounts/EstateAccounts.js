@@ -17,7 +17,7 @@ const EstateAccounts = () => {
         <Button
           size="md"
           className="add-button pl-3 pr-3 mr-3"
-          onClick={() => navigate("/admin/userManagement/addAgent")}
+          onClick={() => navigate("/admin/accountsAndBranch/addEstateAccount")}
         >
           Create Estate Accounts
         </Button>
@@ -25,7 +25,8 @@ const EstateAccounts = () => {
       <DynamicTable
         headings={accountHeadings}
         tableData={accountsData}
-        component="Estate Account"
+        component="EstateAccount"
+        parentComponent="AccountManagement"
       />
     </>
   );
