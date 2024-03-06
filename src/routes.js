@@ -78,7 +78,7 @@ import ManageBranchAndOfficesListing from "components/AccountsBranchOffice/Manag
 import RoleManagementListing from "components/AccountsBranchOffice/RoleManagement/RoleManagementListing";
 import CreateGroup from "components/AccountsBranchOffice/RoleManagement/CreateGroup";
 import LogisticsAndSupport from "components/LogisticAndSupport/LogisticsAndSupport";
-import ShippingTrackListing from "components/logisticsAndSupport/ShippingTracks/ShippingTrackListing";
+import ShippingTrackListing from "components/LogisticAndSupport/ShippingTracks/ShippingTrackListing";
 
 
 var routes = [
