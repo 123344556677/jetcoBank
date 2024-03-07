@@ -1523,3 +1523,157 @@ export const createMessageForm = [
     placeholder: "timestamp display",
   },
 ];
+export const cardManagementFormPrepaid = [
+  {
+    label: "Card Number",
+    name: "cardnumber",
+    type: "number",
+    placeholder: "cardnumber",
+  },
+  {
+    label: "Expiry Date",
+    name: "expirydate",
+    type: "date",
+    placeholder: "expiry date",
+  },
+  {
+    label: "Cardholder Name",
+    name: "cardholdername",
+    type: "text",
+    placeholder: "cardholder name",
+  },
+  {
+    label: "User I'D",
+    name: "userid",
+    type: "text",
+    placeholder: "user id",
+  },
+  {
+    label: "Balance",
+    name: "balance",
+    type: "number",
+    placeholder: "balance",
+  },
+  {
+    label: "CVV",
+    name: "cvv",
+    type: "number",
+    placeholder: "CVV",
+  },
+  {
+    label: "Billing Address",
+    name: "billingaddress",
+    type: "text",
+    placeholder: "billing address",
+  },
+];
+export const cardManagementFormVirtual = [
+  {
+    label: "Card Number",
+    name: "cardnumber",
+    type: "number",
+    placeholder: "cardnumber",
+  },
+  {
+    label: "Expiry Date",
+    name: "expirydate",
+    type: "date",
+    placeholder: "expiry date",
+  },
+  {
+    label: "Cardholder Name",
+    name: "cardholdername",
+    type: "text",
+    placeholder: "cardholder name",
+  },
+  {
+    label: "User I'D",
+    name: "userid",
+    type: "text",
+    placeholder: "user id",
+  },
+  
+  {
+    label: "CVV",
+    name: "cvv",
+    type: "number",
+    placeholder: "CVV",
+  },
+  {
+    label: "Security Token",
+    name: "securitytoken",
+    type: "text",
+    placeholder: "security token",
+  },
+];
+export const cardManagementFormPhyscial = [
+  {
+    label: "Card Number",
+    name: "cardnumber",
+    type: "number",
+    placeholder: "cardnumber",
+  },
+  {
+    label: "Expiry Date",
+    name: "expirydate",
+    type: "date",
+    placeholder: "expiry date",
+  },
+  {
+    label: "Cardholder Name",
+    name: "cardholdername",
+    type: "text",
+    placeholder: "cardholder name",
+  },
+  {
+    label: "User I'D",
+    name: "userid",
+    type: "text",
+    placeholder: "user id",
+  },
+  {
+    label: "Issuing Bank",
+    name: "issuingbank",
+    type: "text",
+    placeholder: "issuing bank",
+  },
+  
+  {
+    label: "CVV",
+    name: "cvv",
+    type: "number",
+    placeholder: "CVV",
+  },
+  {
+    label: "Card Design",
+    name: "carddesign",
+    type: "text",
+    placeholder: "card design",
+  },
+];
+export  const withdrawalsForm=[
+  {
+    label: "Name Method",
+    name: "namemethod",
+    type: "text",
+    placeholder: "namemethod",
+  },
+  {
+    label: "Transaction Limit",
+    name: "transactionlimit",
+    type: "date",
+    placeholder: "transaction limit",
+  },
+  {
+    label: "Cardholder Name",
+    name: "cardholdername",
+    type: "text",
+    placeholder: "cardholder name",
+  },
+  {
+    label: "Description",
+    name: "description",
+    type: "textarea",
+    placeholder: "description",
+  },
+]

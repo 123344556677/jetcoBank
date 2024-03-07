@@ -12,7 +12,7 @@ const FinServiceAndMessage = () => {
       <div className="d-flex justify-content-between align-items-center mr-lg-3">
         <h3 className="m-4 pages-heading">Recent Transaction Activity</h3>
         </div>
-        <DynamicTable headings={FinServicingAndMessagingHeading} tableData={finServicingAndMessagingData} component="Agent" parentComponent="UserManagement" />
+        <DynamicTable headings={FinServicingAndMessagingHeading} tableData={finServicingAndMessagingData} component="FinServicesAndMessaging" parentComponent="FinServicesAndMessaging" />
       </div>
     </div>
   )

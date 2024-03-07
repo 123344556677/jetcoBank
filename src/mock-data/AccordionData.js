@@ -75,38 +75,38 @@ export const LogisticsAndSupportItems = [
 export const FinServicingAndMessagingItems = [
   {
     title: "Financial Messaging",
-    link: "finServicingAndMessaging/financalMessaging",
+    link: "finServicesAndMessaging/financialMessaging",
   },
   {
     title: "Ledger",
-    link: "Ledger",
+    link: "finServicesAndMessaging/LedgerListing",
   },
   {
     title: "Transactions",
-    link: "logisticsAndSupport/courierMailboxService",
+    link: "finServicesAndMessaging/Transaction",
   },
   {
     title: "Card Management",
-    link: "logisticsAndSupport/supportTicketsMessages",
+    link: "finServicesAndMessaging/CardManagement",
   },
   {
     title: "Withdrawals",
-    link: "logisticsAndSupport/ShippingTrackListing",
+    link: "finServicesAndMessaging/Withdrawals",
   },
   {
     title: "Deposits",
-    link: "logisticsAndSupport/courierMailboxService",
+    link: "finServicesAndMessaging/Deposits",
   },
   {
     title: "Currency Exchange",
-    link: "logisticsAndSupport/supportTicketsMessages",
+    link: "finServicesAndMessaging/CurrencyExchange",
   },
   {
     title: "Stock Trading",
-    link: "logisticsAndSupport/ShippingTrackListing",
+    link: "finServicesAndMessaging/StockTrading",
   },
   {
     title: "Crypto Trading",
-    link: "logisticsAndSupport/courierMailboxService",
+    link: "finServicesAndMessaging/CryptoTrading",
   },
 ];

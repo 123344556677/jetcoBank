@@ -19,7 +19,7 @@ function LedgerListing() {
           buttonValue="Create Ledger"
           checkActiveLink={handleActiveLedgerListing}
           defaultValue="All Categories"
-          parentComponent="Ledger"
+          parentComponent="FinServicesAndMessaging"
         />
         <div className="mt-3">
           {LedgerListing === "All Categories" && (
@@ -27,14 +27,14 @@ function LedgerListing() {
               headings={ledgerTableHeading}
               tableData={ledgerTableTableData}
               component="Ledger"
-              parentComponent="Ledger"
+              parentComponent="FinServicesAndMessaging"
             />
           )}
           {LedgerListing === "Debits" && (
             <DynamicTable
               headings={ledgerTableHeading}
               tableData={ledgerTableTableData}
-              component="FinanicalMessagingListing"
+              component="LLedger"
               parentComponent="FinServicesAndMessaging"
             />
           )}
@@ -42,7 +42,7 @@ function LedgerListing() {
             <DynamicTable
               headings={ledgerTableHeading}
               tableData={ledgerTableTableDataCredit}
-              component="FinanicalMessagingListing"
+              component="Ledger"
               parentComponent="FinServicesAndMessaging"
             />
           )}
@@ -50,7 +50,7 @@ function LedgerListing() {
             <DynamicTable
               headings={ledgerTableHeading}
               tableData={ledgerTableTableData}
-              component="FinanicalMessagingListing"
+              component="Ledger"
               parentComponent="FinServicesAndMessaging"
             />
           )}
@@ -59,7 +59,7 @@ function LedgerListing() {
             <DynamicTable
               headings={ledgerTableHeading}
               tableData={ledgerTableTableData}
-              component="FinanicalMessagingListing"
+              component="Ledger"
               parentComponent="FinServicingAndMessaging"
             />
           )}
@@ -67,7 +67,7 @@ function LedgerListing() {
             <DynamicTable
               headings={ledgerTableHeading}
               tableData={ledgerTableTableData}
-              component="FinanicalMessagingListing"
+              component="Ledger"
               parentComponent="FinServicingAndMessaging"
             />
           )}

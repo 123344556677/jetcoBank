@@ -93,7 +93,16 @@ import AutoLoanAccountProfile from "components/AccountsBranchOffice/AccountCreat
 import FinServiceAndMessage from "components/FinServicesAndMessaging/FinServiceAndMessage";
 import FinancialMessaging from "components/FinServicesAndMessaging/FinancialMessaging/FinancialMessaging";
 import FinancialMessagingListing from "components/FinServicesAndMessaging/FinancialMessaging/FinancialMessagingListing";
-import LedgerListing from "components/Ledger/LedgerListing";
+import TransactionListing from "components/FinServicesAndMessaging/Transaction/TransactionListing";
+import LedgerListing from "components/FinServicesAndMessaging/Ledger/LedgerListing";
+import CardManagementListing from "components/FinServicesAndMessaging/Cards Management/CardManagementListing";
+import CardManagementFormPhyscial from "components/FinServicesAndMessaging/Cards Management/CardManagementFormPhyscial";
+import WithdrawalsListing from "components/FinServicesAndMessaging/Withdrawals/WithdrawalsListing";
+import DepositsListing from "components/FinServicesAndMessaging/Deposits/DespositsListing";
+import CurrencyExchangeListing from "components/FinServicesAndMessaging/CurrencyExchange/CurrencyExchangeListing";
+import StockTradingListing from "components/FinServicesAndMessaging/StockTrading/StockTradingListing";
+import CryptoTradingListing from "components/FinServicesAndMessaging/CryptoTrading/CryptoTradingListing";
+
 
 var routes = [
   {
@@ -692,10 +701,59 @@ var routes = [
     layout: "/admin",
   },
   {
-    path: "/Ledger",
+    path: "finServicesAndMessaging/LedgerListing",
     name: "Ledger listing",
     icon: "ni ni-tv-2 ",
-    component: <LedgerListing />,
+    component: <LedgerListing/>,
+    layout: "/admin",
+  },
+  {
+    path: "/finServicesAndMessaging/Transaction",
+    name: "Transaction listing",
+    icon: "ni ni-tv-2 ",
+    component: <TransactionListing/>,
+    layout: "/admin",
+  },
+  {
+    path: "/finServicesAndMessaging/CardManagement",
+    name: "Card Management listing",
+    icon: "ni ni-tv-2 ",
+    component: <CardManagementListing/>,
+    layout: "/admin",
+  },
+  {
+    path: "/finServicesAndMessaging/Withdrawals",
+    name: "Withdrawals",
+    icon: "ni ni-tv-2 ",
+    component: <WithdrawalsListing/>,
+    layout: "/admin",
+  },
+  {
+    path: "/finServicesAndMessaging/Deposits",
+    name: "Deposits",
+    icon: "ni ni-tv-2 ",
+    component: <DepositsListing/>,
+    layout: "/admin",
+  },
+  {
+    path: "/finServicesAndMessaging/CurrencyExchange",
+    name: "Currency Exchange",
+    icon: "ni ni-tv-2 ",
+    component: <CurrencyExchangeListing/>,
+    layout: "/admin",
+  },
+  {
+    path: "/finServicesAndMessaging/StockTrading",
+    name: "Stock Trading",
+    icon: "ni ni-tv-2 ",
+    component: <StockTradingListing/>,
+    layout: "/admin",
+  },
+  {
+    path: "/finServicesAndMessaging/CryptoTrading",
+    name: "Crypto Trading",
+    icon: "ni ni-tv-2 ",
+    component: <CryptoTradingListing/>,
     layout: "/admin",
   },
   {

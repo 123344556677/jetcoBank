@@ -162,3 +162,43 @@ export const ledgerListingHeadings=[
     },
    
 ]
+export const cardManagementHeadings=[
+    {
+        title:"Prepaid Card"
+    },
+    {
+        title:"Virtual Card"
+    },
+    {
+        title:"Physical Card"
+    },   
+]
+export const withdrawalsListingHeadings=[
+    {
+        title:"Pending"
+    },
+    {
+        title:"Approve"
+    },
+    {
+        title:"Rejected"
+    },   
+]
+export const stockTradingListingHeadings=[
+    {
+        title:"Stock Market"
+    },
+    {
+        title:"Recent Activity"
+    },
+      
+]
+export const cryptoTradingListingHeadings=[
+    {
+        title:"Crypto Trade"
+    },
+    {
+        title:"Recent Activity"
+    },
+      
+]
