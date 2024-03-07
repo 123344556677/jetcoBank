@@ -9,8 +9,8 @@
 }
 
 .table-wrapper::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+  width: 5px;
+  height: 5px;
  
 }
 
@@ -74,6 +74,31 @@
 .medium-color{
     color: #F3A60C;
     font-size: 12px!important;
+}
+
+.stripped-table{
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #91DF46!important;
+  border-radius: 35px;
+  overflow: hidden;
+}
+
+.sr-column {
+  width: 50px; /* Adjust the width as needed */
+}
+.balance-heading-col{
+  width: 50%!important;
+  color:#000000;
+}
+.balance-item-col{
+  width: 50%!important;
+  color:#aca5a5;
+}
+.sheet-table-heading{
+  color: #000000;
+  font-weight: 700!important;
+  font-size: 14px!important;
 }
 
 

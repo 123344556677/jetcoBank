@@ -1343,7 +1343,7 @@ export const createTicketForm = [
     placeholder: "ticket title",
   },
   {
-    label: "Desription",
+    label: "Description",
     name: "description",
     type: "textarea",
     defaultValue:
@@ -1484,4 +1484,197 @@ export const createAutoLoanVehicleForm = [
     type: "text",
     placeholder: "vin",
   },
+];
+
+export const createBusinessRegistrationForm = [
+  {
+    label: "Business Name",
+    name: "businessName",
+    type: "text",
+    placeholder: "business name",
+  },
+  {
+    label: "Business Type or Industry",
+    name: "typeIndustry",
+    type: "text",
+    placeholder: "business type or industry",
+  },
+  {
+    label: "Person's Name",
+    name: "name",
+    type: "text",
+    placeholder: "name",
+  },
+  {
+    label: "Phone Number",
+    name: "phoneNumber",
+    type: "number",
+    placeholder: "phone number",
+  },
+  {
+    label: "Email Address",
+    name: "email",
+    type: "email",
+    placeholder: "email",
+  },
+  {
+    label: "Business Description",
+    name: "businessDescription",
+    type: "textarea",
+    placeholder: "business description",
+  },
+];
+export const createBusinessCustomEmailForm = [
+  {
+    label: "Email Addresses",
+    name: "email",
+    type: "email",
+    placeholder: "email",
+  },
+];
+export const createBusinessDomainForm = [
+  {
+    label: "Your Domain",
+    name: "domain",
+    type: "text",
+    placeholder: "your domain",
+  },
+];
+export const addProductForm = [
+  {
+    label: "Product Name",
+    name: "productName",
+    type: "text",
+    placeholder: "product name",
+  },
+  {
+    label: "Category",
+    name: "category",
+    type: "text",
+    placeholder: "category",
+  },
+  {
+    label: "Price",
+    name: "price",
+    type: "number",
+    placeholder: "price",
+  },
+  {
+    label: "Contact",
+    name: "contact",
+    type: "number",
+    placeholder: "contact",
+  },
+  {
+    label: "Description",
+    name: "description",
+    type: "textarea",
+    placeholder: "write description here..",
+  },
+ 
+];
+export const addEFilingForm = [
+  {
+    label: "Add E-Filing Details",
+    name: "efilingDetails",
+    type: "textarea",
+    placeholder: "write details here",
+  },
+  {
+    label: "Last Filing Date",
+    name: "lastDate",
+    type: "date",
+    placeholder: "date",
+  },
+  {
+    label: "Next Due Date",
+    name: "dueDate",
+    type: "date",
+    placeholder: "date",
+  },
+ 
+];
+export const taxFilingPlaningFinancialGoalsForm = [
+  {
+    label: "Increase Retirement Fund",
+    name: "retirementFund",
+    type: "number",
+    placeholder: "fund",
+  },
+  {
+    label: "Home Purchase",
+    name: "homePurchase",
+    type: "number",
+    placeholder: "home purchase",
+  },
+  {
+    label: "Education Fund",
+    name: "educationFund",
+    type: "number",
+    placeholder: "education fund",
+  },
+  {
+    label: "Emergency Fund",
+    name: "emergencyFund",
+    type: "number",
+    placeholder: "emergency fund",
+  },
+ 
+];
+export const taxFilingPlaningSavingForm = [
+  {
+    label: "Contribution to IRA",
+    name: "contirbutionFund",
+    type: "number",
+    placeholder: "contribution fund",
+  },
+  {
+    label: "Open IRA Account",
+    name: "openAccount",
+    type: "number",
+    placeholder: "open account",
+  },
+  {
+    label: "Invest in Tax-Efficient Funds",
+    name: "investmentFunds",
+    type: "number",
+    placeholder: "investmentFunds",
+  },
+ 
+];
+export const taxFilingPlaningBudgetForm = [
+  {
+    label: "Allocate Monthly Budget to Savings",
+    name: "monthlyBudget",
+    type: "number",
+    placeholder: "monthly budget",
+  },
+  {
+    label: "Review and Adjust Regularly",
+    name: "reviewRegularly",
+    type: "number",
+    placeholder: "review and adjust regularly",
+  },
+ 
+];
+export const taxFilingPlaningActionForm = [
+  {
+    label: "Set Monthly Saving Form",
+    name: "monthlySaving",
+    type: "number",
+    placeholder: "monthly saving",
+  },
+  {
+    label: "Research Investment Oppertunities",
+    name: "investmentOppertunities",
+    type: "number",
+    placeholder: "investment oppertunities",
+  },
+  {
+    label: "Consult Financial Advisor",
+    name: "financialAdvisor",
+    type: "number",
+    placeholder: "financial advisor",
+  },
+ 
 ];

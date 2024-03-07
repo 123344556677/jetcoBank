@@ -3423,6 +3423,459 @@ export const shippingMailboxData = [
 
 ];
 
+export const LogoDesignCards=[
+  {
+    heading:"Brand Identity",
+    img:require('../assets/img/brand/jetcoLogo.png'),
+    text:"This logo is the primary representation of JETCO brand identity. It is to be used in official documents, communications, and marketing materials to ensure consistent branding across all channels. Please use this logo exclusively for promoting JETCO bank image and services."
+  },
+  {
+    heading:"Security And Authentication",
+    img:require('../assets/img/icons/common/justLogo.png'),
+    text:"The second logo is designated for security and authentication purposes. It should be used in applications, interfaces, and communications related to user authentication, login screens, and secure transactions. This logo helps reinforce a sense of security and trust for our users in JETCO"
+  },
+  {
+    heading:"Marketing",
+    img:require('../assets/img/icons/common/jetco.png'),
+    text:"This logo is designated for all marketing-related materials and campaigns. It embodies the brand's creative identity and is strategically designed to resonate with the target audience. Its use is primarily focused on promotional materials, digital marketing assets, and any content intended to enhance the JETCO bank in the market"
+  }
+]
+
+export const productManagerHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Prouct I'D",
+  },
+  {
+    title: "Product Type",
+  },
+  {
+    title: "Description",
+  },
+  {
+    title: "Price",
+  },
+  {
+    title: "Status",
+  },
+  {
+    title: "Availability",
+  },
+];
+export const productManagerData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Saving Accounts",
+    },
+    {
+      value: "Basic savings account with competitive interest rates.",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "Unlimited",
+    },
+    {
+      value: "Available for all Customers",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Fixed Deposits",
+    },
+    {
+      value: "Secure investment with fixed returns over a specified period",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "Limited",
+    },
+    {
+      value: "Available for all Customers",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Personal Loans",
+    },
+    {
+      value: "Hassle-free personal loans with flexible repayment options",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "Open",
+    },
+    {
+      value: "Subject to credit approval",
+    },
+  ],
+];
+export const eFilingHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "E-Filing Detail",
+  },
+  {
+    title: "Last Filing Date",
+  },
+  {
+    title: "Next Filing Due.",
+  },
+  {
+    title: "Status",
+  },
+];
+export const eFilingData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "Basic savings account with competitive interest rates.",
+    },
+    {
+      value: "14 Dec 2023 ",
+    },
+    {
+      value: "14 Dec 2023 ",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "Secure investment with fixed returns over a specified period",
+    },
+    {
+      value: "14 Dec 2023 ",
+    },
+    {
+      value: "14 Dec 2023 ",
+    },
+    {
+      value: "In Progress",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "Hassle-free personal loans with flexible repayment options",
+    },
+    {
+      value: "14 Dec 2023 ",
+    },
+    {
+      value: "14 Dec 2023 ",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+];
+export const taxFilingPreparationHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Username",
+  },
+  {
+    title: "I'D no.",
+  },
+  {
+    title: "Address",
+  },
+  {
+    title: "Total Income",
+  },
+  {
+    title: "Total Deductions",
+  },
+  {
+    title: "Total Tax Credits",
+  },
+  {
+    title: "Account Number",
+  },
+  {
+    title: "Status",
+  },
+  {
+    title: "Branch",
+  },
+  {
+    title: "Date",
+  },
+];
+export const taxFilingPreparationData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value:"957-65877-300"
+    },
+    {
+      value:"Completed"
+    },
+    {
+      value:"Down Town"
+    },
+    {
+      value:"14 Dec 2023"
+    }
+    
+  ],
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value:"957-65877-300"
+    },
+    {
+      value:"Completed"
+    },
+    {
+      value:"Down Town"
+    },
+    {
+      value:"14 Dec 2023"
+    }
+    
+  ],[
+    {
+      value: "1",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value:"957-65877-300"
+    },
+    {
+      value:"Completed"
+    },
+    {
+      value:"Down Town"
+    },
+    {
+      value:"14 Dec 2023"
+    }
+    
+  ],
+];
+export const taxFilingInformationHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Username",
+  },
+  {
+    title: "I'D no.",
+  },
+  {
+    title: "Account Number",
+  },
+  {
+    title: "Common Deductions",
+  },
+  {
+    title: "Tax Documents Repository",
+  },
+  {
+    title: "Status",
+  },
+  {
+    title: "Branch",
+  },
+  {
+    title: "Update Date",
+  },
+];
+export const taxFilingInformationData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value:"957-65877-300"
+    },
+    {
+      value:"Home Mortage Interest"
+    },
+    {
+      value:"W-2 Forms",
+      type:"img",
+      img:require('../assets/img/icons/common/billboard design anas.png')
+    },
+     {
+      value:"Married"
+    },
+    {
+      value:"Down Town"
+    },
+    {
+      value:"14 Dec 2023"
+    }
+    
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value:"957-65877-300"
+    },
+    {
+      value:"Student Loan Interest"
+    },
+    {
+      value:"1099 Forms",
+      type:"img",
+      img:require('../assets/img/icons/common/billboard design anas.png')
+    },
+     {
+      value:"Single"
+    },
+    {
+      value:"Down Town"
+    },
+    {
+      value:"14 Dec 2023"
+    }
+    
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value:"957-65877-300"
+    },
+    {
+      value:"Home Mortage Interest"
+    },
+    {
+      value:"Investment Statments",
+      type:"img",
+      img:require('../assets/img/icons/common/billboard design anas.png')
+    },
+     {
+      value:"Married"
+    },
+    {
+      value:"Down Town"
+    },
+    {
+      value:"14 Dec 2023"
+    }
+    
+  ],
+];
 export const inboxColors = ["#F1F6FB", "#FFFFFF"];
 export const profileColors = [
   {
@@ -3454,3 +3907,47 @@ export const profileColors = [
     childColor: "#DEAD76",
   },
 ];
+export const taxReturnData = {
+  year: "Tax Year:2023",
+  title:"Amount",
+  sections: [
+    {
+      sr:1,
+      heading: 'Income Information',
+      items: [
+        { label: 'Employement Income', amount: 5994 },
+        { label: 'Rental Income', amount: 66051 },
+        { label: 'Other Income', amount: 266266 }
+      ],
+      total: 2592669959
+    },
+    {
+      sr:2,
+      heading: 'Deductions',
+      items: [
+        { label: 'Home Mortage', amount: 5994 },
+        { label: 'Charitable Giving', amount: 66051 },
+        { label: 'Student Loan', amount: 66051 }
+      ],
+      total: 2592669959
+    },
+    {
+      sr:3,
+      heading: 'Tax Calculation',
+      items: [
+        { label: 'Federal Tax Rate (15%)', amount: 5994 },
+        { label: 'State Tax Rate(15%)', amount: 66051 },
+      ],
+      total: 2592669959
+    },
+    {
+      sr:4,
+      heading: 'Taxable Income',
+      headingAmount: 2592669959
+    },
+    {
+      finalValue: 'Tax',
+      finalAmount: 2592669959
+    },
+  ]
+};

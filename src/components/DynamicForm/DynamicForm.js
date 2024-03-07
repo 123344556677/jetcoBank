@@ -54,7 +54,8 @@ const DynamicForm = ({
             {defaultButton()}
           </>
         );
-        case "Mailbox Setup":
+      case "Mailbox Setup":
+      case "Business Registration":
         return (
           <>
             <Button type="submit" className="login-button">
@@ -102,6 +103,31 @@ const DynamicForm = ({
               }}
             >
               Reset to Default
+            </Button>
+          </div>
+        );
+      case "Custom Domains":
+        return (
+          <div className="inline mt-4 ">
+            <Button
+              className="add-button action-button profile-form-action-button  mt-1 mb-5"
+              outline
+              size="md"
+            >
+              Create New
+            </Button>
+            <Button
+              className="action-button block-button profile-form-action-button  mt-1 ml-lg-4 mb-5"
+              size="md"
+            >
+              Change
+            </Button>
+            <Button
+              className="action-button profile-form-action-button  mt-1 ml-lg-4 mb-5"
+              size="md"
+              color="danger"
+            >
+              Remove
             </Button>
           </div>
         );

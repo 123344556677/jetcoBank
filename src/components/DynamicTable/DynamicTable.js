@@ -21,16 +21,21 @@ const DynamicTable = ({ headings, tableData, component, parentComponent }) => {
     case "Cleared":
     case "In Route":
     case "Open":
+    case "Unlimited":
+    case "Completed":
+    case "Married":
       return "active-color";
     case "Inactive":
     case "Closed":
     case "Delivered":
     case "High":
+    case "Limited":
       return "inactive-color";
     case "In Progress":
       return "progress-color";
     case "Medium":
     case "Available":
+    case "Single":
       return "medium-color";
     case "Low":
       return "closed-color";

@@ -32,6 +32,9 @@ export const routes = {
     EstateAccount:"/admin/accountsAndBranch/estateAccountProfile",
     PassThroughAccount:"/admin/accountsAndBranch/passThroughAccountProfile",
     AutoLoanAccount:"/admin/accountsAndBranch/autoLoanAccountProfile",
+  },
+  BusinessAndTaxServices: {
+    TaxFilingPreparation:"/admin/businessAndTaxServices/taxFilingServicesProfile",
   }
 
 };

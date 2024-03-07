@@ -90,6 +90,11 @@ import SupportTicketsMessagesListing from "components/LogisticAndSupport/Support
 import CourierMailboxService from "components/LogisticAndSupport/CourierMailboxService/CourierMailboxService";
 import AddAutoLoansAccount from "components/AccountsBranchOffice/AccountCreation/AutoLoanAccounts/AddAutoLoansAccount";
 import AutoLoanAccountProfile from "components/AccountsBranchOffice/AccountCreation/AutoLoanAccounts/AutoLoanAccountProfile";
+import BusinessManageServices from "components/BusinessAndTaxServices/BusinessManageServices/BusinessManageServices";
+import ProductManagerListing from "components/BusinessAndTaxServices/ProductManager/ProductManagerListing";
+import AddProductManager from "components/BusinessAndTaxServices/ProductManager/AddProductManager";
+import TaxFilingServices from "components/BusinessAndTaxServices/TaxFilingServices/TaxFilingServices";
+import TaxFilingPreparationProfileForm from "components/BusinessAndTaxServices/TaxFilingServices/TaxFilingPreparationProfileForm";
 
 
 var routes = [
@@ -665,6 +670,48 @@ var routes = [
     name: "CourierMailboxService",
     icon: "ni ni-tv-2 ",
     component:<CourierMailboxService/>,
+    layout: "/admin",
+  },
+  {
+    path: "/businessAndTaxServices",
+    name: "Business & Tax Services",
+    icon: "fa fa-money",
+    component:<CourierMailboxService/>,
+    layout: "/admin",
+  },
+  {
+    path: "/businessAndTaxServices/businessManageServices",
+    name: "BusinessManageServices",
+    icon: "ni ni-tv-2 ",
+    component:<BusinessManageServices/>,
+    layout: "/admin",
+  },
+  {
+    path: "/businessAndTaxServices/productManagerListing",
+    name: "ProductManager",
+    icon: "ni ni-tv-2 ",
+    component:<ProductManagerListing/>,
+    layout: "/admin",
+  },
+  {
+    path: "/businessAndTaxServices/addProductManager",
+    name: "AddProductManager",
+    icon: "ni ni-tv-2 ",
+    component:<AddProductManager/>,
+    layout: "/admin",
+  },
+  {
+    path: "/businessAndTaxServices/taxFilingServicesListing",
+    name: "TaxFilingListing",
+    icon: "ni ni-tv-2 ",
+    component:<TaxFilingServices/>,
+    layout: "/admin",
+  },
+  {
+    path: "/businessAndTaxServices/taxFilingServicesProfile",
+    name: "TaxFilingProfile",
+    icon: "ni ni-tv-2 ",
+    component:<TaxFilingPreparationProfileForm/>,
     layout: "/admin",
   },
   {
