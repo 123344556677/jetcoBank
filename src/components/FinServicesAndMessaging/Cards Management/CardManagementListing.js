@@ -9,7 +9,7 @@ import { cardManagementHeadings } from "mock-data/ToBarData";
 import { ledgerListingHeadings } from "mock-data/ToBarData";
 import React, { useState } from "react";
 function CardManagementListing() {
-  const [CardManagement,setCardManagement] = useState();
+  const [CardManagement, setCardManagement] = useState();
   const handleActiveCardManagement = (val) => {
     setCardManagement(val);
   };
@@ -25,7 +25,7 @@ function CardManagementListing() {
           parentComponent="FinServicesAndMessaging"
         />
         <div className="mt-3">
-          {CardManagement=== "Prepaid Card" && (
+          {CardManagement === "Prepaid Card" && (
             <DynamicTable
               headings={cardManagementTableHeading}
               tableData={cardManagementTableHeadingsData}
@@ -35,21 +35,20 @@ function CardManagementListing() {
           )}
           {CardManagement === "Virtual Card" && (
             <DynamicTable
-            headings={cardManagementTableHeading}
-            tableData={cardManagementTableHeadingsData}
+              headings={cardManagementTableHeading}
+              tableData={cardManagementTableHeadingsData}
               component="CardManagementListing"
               parentComponent="FinServicesAndMessaging"
             />
           )}
           {CardManagement === "Physical Card" && (
             <DynamicTable
-            headings={cardManagementTableHeading}
-            tableData={cardManagementTableHeadingsData}
+              headings={cardManagementTableHeading}
+              tableData={cardManagementTableHeadingsData}
               component="CardManagementListing"
               parentComponent="FinServicesAndMessaging"
             />
           )}
-        
         </div>
       </div>
     </div>

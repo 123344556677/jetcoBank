@@ -15,44 +15,44 @@ const DynamicTable = ({ headings, tableData, component, parentComponent }) => {
   };
 
   const getClassName = (value) => {
-  switch (value) {
-    case "Active":
-    case "In Transit":
-    case "Cleared":
-    case "In Route":
-    case "Open":
-      return "active-color";
+    switch (value) {
+      case "Active":
+      case "In Transit":
+      case "Cleared":
+      case "In Route":
+      case "Open":
+        return "active-color";
       case "Completed":
         return "active-color";
-        case "Buy":
-          return "active-color";
-      
-    case "Inactive":
-    case "Closed":
-    case "Delivered":
-    case "High":
-      return "inactive-color";
+      case "Buy":
+        return "active-color";
+
+      case "Inactive":
+      case "Closed":
+      case "Delivered":
+      case "High":
+        return "inactive-color";
       case "Failed":
-      return "inactive-color";
+        return "inactive-color";
       case "Sell":
-      return "inactive-color";
-    case "In Progress":
-      return "progress-color";
-    case "Medium":
-    case "Available":
-      return "medium-color";
+        return "inactive-color";
+      case "In Progress":
+        return "progress-color";
+      case "Medium":
+      case "Available":
+        return "medium-color";
       case "Pending":
         return "medium-color";
-        case "Freeze":
+      case "Freeze":
         return "medium-color";
-        case "Exchange":
+      case "Exchange":
         return "medium-color";
-    case "Low":
-      return "closed-color";
-    default:
-      return "table-data";
-  }
-};
+      case "Low":
+        return "closed-color";
+      default:
+        return "table-data";
+    }
+  };
   return (
     <div className="table-container">
       <div className="table-wrapper ml-2 mr-2">
@@ -65,12 +65,12 @@ const DynamicTable = ({ headings, tableData, component, parentComponent }) => {
                 </th>
               ))}
               {component !== "Transaction Detail" &&
-              component !== "CryptoTrading" &&
-              component !=="StockTradingListing" &&
+                component !== "CryptoTrading" &&
+                component !== "StockTradingListing" &&
                 component !== "Pass Through Account" &&
                 component !== "Ledger" &&
-                component !=="FinanicalMessagingListing" &&
-                 component !== "Mailbox Service"&& (
+                component !== "FinanicalMessagingListing" &&
+                component !== "Mailbox Service" && (
                   <th className="table-headings">Actions</th>
                 )}
             </tr>
@@ -96,11 +96,11 @@ const DynamicTable = ({ headings, tableData, component, parentComponent }) => {
                 ))}
                 {component !== "Transaction Detail" &&
                   component !== "Pass Through Account" &&
-                  component !=="StockTradingListing" &&
+                  component !== "StockTradingListing" &&
                   component !== "Ledger" &&
                   component !== "CryptoTrading" &&
-                  component !=="FinanicalMessagingListing" &&
-                  component !== "Mailbox Service"&& (
+                  component !== "FinanicalMessagingListing" &&
+                  component !== "Mailbox Service" && (
                     <td className="action-column">
                       <Button
                         size="sm"
