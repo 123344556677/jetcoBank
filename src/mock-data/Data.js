@@ -18,6 +18,7 @@ import SoleProprietorAccounts from "components/AccountsBranchOffice/AccountCreat
 import TreasuryManagementAccounts from "components/AccountsBranchOffice/AccountCreation/TreasuryManageAccounts/TreasuryManagementAccounts";
 import TrustAccounts from "components/AccountsBranchOffice/AccountCreation/TrustAccounts/TrustAccounts";
 import AssetProtection from "components/BusinessAndTaxServices/FinConsultantServices/AssetProtection/AssetProtection";
+import BrokerageInvestments from "components/BusinessAndTaxServices/FinConsultantServices/BrokerageAndInvestments/BrokerageInvestments";
 import BudgetPlans from "components/BusinessAndTaxServices/FinConsultantServices/BudgetPlans/BudgetPlans";
 import ConsultantServicesListing from "components/BusinessAndTaxServices/FinConsultantServices/ConsultantServices/ConsultantServicesListing";
 import FiscalManagementListing from "components/BusinessAndTaxServices/FinConsultantServices/FiscalManagement/FiscalManagementListing";
@@ -5262,7 +5263,6 @@ export const retirementPlansData = [
     {
       value: "Cash: 10%",
     },
-    
   ],
   [
     {
@@ -5286,7 +5286,6 @@ export const retirementPlansData = [
     {
       value: "International Bonds: 30%",
     },
-    
   ],
   [
     {
@@ -5310,7 +5309,6 @@ export const retirementPlansData = [
     {
       value: "Sustainable ETFs: 50%",
     },
-    
   ],
 ];
 export const creditRepairReviewHeadings = [
@@ -5371,7 +5369,6 @@ export const creditRepairReviewData = [
     {
       value: "No significant issues. Good payment history.",
     },
-    
   ],
   [
     {
@@ -5401,7 +5398,6 @@ export const creditRepairReviewData = [
     {
       value: "Detected a discrepancy in previous payments.",
     },
-    
   ],
   [
     {
@@ -5431,7 +5427,6 @@ export const creditRepairReviewData = [
     {
       value: "Detected a discrepancy in previous payments.",
     },
-    
   ],
 ];
 export const creditRepairDisputeHeadings = [
@@ -5486,7 +5481,6 @@ export const creditRepairDisputeData = [
     {
       value: "14 Dec 2023",
     },
-    
   ],
   [
     {
@@ -5513,7 +5507,6 @@ export const creditRepairDisputeData = [
     {
       value: "14 Dec 2023",
     },
-    
   ],
   [
     {
@@ -5540,7 +5533,6 @@ export const creditRepairDisputeData = [
     {
       value: "14 Dec 2023",
     },
-    
   ],
 ];
 export const creditRepairReviewServicesHeadings = [
@@ -5601,7 +5593,6 @@ export const creditRepairReviewServicesData = [
     {
       value: "+50 points",
     },
-    
   ],
   [
     {
@@ -5631,7 +5622,6 @@ export const creditRepairReviewServicesData = [
     {
       value: "+50 points",
     },
-    
   ],
   [
     {
@@ -5661,7 +5651,6 @@ export const creditRepairReviewServicesData = [
     {
       value: "+50 points",
     },
-    
   ],
 ];
 export const creditManagementHeadings = [
@@ -5734,7 +5723,6 @@ export const creditManagementData = [
     {
       value: "Complete",
     },
-    
   ],
   [
     {
@@ -5770,7 +5758,6 @@ export const creditManagementData = [
     {
       value: "Incomplete",
     },
-    
   ],
   [
     {
@@ -5806,9 +5793,18 @@ export const creditManagementData = [
     {
       value: "Complete",
     },
-    
   ],
+];
 
+export const brokerageInvestmentCardData = [
+  {
+    title: "Total Portfolio Value",
+    price: "$2592669",
+  },
+  {
+    title: "Portfolio Growth",
+    price: "40%",
+  },
 ];
 export const uccPortfolioHeadings = [
   {
@@ -5850,7 +5846,6 @@ export const uccPortfolioData = [
     {
       value: "2023-12-31",
     },
-    
   ],
   [
     {
@@ -5871,7 +5866,6 @@ export const uccPortfolioData = [
     {
       value: "2023-12-31",
     },
-    
   ],
   [
     {
@@ -5892,9 +5886,7 @@ export const uccPortfolioData = [
     {
       value: "2023-12-31",
     },
-    
   ],
-
 ];
 export const uccMonitorHeadings = [
   {
@@ -5978,7 +5970,6 @@ export const uccMonitoroData = [
     {
       value: "Active",
     },
-    
   ],
   [
     {
@@ -6020,7 +6011,6 @@ export const uccMonitoroData = [
     {
       value: "Expired",
     },
-    
   ],
   [
     {
@@ -6062,9 +6052,7 @@ export const uccMonitoroData = [
     {
       value: "Active",
     },
-    
   ],
-
 ];
 
 export const inboxColors = ["#F1F6FB", "#FFFFFF"];
@@ -6192,7 +6180,7 @@ export const finConsultServicesTopBar = [
   },
   {
     title: "Brokerage Investments",
-    component: <CorporateAccounts />,
+    component: <BrokerageInvestments/>
   },
   {
     title: "Health Saving Accounts",
@@ -6200,10 +6188,263 @@ export const finConsultServicesTopBar = [
   },
   {
     title: "Budget Plans",
-    component: <BudgetPlans/>
+    component: <BudgetPlans />,
   },
   {
     title: "Retirement Plans",
-    component: <RetirementPlans/>
+    component: <RetirementPlans />,
   },
 ];
+
+export const fiscalFinancialReportData = {
+  mainHeading: "Financial Report",
+  headings: [
+    {
+      title: "Date",
+      key: "date", // Added key for each heading
+    },
+    {
+      title: "Income",
+      key: "income",
+    },
+    {
+      title: "Expenses",
+      key: "expense",
+    },
+    // Add more headings as needed
+  ],
+  sections: [
+    {
+      sr: 1,
+      items: [{ date: "2023-01", income: "$5,000,000", expense: "$5,000,000" }],
+    },
+    {
+      sr: 1,
+      items: [{ date: "2023-01", income: "$5,000,000", expense: "$5,000,000" }],
+    },
+    {
+      sr: 1,
+      items: [{ date: "2023-01", income: "$5,000,000", expense: "$5,000,000" }],
+    },
+  ],
+  total: [
+    {
+      title: "Total",
+      key: "total", // Added key for each total
+    },
+    {
+      title: "$5,000,000",
+      key: "totalIncome", // Use appropriate key for total income
+    },
+    {
+      title: "$5,000,000",
+      key: "totalExpense", // Use appropriate key for total expense
+    },
+    // Add more totals as needed
+  ],
+};
+export const brokerageStockData = {
+  mainHeading: "Stocks",
+  headings: [
+    {
+      title: "Company Name",
+      key: "value1", // Added key for each heading
+    },
+    {
+      title: "Ticker",
+      key: "value2",
+    },
+    {
+      title: "Shared Owned",
+      key: "value3",
+    },
+    {
+      title: "Current Value",
+      key: "value4",
+    },
+    // Add more headings as needed
+  ],
+  sections: [
+    {
+      sr: 1,
+      items: [
+        {
+          value1: "Company A",
+          value2: "AAA",
+          value3: "500",
+          value4: "$5,000,000",
+        },
+      ],
+    },
+    {
+      sr: 1,
+      items: [
+        {
+          value1: "Company B",
+          value2: "BBB",
+          value3: "500",
+          value4: "$5,000,000",
+        },
+      ],
+    },
+    {
+      sr: 1,
+      items: [
+        {
+          value1: "Company C",
+          value2: "CCC",
+          value3: "500",
+          value4: "$5,000,000",
+        },
+      ],
+    },
+  ],
+};
+export const brokerageBondsData = {
+  mainHeading: "Bonds",
+  headings: [
+    {
+      title: "Bond Type",
+      key: "value1", // Added key for each heading
+    },
+    {
+      title: "Issuer",
+      key: "value2",
+    },
+    {
+      title: "Face  Value",
+      key: "value3",
+    },
+    {
+      title: "Maturity",
+      key: "value4",
+    },
+    // Add more headings as needed
+  ],
+  sections: [
+    {
+      items: [
+        {
+          value1: "Corporate Bond",
+          value2: "AAA",
+          value3: "500",
+          value4: "$5,000,000",
+        },
+      ],
+    },
+    {
+      items: [
+        {
+          value1: "Government Bond",
+          value2: "BBB",
+          value3: "500",
+          value4: "$5,000,000",
+        },
+      ],
+    },
+    {
+      items: [
+        {
+          value1: "Municipal Bond",
+          value2: "CCC",
+          value3: "500",
+          value4: "$5,000,000",
+        },
+      ],
+    },
+  ],
+};
+export const brokerageRealEstateData = {
+  mainHeading: "Real Estate",
+  headings: [
+    {
+      title: "Property",
+      key: "value1", // Added key for each heading
+    },
+    {
+      title: "Location",
+      key: "value2",
+    },
+    {
+      title: "Current Value",
+      key: "value3",
+    },
+    // Add more headings as needed
+  ],
+  sections: [
+    {
+      items: [
+        {
+          value1: "Property 1",
+          value2: "AAA",
+          value3: "500",
+        },
+      ],
+    },
+    {
+      items: [
+        {
+          value1: "Property 2",
+          value2: "BBB",
+          value3: "500",
+        },
+      ],
+    },
+    {
+      items: [
+        {
+          value1: "Property 3",
+          value2: "CCC",
+          value3: "500",
+        },
+      ],
+    },
+  ],
+};
+export const brokerageMutualFundsData = {
+  mainHeading: "Mutual Funds",
+  headings: [
+    {
+      title: "Funds Name",
+      key: "value1", // Added key for each heading
+    },
+    {
+      title: "Units Held",
+      key: "value2",
+    },
+    {
+      title: "NAV",
+      key: "value3",
+    },
+    // Add more headings as needed
+  ],
+  sections: [
+    {
+      items: [
+        {
+          value1: "Fund 1",
+          value2: "AAA",
+          value3: "500",
+        },
+      ],
+    },
+    {
+      items: [
+        {
+          value1: "Fund 2",
+          value2: "BBB",
+          value3: "500",
+        },
+      ],
+    },
+    {
+      items: [
+        {
+          value1: "Fund 3",
+          value2: "CCC",
+          value3: "500",
+        },
+      ],
+    },
+  ],
+};
