@@ -165,3 +165,60 @@ export const taxFilingServicesheadings=[
     },
 
 ]
+export const estateAndTrustheadings=[
+    {
+        title:"Trust Formation"
+    },
+    {
+        title:'Trustee Services'
+    },  
+    {
+        title:'Wealth Management'
+    }, 
+    {
+        title:'Estate Planning'
+    },
+    {
+        title:'Last Will & Testament'
+    },
+    {
+        title:'Ancestary Estate Research'
+    },
+    {
+        title:'Forensic Treasure Hunt'
+    },
+
+]
+export const creditManageheadings=[
+    {
+        title:"Credit Repair"
+    },
+    {
+        title:'Credit Management'
+    },  
+
+]
+export const creditRepairSubHeadings=[
+    {
+        title:"Credit Review"
+    },
+    {
+        title:'Dispute'
+    },  
+    {
+        title:'Repair Services'
+    },  
+
+]
+export const UccManagementSystemHeadings=[
+    {
+        title:"File"
+    },
+    {
+        title:'Portfolio'
+    },  
+    {
+        title:'Monitor'
+    },  
+
+]

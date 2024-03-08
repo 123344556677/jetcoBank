@@ -32,7 +32,7 @@ const TaxFilingServices = () => {
           checkActiveLink={handleActiveRole}
           buttonValue="e-filing"
           defaultValue="E-Filing"
-          parentComponent="Tax Filing Services"
+          parentComponent="BusinessAndTaxServices"
         />
         <div className="mt-3">
           {activeRole === "E-Filing" && (

@@ -1678,3 +1678,201 @@ export const taxFilingPlaningActionForm = [
   },
  
 ];
+export const createEstateTrustInformationForm = [
+  {
+    label: "Trust Name",
+    name: "trustName",
+    type: "text",
+    placeholder: "trust name",
+  },
+  {
+    label: "Formation Date",
+    name: "formationDate",
+    type: "date",
+    placeholder: "formation date",
+  },
+  {
+    label: "Settlor",
+    name: "settlor",
+    type: "text",
+    placeholder: "settlor",
+  },
+  {
+    label: "Purpose of Text",
+    name: "purposeText",
+    type: "textarea",
+    placeholder: "purpose of text...",
+  },
+ 
+];
+export const createEstateTrustBeneficiaryForm = [
+  {
+    label: "Beneficiary Name",
+    name: "beneficiaryName",
+    type: "text",
+    placeholder: "beneficiary name",
+  },
+  {
+    label: "Relationship to Trust",
+    name: "relationshipTrust",
+    type: "text",
+    placeholder: "relationship to trust",
+  },
+  {
+    label: "Contact Details",
+    name: "contact",
+    type: "number",
+    placeholder: "contact",
+  },
+  {
+    label: "Share In Trust(%)",
+    name: "shareTrust",
+    type: "number",
+    placeholder: "share in trust",
+  },
+  {
+    label: "Purpose",
+    name: "purpose",
+    type: "text",
+    placeholder: "purpose",
+  },
+ 
+];
+export const createTrusteeForm = [
+  {
+    label: "Trustee Name",
+    name: "trusteeName",
+    type: "text",
+    placeholder: "trutee name",
+  },
+  {
+    label: "Action",
+    name: "action",
+    type: "text",
+    placeholder: "action",
+  },
+  {
+    label: "Additional Comments",
+    name: "additionalComments",
+    type: "textarea",
+    placeholder: "write comments here...",
+  },
+ 
+];
+export const addConsultantForm = [
+  {
+    label: "Consultant Name",
+    name: "consultantName",
+    type: "text",
+    placeholder: "consultant name",
+  },
+  {
+    label: "Expertise",
+    name: "expertise",
+    type: "text",
+    placeholder: "expertise",
+  },
+  {
+    label: "Experience",
+    name: "experience",
+    type: "text",
+    placeholder: "experience",
+  },
+ 
+];
+export const createUccDebtorInfoForm = [
+  {
+    label: "Debtor Name",
+    name: "debtorName",
+    type: "text",
+    placeholder: "name",
+  },
+  {
+    label: "Debtor Address",
+    name: "debtorAdress",
+    type: "text",
+    placeholder: "address",
+  },
+  {
+    label: "Debtor SSN",
+    name: "debtorSSN",
+    type: "number",
+    placeholder: "SSN",
+  },
+  {
+    label: "Contact Email",
+    name: "email",
+    type: "email",
+    placeholder: "email",
+  },
+];
+export const createUccDebtorSecurityForm = [
+  {
+    label: "Party Name",
+    name: "partyName",
+    type: "text",
+    placeholder: "name",
+  },
+  {
+    label: "Party Address",
+    name: "partyAddress",
+    type: "text",
+    placeholder: "address",
+  },
+  {
+    label: "Contact Email",
+    name: "email",
+    type: "email",
+    placeholder: "email",
+  },
+];
+
+export const createUccCollatoralForm = [
+  {
+    label: "Description",
+    name: "description",
+    type: "text",
+    placeholder: "description",
+  },
+  {
+    label: "Value",
+    name: "value",
+    type: "number",
+    placeholder: "value",
+  },
+  {
+    label: "Type",
+    name: "type",
+    type: "text",
+    placeholder: "type",
+  },
+];
+export const createPortfolioRenewFileForm = [
+  {
+    label: "Original Filing Date",
+    name: "filingDate",
+    type: "date",
+    placeholder: "filing date",
+  },
+  {
+    label: "Expiration Date",
+    name: "expirationDate",
+    type: "date",
+    placeholder: "expiration date",
+  },
+  {
+    label: "Renewal  Date",
+    name: "renewalDate",
+    type: "date",
+    placeholder: "renewal date",
+  },
+  {
+    label: "New Expiration Date",
+    name: "newExpirationDate",
+    type: "date",
+    placeholder: "new expiration date",
+  },
+  
+  
+];
+

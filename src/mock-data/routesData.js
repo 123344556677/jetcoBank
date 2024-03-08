@@ -35,6 +35,7 @@ export const routes = {
   },
   BusinessAndTaxServices: {
     TaxFilingPreparation:"/admin/businessAndTaxServices/taxFilingServicesProfile",
+    ConsultantServices:"/admin/businessAndTaxServices/finConsultantProfile"
   }
 
 };

@@ -88,18 +88,18 @@ export const BusinessAndTaxItems=[
     },
     {
         title:"Estate & Trust Services",
-        link:"logisticsAndSupport/courierMailboxService"
+        link:"businessAndTaxServices/estateAndTrustServices"
     },
     {
         title:"Fin Consult & Manage Services",
-        link:"logisticsAndSupport/courierMailboxService"
+        link:"businessAndTaxServices/finConsultServices"
     },
     {
         title:"Credit & Manage Services",
-        link:"logisticsAndSupport/courierMailboxService"
+        link:"businessAndTaxServices/creditAndManageServicesListing"
     },
     {
         title:"UCC Management Services",
-        link:"logisticsAndSupport/courierMailboxService"
+        link:"businessAndTaxServices/uccManagementSystem"
     },
 ]

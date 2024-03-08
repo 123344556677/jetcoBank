@@ -3,46 +3,17 @@ import { Button, Table } from "reactstrap";
 import "./DynamicTable.css";
 import { useNavigate } from "react-router-dom";
 import { routes } from "mock-data/routesData";
+import { getClassName } from "components/Common";
 
 const DynamicTable = ({ headings, tableData, component, parentComponent }) => {
   const navigate = useNavigate();
   const handleNavigation = () => {
     const url = routes[parentComponent]?.[component];
     if (url) {
-      console.log("prent component");
       navigate(url);
     }
   };
 
-  const getClassName = (value) => {
-  switch (value) {
-    case "Active":
-    case "In Transit":
-    case "Cleared":
-    case "In Route":
-    case "Open":
-    case "Unlimited":
-    case "Completed":
-    case "Married":
-      return "active-color";
-    case "Inactive":
-    case "Closed":
-    case "Delivered":
-    case "High":
-    case "Limited":
-      return "inactive-color";
-    case "In Progress":
-      return "progress-color";
-    case "Medium":
-    case "Available":
-    case "Single":
-      return "medium-color";
-    case "Low":
-      return "closed-color";
-    default:
-      return "table-data";
-  }
-};
   return (
     <div className="table-container">
       <div className="table-wrapper ml-2 mr-2">
@@ -56,7 +27,21 @@ const DynamicTable = ({ headings, tableData, component, parentComponent }) => {
               ))}
               {component !== "Transaction Detail" &&
                 component !== "Pass Through Account" &&
-                 component !== "Mailbox Service"&& (
+                component !== "Mailbox Service" &&
+                component !== "Trustee Services" &&
+                component !== "Estate Last Will" &&
+                component !== "Forensic Data" &&
+                component !== "assetProtection" &&
+                component !== "propertySecuritization" &&
+                component !== "lockBoxService" &&
+                component !== "healthSavingAccount" &&
+                component !== "BudgetPlans" &&
+                component !== "RetirementPlans" &&
+                component !== "Credit Repair Review" &&
+                component !== "Credit Repair Review Services" &&
+                component !== "Credit Repair Dispute" &&
+                component !== "Credit Management" &&
+                component !== "UCC Management System Monitor" && (
                   <th className="table-headings">Actions</th>
                 )}
             </tr>
@@ -82,7 +67,21 @@ const DynamicTable = ({ headings, tableData, component, parentComponent }) => {
                 ))}
                 {component !== "Transaction Detail" &&
                   component !== "Pass Through Account" &&
-                  component !== "Mailbox Service"&& (
+                  component !== "Mailbox Service" &&
+                  component !== "Trustee Services" &&
+                  component !== "Estate Last Will" &&
+                  component !== "Forensic Data" &&
+                  component !== "assetProtection" &&
+                  component !== "propertySecuritization" &&
+                  component !== "lockBoxService" &&
+                  component !== "healthSavingAccount" &&
+                  component !== "BudgetPlans" &&
+                  component !== "RetirementPlans" &&
+                  component !== "Credit Repair Review" &&
+                  component !== "Credit Repair Review Services" &&
+                  component !== "Credit Repair Dispute" &&
+                  component !== "Credit Management" &&
+                  component !== "UCC Management System Monitor" && (
                     <td className="action-column">
                       <Button
                         size="sm"

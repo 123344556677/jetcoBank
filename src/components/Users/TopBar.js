@@ -7,6 +7,7 @@ const TopBar = ({
   buttonValue,
   checkActiveLink,
   defaultValue,
+  component,
   parentComponent,
 }) => {
   const [activeLink, setActiveLink] = useState(defaultValue);
@@ -36,8 +37,8 @@ const TopBar = ({
       activeLink !== "Create Role" &&
       activeLink !== "Assign Group" &&
       activeLink !== "Messaging" &&
-      activeLink !== "Initiate Support Ticket"&&
-      buttonValue!=="no-button"
+      activeLink !== "Initiate Support Ticket" &&
+      buttonValue !== "no-button"
     ) {
       return `Add ${buttonValue}`;
     }
@@ -50,7 +51,11 @@ const TopBar = ({
             {headings?.map((data, index) => (
               <h4
                 className={
-                  activeLink === data?.title
+                  component === "EstateAndTrustServices"
+                    ? activeLink === data?.title
+                      ? "m-2 pb-2 pages-heading-one-active"
+                      : "m-2  pb-2 pages-heading-one"
+                    : activeLink === data?.title
                     ? "m-3 pages-heading-one-active"
                     : "m-3 pages-heading-one"
                 }
@@ -66,7 +71,7 @@ const TopBar = ({
             activeLink !== "Create Role" &&
             activeLink !== "Assign Group" &&
             activeLink !== "Messaging" &&
-            activeLink !== "Initiate Support Ticket" && 
+            activeLink !== "Initiate Support Ticket" &&
             buttonValue !== "no-button" && (
               <div className="col-auto">
                 <Button

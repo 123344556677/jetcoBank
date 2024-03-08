@@ -2061,3 +2061,71 @@ export const taxFilePreparationBankInfoData=[
         type:"text"
     },
 ]
+export const finConsultantPersonalData=[
+    {
+        label:"Name:",
+        placeholder:"name",
+        name:"name",
+        type:"text"
+    },
+    {
+        label:"Email:",
+        placeholder:"email",
+        name:"email",
+        type:"email"
+    },
+    {
+        label:"Contact:",
+        placeholder:"contact",
+        name:"contact",
+        type:"number"
+    },
+    {
+        label:"I'D no:",
+        placeholder:"id",
+        name:"id",
+        type:"number"
+    },
+    {
+        label:"Total Projects:",
+        placeholder:"total projects",
+        name:"totalProjects",
+        type:"text"
+    },
+    {
+        label:"Active Projects:",
+        placeholder:"active  projects",
+        name:"activeProjects",
+        type:"text"
+    },
+    {
+        label:"Status:",
+        placeholder:"status",
+        name:"status",
+        type:"text"
+    },
+    {
+        label:"Joining Date:",
+        placeholder:"joining date",
+        name:"joiningDate",
+        type:"date"
+    },
+    {
+        label:"Expertise:",
+        placeholder:"expertise",
+        name:"expertise",
+        type:"text"
+    },
+    {
+        label:"Experience:",
+        placeholder:"experience",
+        name:"experience",
+        type:"text"
+    },
+    {
+        label:"Active Project:",
+        placeholder:"active project",
+        name:"activeProject",
+        type:"number"
+    },
+]

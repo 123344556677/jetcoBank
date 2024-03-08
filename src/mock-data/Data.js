@@ -17,6 +17,14 @@ import SavingAccounts from "components/AccountsBranchOffice/AccountCreation/Savi
 import SoleProprietorAccounts from "components/AccountsBranchOffice/AccountCreation/SoleProprietor/SoleProprietorAccount";
 import TreasuryManagementAccounts from "components/AccountsBranchOffice/AccountCreation/TreasuryManageAccounts/TreasuryManagementAccounts";
 import TrustAccounts from "components/AccountsBranchOffice/AccountCreation/TrustAccounts/TrustAccounts";
+import AssetProtection from "components/BusinessAndTaxServices/FinConsultantServices/AssetProtection/AssetProtection";
+import BudgetPlans from "components/BusinessAndTaxServices/FinConsultantServices/BudgetPlans/BudgetPlans";
+import ConsultantServicesListing from "components/BusinessAndTaxServices/FinConsultantServices/ConsultantServices/ConsultantServicesListing";
+import FiscalManagementListing from "components/BusinessAndTaxServices/FinConsultantServices/FiscalManagement/FiscalManagementListing";
+import HealthSavingAccount from "components/BusinessAndTaxServices/FinConsultantServices/HealthSavingAccount/HealthSavingAccount";
+import LockBoxService from "components/BusinessAndTaxServices/FinConsultantServices/LockBoxService/LockBoxService";
+import PropertySecuritization from "components/BusinessAndTaxServices/FinConsultantServices/PropertySecuritization/PropertySecuritization";
+import RetirementPlans from "components/BusinessAndTaxServices/FinConsultantServices/RetirementPlans/RetirementPlans";
 
 export const userHeadings = [
   {
@@ -3420,26 +3428,25 @@ export const shippingMailboxData = [
       value: "Closed",
     },
   ],
-
 ];
 
-export const LogoDesignCards=[
+export const LogoDesignCards = [
   {
-    heading:"Brand Identity",
-    img:require('../assets/img/brand/jetcoLogo.png'),
-    text:"This logo is the primary representation of JETCO brand identity. It is to be used in official documents, communications, and marketing materials to ensure consistent branding across all channels. Please use this logo exclusively for promoting JETCO bank image and services."
+    heading: "Brand Identity",
+    img: require("../assets/img/brand/jetcoLogo.png"),
+    text: "This logo is the primary representation of JETCO brand identity. It is to be used in official documents, communications, and marketing materials to ensure consistent branding across all channels. Please use this logo exclusively for promoting JETCO bank image and services.",
   },
   {
-    heading:"Security And Authentication",
-    img:require('../assets/img/icons/common/justLogo.png'),
-    text:"The second logo is designated for security and authentication purposes. It should be used in applications, interfaces, and communications related to user authentication, login screens, and secure transactions. This logo helps reinforce a sense of security and trust for our users in JETCO"
+    heading: "Security And Authentication",
+    img: require("../assets/img/icons/common/justLogo.png"),
+    text: "The second logo is designated for security and authentication purposes. It should be used in applications, interfaces, and communications related to user authentication, login screens, and secure transactions. This logo helps reinforce a sense of security and trust for our users in JETCO",
   },
   {
-    heading:"Marketing",
-    img:require('../assets/img/icons/common/jetco.png'),
-    text:"This logo is designated for all marketing-related materials and campaigns. It embodies the brand's creative identity and is strategically designed to resonate with the target audience. Its use is primarily focused on promotional materials, digital marketing assets, and any content intended to enhance the JETCO bank in the market"
-  }
-]
+    heading: "Marketing",
+    img: require("../assets/img/icons/common/jetco.png"),
+    text: "This logo is designated for all marketing-related materials and campaigns. It embodies the brand's creative identity and is strategically designed to resonate with the target audience. Its use is primarily focused on promotional materials, digital marketing assets, and any content intended to enhance the JETCO bank in the market",
+  },
+];
 
 export const productManagerHeadings = [
   {
@@ -3664,18 +3671,17 @@ export const taxFilingPreparationData = [
       value: "54,214",
     },
     {
-      value:"957-65877-300"
+      value: "957-65877-300",
     },
     {
-      value:"Completed"
+      value: "Completed",
     },
     {
-      value:"Down Town"
+      value: "Down Town",
     },
     {
-      value:"14 Dec 2023"
-    }
-    
+      value: "14 Dec 2023",
+    },
   ],
   [
     {
@@ -3700,19 +3706,19 @@ export const taxFilingPreparationData = [
       value: "54,214",
     },
     {
-      value:"957-65877-300"
+      value: "957-65877-300",
     },
     {
-      value:"Completed"
+      value: "Completed",
     },
     {
-      value:"Down Town"
+      value: "Down Town",
     },
     {
-      value:"14 Dec 2023"
-    }
-    
-  ],[
+      value: "14 Dec 2023",
+    },
+  ],
+  [
     {
       value: "1",
     },
@@ -3735,18 +3741,17 @@ export const taxFilingPreparationData = [
       value: "54,214",
     },
     {
-      value:"957-65877-300"
+      value: "957-65877-300",
     },
     {
-      value:"Completed"
+      value: "Completed",
     },
     {
-      value:"Down Town"
+      value: "Down Town",
     },
     {
-      value:"14 Dec 2023"
-    }
-    
+      value: "14 Dec 2023",
+    },
   ],
 ];
 export const taxFilingInformationHeadings = [
@@ -3790,26 +3795,25 @@ export const taxFilingInformationData = [
       value: "554299",
     },
     {
-      value:"957-65877-300"
+      value: "957-65877-300",
     },
     {
-      value:"Home Mortage Interest"
+      value: "Home Mortage Interest",
     },
     {
-      value:"W-2 Forms",
-      type:"img",
-      img:require('../assets/img/icons/common/billboard design anas.png')
-    },
-     {
-      value:"Married"
+      value: "W-2 Forms",
+      type: "img",
+      img: require("../assets/img/icons/common/billboard design anas.png"),
     },
     {
-      value:"Down Town"
+      value: "Married",
     },
     {
-      value:"14 Dec 2023"
-    }
-    
+      value: "Down Town",
+    },
+    {
+      value: "14 Dec 2023",
+    },
   ],
   [
     {
@@ -3822,26 +3826,25 @@ export const taxFilingInformationData = [
       value: "554299",
     },
     {
-      value:"957-65877-300"
+      value: "957-65877-300",
     },
     {
-      value:"Student Loan Interest"
+      value: "Student Loan Interest",
     },
     {
-      value:"1099 Forms",
-      type:"img",
-      img:require('../assets/img/icons/common/billboard design anas.png')
-    },
-     {
-      value:"Single"
+      value: "1099 Forms",
+      type: "img",
+      img: require("../assets/img/icons/common/billboard design anas.png"),
     },
     {
-      value:"Down Town"
+      value: "Single",
     },
     {
-      value:"14 Dec 2023"
-    }
-    
+      value: "Down Town",
+    },
+    {
+      value: "14 Dec 2023",
+    },
   ],
   [
     {
@@ -3854,28 +3857,2216 @@ export const taxFilingInformationData = [
       value: "554299",
     },
     {
-      value:"957-65877-300"
+      value: "957-65877-300",
     },
     {
-      value:"Home Mortage Interest"
+      value: "Home Mortage Interest",
     },
     {
-      value:"Investment Statments",
-      type:"img",
-      img:require('../assets/img/icons/common/billboard design anas.png')
-    },
-     {
-      value:"Married"
+      value: "Investment Statments",
+      type: "img",
+      img: require("../assets/img/icons/common/billboard design anas.png"),
     },
     {
-      value:"Down Town"
+      value: "Married",
     },
     {
-      value:"14 Dec 2023"
-    }
+      value: "Down Town",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+];
+export const trusteeServicesHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Trust Name",
+  },
+  {
+    title: "Trust Activities",
+  },
+  {
+    title: "Investment Monitoring",
+  },
+  {
+    title: "Reports for Beneficiaries",
+  },
+];
+export const trusteeServicesData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "Family Trust",
+    },
+    {
+      value: "Transaction recorded in Family Trust on 2023-02-15.",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "Family Trust Beneficiary Report (March 2023)",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "Charitable Trust",
+    },
+    {
+      value: "Beneficiary updated for Charitable Trust on 2023-03-05.",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "Charitable Trust Beneficiary Report (March 2023)",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "Investment Trust",
+    },
+    {
+      value: "Investment reallocation in Investment Trust on 2023-03-20",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "Family Trust Beneficiary Report (March 2023)",
+    },
+  ],
+];
+export const estatePlanningHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "User Name",
+  },
+  {
+    title: "I'D no.",
+  },
+  {
+    title: "Address",
+  },
+  {
+    title: "Contact Number",
+  },
+  {
+    title: "Account Number",
+  },
+  {
+    title: "Status",
+  },
+  {
+    title: "Branch",
+  },
+  {
+    title: "Last Activity",
+  },
+];
+export const estatePlanningData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "2023-03-15",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "In Progress",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "2023-03-15",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Not Started",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "2023-03-15",
+    },
+  ],
+];
+export const estateLastWillHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "User Name",
+  },
+  {
+    title: "I'D no.",
+  },
+  {
+    title: "Address",
+  },
+  {
+    title: "Contact Number",
+  },
+  {
+    title: "Account Number",
+  },
+  {
+    title: "Asset Distribution",
+  },
+  {
+    title: "Distribution Percentage",
+  },
+  {
+    title: "Assets for Distribution",
+  },
+  {
+    title: "Branch",
+  },
+  {
+    title: "Upload Date",
+  },
+];
+export const estateLastWillData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Children",
+    },
+    {
+      value: "15%",
+    },
+    {
+      value: "Real Estate",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "2023-03-15",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Beneficiaries",
+    },
+    {
+      value: "80%",
+    },
+    {
+      value: "Personal Property",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "2023-03-15",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Spouse",
+    },
+    {
+      value: "25%",
+    },
+    {
+      value: "Financial Assets",
+    },
+    {
+      value: "Down Town",
+    },
+    {
+      value: "2023-03-15",
+    },
+  ],
+];
+export const estateAncestoryHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "User Name",
+  },
+  {
+    title: "I'D no.",
+  },
+  {
+    title: "Address",
+  },
+  {
+    title: "Birth Date",
+  },
+  {
+    title: "Death Date",
+  },
+  {
+    title: "Spouse",
+  },
+  {
+    title: "Children",
+  },
+  {
+    title: "Children Birth Date",
+  },
+  {
+    title: "Ethnic Background",
+  },
+];
+export const estateAncestoryData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "African",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "Asian",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "European",
+    },
+  ],
+];
+export const estateForensicHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "User Name",
+  },
+  {
+    title: "I'D no.",
+  },
+  {
+    title: "Address",
+  },
+  {
+    title: "Discovered Assets",
+  },
+  {
+    title: "Asset Tracking",
+  },
+  {
+    title: "Asset Value",
+  },
+  {
+    title: "Finnacial Transactions",
+  },
+  {
+    title: "Screen Shots",
+  },
+  {
+    title: "Case Progress",
+  },
+];
+export const estateForensicData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Real Estate",
+    },
+    {
+      value: "2022: Transfer of Offshore Funds",
+    },
+    {
+      value: "$51M",
+    },
+    {
+      value: "Unusual cash withdrawals in 2020",
+    },
+    {
+      value: "Withdrawals in 2020",
+      type: "img",
+      img: require("../assets/img/icons/common/billboard design anas.png"),
+    },
+    {
+      value: "58%",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Bank Accounts",
+    },
+    {
+      value: "2022: Transfer of Offshore Funds",
+    },
+    {
+      value: "$51M",
+    },
+    {
+      value: "Unusual cash withdrawals in 2020",
+    },
+    {
+      value: "Withdrawals in 2020",
+      type: "img",
+      img: require("../assets/img/icons/common/billboard design anas.png"),
+    },
+    {
+      value: "95%",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "Sanima Mor Near",
+    },
+    {
+      value: "Real Estate",
+    },
+    {
+      value: "2022: Transfer of Offshore Funds",
+    },
+    {
+      value: "$51M",
+    },
+    {
+      value: "Unusual cash withdrawals in 2020",
+    },
+    {
+      value: "Withdrawals in 2020",
+      type: "img",
+      img: require("../assets/img/icons/common/billboard design anas.png"),
+    },
+    {
+      value: "25%",
+    },
+  ],
+];
+export const finConsultantProjectHeadings = [
+  {
+    title: "Project Name",
+  },
+  {
+    title: "Status",
+  },
+  {
+    title: "Deadline",
+  },
+];
+export const finConsultantProjectData = [
+  [
+    {
+      value: "Project Alpha",
+    },
+    {
+      value: "In Progress",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+  [
+    {
+      value: "Project Beta",
+    },
+    {
+      value: "Pending Review",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+  [
+    {
+      value: "Project Gamma",
+    },
+    {
+      value: "On Hold",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+];
+export const finConsultantHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Consult Name",
+  },
+  {
+    title: "Email",
+  },
+  {
+    title: "I'D no.",
+  },
+  {
+    title: "Total Projects",
+  },
+  {
+    title: "Active Projects",
+  },
+  {
+    title: "Completed Projects",
+  },
+  {
+    title: "Status",
+  },
+  {
+    title: "Joining Date",
+  },
+];
+export const finConsultantData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "xyz@gmail.com",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "51",
+    },
+    {
+      value: "51",
+    },
+    {
+      value: "51",
+    },
+    {
+      value: "Active",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "xyz@gmail.com",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "54",
+    },
+    {
+      value: "----",
+    },
+    {
+      value: "54",
+    },
+    {
+      value: "Active",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "xyz@gmail.com",
+    },
+    {
+      value: "554299",
+    },
+    {
+      value: "21",
+    },
+    {
+      value: "21",
+    },
+    {
+      value: "21",
+    },
+    {
+      value: "Active",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+];
+
+export const assetProtectionCardData = [
+  {
+    title: "Total Protected Assets",
+    price: "25",
+  },
+  {
+    title: "High Protection Level",
+    price: "10",
+  },
+  {
+    title: "Medium Protecion Level",
+    price: "8",
+  },
+  {
+    title: "Low Proteciton Level",
+    price: "7",
+  },
+];
+
+export const assetProtectionHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Assets Name",
+  },
+  {
+    title: "Type",
+  },
+  {
+    title: "Protection Level",
+  },
+  {
+    title: "Risk Status",
+  },
+  {
+    title: "Current Value",
+  },
+  {
+    title: "Description",
+  },
+];
+export const assetProtectionData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "Real Estate",
+    },
+    {
+      value: "Property",
+    },
+    {
+      value: "High",
+    },
+    {
+      value: "High",
+    },
+    {
+      value: "$2,000,000",
+    },
+    {
+      value:
+        "A commercial property with a high protection level due to its strategic location in Downtown",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "Investment Portfolio",
+    },
+    {
+      value: "Financial",
+    },
+    {
+      value: "Medium",
+    },
+    {
+      value: "Moderate",
+    },
+    {
+      value: "$2,000,000",
+    },
+    {
+      value:
+        "A diverse portfolio of stocks and bonds managed to balance risk and return.",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "Intellectual Property",
+    },
+    {
+      value: "Intangible",
+    },
+    {
+      value: "High",
+    },
+    {
+      value: "High",
+    },
+    {
+      value: "------",
+    },
+    {
+      value:
+        "A commercial property with a high protection level due to its strategic location in Downtown",
+    },
+  ],
+];
+
+export const propertySecuritizationCardData = [
+  {
+    title: "Total Securitized Properties",
+    price: "15",
+  },
+  {
+    title: "Residential Properties",
+    price: "8",
+  },
+  {
+    title: "Commercial Properties",
+    price: "5",
+  },
+  {
+    title: "Industrial Properties",
+    price: "2",
+  },
+];
+
+export const propertySecuritizationHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Property Name",
+  },
+  {
+    title: "Type",
+  },
+  {
+    title: "Location",
+  },
+  {
+    title: "Current Value",
+  },
+  {
+    title: "Other Detail",
+  },
+  {
+    title: "Description",
+  },
+];
+export const propertySecuritizationData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "Luxe Apartment",
+    },
+    {
+      value: "Residential",
+    },
+    {
+      value: "High-end neighborhood",
+    },
+    {
+      value: "$2,000,000",
+    },
+    {
+      value: "Number of Units: 50",
+    },
+    {
+      value:
+        "A commercial property with a high protection level due to its strategic location in Downtown",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "Downtown Office Tower",
+    },
+    {
+      value: "Commercial",
+    },
+    {
+      value: "Central business district",
+    },
+    {
+      value: "$2,000,000",
+    },
+    {
+      value: "Leasable Space: 1,00,000 sq ft.",
+    },
+    {
+      value:
+        "A diverse portfolio of stocks and bonds managed to balance risk and return.",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "Industrial Warehouse",
+    },
+    {
+      value: "Industrial",
+    },
+    {
+      value: "Manufacturing zone",
+    },
+    {
+      value: "$2,000,000",
+    },
+    {
+      value: "Total Area: 150,000 sq ft.",
+    },
+    {
+      value:
+        "A commercial property with a high protection level due to its strategic location in Downtown",
+    },
+  ],
+];
+export const lockBoxCardData = [
+  {
+    title: "Total Clients",
+    price: "25",
+  },
+  {
+    title: "Active Lock Boxes",
+    price: "40",
+  },
+  {
+    title: "Total Transaction Processed",
+    price: "5,000",
+  },
+  {
+    title: "Average Processing Time",
+    price: "24 Hours",
+  },
+];
+
+export const lockBoxHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Client Name",
+  },
+  {
+    title: "Industry",
+  },
+  {
+    title: "Total Transactions",
+  },
+  {
+    title: "Processing Status",
+  },
+];
+export const lockBoxData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "ABC Manugacturing",
+    },
+    {
+      value: "Manufacturing",
+    },
+    {
+      value: "200",
+    },
+    {
+      value: "Ongoing",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "XYZ Retail Group",
+    },
+    {
+      value: "Retail",
+    },
+    {
+      value: "200",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "Global Tech Solutions",
+    },
+    {
+      value: "Technology",
+    },
+    {
+      value: "300",
+    },
+    {
+      value: "Pending",
+    },
+  ],
+];
+export const healthSavingHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Time Period",
+  },
+  {
+    title: "Contribution",
+  },
+  {
+    title: "Withdrawal",
+  },
+  {
+    title: "Remaining Balance",
+  },
+  {
+    title: "Data Type",
+  },
+  {
+    title: "Transaction",
+  },
+];
+export const healthSavingData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "January 2023",
+    },
+    {
+      value: "Payroll Deduction",
+    },
+    {
+      value: "Medical Expenses",
+    },
+    {
+      value: "$2,500",
+    },
+    {
+      value: "Medical Transactions",
+    },
+    {
+      value: "$50-Pharmacy",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "January 2023",
+    },
+    {
+      value: "Payroll Deduction",
+    },
+    {
+      value: "Medical Expenses",
+    },
+    {
+      value: "$2,500",
+    },
+    {
+      value: "Medical Transactions",
+    },
+    {
+      value: "$50-Pharmacy",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "January 2023",
+    },
+    {
+      value: "Payroll Deduction",
+    },
+    {
+      value: "Medical Expenses",
+    },
+    {
+      value: "$2,500",
+    },
+    {
+      value: "Medical Transactions",
+    },
+    {
+      value: "$50-Pharmacy",
+    },
+  ],
+];
+export const budgetPlansCardData = [
+  {
+    title: "Total Budget Plans",
+    price: "15",
+  },
+  {
+    title: "Active Plans",
+    price: "10",
+  },
+  {
+    title: "Inactive Plans",
+    price: "05",
+  },
+  // {
+  //   title: "Average Completion Rate",
+  //   price: "75%",
+  // },
+  {
+    title: "Most Common Category",
+    price: "Utilities",
+  },
+];
+
+export const budgetPlansHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Budget Plan Name",
+  },
+  {
+    title: "Time Period",
+  },
+  {
+    title: "Goal Amount",
+  },
+  {
+    title: "Current Progress",
+  },
+  {
+    title: "Categories 1",
+  },
+  {
+    title: "Categories 2",
+  },
+  {
+    title: "Categories 3",
+  },
+];
+export const budgetPlansData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "Vacation Fund",
+    },
+    {
+      value: "6 Months",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "Flights: $600",
+    },
+    {
+      value: "Accommodation: $400",
+    },
+    {
+      value: "Activities: $300",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "Monthly Expenses",
+    },
+    {
+      value: "6 Months",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "Rent: $600",
+    },
+    {
+      value: "Accommodation: $400",
+    },
+    {
+      value: "Utilities: $300",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "Emergency Fund",
+    },
+    {
+      value: "Ongoing",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "Medical: $600",
+    },
+    {
+      value: "Job Loss: $400",
+    },
+    {
+      value: "Home Repairs: $300",
+    },
+  ],
+];
+export const retirementPlansCardData = [
+  {
+    title: "Total Retirement Plans",
+    price: "15",
+  },
+  {
+    title: "Active Plans",
+    price: "10",
+  },
+  {
+    title: "Inactive Plans",
+    price: "05",
+  },
+  // {
+  //   title: "Average Contirbution Rate",
+  //   price: "75%",
+  // },
+  {
+    title: "Most Common Investment",
+    price: "Index Funds",
+  },
+];
+
+export const retirementPlansHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Retirement Plan Name",
+  },
+  {
+    title: "Current Balance",
+  },
+  {
+    title: "Contribution Rate",
+  },
+  {
+    title: "Investment Allocation 1",
+  },
+  {
+    title: "Investment Allocation 2",
+  },
+  {
+    title: "Investment Allocation 3",
+  },
+];
+export const retirementPlansData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "401(k)",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "15%",
+    },
+    {
+      value: "Stock Funds: 60%",
+    },
+    {
+      value: "Bond Funds: 30%",
+    },
+    {
+      value: "Cash: 10%",
+    },
+    
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "401(k)",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "25%",
+    },
+    {
+      value: "Technology Stocks: 40%",
+    },
+    {
+      value: "Real Estate Investment (REITs): 30%",
+    },
+    {
+      value: "International Bonds: 30%",
+    },
+    
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "401(k)",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "85%",
+    },
+    {
+      value: "Precious Metals: 25%",
+    },
+    {
+      value: "Health Sector Stocks: 25%",
+    },
+    {
+      value: "Sustainable ETFs: 50%",
+    },
     
   ],
 ];
+export const creditRepairReviewHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Review ID No. ",
+  },
+  {
+    title: "Customer Name",
+  },
+  {
+    title: "Email",
+  },
+  {
+    title: "Contact Number",
+  },
+  {
+    title: "Account Number",
+  },
+  {
+    title: "Status",
+  },
+  {
+    title: "Date",
+  },
+  {
+    title: "Findings",
+  },
+];
+export const creditRepairReviewData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "0001",
+    },
+    {
+      value: "Jhon Doe",
+    },
+    {
+      value: "xyz@gmail.com",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "In Progress",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "No significant issues. Good payment history.",
+    },
+    
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "0001",
+    },
+    {
+      value: "Jane Smith",
+    },
+    {
+      value: "xyz@gmail.com",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "Detected a discrepancy in previous payments.",
+    },
+    
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "0003",
+    },
+    {
+      value: "Robert Jhonson",
+    },
+    {
+      value: "xyz@gmail.com",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "In Progress",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    {
+      value: "Detected a discrepancy in previous payments.",
+    },
+    
+  ],
+];
+export const creditRepairDisputeHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Dispute ID No. ",
+  },
+  {
+    title: "Customer Name",
+  },
+  {
+    title: "Email",
+  },
+  {
+    title: "Contact Number",
+  },
+  {
+    title: "Account Number",
+  },
+  {
+    title: "Status",
+  },
+  {
+    title: "Date of Dispute",
+  },
+];
+export const creditRepairDisputeData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "0001",
+    },
+    {
+      value: "Jhon Doe",
+    },
+    {
+      value: "xyz@gmail.com",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "In Progress",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "0001",
+    },
+    {
+      value: "Jane Smith",
+    },
+    {
+      value: "xyz@gmail.com",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "0003",
+    },
+    {
+      value: "Robert Jhonson",
+    },
+    {
+      value: "xyz@gmail.com",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "In Progress",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+    
+  ],
+];
+export const creditRepairReviewServicesHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "I'D no. ",
+  },
+  {
+    title: "Customer Name",
+  },
+  {
+    title: "Email",
+  },
+  {
+    title: "Contact Number",
+  },
+  {
+    title: "Account Number",
+  },
+  {
+    title: "Current Credit Score",
+  },
+  {
+    title: "Previous Credit Score",
+  },
+  {
+    title: "Imporvement",
+  },
+];
+export const creditRepairReviewServicesData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "0001",
+    },
+    {
+      value: "Jhon Doe",
+    },
+    {
+      value: "xyz@gmail.com",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "850",
+    },
+    {
+      value: "750",
+    },
+    {
+      value: "+50 points",
+    },
+    
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "0001",
+    },
+    {
+      value: "Jane Smith",
+    },
+    {
+      value: "xyz@gmail.com",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "830",
+    },
+    {
+      value: "730",
+    },
+    {
+      value: "+50 points",
+    },
+    
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "0003",
+    },
+    {
+      value: "Robert Jhonson",
+    },
+    {
+      value: "xyz@gmail.com",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "800",
+    },
+    {
+      value: "700",
+    },
+    {
+      value: "+50 points",
+    },
+    
+  ],
+];
+export const creditManagementHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Customer Name",
+  },
+  {
+    title: "Credit Scores",
+  },
+  {
+    title: "Income Score",
+  },
+  {
+    title: "Income Data",
+  },
+  {
+    title: "Asset Data",
+  },
+  {
+    title: "Bankruptcy",
+  },
+  {
+    title: "Lien Reports",
+  },
+  {
+    title: "Business Credit Reports",
+  },
+  {
+    title: "Self-Employment Verification",
+  },
+  {
+    title: "Business Identity Reports",
+  },
+];
+export const creditManagementData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "Jhon Doe",
+    },
+    {
+      value: "780",
+    },
+    {
+      value: "Moderate",
+    },
+    {
+      value: "Verified",
+    },
+    {
+      value: "Verified",
+    },
+    {
+      value: "None",
+    },
+    {
+      value: "Clean",
+    },
+    {
+      value: "Available",
+    },
+    {
+      value: "Confirmed",
+    },
+    {
+      value: "Complete",
+    },
+    
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "Jane Smith",
+    },
+    {
+      value: "680",
+    },
+    {
+      value: "Strong",
+    },
+    {
+      value: "Pending",
+    },
+    {
+      value: "Pending",
+    },
+    {
+      value: "Previous",
+    },
+    {
+      value: "Some Issues",
+    },
+    {
+      value: "Unavailable",
+    },
+    {
+      value: "Pending",
+    },
+    {
+      value: "Incomplete",
+    },
+    
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "Jhon Doe",
+    },
+    {
+      value: "780",
+    },
+    {
+      value: "Moderate",
+    },
+    {
+      value: "Verified",
+    },
+    {
+      value: "Verified",
+    },
+    {
+      value: "None",
+    },
+    {
+      value: "Clean",
+    },
+    {
+      value: "Available",
+    },
+    {
+      value: "Confirmed",
+    },
+    {
+      value: "Complete",
+    },
+    
+  ],
+
+];
+export const uccPortfolioHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Filing I'D No.",
+  },
+  {
+    title: "Debtor Name",
+  },
+  {
+    title: "Filing Type",
+  },
+  {
+    title: "Status",
+  },
+  {
+    title: "Expiration Date",
+  },
+];
+export const uccPortfolioData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "UCC12345",
+    },
+    {
+      value: "XYZ Manufacturing",
+    },
+    {
+      value: "General",
+    },
+    {
+      value: "Active",
+    },
+    {
+      value: "2023-12-31",
+    },
+    
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "UCC8970",
+    },
+    {
+      value: "LMN Distributors",
+    },
+    {
+      value: "General",
+    },
+    {
+      value: "Expired",
+    },
+    {
+      value: "2023-12-31",
+    },
+    
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "UCC12345",
+    },
+    {
+      value: "ABC Services",
+    },
+    {
+      value: "General",
+    },
+    {
+      value: "Active",
+    },
+    {
+      value: "2023-12-31",
+    },
+    
+  ],
+
+];
+export const uccMonitorHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Filing ID",
+  },
+  {
+    title: "Debtor Name",
+  },
+  {
+    title: "Debtor Address",
+  },
+  {
+    title: "Debtor Type",
+  },
+  {
+    title: "Collateral Type",
+  },
+  {
+    title: "Description",
+  },
+  {
+    title: "Value",
+  },
+  {
+    title: "Filing Type",
+  },
+  {
+    title: "Jurisdiction",
+  },
+  {
+    title: "Expiration Date",
+  },
+  {
+    title: "Filing Date",
+  },
+  {
+    title: "Current Status",
+  },
+];
+export const uccMonitoroData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "UCC12345",
+    },
+    {
+      value: "Robert Jhonson",
+    },
+    {
+      value: "789 Pind St",
+    },
+    {
+      value: "Business",
+    },
+    {
+      value: "Real Estate",
+    },
+    {
+      value: "Fleet Delivery Fans",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "UCC-1",
+    },
+    {
+      value: "State of Example",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "Active",
+    },
+    
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "UCC12345",
+    },
+    {
+      value: "Jane Smith",
+    },
+    {
+      value: "465 Oak St",
+    },
+    {
+      value: "Individual",
+    },
+    {
+      value: "Inventory",
+    },
+    {
+      value: "Office Equipment",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "UCC-1",
+    },
+    {
+      value: "State of Example",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "Expired",
+    },
+    
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "UCC12345",
+    },
+    {
+      value: "Robert Jhonson",
+    },
+    {
+      value: "789 Pind St",
+    },
+    {
+      value: "Business",
+    },
+    {
+      value: "Real Estate",
+    },
+    {
+      value: "Fleet Delivery Fans",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "UCC-1",
+    },
+    {
+      value: "State of Example",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "Active",
+    },
+    
+  ],
+
+];
+
 export const inboxColors = ["#F1F6FB", "#FFFFFF"];
 export const profileColors = [
   {
@@ -3909,45 +6100,110 @@ export const profileColors = [
 ];
 export const taxReturnData = {
   year: "Tax Year:2023",
-  title:"Amount",
+  title: "Amount",
   sections: [
     {
-      sr:1,
-      heading: 'Income Information',
+      sr: 1,
+      heading: "Income Information",
       items: [
-        { label: 'Employement Income', amount: 5994 },
-        { label: 'Rental Income', amount: 66051 },
-        { label: 'Other Income', amount: 266266 }
+        { label: "Employement Income", amount: 5994 },
+        { label: "Rental Income", amount: 66051 },
+        { label: "Other Income", amount: 266266 },
       ],
-      total: 2592669959
+      total: 2592669959,
     },
     {
-      sr:2,
-      heading: 'Deductions',
+      sr: 2,
+      heading: "Deductions",
       items: [
-        { label: 'Home Mortage', amount: 5994 },
-        { label: 'Charitable Giving', amount: 66051 },
-        { label: 'Student Loan', amount: 66051 }
+        { label: "Home Mortage", amount: 5994 },
+        { label: "Charitable Giving", amount: 66051 },
+        { label: "Student Loan", amount: 66051 },
       ],
-      total: 2592669959
+      total: 2592669959,
     },
     {
-      sr:3,
-      heading: 'Tax Calculation',
+      sr: 3,
+      heading: "Tax Calculation",
       items: [
-        { label: 'Federal Tax Rate (15%)', amount: 5994 },
-        { label: 'State Tax Rate(15%)', amount: 66051 },
+        { label: "Federal Tax Rate (15%)", amount: 5994 },
+        { label: "State Tax Rate(15%)", amount: 66051 },
       ],
-      total: 2592669959
+      total: 2592669959,
     },
     {
-      sr:4,
-      heading: 'Taxable Income',
-      headingAmount: 2592669959
+      sr: 4,
+      heading: "Taxable Income",
+      headingAmount: 2592669959,
     },
     {
-      finalValue: 'Tax',
-      finalAmount: 2592669959
+      finalValue: "Tax",
+      finalAmount: 2592669959,
     },
-  ]
+  ],
 };
+export const fiscalManagementData = {
+  year: "Fiscal Management",
+  title: "Amount",
+  sections: [
+    {
+      sr: 1,
+      heading: "Budget Overview",
+      items: [
+        { label: "Budget Allocated", amount: 5994 },
+        { label: "Current Expenses", amount: 66051 },
+        { label: "Remaining Budget", amount: 266266 },
+      ],
+      total: 2592669959,
+    },
+    {
+      sr: 2,
+      heading: "Expense Tracker",
+      items: [
+        { label: "Salaries", amount: 5994 },
+        { label: "Utitlities", amount: 66051 },
+        { label: "Marketing", amount: 66051 },
+        { label: "Other", amount: 66051 },
+      ],
+      total: 2592669959,
+    },
+  ],
+};
+export const finConsultServicesTopBar = [
+  {
+    title: "Consult Services",
+    component: <ConsultantServicesListing />,
+  },
+  {
+    title: "Fiscal Management",
+    component: <FiscalManagementListing />,
+  },
+  {
+    title: "Asset Protection",
+    component: <AssetProtection />,
+  },
+  {
+    title: "Property Securitization",
+    component: <PropertySecuritization />,
+  },
+  {
+    title: "Lock Box Service",
+    component: <LockBoxService />,
+  },
+  {
+    title: "Brokerage Investments",
+    component: <CorporateAccounts />,
+  },
+  {
+    title: "Health Saving Accounts",
+    component: <HealthSavingAccount />,
+  },
+  {
+    title: "Budget Plans",
+    component: <BudgetPlans/>
+  },
+  {
+    title: "Retirement Plans",
+    component: <RetirementPlans/>
+  },
+];

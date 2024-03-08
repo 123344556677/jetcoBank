@@ -95,6 +95,12 @@ import ProductManagerListing from "components/BusinessAndTaxServices/ProductMana
 import AddProductManager from "components/BusinessAndTaxServices/ProductManager/AddProductManager";
 import TaxFilingServices from "components/BusinessAndTaxServices/TaxFilingServices/TaxFilingServices";
 import TaxFilingPreparationProfileForm from "components/BusinessAndTaxServices/TaxFilingServices/TaxFilingPreparationProfileForm";
+import EstateAndTrustServices from "components/BusinessAndTaxServices/EstateAndTrustService/EstateAndTrustServices";
+import FinConsultantServices from "components/BusinessAndTaxServices/FinConsultantServices/FinConsultantServices";
+import AddConsultantServices from "components/BusinessAndTaxServices/FinConsultantServices/ConsultantServices/AddConsultantServices";
+import ConsultantServicesProfile from "components/BusinessAndTaxServices/FinConsultantServices/ConsultantServices/ConsultantServicesProfile";
+import CreditManageServices from "components/BusinessAndTaxServices/CreditAndManageServices/CreditManageServices";
+import UccManagementSystem from "components/BusinessAndTaxServices/UCCManagementSysytem/UccManagementSystem";
 
 
 var routes = [
@@ -712,6 +718,48 @@ var routes = [
     name: "TaxFilingProfile",
     icon: "ni ni-tv-2 ",
     component:<TaxFilingPreparationProfileForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/businessAndTaxServices/estateAndTrustServices",
+    name: "EstateAndTrustServices",
+    icon: "ni ni-tv-2 ",
+    component:<EstateAndTrustServices/>,
+    layout: "/admin",
+  },
+  {
+    path: "/businessAndTaxServices/finConsultServices",
+    name: "FinConsultServices",
+    icon: "ni ni-tv-2 ",
+    component:<FinConsultantServices/>,
+    layout: "/admin",
+  },
+  {
+    path: "/businessAndTaxServices/addFinConsultant",
+    name: "AddFinConsultant",
+    icon: "ni ni-tv-2 ",
+    component:<AddConsultantServices/>,
+    layout: "/admin",
+  },
+  {
+    path: "/businessAndTaxServices/finConsultantProfile",
+    name: "FinConsultantProfile",
+    icon: "ni ni-tv-2 ",
+    component:<ConsultantServicesProfile/>,
+    layout: "/admin",
+  },
+  {
+    path: "/businessAndTaxServices/creditAndManageServicesListing",
+    name: "CreditAndManageServcesListing",
+    icon: "ni ni-tv-2 ",
+    component:<CreditManageServices/>,
+    layout: "/admin",
+  },
+  {
+    path: "/businessAndTaxServices/uccManagementSystem",
+    name: "UccManagementSystem",
+    icon: "ni ni-tv-2 ",
+    component:<UccManagementSystem/>,
     layout: "/admin",
   },
   {

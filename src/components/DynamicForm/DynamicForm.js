@@ -7,6 +7,7 @@ import {
   featureForAgents,
   featureForMinistry,
 } from "mock-data/FormData";
+import { createEstateTrustBeneficiaryForm } from "mock-data/FormData";
 
 const DynamicForm = ({
   formData,
@@ -20,6 +21,7 @@ const DynamicForm = ({
   const [selectedOption, setSelectedOption] = useState(defaultSwitchOption);
   const [switchOptions, setSwitchOptions] = useState(defaultSwitchOptions);
   const [selectLabel, setSelectLabel] = useState(defaultSwitchLabel);
+  const [beneficiary, setBeneficiary] = useState(false);
 
   const handleSelectChange = (e) => {
     const selectedValue = e.target.value;
@@ -50,6 +52,19 @@ const DynamicForm = ({
           <>
             <Button type="submit" className="login-button">
               Upload Document
+            </Button>
+            {defaultButton()}
+          </>
+        );
+      case "Trust Formation":
+        return (
+          <>
+            <Button
+              type=""
+              className="login-button"
+              onClick={() => setBeneficiary(true)}
+            >
+              Add Beneficiary
             </Button>
             {defaultButton()}
           </>
@@ -194,6 +209,52 @@ const DynamicForm = ({
         {parentComponent === "Feature Control" && (
           <Switches switchData={switchOptions} label={selectLabel} />
         )}
+        {beneficiary &&
+          createEstateTrustBeneficiaryForm?.map((data, index) => (
+            <FormGroup key={index}>
+              <Label className={data.name !== "message" && "form-label"}>
+                {data.label}
+              </Label>
+              {data.type === "select" ? (
+                <>
+                  <Input
+                    type="select"
+                    name={data?.name}
+                    value={selectedOption}
+                    onChange={handleSelectChange}
+                    className="form-control login-input form-input"
+                    required
+                  >
+                    {data?.options?.map((option, optionIndex) => (
+                      <option key={optionIndex} value={option?.title}>
+                        {option?.title}
+                      </option>
+                    ))}
+                  </Input>
+                </>
+              ) : (
+                <>
+                  <Input
+                    type={data.type}
+                    name={data.name}
+                    defaultValue={data.defaultValue}
+                    placeholder={data.placeholder}
+                    value={data.value}
+                    className={`form-control login-input form-input ${
+                      data.type === "textarea" ? "description-input p-4" : "p-4"
+                    }`}
+                    required
+                  />
+                  {component === "Assign Group" &&
+                    data?.name === "idNumber" && (
+                      <Button type="submit" className="login-button mt-3">
+                        Add All
+                      </Button>
+                    )}
+                </>
+              )}
+            </FormGroup>
+          ))}
         {renderButton()}
       </Form>
     </div>

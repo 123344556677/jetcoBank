@@ -17,7 +17,7 @@
 }
 
 .top-bar {
-    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 8%);
+    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.06);
     width: auto;
 }
 
