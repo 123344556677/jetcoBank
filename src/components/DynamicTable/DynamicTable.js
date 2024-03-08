@@ -26,7 +26,12 @@ const DynamicTable = ({ headings, tableData, component, parentComponent }) => {
                 </th>
               ))}
               {component !== "Transaction Detail" &&
+                component !== "CryptoTrading" &&
+                component !== "StockTradingListing" &&
                 component !== "Pass Through Account" &&
+                component !== "Ledger" &&
+                component !== "FinanicalMessagingListing" &&
+                component !== "Mailbox Service" && 
                 component !== "Mailbox Service" &&
                 component !== "Trustee Services" &&
                 component !== "Estate Last Will" &&
@@ -67,6 +72,11 @@ const DynamicTable = ({ headings, tableData, component, parentComponent }) => {
                 ))}
                 {component !== "Transaction Detail" &&
                   component !== "Pass Through Account" &&
+                  component !== "StockTradingListing" &&
+                  component !== "Ledger" &&
+                  component !== "CryptoTrading" &&
+                  component !== "FinanicalMessagingListing" &&
+                  component !== "Mailbox Service" && 
                   component !== "Mailbox Service" &&
                   component !== "Trustee Services" &&
                   component !== "Estate Last Will" &&

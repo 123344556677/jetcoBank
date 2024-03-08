@@ -64,6 +64,7 @@ import DyamicAccordion from "components/Accordion/DyamicAccordion";
 import { UserAccordionItems } from "mock-data/AccordionData";
 import { AccountBranchAccordionItems } from "mock-data/AccordionData";
 import { LogisticsAndSupportItems } from "mock-data/AccordionData";
+import { FinServicingAndMessagingItems } from "mock-data/AccordionData";
 import { BusinessAndTaxItems } from "mock-data/AccordionData";
 
 var ps;
@@ -128,7 +129,8 @@ const Sidebar = (props) => {
 
         {(prop?.name === "User Management" ||
           prop?.name === "Accounts, Branch & Office" ||
-          prop?.name === "Logistics & Support"||
+          prop?.name === "Logistics & Support"|
+          prop?.name==="Fin. Services & Messaging"||
           prop?.name === "Business & Tax Services") && (
           <i
             className={`${handleAccordionIcon(prop.name)} ${
@@ -211,6 +213,15 @@ const Sidebar = (props) => {
                 accordionVal={LogisticsAndSupportItems}
               />
             </>
+          )}
+          {prop?.name === "Fin. Services & Messaging" && (
+            <>
+              {createNavLink(prop)}
+              <DyamicAccordion
+                isOpenVal={activeAccordion === "Fin. Services & Messaging"}
+                accordionVal={FinServicingAndMessagingItems}
+                />
+                </>
           )}
           {prop?.name === "Business & Tax Services" && (
             <>

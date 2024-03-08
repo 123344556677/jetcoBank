@@ -33,6 +33,9 @@ export const routes = {
     PassThroughAccount:"/admin/accountsAndBranch/passThroughAccountProfile",
     AutoLoanAccount:"/admin/accountsAndBranch/autoLoanAccountProfile",
   },
+  FinServicesAndManagement:{
+    FinancialMessaging:"/admin/finServicingAndMessaging/financialMessagingForm"
+  },
   BusinessAndTaxServices: {
     TaxFilingPreparation:"/admin/businessAndTaxServices/taxFilingServicesProfile",
     ConsultantServices:"/admin/businessAndTaxServices/finConsultantProfile"

@@ -120,6 +120,88 @@ export const mailboxSubheadings=[
     }, 
 
 ]
+export const finanicalMessagingHeadings=[
+    {
+        title:"All Messages"
+    },
+    {
+        title:"SWFT"
+    },
+    {
+        title:"ISO 20022"
+    },
+    {
+        title:"ACH"
+    },
+    {
+        title:"FINCEN"
+    },
+    {
+        title:"Other Messages"
+    },
+   
+]
+export const ledgerListingHeadings=[
+    {
+        title:"All Categories"
+    },
+    {
+        title:"Debits"
+    },
+    {
+        title:"Credits"
+    },
+    {
+        title:"Withdrawals"
+    },
+    {
+        title:"Deposits"
+    },
+    {
+        title:"Balance Sheet"
+    },
+   
+]
+export const cardManagementHeadings=[
+    {
+        title:"Prepaid Card"
+    },
+    {
+        title:"Virtual Card"
+    },
+    {
+        title:"Physical Card"
+    },   
+]
+export const withdrawalsListingHeadings=[
+    {
+        title:"Pending"
+    },
+    {
+        title:"Approve"
+    },
+    {
+        title:"Rejected"
+    },   
+]
+export const stockTradingListingHeadings=[
+    {
+        title:"Stock Market"
+    },
+    {
+        title:"Recent Activity"
+    },
+      
+]
+export const cryptoTradingListingHeadings=[
+    {
+        title:"Crypto Trade"
+    },
+    {
+        title:"Recent Activity"
+    },
+      
+]
 export const businessManageServicesheadings=[
     {
         title:"New Business Registration"
