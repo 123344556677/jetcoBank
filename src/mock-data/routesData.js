@@ -35,6 +35,10 @@ export const routes = {
   },
   FinServicesAndManagement:{
     FinancialMessaging:"/admin/finServicingAndMessaging/financialMessagingForm"
+  },
+  BusinessAndTaxServices: {
+    TaxFilingPreparation:"/admin/businessAndTaxServices/taxFilingServicesProfile",
+    ConsultantServices:"/admin/businessAndTaxServices/finConsultantProfile"
   }
 
 };

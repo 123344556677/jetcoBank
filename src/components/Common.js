@@ -28,3 +28,43 @@ export const getColorPalette = (index, parentColors, childColors) => {
 export const truncateText = (text, maxLength) => {
     return text.length > maxLength ? text.slice(0, maxLength) + "..." : text;
   };
+
+  export const getClassName = (value) => {
+    switch (value) {
+      case "Active":
+      case "In Transit":
+      case "Cleared":
+      case "In Route":
+      case "Open":
+      case "Unlimited":
+      case "Completed":
+      case "Married":
+      case "Verified":
+      case "Strong":
+        return "active-color";
+      case "Inactive":
+      case "Closed":
+      case "Delivered":
+      case "High":
+      case "Limited":
+      case "Not Started":
+      case "On Hold":
+      case "Pending":
+      case "Weak":
+      case "Expired":
+        return "inactive-color";
+      case "In Progress":
+        return "progress-color";
+      case "Medium":
+      case "Available":
+      case "Single":
+      case "Pending Review":
+      case "Ongoing":
+      case "Moderate":
+        return "medium-color";
+      case "Low":
+        return "closed-color";
+      default:
+        return "table-data";
+    }
+  };

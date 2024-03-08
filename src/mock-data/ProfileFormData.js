@@ -1911,3 +1911,221 @@ export const autoLoanAccountData=[
         type:"text"
     },
 ]
+export const taxFilePreparationPersonalData=[
+    {
+        label:"Name:",
+        placeholder:" name",
+        name:"Name",
+        type:"text"
+    },
+    {
+        label:"Email:",
+        placeholder:"email",
+        name:"email",
+        type:"email"
+    },
+    {
+        label:"Date Of Birth:",
+        placeholder:"dob",
+        name:"dob",
+        type:"date"
+    },
+    {
+        label:"Address:",
+        placeholder:"address",
+        name:"address",
+        type:"text"
+    },
+    {
+        label:"Social Security Number:",
+        placeholder:"SSN",
+        name:"ssn",
+        type:"text"
+    },
+]
+export const taxFilePreparationIncomeDetailData=[
+    {
+        label:"Wages and Salary:",
+        placeholder:"salary",
+        name:"salary",
+        type:"number"
+    },
+    {
+        label:"Other Income:",
+        placeholder:"other income",
+        name:"totalIncome",
+        type:"number"
+    },
+    {
+        label:"Total Income:",
+        placeholder:"total income",
+        name:"totalIncome",
+        type:"number"
+    },
+]
+export const taxFilePreparationDeductionsData=[
+    {
+        label:"Medical Expenses:",
+        placeholder:"medical expenses",
+        name:"medicalExpenses",
+        type:"number"
+    },
+    {
+        label:"Cheritable Contributions:",
+        placeholder:"cheritable contributions",
+        name:"contributions",
+        type:"number"
+    },
+    {
+        label:"Mortage Interest:",
+        placeholder:"mortage interest",
+        name:"mortageInterest",
+        type:"number"
+    },
+    {
+        label:"Total Deductions:",
+        placeholder:"total deductions",
+        name:"totalDeductions",
+        type:"number"
+    },
+]
+export const taxFilePreparationTaxData=[
+    {
+        label:"Child Tax Credits:",
+        placeholder:"child tax credits",
+        name:"childTax",
+        type:"number"
+    },
+    {
+        label:"Educaion Credits:",
+        placeholder:"educaion credits",
+        name:"educationCredits",
+        type:"number"
+    },
+    {
+        label:"Energy Credits:",
+        placeholder:"energy credits",
+        name:"energyCredits",
+        type:"number"
+    },
+    {
+        label:"Total Tax Credits:",
+        placeholder:"total tax credits",
+        name:"totalTaxCredits",
+        type:"number"
+    },
+]
+export const taxFilePreparationTaxLiabilityData=[
+    {
+        label:"Taxable Income:",
+        placeholder:"taxable income",
+        name:"taxableIncome",
+        type:"number"
+    },
+    {
+        label:"Tax Owed:",
+        placeholder:"tax owed",
+        name:"taxOwed",
+        type:"number"
+    },
+    {
+        label:"Refund:",
+        placeholder:"refund",
+        name:"refund",
+        type:"number"
+    },
+]
+export const taxFilePreparationBankInfoData=[
+    {
+        label:"Bank Name:",
+        placeholder:"bank name",
+        name:"bankName",
+        type:"text"
+    },
+    {
+        label:"Account Holder:",
+        placeholder:"account holder",
+        name:"accountHolder",
+        type:"text"
+    },
+    {
+        label:"Account Number:",
+        placeholder:"account number",
+        name:"accountNumber",
+        type:"text"
+    },
+    {
+        label:"Routing Number:",
+        placeholder:"routing number",
+        name:"routingNumber",
+        type:"text"
+    },
+]
+export const finConsultantPersonalData=[
+    {
+        label:"Name:",
+        placeholder:"name",
+        name:"name",
+        type:"text"
+    },
+    {
+        label:"Email:",
+        placeholder:"email",
+        name:"email",
+        type:"email"
+    },
+    {
+        label:"Contact:",
+        placeholder:"contact",
+        name:"contact",
+        type:"number"
+    },
+    {
+        label:"I'D no:",
+        placeholder:"id",
+        name:"id",
+        type:"number"
+    },
+    {
+        label:"Total Projects:",
+        placeholder:"total projects",
+        name:"totalProjects",
+        type:"text"
+    },
+    {
+        label:"Active Projects:",
+        placeholder:"active  projects",
+        name:"activeProjects",
+        type:"text"
+    },
+    {
+        label:"Status:",
+        placeholder:"status",
+        name:"status",
+        type:"text"
+    },
+    {
+        label:"Joining Date:",
+        placeholder:"joining date",
+        name:"joiningDate",
+        type:"date"
+    },
+    {
+        label:"Expertise:",
+        placeholder:"expertise",
+        name:"expertise",
+        type:"text"
+    },
+    {
+        label:"Experience:",
+        placeholder:"experience",
+        name:"experience",
+        type:"text"
+    },
+    {
+        label:"Active Project:",
+        placeholder:"active project",
+        name:"activeProject",
+        type:"number"
+    },
+]

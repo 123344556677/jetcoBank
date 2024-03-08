@@ -3,56 +3,17 @@ import { Button, Table } from "reactstrap";
 import "./DynamicTable.css";
 import { useNavigate } from "react-router-dom";
 import { routes } from "mock-data/routesData";
+import { getClassName } from "components/Common";
 
 const DynamicTable = ({ headings, tableData, component, parentComponent }) => {
   const navigate = useNavigate();
   const handleNavigation = () => {
     const url = routes[parentComponent]?.[component];
     if (url) {
-      console.log("prent component");
       navigate(url);
     }
   };
 
-  const getClassName = (value) => {
-    switch (value) {
-      case "Active":
-      case "In Transit":
-      case "Cleared":
-      case "In Route":
-      case "Open":
-        return "active-color";
-      case "Completed":
-        return "active-color";
-      case "Buy":
-        return "active-color";
-
-      case "Inactive":
-      case "Closed":
-      case "Delivered":
-      case "High":
-        return "inactive-color";
-      case "Failed":
-        return "inactive-color";
-      case "Sell":
-        return "inactive-color";
-      case "In Progress":
-        return "progress-color";
-      case "Medium":
-      case "Available":
-        return "medium-color";
-      case "Pending":
-        return "medium-color";
-      case "Freeze":
-        return "medium-color";
-      case "Exchange":
-        return "medium-color";
-      case "Low":
-        return "closed-color";
-      default:
-        return "table-data";
-    }
-  };
   return (
     <div className="table-container">
       <div className="table-wrapper ml-2 mr-2">
@@ -70,7 +31,22 @@ const DynamicTable = ({ headings, tableData, component, parentComponent }) => {
                 component !== "Pass Through Account" &&
                 component !== "Ledger" &&
                 component !== "FinanicalMessagingListing" &&
-                component !== "Mailbox Service" && (
+                component !== "Mailbox Service" && 
+                component !== "Mailbox Service" &&
+                component !== "Trustee Services" &&
+                component !== "Estate Last Will" &&
+                component !== "Forensic Data" &&
+                component !== "assetProtection" &&
+                component !== "propertySecuritization" &&
+                component !== "lockBoxService" &&
+                component !== "healthSavingAccount" &&
+                component !== "BudgetPlans" &&
+                component !== "RetirementPlans" &&
+                component !== "Credit Repair Review" &&
+                component !== "Credit Repair Review Services" &&
+                component !== "Credit Repair Dispute" &&
+                component !== "Credit Management" &&
+                component !== "UCC Management System Monitor" && (
                   <th className="table-headings">Actions</th>
                 )}
             </tr>
@@ -100,7 +76,22 @@ const DynamicTable = ({ headings, tableData, component, parentComponent }) => {
                   component !== "Ledger" &&
                   component !== "CryptoTrading" &&
                   component !== "FinanicalMessagingListing" &&
-                  component !== "Mailbox Service" && (
+                  component !== "Mailbox Service" && 
+                  component !== "Mailbox Service" &&
+                  component !== "Trustee Services" &&
+                  component !== "Estate Last Will" &&
+                  component !== "Forensic Data" &&
+                  component !== "assetProtection" &&
+                  component !== "propertySecuritization" &&
+                  component !== "lockBoxService" &&
+                  component !== "healthSavingAccount" &&
+                  component !== "BudgetPlans" &&
+                  component !== "RetirementPlans" &&
+                  component !== "Credit Repair Review" &&
+                  component !== "Credit Repair Review Services" &&
+                  component !== "Credit Repair Dispute" &&
+                  component !== "Credit Management" &&
+                  component !== "UCC Management System Monitor" && (
                     <td className="action-column">
                       <Button
                         size="sm"

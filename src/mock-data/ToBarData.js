@@ -202,3 +202,105 @@ export const cryptoTradingListingHeadings=[
     },
       
 ]
+export const businessManageServicesheadings=[
+    {
+        title:"New Business Registration"
+    },
+    {
+        title:'Website Design'
+    },  
+    {
+        title:'Custom Email'
+    }, 
+    {
+        title:'Custom Domains'
+    },
+    {
+        title:'Copyright'
+    },
+    {
+        title:'Trademark'
+    },
+    {
+        title:'Logo Design'
+    },
+
+]
+export const taxFilingServicesheadings=[
+    {
+        title:"E-Filing"
+    },
+    {
+        title:'Tax Returns'
+    },  
+    {
+        title:'Planning'
+    }, 
+    {
+        title:'Preparation'
+    },
+    {
+        title:'Information'
+    },
+    {
+        title:'Assistance'
+    },
+
+]
+export const estateAndTrustheadings=[
+    {
+        title:"Trust Formation"
+    },
+    {
+        title:'Trustee Services'
+    },  
+    {
+        title:'Wealth Management'
+    }, 
+    {
+        title:'Estate Planning'
+    },
+    {
+        title:'Last Will & Testament'
+    },
+    {
+        title:'Ancestary Estate Research'
+    },
+    {
+        title:'Forensic Treasure Hunt'
+    },
+
+]
+export const creditManageheadings=[
+    {
+        title:"Credit Repair"
+    },
+    {
+        title:'Credit Management'
+    },  
+
+]
+export const creditRepairSubHeadings=[
+    {
+        title:"Credit Review"
+    },
+    {
+        title:'Dispute'
+    },  
+    {
+        title:'Repair Services'
+    },  
+
+]
+export const UccManagementSystemHeadings=[
+    {
+        title:"File"
+    },
+    {
+        title:'Portfolio'
+    },  
+    {
+        title:'Monitor'
+    },  
+
+]

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../AccountAndBranch.css";
 import AccountTopBar from "../AccountTopBar";
 import CheckingAccounts from "./CheckingAccounts/CheckingAccounts";
+import { accountTopBar } from "mock-data/Data";
 
 const AccountCreationListing = () => {
   const [accountVal, setAccountVal] = useState();
@@ -13,6 +14,7 @@ const AccountCreationListing = () => {
       <AccountTopBar
         accountValue={handleAccountValue}
         defaultValue="Checking Accounts"
+        barData={accountTopBar}
       />
       <div className="main-div mt-3 ml-lg-2 mr-lg-2">
         <br />

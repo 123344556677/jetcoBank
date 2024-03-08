@@ -1,6 +1,9 @@
 import React from "react";
 import { Button, Form, Input, InputGroup } from "reactstrap";
 import "./ProfileForms.css";
+import BorderedTable from "components/DynamicTable/BorderedTable";
+import { finConsultantProjectData } from "mock-data/Data";
+import { finConsultantProjectHeadings } from "mock-data/Data";
 
 const ProfileForms = ({ formData, component }) => {
   return (
@@ -18,6 +21,11 @@ const ProfileForms = ({ formData, component }) => {
         ))}
         {(component === "Agent" || component === "User") && (
           <Button className="login-button mt-4">View Document</Button>
+        )}
+        {component === "Consultant Services" && (
+          <div className="mt-4" style={{width:"70%"}}>
+            <BorderedTable tableHeadings={finConsultantProjectHeadings} tableData={finConsultantProjectData} />
+          </div>
         )}
         {component !== "Account Detail" && (
           <div

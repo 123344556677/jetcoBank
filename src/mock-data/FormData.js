@@ -1343,7 +1343,7 @@ export const createTicketForm = [
     placeholder: "ticket title",
   },
   {
-    label: "Desription",
+    label: "Description",
     name: "description",
     type: "textarea",
     defaultValue:
@@ -1669,11 +1669,396 @@ export  const withdrawalsForm=[
     name: "cardholdername",
     type: "text",
     placeholder: "cardholder name",
+  }
+]
+
+export const createBusinessRegistrationForm = [
+  {
+    label: "Business Name",
+    name: "businessName",
+    type: "text",
+    placeholder: "business name",
+  },
+  {
+    label: "Business Type or Industry",
+    name: "typeIndustry",
+    type: "text",
+    placeholder: "business type or industry",
+  },
+  {
+    label: "Person's Name",
+    name: "name",
+    type: "text",
+    placeholder: "name",
+  },
+  {
+    label: "Phone Number",
+    name: "phoneNumber",
+    type: "number",
+    placeholder: "phone number",
+  },
+  {
+    label: "Email Address",
+    name: "email",
+    type: "email",
+    placeholder: "email",
+  },
+  {
+    label: "Business Description",
+    name: "businessDescription",
+    type: "textarea",
+    placeholder: "business description",
+  },
+];
+export const createBusinessCustomEmailForm = [
+  {
+    label: "Email Addresses",
+    name: "email",
+    type: "email",
+    placeholder: "email",
+  },
+];
+export const createBusinessDomainForm = [
+  {
+    label: "Your Domain",
+    name: "domain",
+    type: "text",
+    placeholder: "your domain",
+  },
+];
+export const addProductForm = [
+  {
+    label: "Product Name",
+    name: "productName",
+    type: "text",
+    placeholder: "product name",
+  },
+  {
+    label: "Category",
+    name: "category",
+    type: "text",
+    placeholder: "category",
+  },
+  {
+    label: "Price",
+    name: "price",
+    type: "number",
+    placeholder: "price",
+  },
+  {
+    label: "Contact",
+    name: "contact",
+    type: "number",
+    placeholder: "contact",
   },
   {
     label: "Description",
     name: "description",
     type: "textarea",
-    placeholder: "description",
+    placeholder: "write description here..",
   },
 ]
+    
+export const addEFilingForm = [
+  {
+    label: "Add E-Filing Details",
+    name: "efilingDetails",
+    type: "textarea",
+    placeholder: "write details here",
+  },
+  {
+    label: "Last Filing Date",
+    name: "lastDate",
+    type: "date",
+    placeholder: "date",
+  },
+  {
+    label: "Next Due Date",
+    name: "dueDate",
+    type: "date",
+    placeholder: "date",
+  },
+ 
+];
+export const taxFilingPlaningFinancialGoalsForm = [
+  {
+    label: "Increase Retirement Fund",
+    name: "retirementFund",
+    type: "number",
+    placeholder: "fund",
+  },
+  {
+    label: "Home Purchase",
+    name: "homePurchase",
+    type: "number",
+    placeholder: "home purchase",
+  },
+  {
+    label: "Education Fund",
+    name: "educationFund",
+    type: "number",
+    placeholder: "education fund",
+  },
+  {
+    label: "Emergency Fund",
+    name: "emergencyFund",
+    type: "number",
+    placeholder: "emergency fund",
+  },
+ 
+];
+export const taxFilingPlaningSavingForm = [
+  {
+    label: "Contribution to IRA",
+    name: "contirbutionFund",
+    type: "number",
+    placeholder: "contribution fund",
+  },
+  {
+    label: "Open IRA Account",
+    name: "openAccount",
+    type: "number",
+    placeholder: "open account",
+  },
+  {
+    label: "Invest in Tax-Efficient Funds",
+    name: "investmentFunds",
+    type: "number",
+    placeholder: "investmentFunds",
+  },
+ 
+];
+export const taxFilingPlaningBudgetForm = [
+  {
+    label: "Allocate Monthly Budget to Savings",
+    name: "monthlyBudget",
+    type: "number",
+    placeholder: "monthly budget",
+  },
+  {
+    label: "Review and Adjust Regularly",
+    name: "reviewRegularly",
+    type: "number",
+    placeholder: "review and adjust regularly",
+  },
+ 
+];
+export const taxFilingPlaningActionForm = [
+  {
+    label: "Set Monthly Saving Form",
+    name: "monthlySaving",
+    type: "number",
+    placeholder: "monthly saving",
+  },
+  {
+    label: "Research Investment Oppertunities",
+    name: "investmentOppertunities",
+    type: "number",
+    placeholder: "investment oppertunities",
+  },
+  {
+    label: "Consult Financial Advisor",
+    name: "financialAdvisor",
+    type: "number",
+    placeholder: "financial advisor",
+  },
+ 
+];
+export const createEstateTrustInformationForm = [
+  {
+    label: "Trust Name",
+    name: "trustName",
+    type: "text",
+    placeholder: "trust name",
+  },
+  {
+    label: "Formation Date",
+    name: "formationDate",
+    type: "date",
+    placeholder: "formation date",
+  },
+  {
+    label: "Settlor",
+    name: "settlor",
+    type: "text",
+    placeholder: "settlor",
+  },
+  {
+    label: "Purpose of Text",
+    name: "purposeText",
+    type: "textarea",
+    placeholder: "purpose of text...",
+  },
+ 
+];
+export const createEstateTrustBeneficiaryForm = [
+  {
+    label: "Beneficiary Name",
+    name: "beneficiaryName",
+    type: "text",
+    placeholder: "beneficiary name",
+  },
+  {
+    label: "Relationship to Trust",
+    name: "relationshipTrust",
+    type: "text",
+    placeholder: "relationship to trust",
+  },
+  {
+    label: "Contact Details",
+    name: "contact",
+    type: "number",
+    placeholder: "contact",
+  },
+  {
+    label: "Share In Trust(%)",
+    name: "shareTrust",
+    type: "number",
+    placeholder: "share in trust",
+  },
+  {
+    label: "Purpose",
+    name: "purpose",
+    type: "text",
+    placeholder: "purpose",
+  },
+ 
+];
+export const createTrusteeForm = [
+  {
+    label: "Trustee Name",
+    name: "trusteeName",
+    type: "text",
+    placeholder: "trutee name",
+  },
+  {
+    label: "Action",
+    name: "action",
+    type: "text",
+    placeholder: "action",
+  },
+  {
+    label: "Additional Comments",
+    name: "additionalComments",
+    type: "textarea",
+    placeholder: "write comments here...",
+  },
+ 
+];
+export const addConsultantForm = [
+  {
+    label: "Consultant Name",
+    name: "consultantName",
+    type: "text",
+    placeholder: "consultant name",
+  },
+  {
+    label: "Expertise",
+    name: "expertise",
+    type: "text",
+    placeholder: "expertise",
+  },
+  {
+    label: "Experience",
+    name: "experience",
+    type: "text",
+    placeholder: "experience",
+  },
+ 
+];
+export const createUccDebtorInfoForm = [
+  {
+    label: "Debtor Name",
+    name: "debtorName",
+    type: "text",
+    placeholder: "name",
+  },
+  {
+    label: "Debtor Address",
+    name: "debtorAdress",
+    type: "text",
+    placeholder: "address",
+  },
+  {
+    label: "Debtor SSN",
+    name: "debtorSSN",
+    type: "number",
+    placeholder: "SSN",
+  },
+  {
+    label: "Contact Email",
+    name: "email",
+    type: "email",
+    placeholder: "email",
+  },
+];
+export const createUccDebtorSecurityForm = [
+  {
+    label: "Party Name",
+    name: "partyName",
+    type: "text",
+    placeholder: "name",
+  },
+  {
+    label: "Party Address",
+    name: "partyAddress",
+    type: "text",
+    placeholder: "address",
+  },
+  {
+    label: "Contact Email",
+    name: "email",
+    type: "email",
+    placeholder: "email",
+  },
+];
+
+export const createUccCollatoralForm = [
+  {
+    label: "Description",
+    name: "description",
+    type: "text",
+    placeholder: "description",
+  },
+  {
+    label: "Value",
+    name: "value",
+    type: "number",
+    placeholder: "value",
+  },
+  {
+    label: "Type",
+    name: "type",
+    type: "text",
+    placeholder: "type",
+  },
+];
+export const createPortfolioRenewFileForm = [
+  {
+    label: "Original Filing Date",
+    name: "filingDate",
+    type: "date",
+    placeholder: "filing date",
+  },
+  {
+    label: "Expiration Date",
+    name: "expirationDate",
+    type: "date",
+    placeholder: "expiration date",
+  },
+  {
+    label: "Renewal  Date",
+    name: "renewalDate",
+    type: "date",
+    placeholder: "renewal date",
+  },
+  {
+    label: "New Expiration Date",
+    name: "newExpirationDate",
+    type: "date",
+    placeholder: "new expiration date",
+  },
+  
+  
+]
+

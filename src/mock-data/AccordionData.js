@@ -110,3 +110,33 @@ export const FinServicingAndMessagingItems = [
     link: "finServicesAndMessaging/CryptoTrading",
   },
 ];
+export const BusinessAndTaxItems=[
+    {
+        title:"Business Manage Services",
+        link:"businessAndTaxServices/businessManageServices"
+    },
+    {
+        title:"Product Manager",
+        link:"businessAndTaxServices/productManagerListing"
+    },
+    {
+        title:"Tax Filing Services",
+        link:"businessAndTaxServices/taxFilingServicesListing"
+    },
+    {
+        title:"Estate & Trust Services",
+        link:"businessAndTaxServices/estateAndTrustServices"
+    },
+    {
+        title:"Fin Consult & Manage Services",
+        link:"businessAndTaxServices/finConsultServices"
+    },
+    {
+        title:"Credit & Manage Services",
+        link:"businessAndTaxServices/creditAndManageServicesListing"
+    },
+    {
+        title:"UCC Management Services",
+        link:"businessAndTaxServices/uccManagementSystem"
+    },
+]

@@ -7,6 +7,7 @@ import {
   featureForAgents,
   featureForMinistry,
 } from "mock-data/FormData";
+import { createEstateTrustBeneficiaryForm } from "mock-data/FormData";
 
 const DynamicForm = ({
   formData,
@@ -20,6 +21,7 @@ const DynamicForm = ({
   const [selectedOption, setSelectedOption] = useState(defaultSwitchOption);
   const [switchOptions, setSwitchOptions] = useState(defaultSwitchOptions);
   const [selectLabel, setSelectLabel] = useState(defaultSwitchLabel);
+  const [beneficiary, setBeneficiary] = useState(false);
 
   const handleSelectChange = (e) => {
     const selectedValue = e.target.value;
@@ -54,7 +56,21 @@ const DynamicForm = ({
             {defaultButton()}
           </>
         );
-        case "Mailbox Setup":
+      case "Trust Formation":
+        return (
+          <>
+            <Button
+              type=""
+              className="login-button"
+              onClick={() => setBeneficiary(true)}
+            >
+              Add Beneficiary
+            </Button>
+            {defaultButton()}
+          </>
+        );
+      case "Mailbox Setup":
+      case "Business Registration":
         return (
           <>
             <Button type="submit" className="login-button">
@@ -102,6 +118,31 @@ const DynamicForm = ({
               }}
             >
               Reset to Default
+            </Button>
+          </div>
+        );
+      case "Custom Domains":
+        return (
+          <div className="inline mt-4 ">
+            <Button
+              className="add-button action-button profile-form-action-button  mt-1 mb-5"
+              outline
+              size="md"
+            >
+              Create New
+            </Button>
+            <Button
+              className="action-button block-button profile-form-action-button  mt-1 ml-lg-4 mb-5"
+              size="md"
+            >
+              Change
+            </Button>
+            <Button
+              className="action-button profile-form-action-button  mt-1 ml-lg-4 mb-5"
+              size="md"
+              color="danger"
+            >
+              Remove
             </Button>
           </div>
         );
@@ -168,6 +209,52 @@ const DynamicForm = ({
         {parentComponent === "Feature Control" && (
           <Switches switchData={switchOptions} label={selectLabel} />
         )}
+        {beneficiary &&
+          createEstateTrustBeneficiaryForm?.map((data, index) => (
+            <FormGroup key={index}>
+              <Label className={data.name !== "message" && "form-label"}>
+                {data.label}
+              </Label>
+              {data.type === "select" ? (
+                <>
+                  <Input
+                    type="select"
+                    name={data?.name}
+                    value={selectedOption}
+                    onChange={handleSelectChange}
+                    className="form-control login-input form-input"
+                    required
+                  >
+                    {data?.options?.map((option, optionIndex) => (
+                      <option key={optionIndex} value={option?.title}>
+                        {option?.title}
+                      </option>
+                    ))}
+                  </Input>
+                </>
+              ) : (
+                <>
+                  <Input
+                    type={data.type}
+                    name={data.name}
+                    defaultValue={data.defaultValue}
+                    placeholder={data.placeholder}
+                    value={data.value}
+                    className={`form-control login-input form-input ${
+                      data.type === "textarea" ? "description-input p-4" : "p-4"
+                    }`}
+                    required
+                  />
+                  {component === "Assign Group" &&
+                    data?.name === "idNumber" && (
+                      <Button type="submit" className="login-button mt-3">
+                        Add All
+                      </Button>
+                    )}
+                </>
+              )}
+            </FormGroup>
+          ))}
         {renderButton()}
       </Form>
     </div>
