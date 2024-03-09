@@ -98,6 +98,8 @@ const TopBar = ({
                       ? navigate(
                           `/admin/finServicesAndMessaging/add${buttonValue}`
                         )
+                      : parentComponent === "OtherFinAndLegal"
+                      ? navigate(`/admin/finAndLegal/add${buttonValue}`)
                       : navigate(`/admin/userManagement/add${buttonValue}`)
                   }
                 >

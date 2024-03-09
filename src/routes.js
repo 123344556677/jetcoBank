@@ -120,6 +120,8 @@ import CardManagementFormPrepaid from "components/FinServicesAndMessaging/Cards 
 import CardManagementFormVirtual from "components/FinServicesAndMessaging/Cards Management/CardManagementFormVirtual";
 import WithdrawalsForm from "components/FinServicesAndMessaging/Withdrawals/WithdrawalsForm";
 import OtherFinAndLegal from "components/OtherFinAndLegal/OtherFinAndLegal";
+import OfficialServicesListing from "components/OtherFinAndLegal/OfficialServices/OfficialServicesListing";
+import AddDocumentRegistrationForm from "components/OtherFinAndLegal/OfficialServices/AddDocumentRegistrationForm";
 
 
 var routes = [
@@ -903,8 +905,22 @@ var routes = [
   {
     path: "/finAndLegal",
     name: "Other Fin. & Legal",
-    icon: "ni ni-tv-2 ",
+    icon: "fa fa-gavel",
     component:<OtherFinAndLegal/>,
+    layout: "/admin",
+  },
+  {
+    path: "/finAndLegal/officialServices",
+    name: "OfficialServicesListing",
+    icon: "ni ni-tv-2 ",
+    component:<OfficialServicesListing/>,
+    layout: "/admin",
+  },
+  {
+    path: "/finAndLegal/addDocument",
+    name: "AddDocument",
+    icon: "ni ni-tv-2 ",
+    component:<AddDocumentRegistrationForm/>,
     layout: "/admin",
   },
   {

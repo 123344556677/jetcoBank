@@ -12,8 +12,12 @@ import { orderSubHeadings } from "mock-data/Data";
 
 const CourierDisptachListing= () => {
   const [activeCouriers, setActiveCourier] = useState();
+  const [activesubBarLnk, setActiveSubBarLink] = useState();
   const handleActiveCourierDsipatch = (val) => {
     setActiveCourier(val);
+  };
+  const handleSubBarActiveLink = (val) => {
+    setActiveSubBarLink(val);
   };
   return (
     <div className="pt-5 pt-md-8 mb-3 ml-lg-2 mr-lg-2">
@@ -25,7 +29,7 @@ const CourierDisptachListing= () => {
           checkActiveLink={handleActiveCourierDsipatch}
           defaultValue="Couriers"
         />
-        {activeCouriers === "Orders Management" && <TopSubBar defaultValue="Active" headings={orderSubHeadings} />}
+        {activeCouriers === "Orders Management" && <TopSubBar defaultValue="Active" headings={orderSubHeadings} checkSubBarActiveLink={handleSubBarActiveLink} />}
         <div className="mt-3">
         {
           activeCouriers==="Couriers"&&

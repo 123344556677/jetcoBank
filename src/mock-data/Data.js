@@ -930,6 +930,76 @@ export const accountOfficeData = [
     price: "542,14",
   },
 ];
+export const otherFinAndLegaltData = [
+  {
+    title: "Total Investigative Audits",
+    price: "45",
+  },
+  {
+    title: "Total Corporate Audits",
+    price: "60",
+  },
+  {
+    title: "Total Forensic Audits",
+    price: "80",
+  },
+  {
+    title: "Active Collection Accounts",
+    price: "30",
+  },
+  {
+    title: "Total Active Leases",
+    price: "50",
+  },
+  {
+    title: "Total Debt Discharge Cases",
+    price: "30",
+  },
+  {
+    title: "New Contracts Created",
+    price: "10",
+  },
+  {
+    title: "Total Corporate Collecions",
+    price: "20",
+  },
+  {
+    title: "FOIA Requests Submitted",
+    price: "35",
+  },
+  {
+    title: "Passport Application Processed",
+    price: "70",
+  },
+  {
+    title: "Total Deeds Porcessed",
+    price: "85",
+  },
+  {
+    title: "Total Bonds Issued",
+    price: "45",
+  },
+  {
+    title: "Active Lien Placements",
+    price: "15",
+  },
+  {
+    title: "Lien Removal Requests",
+    price: "100",
+  },
+  {
+    title: "Total Letters Sent",
+    price: "30",
+  },
+  {
+    title: "Agreements Drafted",
+    price: "45",
+  },
+  {
+    title: "New Property Registrations",
+    price: "25",
+  },
+];
 export const networkTaxHeadings = [
   {
     title: "Sr.",
@@ -8545,6 +8615,549 @@ export const businessAndTaxServicesCardData = [
   //   title: "Total Tax Prepares",
   //   price: "54,214",
   // },
+];
+export const officialDocumentHandlingHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Document ID",
+  },
+  {
+    title:"Document Type",
+  },
+  {
+    title: "Handling Officer",
+  },
+  {
+    title: "Status",
+  },
+  {
+    title: "Upload Date",
+  },
+  {
+    title: "Processing Date",
+  },
+  {
+    title: "Commmon Handling Issues",
+  },
+  {
+    title: "Parties Involved",
+  },
+];
+export const officialDocumentHandlingData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Lease Agreement",
+    },
+    {
+      value: "Document Handling Expert A",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "Detected Unautorized transactions",
+    },
+    {
+      value: "ABC Law Firm, XYZ Corporation",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Financial Statement",
+    },
+    {
+      value: "Document Handling Expert A",
+    },
+    {
+      value: "Pending",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "----",
+    },
+    {
+      value: "Flagged unusual patterns in",
+    },
+    {
+      value: "John Doe, ABC Corporation",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Lease Agreement",
+    },
+    {
+      value: "Document Handling Expert A",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "Detected Unautorized transactions",
+    },
+    {
+      value: "ABC Law Firm, XYZ Corporation",
+    },
+  ],
+];
+export const officialDocumentAuthenticationHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Document ID",
+  },
+  {
+    title:"Document Type",
+  },
+  {
+    title: "Athentication Officer",
+  },
+  {
+    title: "Status",
+  },
+  {
+    title: "Authentication Date",
+  },
+  {
+    title: "Parties Involved",
+  },
+  {
+    title: "Additional Notes",
+  },
+];
+export const officialDocumentAuthenticationData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Lease Agreement",
+    },
+    {
+      value: "Authentication Specialist B",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "ABC Law Firm, XYZ Corporation",
+    },
+    {
+      value: "This patent certificate confirms the ownership of the",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Financial Statement",
+    },
+    {
+      value: "Authentication Specialist B",
+    },
+    {
+      value: "Pending",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "Jhon Doe, XYZ Corporation",
+    },
+    {
+      value: "----",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Lease Agreement",
+    },
+    {
+      value: "Authentication Specialist B",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "ABC Law Firm, XYZ Corporation",
+    },
+    {
+      value: "The partnership agreement outlines the terms and conditions",
+    },
+  ],
+];
+export const officialDocumentApostileHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Document ID",
+  },
+  {
+    title:"Document Type",
+  },
+  {
+    title: "Apostile Officer",
+  },
+  {
+    title: "Status",
+  },
+  {
+    title: "Apostile Date",
+  },
+  {
+    title: "Parties Involved",
+  },
+  {
+    title: "Apostile Location",
+  },
+];
+export const officialDocumentApostileData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Power of Attorney",
+    },
+    {
+      value: "Apostile Expert C",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "ABC Law Firm, XYZ Corporation",
+    },
+    {
+      value: "Maclod Road near butt karahi and dial sing collage lahore",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Financial Statement",
+    },
+    {
+      value: "Apostile Expert C",
+    },
+    {
+      value: "Pending",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "John Doe, ABC Corporation",
+    },
+    {
+      value: "Maclod Road near butt karahi and dial sing collage lahore",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Power of Attorney",
+    },
+    {
+      value: "Apostile Expert C",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "ABC Law Firm, XYZ Corporation",
+    },
+    {
+      value: "Maclod Road near butt karahi and dial sing collage lahore",
+    },
+  ],
+  
+];
+export const processServingHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Document ID",
+  },
+  {
+    title:"Document Type",
+  },
+  {
+    title: "Recipitent",
+  },
+  {
+    title: "Status",
+  },
+  {
+    title: "Request Date",
+  },
+  {
+    title: "Service Date",
+  },
+  {
+    title: "Expeted Service Date",
+  },
+];
+export const processServingData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Subpeona",
+    },
+    {
+      value: "Jhon Doe",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "----",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Summons",
+    },
+    {
+      value: "Jhon Doe",
+    },
+    {
+      value: "Pending",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "----",
+    },
+    {
+      value: "2023-12-31",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Subpeona",
+    },
+    {
+      value: "Jhon Doe",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "----",
+    },
+  ],
+];
+export const documentRegistrationHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Registration ID",
+  },
+  {
+    title:"Document Type",
+  },
+  {
+    title: "Registration Officer",
+  },
+  {
+    title: "Status",
+  },
+  {
+    title: "Registration Date",
+  },
+  {
+    title: "Seller Party",
+  },
+  {
+    title: "Buyer Party",
+  },
+];
+export const documentRegistrationData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Land Deed",
+    },
+    {
+      value: "Registration Pro E",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "Jhone Dane",
+    },
+    {
+      value: "Jhon Doe",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Land Deed",
+    },
+    {
+      value: "Registration Pro E",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "Jhone Dane",
+    },
+    {
+      value: "Jhon Doe",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Financial Satement",
+    },
+    {
+      value: "Registration Pro E",
+    },
+    {
+      value: "Pending",
+    },
+    {
+      value: "----",
+    },
+    {
+      value: "ABC Property Management",
+    },
+    {
+      value: "ABC Property Management",
+    },
+  ],
 ];
 export const inboxColors = ["#F1F6FB", "#FFFFFF"];
 export const profileColors = [

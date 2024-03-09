@@ -35,6 +35,11 @@ const DynamicTable = ({ headings, tableData, component, parentComponent }) => {
     "Credit Repair Dispute",
     "Credit Management",
     "UCC Management System Monitor",
+    "documentRegistration",
+    "processServing",
+    "documentApostileHanling",
+    "documentAthenticationHanling",
+    "documentHanling",
   ].includes(component);
 
   const renderActionsColumn = () => {

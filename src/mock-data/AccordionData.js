@@ -147,6 +147,6 @@ export const OtherFinAndLegalItems=[
     },
     {
         title:"Official Services",
-        link:"businessAndTaxServices/productManagerListing"
+        link:"finAndLegal/officialServices"
     },
 ]

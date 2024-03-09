@@ -304,3 +304,21 @@ export const UccManagementSystemHeadings=[
     },  
 
 ]
+export const officialServicesHeadings=[
+    {
+        title:"Official Document Handling"
+    },
+    {
+        title:'Document Authentication'
+    },  
+    {
+        title:'Document Apostille'
+    },  
+    {
+        title:'Process Serving'
+    },  
+    {
+        title:'Document Registration'
+    },  
+
+]

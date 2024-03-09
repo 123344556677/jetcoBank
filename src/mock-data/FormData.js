@@ -2075,4 +2075,36 @@ export const createPortfolioRenewFileForm = [
   
   
 ]
+export const createDocumentRegistrationForm = [
+  {
+    label: "Document Party",
+    name: "documentPrty",
+    type: "text",
+    placeholder: "document party",
+  },
+  {
+    label: "Seller Party",
+    name: "sellerPrty",
+    type: "text",
+    placeholder: "seller party",
+  },
+  {
+    label: "Buyer Party",
+    name: "buyer party",
+    type: "text",
+    placeholder: "buyer party",
+  },
+  {
+    label: "Registration Officer Name",
+    name: "officerName",
+    type: "text",
+    placeholder: "officer name",
+  },
+  {
+    label: "Registration Date",
+    name: "registrationDate",
+    type: "date",
+    placeholder: "registarion date",
+  },
+];
 
