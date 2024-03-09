@@ -119,6 +119,7 @@ import AddDomains from "components/BusinessAndTaxServices/BusinessManageServices
 import CardManagementFormPrepaid from "components/FinServicesAndMessaging/Cards Management/CardManagementFormPrepaid";
 import CardManagementFormVirtual from "components/FinServicesAndMessaging/Cards Management/CardManagementFormVirtual";
 import WithdrawalsForm from "components/FinServicesAndMessaging/Withdrawals/WithdrawalsForm";
+import OtherFinAndLegal from "components/OtherFinAndLegal/OtherFinAndLegal";
 
 
 var routes = [
@@ -897,6 +898,13 @@ var routes = [
     name: "UccManagementSystem",
     icon: "ni ni-tv-2 ",
     component:<UccManagementSystem/>,
+    layout: "/admin",
+  },
+  {
+    path: "/finAndLegal",
+    name: "Other Fin. & Legal",
+    icon: "ni ni-tv-2 ",
+    component:<OtherFinAndLegal/>,
     layout: "/admin",
   },
   {

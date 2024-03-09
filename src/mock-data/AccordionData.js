@@ -140,3 +140,13 @@ export const BusinessAndTaxItems=[
         link:"businessAndTaxServices/uccManagementSystem"
     },
 ]
+export const OtherFinAndLegalItems=[
+    {
+        title:"Other Fin & Legal Services",
+        link:"businessAndTaxServices/businessManageServices"
+    },
+    {
+        title:"Official Services",
+        link:"businessAndTaxServices/productManagerListing"
+    },
+]
