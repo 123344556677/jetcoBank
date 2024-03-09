@@ -26,6 +26,23 @@ import HealthSavingAccount from "components/BusinessAndTaxServices/FinConsultant
 import LockBoxService from "components/BusinessAndTaxServices/FinConsultantServices/LockBoxService/LockBoxService";
 import PropertySecuritization from "components/BusinessAndTaxServices/FinConsultantServices/PropertySecuritization/PropertySecuritization";
 import RetirementPlans from "components/BusinessAndTaxServices/FinConsultantServices/RetirementPlans/RetirementPlans";
+import AgreementWriting from "components/OtherFinAndLegal/OtherFinAndLegalServices/AgreementWriting/AgreementWriting";
+import Bonds from "components/OtherFinAndLegal/OtherFinAndLegalServices/Bonds/Bonds";
+import CollectionAccounts from "components/OtherFinAndLegal/OtherFinAndLegalServices/Collection Accounts/CollectionAccounts";
+import ContractFormation from "components/OtherFinAndLegal/OtherFinAndLegalServices/ContractFormation/ContractFormation";
+import CorporateCollections from "components/OtherFinAndLegal/OtherFinAndLegalServices/Corporate Collections/CorporateCollections";
+import CoporateAudits from "components/OtherFinAndLegal/OtherFinAndLegalServices/CorporateAudits/CoporateAudits";
+import DebtDischarge from "components/OtherFinAndLegal/OtherFinAndLegalServices/DebtDischarge/DebtDischarge";
+import Deeds from "components/OtherFinAndLegal/OtherFinAndLegalServices/Deeds/Deeds";
+import FOIARequests from "components/OtherFinAndLegal/OtherFinAndLegalServices/FOIARequests/FOIARequests";
+import ForensicAudits from "components/OtherFinAndLegal/OtherFinAndLegalServices/Forensic Audits/ForensicAudits";
+import InvestigativeAudits from "components/OtherFinAndLegal/OtherFinAndLegalServices/Investigative Audits/InvestigativeAudits";
+import Leases from "components/OtherFinAndLegal/OtherFinAndLegalServices/Leases/Leases";
+import LetterWriting from "components/OtherFinAndLegal/OtherFinAndLegalServices/LetterWriting/LetterWriting";
+import LienPlacement from "components/OtherFinAndLegal/OtherFinAndLegalServices/LienPlacement/LienPlacement";
+import LienRemoval from "components/OtherFinAndLegal/OtherFinAndLegalServices/LienRemoval/LienRemoval";
+import PassportServices from "components/OtherFinAndLegal/OtherFinAndLegalServices/PassportServices/PassportServices";
+import PropertyRegistration from "components/OtherFinAndLegal/OtherFinAndLegalServices/PropertyRegistration/PropertyRegistration";
 
 export const userHeadings = [
   {
@@ -1840,64 +1857,64 @@ export const courierOrderCardData = [
   },
 ];
 export const previousMessages = {
-  heading:"Your previous Message",
-  data:[
-  {
-    icon: require("../assets/img/icons/common/profile.png"),
-    name: "Rajpal Yadav",
-    duration: "3 Days ago",
-    message:
-      "Thank you for using our VPN app! We value your feedback and would appreciate it if you could take a moment to share your thoughts with us. Your input helps us  improve our services.Thank you for using our VPN app! We value your feedback and would appreciate it if you could take a moment to share your thoughts with us. Your input helps us improve our services.",
-  },
-  {
-    icon: require("../assets/img/icons/common/user.png"),
-    name: "Broadcast",
-    duration: "3 Days ago",
-    message:
-      "Thank you for using our VPN app! We value your feedback and would appreciate it if you could take a moment to share your thoughts with us. Your input helps us  improve our services.Thank you for using our VPN app! We value your feedback and would appreciate it if you could take a moment to share your thoughts with us. Your input helps us improve our services.",
-  },
-  {
-    icon: require("../assets/img/icons/common/user.png"),
-    name: "Broadcast",
-    duration: "3 Days ago",
-    message:
-      "Thank you for using our VPN app! We value your feedback and would appreciate it if you could take a moment to share your thoughts with us. Your input helps us  improve our services.Thank you for using our VPN app! We value your feedback and would appreciate it if you could take a moment to share your thoughts with us. Your input helps us improve our services.",
-  },
-  ]
-}
+  heading: "Your previous Message",
+  data: [
+    {
+      icon: require("../assets/img/icons/common/profile.png"),
+      name: "Rajpal Yadav",
+      duration: "3 Days ago",
+      message:
+        "Thank you for using our VPN app! We value your feedback and would appreciate it if you could take a moment to share your thoughts with us. Your input helps us  improve our services.Thank you for using our VPN app! We value your feedback and would appreciate it if you could take a moment to share your thoughts with us. Your input helps us improve our services.",
+    },
+    {
+      icon: require("../assets/img/icons/common/user.png"),
+      name: "Broadcast",
+      duration: "3 Days ago",
+      message:
+        "Thank you for using our VPN app! We value your feedback and would appreciate it if you could take a moment to share your thoughts with us. Your input helps us  improve our services.Thank you for using our VPN app! We value your feedback and would appreciate it if you could take a moment to share your thoughts with us. Your input helps us improve our services.",
+    },
+    {
+      icon: require("../assets/img/icons/common/user.png"),
+      name: "Broadcast",
+      duration: "3 Days ago",
+      message:
+        "Thank you for using our VPN app! We value your feedback and would appreciate it if you could take a moment to share your thoughts with us. Your input helps us  improve our services.Thank you for using our VPN app! We value your feedback and would appreciate it if you could take a moment to share your thoughts with us. Your input helps us improve our services.",
+    },
+  ],
+};
 export const customerFeedback = {
-  heading:"Customer Product Feedback",
-  data:[
-  {
-    icon: require("../assets/img/icons/common/happy-emoji.png"),
-    name: "Rajpal Yadav",
-    duration: "3 Days ago",
-    message:
-      "Thank you for using our VPN app! We value your feedback and would appreciate it if you could take a moment to share your thoughts with us. Your input helps us  improve our services.",
-  },
-  {
-    icon: require("../assets/img/icons/common/glasses-emoji.png"),
-    name: "Rajpal Yadav",
-    duration: "3 Days ago",
-    message:
-      "Thank you for using our VPN app! We value your feedback and would appreciate it if you could take a moment to share your thoughts with us. Your input helps us  improve our services.",
-  },
-  {
-    icon: require("../assets/img/icons/common/angry-emoji.png"),
-    name: "Rajpal Yadav",
-    duration: "3 Days ago",
-    message:
-      "Thank you for using our VPN app! We value your feedback and would appreciate it if you could take a moment to share your thoughts with us. Your input helps us  improve our services.",
-  },
-  {
-    icon: require("../assets/img/icons/common/sad-emoji.png"),
-    name: "Rajpal Yadav",
-    duration: "3 Days ago",
-    message:
-      "Thank you for using our VPN app! We value your feedback and would appreciate it if you could take a moment to share your thoughts with us. Your input helps us  improve our services.",
-  },
-  ]
-}
+  heading: "Customer Product Feedback",
+  data: [
+    {
+      icon: require("../assets/img/icons/common/happy-emoji.png"),
+      name: "Rajpal Yadav",
+      duration: "3 Days ago",
+      message:
+        "Thank you for using our VPN app! We value your feedback and would appreciate it if you could take a moment to share your thoughts with us. Your input helps us  improve our services.",
+    },
+    {
+      icon: require("../assets/img/icons/common/glasses-emoji.png"),
+      name: "Rajpal Yadav",
+      duration: "3 Days ago",
+      message:
+        "Thank you for using our VPN app! We value your feedback and would appreciate it if you could take a moment to share your thoughts with us. Your input helps us  improve our services.",
+    },
+    {
+      icon: require("../assets/img/icons/common/angry-emoji.png"),
+      name: "Rajpal Yadav",
+      duration: "3 Days ago",
+      message:
+        "Thank you for using our VPN app! We value your feedback and would appreciate it if you could take a moment to share your thoughts with us. Your input helps us  improve our services.",
+    },
+    {
+      icon: require("../assets/img/icons/common/sad-emoji.png"),
+      name: "Rajpal Yadav",
+      duration: "3 Days ago",
+      message:
+        "Thank you for using our VPN app! We value your feedback and would appreciate it if you could take a moment to share your thoughts with us. Your input helps us  improve our services.",
+    },
+  ],
+};
 export const inboxChats = [
   {
     name: "Gus M.",
@@ -2006,6 +2023,76 @@ export const accountTopBar = [
   {
     title: "Custom Accounts",
     component: <CustomAccounts />,
+  },
+];
+export const finAndLegalTopBar = [
+  {
+    title: "Investigative Audits",
+    component: <InvestigativeAudits />,
+  },
+  {
+    title: "Corporate Audits",
+    component: <CoporateAudits />,
+  },
+  {
+    title: "Forensic Audits",
+    component: <ForensicAudits />,
+  },
+  {
+    title: "Corporate Collection",
+    component: <CorporateCollections />,
+  },
+  {
+    title: "Collection Accounts",
+    component: <CollectionAccounts />,
+  },
+  {
+    title: "Debt Discharge",
+    component: <DebtDischarge />,
+  },
+  {
+    title: "Leases",
+    component: <Leases />,
+  },
+  {
+    title: "Deeds",
+    component: <Deeds />,
+  },
+  {
+    title: "Lien Placement",
+    component: <LienPlacement />,
+  },
+  {
+    title: "Bonds",
+    component: <Bonds />,
+  },
+  {
+    title: "Lien Removal",
+    component: <LienRemoval />,
+  },
+  {
+    title: "Letter Writing",
+    component: <LetterWriting />,
+  },
+  {
+    title: "Contract Formation",
+    component: <ContractFormation />,
+  },
+  {
+    title: "Agreement Writing",
+    component: <AgreementWriting />,
+  },
+  {
+    title: "FOIA Requests",
+    component: <FOIARequests />,
+  },
+  {
+    title: "Passport Services",
+    component: <PassportServices />,
+  },
+  {
+    title: "Property Registrations",
+    component: <PropertyRegistration />,
   },
 ];
 export const accountHeadings = [
@@ -7229,9 +7316,9 @@ export const transactionTableHeading = [
   },
   {
     title: "Description",
-  },  
+  },
 ];
-export const transactionTableData= [
+export const transactionTableData = [
   [
     {
       value: "1",
@@ -7255,7 +7342,6 @@ export const transactionTableData= [
     {
       value: "Purchase of Supplies",
     },
-    
   ],
   [
     {
@@ -7265,7 +7351,6 @@ export const transactionTableData= [
     {
       value: "ISO20022-002",
     },
-   
 
     {
       value: "54,214",
@@ -7282,8 +7367,6 @@ export const transactionTableData= [
     {
       value: "Client Payment",
     },
-   
- 
   ],
   [
     {
@@ -7294,7 +7377,6 @@ export const transactionTableData= [
       value: "ACH-003",
     },
 
- 
     {
       value: "54,214",
     },
@@ -7309,7 +7391,7 @@ export const transactionTableData= [
     },
     {
       value: "ATM Withdrawal",
-    }, 
+    },
   ],
   [
     {
@@ -7325,7 +7407,7 @@ export const transactionTableData= [
     {
       value: "Payment",
     },
-    
+
     {
       value: "Pending",
     },
@@ -7335,8 +7417,6 @@ export const transactionTableData= [
     {
       value: "Customer Deposit",
     },
-    
-
   ],
 ];
 export const cardManagementTableHeading = [
@@ -7370,12 +7450,11 @@ export const cardManagementTableHeading = [
     title: "Issue Date",
   },
 ];
-export const cardManagementTableHeadingsData=[
+export const cardManagementTableHeadingsData = [
   [
     {
       value: "1",
     },
-
 
     {
       type: "img",
@@ -7394,7 +7473,7 @@ export const cardManagementTableHeadingsData=[
       value: "554299",
     },
     {
-      value: "957-65877-300"
+      value: "957-65877-300",
     },
     {
       value: "Active",
@@ -7402,13 +7481,11 @@ export const cardManagementTableHeadingsData=[
     {
       value: "14 Dec 2023",
     },
-   
   ],
   [
     {
       value: "2",
     },
-
 
     {
       type: "img",
@@ -7427,7 +7504,7 @@ export const cardManagementTableHeadingsData=[
       value: "55429",
     },
     {
-      value: "957-65877-300"
+      value: "957-65877-300",
     },
     {
       value: "Freeze",
@@ -7435,13 +7512,11 @@ export const cardManagementTableHeadingsData=[
     {
       value: "14 Dec 2023",
     },
-   
   ],
   [
     {
       value: "3",
     },
-
 
     {
       type: "img",
@@ -7460,7 +7535,7 @@ export const cardManagementTableHeadingsData=[
       value: "55429",
     },
     {
-      value: "957-65877-300"
+      value: "957-65877-300",
     },
     {
       value: "Inactive",
@@ -7468,13 +7543,11 @@ export const cardManagementTableHeadingsData=[
     {
       value: "14 Dec 2023",
     },
-   
   ],
   [
     {
       value: "4",
     },
-
 
     {
       type: "img",
@@ -7493,7 +7566,7 @@ export const cardManagementTableHeadingsData=[
       value: "55429",
     },
     {
-      value: "957-65877-300"
+      value: "957-65877-300",
     },
     {
       value: "Active",
@@ -7501,11 +7574,8 @@ export const cardManagementTableHeadingsData=[
     {
       value: "14 Dec 2023",
     },
-   
   ],
- 
-
-]
+];
 export const withdrawalsListingHeadingsTable = [
   {
     title: "Sr.",
@@ -7538,7 +7608,7 @@ export const withdrawalsListingHeadingsTable = [
     title: "Transactional Date",
   },
 ];
-export const withdrawalsListingHeadingsTableData=[
+export const withdrawalsListingHeadingsTableData = [
   [
     {
       value: "1",
@@ -7556,9 +7626,9 @@ export const withdrawalsListingHeadingsTableData=[
     {
       value: "957-65877-300",
     },
-   
+
     {
-      value: "957-65877-300"
+      value: "957-65877-300",
     },
     {
       value: "Bank Transfer",
@@ -7572,7 +7642,6 @@ export const withdrawalsListingHeadingsTableData=[
     {
       value: "14 Dec 2023",
     },
-   
   ],
   [
     {
@@ -7591,9 +7660,9 @@ export const withdrawalsListingHeadingsTableData=[
     {
       value: "957-65877-300",
     },
-   
+
     {
-      value: "957-65877-300"
+      value: "957-65877-300",
     },
     {
       value: "Cash",
@@ -7607,7 +7676,6 @@ export const withdrawalsListingHeadingsTableData=[
     {
       value: "14 Dec 2023",
     },
-   
   ],
   [
     {
@@ -7626,9 +7694,9 @@ export const withdrawalsListingHeadingsTableData=[
     {
       value: "957-65877-300",
     },
-   
+
     {
-      value: "957-65877-300"
+      value: "957-65877-300",
     },
     {
       value: "Card",
@@ -7642,7 +7710,6 @@ export const withdrawalsListingHeadingsTableData=[
     {
       value: "14 Dec 2023",
     },
-   
   ],
   [
     {
@@ -7661,9 +7728,9 @@ export const withdrawalsListingHeadingsTableData=[
     {
       value: "957-65877-300",
     },
-   
+
     {
-      value: "957-65877-300"
+      value: "957-65877-300",
     },
     {
       value: "card",
@@ -7677,10 +7744,8 @@ export const withdrawalsListingHeadingsTableData=[
     {
       value: "14 Dec 2023",
     },
-   
   ],
-
-]
+];
 export const currencyExchangeListingHeadingsTable = [
   {
     title: "Sr.",
@@ -7694,7 +7759,7 @@ export const currencyExchangeListingHeadingsTable = [
   {
     title: "I'D no",
   },
- 
+
   {
     title: "Account Number",
   },
@@ -7707,7 +7772,7 @@ export const currencyExchangeListingHeadingsTable = [
   {
     title: "Exchange",
   },
- 
+
   {
     title: "Amount",
   },
@@ -7719,7 +7784,7 @@ export const currencyExchangeListingHeadingsTable = [
   },
 ];
 
-export const currencyExchangeListingHeadingsTableData=[
+export const currencyExchangeListingHeadingsTableData = [
   [
     {
       value: "1",
@@ -7737,17 +7802,17 @@ export const currencyExchangeListingHeadingsTableData=[
     {
       value: "957-65877-300",
     },
-   
+
     {
-      value: "USD"
+      value: "USD",
     },
     {
-      value: "Pound"
+      value: "Pound",
     },
     {
       value: "1 USD to 0.85Eur",
     },
-    
+
     {
       value: "54,214",
     },
@@ -7757,7 +7822,6 @@ export const currencyExchangeListingHeadingsTableData=[
     {
       value: "14 Dec 2023",
     },
-   
   ],
   [
     {
@@ -7776,17 +7840,17 @@ export const currencyExchangeListingHeadingsTableData=[
     {
       value: "957-65877-300",
     },
-   
+
     {
-      value: "USD"
+      value: "USD",
     },
     {
-      value: "Pound"
+      value: "Pound",
     },
     {
       value: "1 USD to 0.85Eur",
     },
-    
+
     {
       value: "54,214",
     },
@@ -7796,7 +7860,6 @@ export const currencyExchangeListingHeadingsTableData=[
     {
       value: "14 Dec 2023",
     },
-   
   ],
   [
     {
@@ -7815,17 +7878,17 @@ export const currencyExchangeListingHeadingsTableData=[
     {
       value: "957-65877-300",
     },
-   
+
     {
-      value: "Pound"
+      value: "Pound",
     },
     {
-      value: "USD"
+      value: "USD",
     },
     {
       value: "1 USD to 0.85Eur",
     },
-    
+
     {
       value: "54,214",
     },
@@ -7835,7 +7898,6 @@ export const currencyExchangeListingHeadingsTableData=[
     {
       value: "14 Dec 2023",
     },
-   
   ],
   [
     {
@@ -7854,17 +7916,17 @@ export const currencyExchangeListingHeadingsTableData=[
     {
       value: "957-65877-300",
     },
-   
+
     {
-      value: "Rupee"
+      value: "Rupee",
     },
     {
-      value: "USD"
+      value: "USD",
     },
     {
       value: "1 USD to 0.85Eur",
     },
-    
+
     {
       value: "54,214",
     },
@@ -7874,11 +7936,8 @@ export const currencyExchangeListingHeadingsTableData=[
     {
       value: "14 Dec 2023",
     },
-   
   ],
- 
-
-]
+];
 export const stockTradingListingHeadingsTable = [
   {
     title: "Sr.",
@@ -7892,7 +7951,7 @@ export const stockTradingListingHeadingsTable = [
   {
     title: "Current Price",
   },
- 
+
   {
     title: "Highest Price",
   },
@@ -7914,19 +7973,17 @@ export const stockTradingListingHeadingsTable = [
   {
     title: "Chart",
   },
- 
 ];
-export const stockTradingListingHeadingsTableData=[
+export const stockTradingListingHeadingsTableData = [
   [
     {
       value: "1",
     },
 
-
     {
       type: "img",
       img: require("../assets/img/icons/common/bitcoin.png"),
-      value:"Bitcoin"
+      value: "Bitcoin",
     },
     {
       value: "BTC",
@@ -7941,7 +7998,7 @@ export const stockTradingListingHeadingsTableData=[
       value: "$2,000",
     },
     {
-      value: "+2.5%"
+      value: "+2.5%",
     },
     {
       value: "500,000",
@@ -7953,21 +8010,19 @@ export const stockTradingListingHeadingsTableData=[
       value: "$700",
     },
     {
-      type:"img",
-      img:require("../assets/img/icons/common/greenpath.png"),
+      type: "img",
+      img: require("../assets/img/icons/common/greenpath.png"),
     },
-   
   ],
   [
     {
       value: "2",
     },
 
-
     {
       type: "img",
       img: require("../assets/img/icons/common/etherum.png"),
-      value:"Ethereum"
+      value: "Ethereum",
     },
     {
       value: "ETH",
@@ -7982,7 +8037,7 @@ export const stockTradingListingHeadingsTableData=[
       value: "$700",
     },
     {
-      value: "-1.1%"
+      value: "-1.1%",
     },
     {
       value: "350,000",
@@ -7994,21 +8049,19 @@ export const stockTradingListingHeadingsTableData=[
       value: "$2000",
     },
     {
-      type:"img",
-      img:require("../assets/img/icons/common/redpath.png"),
+      type: "img",
+      img: require("../assets/img/icons/common/redpath.png"),
     },
-   
   ],
   [
     {
       value: "3",
     },
 
-
     {
       type: "img",
       img: require("../assets/img/icons/common/cardano.png"),
-      value:"Cardano"
+      value: "Cardano",
     },
     {
       value: "ADA",
@@ -8023,7 +8076,7 @@ export const stockTradingListingHeadingsTableData=[
       value: "$2,000",
     },
     {
-      value: "+3.2%"
+      value: "+3.2%",
     },
     {
       value: "700,000",
@@ -8035,21 +8088,19 @@ export const stockTradingListingHeadingsTableData=[
       value: "$150",
     },
     {
-      type:"img",
-      img:require("../assets/img/icons/common/yellowpath.png"),
+      type: "img",
+      img: require("../assets/img/icons/common/yellowpath.png"),
     },
-   
   ],
   [
     {
       value: "4",
     },
 
-
     {
       type: "img",
       img: require("../assets/img/icons/common/apple.png"),
-      value:"Apple"
+      value: "Apple",
     },
     {
       value: "Apple",
@@ -8064,7 +8115,7 @@ export const stockTradingListingHeadingsTableData=[
       value: "$700",
     },
     {
-      value: "-0.5%"
+      value: "-0.5%",
     },
     {
       value: "600,000",
@@ -8076,21 +8127,19 @@ export const stockTradingListingHeadingsTableData=[
       value: "$700",
     },
     {
-      type:"img",
-      img:require("../assets/img/icons/common/greenpath.png"),
+      type: "img",
+      img: require("../assets/img/icons/common/greenpath.png"),
     },
-   
   ],
   [
     {
       value: "5",
     },
 
-
     {
       type: "img",
       img: require("../assets/img/icons/common/layer.png"),
-      value:"Dogecoin"
+      value: "Dogecoin",
     },
     {
       value: "DOGE",
@@ -8105,7 +8154,7 @@ export const stockTradingListingHeadingsTableData=[
       value: "$150",
     },
     {
-      value: "+1.8%"
+      value: "+1.8%",
     },
     {
       value: "350,000",
@@ -8117,14 +8166,12 @@ export const stockTradingListingHeadingsTableData=[
       value: "$2,000",
     },
     {
-      type:"img",
-      img:require("../assets/img/icons/common/greenpath.png"),
+      type: "img",
+      img: require("../assets/img/icons/common/greenpath.png"),
     },
-   
   ],
-
-]
-export const recentActivityHeadingsTable=[
+];
+export const recentActivityHeadingsTable = [
   {
     title: "Sr.",
   },
@@ -8137,7 +8184,7 @@ export const recentActivityHeadingsTable=[
   {
     title: "I'D no",
   },
- 
+
   {
     title: "Account Number",
   },
@@ -8156,9 +8203,8 @@ export const recentActivityHeadingsTable=[
   {
     title: "Date",
   },
-
-]
-export const recentActivityHeadingsTableData=[
+];
+export const recentActivityHeadingsTableData = [
   [
     {
       value: "1",
@@ -8173,10 +8219,9 @@ export const recentActivityHeadingsTableData=[
     {
       value: "554299",
     },
-   
-   
+
     {
-      value: "957-65877-300"
+      value: "957-65877-300",
     },
     {
       value: "Bank Transfer",
@@ -8193,7 +8238,6 @@ export const recentActivityHeadingsTableData=[
     {
       value: "14 Dec 2023",
     },
-   
   ],
   [
     {
@@ -8209,10 +8253,9 @@ export const recentActivityHeadingsTableData=[
     {
       value: "554299",
     },
-   
-   
+
     {
-      value: "957-65877-300"
+      value: "957-65877-300",
     },
     {
       value: "cash",
@@ -8229,7 +8272,6 @@ export const recentActivityHeadingsTableData=[
     {
       value: "14 Dec 2023",
     },
-   
   ],
   [
     {
@@ -8245,10 +8287,9 @@ export const recentActivityHeadingsTableData=[
     {
       value: "554299",
     },
-   
-   
+
     {
-      value: "957-65877-300"
+      value: "957-65877-300",
     },
     {
       value: "card",
@@ -8265,7 +8306,6 @@ export const recentActivityHeadingsTableData=[
     {
       value: "14 Dec 2023",
     },
-   
   ],
   [
     {
@@ -8281,10 +8321,9 @@ export const recentActivityHeadingsTableData=[
     {
       value: "554299",
     },
-   
-   
+
     {
-      value: "957-65877-300"
+      value: "957-65877-300",
     },
     {
       value: "card",
@@ -8301,10 +8340,9 @@ export const recentActivityHeadingsTableData=[
     {
       value: "14 Dec 2023",
     },
-   
   ],
-]
-export const cryptoRecentActivityHeadingsTable=[
+];
+export const cryptoRecentActivityHeadingsTable = [
   {
     title: "Sr.",
   },
@@ -8317,7 +8355,7 @@ export const cryptoRecentActivityHeadingsTable=[
   {
     title: "I'D no",
   },
- 
+
   {
     title: "Account Number",
   },
@@ -8345,9 +8383,8 @@ export const cryptoRecentActivityHeadingsTable=[
   {
     title: "Date",
   },
-
-]
-export const cryptoRecentActivityHeadingsTableData=[
+];
+export const cryptoRecentActivityHeadingsTableData = [
   [
     {
       value: "1",
@@ -8362,20 +8399,18 @@ export const cryptoRecentActivityHeadingsTableData=[
     {
       value: "554299",
     },
-  
-   
-   
+
     {
-      value: "957-65877-300"
+      value: "957-65877-300",
     },
     {
-      value:"...."
+      value: "....",
     },
     {
-      value:"...."
+      value: "....",
     },
     {
-      value:"...."
+      value: "....",
     },
     {
       value: "Bank Transfer",
@@ -8392,7 +8427,6 @@ export const cryptoRecentActivityHeadingsTableData=[
     {
       value: "14 Dec 2023",
     },
-   
   ],
   [
     {
@@ -8405,23 +8439,21 @@ export const cryptoRecentActivityHeadingsTableData=[
     {
       value: "xyz@gmail.com",
     },
-  
-   
-   
+
     {
-      value: "957-65877-300"
+      value: "957-65877-300",
     },
     {
       value: "554299",
     },
     {
-      value:"...."
+      value: "....",
     },
     {
-      value:"...."
+      value: "....",
     },
     {
-      value:"...."
+      value: "....",
     },
     {
       value: "cash",
@@ -8438,7 +8470,6 @@ export const cryptoRecentActivityHeadingsTableData=[
     {
       value: "14 Dec 2023",
     },
-   
   ],
   [
     {
@@ -8454,20 +8485,18 @@ export const cryptoRecentActivityHeadingsTableData=[
     {
       value: "554299",
     },
-    
-   
-   
+
     {
-      value: "957-65877-300"
+      value: "957-65877-300",
     },
     {
-      value:"Pound"
+      value: "Pound",
     },
     {
-      value:"USD"
+      value: "USD",
     },
     {
-      value:"1 USD to 0.85 EUR"
+      value: "1 USD to 0.85 EUR",
     },
     {
       value: "card",
@@ -8484,7 +8513,6 @@ export const cryptoRecentActivityHeadingsTableData=[
     {
       value: "14 Dec 2023",
     },
-   
   ],
   [
     {
@@ -8500,19 +8528,18 @@ export const cryptoRecentActivityHeadingsTableData=[
     {
       value: "554299",
     },
-   
-   
+
     {
-      value: "957-65877-300"
+      value: "957-65877-300",
     },
     {
-      value:"...."
+      value: "....",
     },
     {
-      value:"...."
+      value: "....",
     },
     {
-      value:"...."
+      value: "....",
     },
     {
       value: "card",
@@ -8529,9 +8556,8 @@ export const cryptoRecentActivityHeadingsTableData=[
     {
       value: "14 Dec 2023",
     },
-   
   ],
-]
+];
 export const businessAndTaxServicesCardData = [
   {
     title: "Total Products",
@@ -8712,7 +8738,7 @@ export const finConsultServicesTopBar = [
   },
   {
     title: "Brokerage Investments",
-    component: <BrokerageInvestments/>
+    component: <BrokerageInvestments />,
   },
   {
     title: "Health Saving Accounts",
@@ -8980,3 +9006,2427 @@ export const brokerageMutualFundsData = {
     },
   ],
 };
+export const investigativeAuditsHeading = [
+  {
+    title: "Sr",
+  },
+  {
+    title: "Audit ID",
+  },
+  {
+    title: "Duration",
+  },
+  {
+    title: "Audit n Charge",
+  },
+  {
+    title: "Status",
+  },
+  {
+    title: "Audit Findings",
+  },
+  {
+    title: "Hightlights",
+  },
+];
+export const investigativeAuditsData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "18 days",
+    },
+    {
+      value: "Investigator Supreme",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "Uncovered complex financial fraud involving multiple parties.",
+    },
+    {
+      value: "Detected unauthorized transactions and recommended improved",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "IA-002",
+    },
+    {
+      value: "10 days",
+    },
+    {
+      value: "Investigator Supreme",
+    },
+    {
+      value: "In Progress",
+    },
+    {
+      value:
+        "Discovered discrepancies in revenue recognition and expense reporting.",
+    },
+    {
+      value: "Detected unauthorized transactions and recommended improved",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "IA-003",
+    },
+    {
+      value: "7 days",
+    },
+    {
+      value: "Investigator Supreme",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "Initial findings indicate potential mismanagement of funds.",
+    },
+    {
+      value: "Assisted law enforcement in building a case for legal action.",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+    {
+      value: "IA-004",
+    },
+    {
+      value: "10 days",
+    },
+    {
+      value: "Investigator Supreme",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value:
+        "Extensive examination identified discrepancies in financial reporting.",
+    },
+    {
+      value: "Recommendations led to improved financial policies and controls.",
+    },
+  ],
+];
+export const corporateAuditsHeading = [
+  {
+    title: "Sr",
+  },
+  {
+    title: "Audit ID",
+  },
+  {
+    title: "Lead Auditor",
+  },
+  {
+    title: "Score",
+  },
+  {
+    title: "Status",
+  },
+  {
+    title: "Notable Compliance Issues",
+  },
+  {
+    title: "Recommandations",
+  },
+];
+export const corporateAuditsData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Compliance Expert X",
+    },
+    {
+      value: "94%",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value:
+        "Addressed and resolved issues related to financial reporting practices.",
+    },
+    {
+      value:
+        " Proposed enhanced measures for safeguarding sensitive information.",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "IA-002",
+    },
+    {
+      value: "Compliance Expert X",
+    },
+    {
+      value: "88%",
+    },
+    {
+      value: "In Progress",
+    },
+    {
+      value: "Identified gaps in internal controls.",
+    },
+    {
+      value:
+        "Implemented measures to strengthen financial controls and reduce errors.",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "IA-003",
+    },
+    {
+      value: "Compliance Expert X",
+    },
+    {
+      value: "92%",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "Detected and rectified data privacy non-compliance issues.",
+    },
+    {
+      value:
+        "Working on implementing measures to strengthen control frameworks.",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+    {
+      value: "IA-004",
+    },
+    {
+      value: "Compliance Expert X",
+    },
+    {
+      value: "96%",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "Uncovered discrepancies in financial transactions.",
+    },
+    {
+      value:
+        "Introduced measures to streamline reporting processes and enhance accuracy.",
+    },
+  ],
+];
+export const forensicAuditsHeading = [
+  {
+    title: "Sr",
+  },
+  {
+    title: "Audit ID",
+  },
+  {
+    title: "Case Name",
+  },
+  {
+    title: "Forensic Analyst",
+  },
+  {
+    title: "Evidence Collected",
+  },
+  {
+    title: "Status",
+  },
+  {
+    title: "Key Findings",
+  },
+  {
+    title: "Lesson Learned",
+  },
+];
+export const forensicAuditsData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Financial Misconduct",
+    },
+    {
+      value: "Cyber Sleuth Y",
+    },
+    {
+      value: "150GB",
+    },
+    {
+      value: "Closed",
+    },
+    {
+      value: "Uncovered unauthorized use and distribution",
+    },
+    {
+      value: "Highlighted the need for continuous monitoring",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "IA-002",
+    },
+    {
+      value: "Vendor Fraud",
+    },
+    {
+      value: "Cyber Sleuth Y",
+    },
+    {
+      value: "200GB",
+    },
+    {
+      value: "Active",
+    },
+    {
+      value: "Tracing irregularities in vendor transactions and contracts. ",
+    },
+    {
+      value: "Reinforced the importance of employee training",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "IA-003",
+    },
+    {
+      value: "Intellectual Property",
+    },
+    {
+      value: "Cyber Sleuth Y",
+    },
+    {
+      value: "300GB",
+    },
+    {
+      value: "Closed",
+    },
+    {
+      value: "Identified and addressed employee involvement in",
+    },
+    {
+      value: "Emphasized the need for due diligence in vendor",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+    {
+      value: "IA-004",
+    },
+    {
+      value: "Employee Misconduct",
+    },
+    {
+      value: "Cyber Sleuth Y",
+    },
+    {
+      value: "250GB",
+    },
+    {
+      value: "Active",
+    },
+    {
+      value: "Uncovering suspicious financial transactions and hidden ",
+    },
+    {
+      value: "Strengthened policies around intellectual property ",
+    },
+  ],
+];
+export const corporateCollectionsHeading = [
+  {
+    title: "Sr",
+  },
+  {
+    title: "Audit ID",
+  },
+  {
+    title: "Client Name",
+  },
+  {
+    title: "Amount",
+  },
+  {
+    title: "Amount Status",
+  },
+  {
+    title: "Collection Officer",
+  },
+  {
+    title: "Collection Strategy",
+  },
+  {
+    title: "Debt Analysis",
+  },
+];
+export const corporateCollectionsData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "ABC Enterprises",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "Collections Maestro Z",
+    },
+    {
+      value: "Executed a comprehensive collection plan.",
+    },
+    {
+      value: "Identified and addressed slow-paying trends.",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "IA-002",
+    },
+    {
+      value: "XYZ Corporation",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "Pending",
+    },
+    {
+      value: "Collections Maestro Z",
+    },
+    {
+      value: "Currently implementing a personalized outreach plan.",
+    },
+    {
+      value: "Analyzed outstanding debts to optimize collection strategies.",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "IA-003",
+    },
+    {
+      value: "LMN Ltd",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "Collections Maestro Z",
+    },
+    {
+      value: "Initiating targeted communication for effective resolution.",
+    },
+    {
+      value: "Ongoing analysis to tailor strategies for optimal results.",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+    {
+      value: "IA-004",
+    },
+    {
+      value: "PQR Corp",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "Pending",
+    },
+    {
+      value: "Collections Maestro Z",
+    },
+    {
+      value: "Implemented targeted outreach, resulting in successful.",
+    },
+    {
+      value: "Identifying patterns in payment delays for strategic planning.",
+    },
+  ],
+];
+export const collectionAccountsHeading = [
+  {
+    title: "Sr",
+  },
+  {
+    title: "Audit ID",
+  },
+  {
+    title: "Client Name",
+  },
+  {
+    title: "Outstanding Amount",
+  },
+  {
+    title: "Status",
+  },
+  {
+    title: "Collection Specialist",
+  },
+  {
+    title: "Days in Collection",
+  },
+  {
+    title: "Current Status",
+  },
+];
+export const collectionAccountsData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "ABC Enterprises",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "Resolved",
+    },
+    {
+      value: "Account Recovery Guru W",
+    },
+    {
+      value: "18 days",
+    },
+    {
+      value: "In the process of negotiation for payment.",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "IA-002",
+    },
+    {
+      value: "XYZ Corporation",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "Active",
+    },
+    {
+      value: "Account Recovery Guru W",
+    },
+    {
+      value: "25 days",
+    },
+    {
+      value: "Successfully recovered the entire outstanding amount.",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "IA-003",
+    },
+    {
+      value: "LMN Ltd",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "Resolved",
+    },
+    {
+      value: "Account Recovery Guru W",
+    },
+    {
+      value: " Resolved in 20 days",
+    },
+    {
+      value: "Ongoing negotiation for payment.",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+    {
+      value: "IA-004",
+    },
+    {
+      value: "PQR Corp",
+    },
+    {
+      value: "54,214",
+    },
+    {
+      value: "Active",
+    },
+    {
+      value: "Account Recovery Guru W",
+    },
+    {
+      value: "14 days",
+    },
+    {
+      value: "Engaged in communication for resolution.",
+    },
+  ],
+];
+export const debtDischargeHeading = [
+  {
+    title: "Sr",
+  },
+  {
+    title: "Case ID",
+  },
+  {
+    title: "Client Name",
+  },
+  {
+    title: "Discharge Coordinator",
+  },
+
+  {
+    title: "Status",
+  },
+  {
+    title: "Discharge Time",
+  },
+
+  {
+    title: "Current Status",
+  },
+];
+export const debtDischargeData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "L-001",
+    },
+    {
+      value: "ABC Enterprises",
+    },
+    {
+      value: "Debt Relief Specialist V",
+    },
+    {
+      value: "Successful Discharge",
+    },
+
+    {
+      value: "18 days",
+    },
+    {
+      value: "In the final stages of approval for successful discharge.",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "L-002",
+    },
+    {
+      value: "XYZ Corporation",
+    },
+    {
+      value: "Debt Relief Specialist V",
+    },
+    {
+      value: "Pending Approval",
+    },
+
+    {
+      value: "25 days",
+    },
+    {
+      value:
+        "Facilitated debt relief through strategic financial restructuring.",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "L-003",
+    },
+    {
+      value: "LMN Ltd",
+    },
+    {
+      value: "Debt Relief Specialist V",
+    },
+    {
+      value: "Successful Discharge",
+    },
+
+    {
+      value: "17 days",
+    },
+    {
+      value: "Awaiting final approval for successful discharge.",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+    {
+      value: "L-004",
+    },
+    {
+      value: "PQR Corp",
+    },
+    {
+      value: "Debt Relief Specialist V",
+    },
+    {
+      value: "Pending Approval",
+    },
+
+    {
+      value: "14 days",
+    },
+    {
+      value: "Implemented a tailored financial plan for debt resolution.",
+    },
+  ],
+];
+export const leasesHeading = [
+  {
+    title: "Sr",
+  },
+  {
+    title: "Lease ID",
+  },
+  {
+    title: "Property Type",
+  },
+  {
+    title: "Lease Manager",
+  },
+  {
+    title: "Amount Status",
+  },
+  {
+    title: "Lease Duration",
+  },
+  {
+    title: "Next Renewal Date",
+  },
+  {
+    title: "Lease Value",
+  },
+  {
+    title: "High-Lease-Value",
+  },
+  {
+    title: "Lease Expiry Alert",
+  },
+];
+export const leasesData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Residential Property",
+    },
+    {
+      value: "Lease Management Pro U",
+    },
+    {
+      value: "Active",
+    },
+    {
+      value: "7 year",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "$1200 per month",
+    },
+
+    {
+      value: "No",
+    },
+    {
+      value: "Automated alert scheduled for Alert Date",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "IA-002",
+    },
+    {
+      value: "Industrial Property",
+    },
+    {
+      value: "Lease Management Pro U",
+    },
+    {
+      value: "Expired",
+    },
+    {
+      value: "1 year",
+    },
+
+    {
+      value: "2022-06-30",
+    },
+    {
+      value: "$2000 per month",
+    },
+    {
+      value: "No",
+    },
+    {
+      value: "Automated alert scheduled for Alert Date",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "IA-003",
+    },
+    {
+      value: "Residential Property",
+    },
+    {
+      value: "Lease Management Pro U",
+    },
+    {
+      value: "Active",
+    },
+
+    {
+      value: "5 year",
+    },
+
+    {
+      value: "2023-08-15",
+    },
+    {
+      value: "$1500 per month",
+    },
+    {
+      value: "Yes",
+    },
+    {
+      value: "Automated alert scheduled for Alert Date",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+    {
+      value: "IA-004",
+    },
+    {
+      value: "Commercial Property",
+    },
+    {
+      value: "Lease Management Pro U",
+    },
+    {
+      value: "Expired",
+    },
+
+    {
+      value: "4 year",
+    },
+    {
+      value: "23-10-20",
+    },
+    {
+      value: "$2,500 per month",
+    },
+    {
+      value: "No",
+    },
+    {
+      value: "Automated alert scheduled for Alert Date",
+    },
+  ],
+];
+export const deedsHeading = [
+  {
+    title: "Sr",
+  },
+  {
+    title: "Deed ID",
+  },
+  {
+    title: "Property Type",
+  },
+  {
+    title: "Owner",
+  },
+
+  {
+    title: "Status",
+  },
+  {
+    title: "Deed Administrator",
+  },
+
+  {
+    title: "Registration Date",
+  },
+  {
+    title: "Registration Status",
+  },
+];
+export const deedsData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Residential Property",
+    },
+    {
+      value: "Jane Johnson",
+    },
+    {
+      value: "Completed Registration",
+    },
+    {
+      value: "Deed Processing Wizard T",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "Successfully processed and registered.",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "IA-002",
+    },
+    {
+      value: "Industrial Property",
+    },
+    {
+      value: "Mary Jane",
+    },
+
+    {
+      value: "Pending Registration",
+    },
+    {
+      value: "Lease Management Pro U",
+    },
+
+    {
+      value: "....",
+    },
+
+    {
+      value: "Awaiting final approval for registration.",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "IA-003",
+    },
+    {
+      value: "Residential Property",
+    },
+    {
+      value: "ABCCorporation",
+    },
+
+    {
+      value: "Completed Registration",
+    },
+
+    {
+      value: "Deed Processing Wizard T",
+    },
+
+    {
+      value: "2023-08-15",
+    },
+    {
+      value: "Successfully processed and registered.",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+    {
+      value: "IA-004",
+    },
+    {
+      value: "Commercial Property",
+    },
+    {
+      value: "John Doe",
+    },
+    {
+      value: "Pending Registration",
+    },
+
+    {
+      value: "Deed Processing Wizard T",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "Awaiting final approval for registration.",
+    },
+  ],
+];
+export const lienPlacementHeading = [
+  {
+    title: "Sr",
+  },
+  {
+    title: "Placement ID",
+  },
+  {
+    title: "Lien Type",
+  },
+  {
+    title: "Placed on",
+  },
+
+  {
+    title: "Status",
+  },
+  {
+    title: "Lien Coordinator",
+  },
+
+  {
+    title: "Placement Date",
+  },
+  {
+    title: "Noteable Placement",
+  },
+];
+export const lienPlacementData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Tax Lien",
+    },
+    {
+      value: "Residental Property-John Doe",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "Lien Placement Specialist R",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "Successfully placed in a complex legal scenario.",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "IA-002",
+    },
+    {
+      value: "Mechanics Lien",
+    },
+    {
+      value: "XYZ Corporation",
+    },
+
+    {
+      value: "Pending Approval",
+    },
+    {
+      value: "Lien Placement Specialist R",
+    },
+
+    {
+      value: "2023-14-10",
+    },
+
+    {
+      value: "Awaiting final approval for placement.",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "IA-003",
+    },
+    {
+      value: "Judgment Lien",
+    },
+    {
+      value: "LMN Ltd",
+    },
+
+    {
+      value: "Completed",
+    },
+
+    {
+      value: "Lien Placement Specialist R",
+    },
+
+    {
+      value: "2023-08-15",
+    },
+    {
+      value: "Successfully resolved a legal dispute through lien placement.",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+    {
+      value: "IA-004",
+    },
+    {
+      value: "Mechanics Lien",
+    },
+    {
+      value: "PQR Corp",
+    },
+    {
+      value: "Pending Approval",
+    },
+
+    {
+      value: "Lien Placement Specialist R",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value:
+        "Instrumental in recovering outstanding dues through the placement.",
+    },
+  ],
+];
+export const bondsHeading = [
+  {
+    title: "Sr",
+  },
+  {
+    title: "Bond ID",
+  },
+  {
+    title: "Bond Type",
+  },
+  {
+    title: "Face Value",
+  },
+
+  {
+    title: "Status",
+  },
+  {
+    title: "Bond Manager",
+  },
+
+  {
+    title: "Issue Date",
+  },
+  {
+    title: "Expiry Date",
+  },
+  {
+    title: "Renewal Due Date",
+  },
+  {
+    title: "Performance Tracking",
+  },
+];
+export const bondsData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Government Bonds",
+    },
+    {
+      value: "$150,000",
+    },
+    {
+      value: "Issued",
+    },
+    {
+      value: "Bond Management Maestro S",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "Historical analysis of yields and returns.",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "IA-002",
+    },
+    {
+      value: "Corporate Bonds",
+    },
+    {
+      value: "$300,000",
+    },
+
+    {
+      value: "Expired",
+    },
+    {
+      value: "Bond Management Maestro S",
+    },
+
+    {
+      value: "2023-14-10",
+    },
+    {
+      value: "2023-14-10",
+    },
+    {
+      value: "....",
+    },
+
+    {
+      value: "Planning for strategic renewal.",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "IA-003",
+    },
+    {
+      value: "Municipal Bonds",
+    },
+    {
+      value: "$200,000",
+    },
+
+    {
+      value: "Bond Renewal Due",
+    },
+
+    {
+      value: "Bond Management Maestro S",
+    },
+
+    {
+      value: "2023-08-15",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "2023-08-15",
+    },
+    {
+      value: "Real-time monitoring of yields and returns.",
+    },
+  ],
+
+  [
+    {
+      value: "4",
+    },
+    {
+      value: "IA-004",
+    },
+    {
+      value: "Corporate Bonds",
+    },
+    {
+      value: "$100,000",
+    },
+    {
+      value: "Expired",
+    },
+
+    {
+      value: "Bond Management Maestro S",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "Monitoring yields and returns.",
+    },
+  ],
+];
+export const lienRemovalHeading = [
+  {
+    title: "Sr",
+  },
+  {
+    title: "Removal ID",
+  },
+  {
+    title: "Requestor",
+  },
+  {
+    title: "Removal Specialist",
+  },
+
+  {
+    title: "Status",
+  },
+  {
+    title: "Removal Time",
+  },
+
+  {
+    title: "Reason for Removal",
+  },
+];
+export const lienRemovalData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "ABC Construction Co.",
+    },
+    {
+      value: "Lien Removal Expert Q",
+    },
+    {
+      value: "Successful Removal",
+    },
+    {
+      value: "7 days",
+    },
+
+    {
+      value: "Full payment received, lien satisfied.",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "IA-002",
+    },
+    {
+      value: "XYZ Builders Inc.",
+    },
+    {
+      value: "Lien Removal Expert Q",
+    },
+
+    {
+      value: "Pending Approval",
+    },
+
+    {
+      value: "2023-14-10",
+    },
+
+    {
+      value: "Awaiting final approval for removal.",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "IA-003",
+    },
+    {
+      value: "LMN Developers",
+    },
+    {
+      value: "Lien Removal Expert Q",
+    },
+
+    {
+      value: "Successful Removal",
+    },
+
+    {
+      value: "10 days",
+    },
+    {
+      value: "Satisfied settlement, full payment received.",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+    {
+      value: "IA-004",
+    },
+    {
+      value: "PQR Realty",
+    },
+    {
+      value: "Lien Removal Expert Q",
+    },
+
+    {
+      value: "Successful Removal",
+    },
+
+    {
+      value: "17 days",
+    },
+    {
+      value: "Satisfied settlement, client fulfilled obligations.",
+    },
+  ],
+];
+export const letterWritingHeading = [
+  {
+    title: "Sr",
+  },
+  {
+    title: "Letter ID",
+  },
+  {
+    title: "Recipient",
+  },
+  {
+    title: "Letter Type",
+  },
+
+  {
+    title: "Status",
+  },
+  {
+    title: "Correspondence Officer",
+  },
+
+  {
+    title: "Date Sent",
+  },
+  {
+    title: "Due Date",
+  },
+  {
+    title: "Response Date",
+  },
+];
+
+export const letterWritingData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "ABC Construction Co.",
+    },
+    {
+      value: "Legal Notices",
+    },
+    {
+      value: "Letter Sent",
+    },
+    {
+      value: "Communication Maestro P",
+    },
+
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "....",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "IA-002",
+    },
+    {
+      value: "XYZ Builders Inc.",
+    },
+    {
+      value: "Reminders",
+    },
+
+    {
+      value: "Pending",
+    },
+    {
+      value: "Communication Maestro P",
+    },
+    {
+      value: "....",
+    },
+
+    {
+      value: "2023-14-10",
+    },
+    {
+      value: "....",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "IA-003",
+    },
+    {
+      value: "LMN Developers",
+    },
+    {
+      value: "Acknowledgments",
+    },
+
+    {
+      value: "Response Received",
+    },
+
+    {
+      value: "Communication Maestro P",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "2023-12-31",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+    {
+      value: "IA-004",
+    },
+    {
+      value: "PQR Industries",
+    },
+    {
+      value: "Legal Notices",
+    },
+    {
+      value: "Letter Sent",
+    },
+
+    {
+      value: "Communication Maestro P",
+    },
+
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "....",
+    },
+  ],
+];
+export const contractFormationHeading = [
+  {
+    title: "Sr",
+  },
+  {
+    title: "Contract ID",
+  },
+
+  {
+    title: "Contract Type",
+  },
+  {
+    title: "Party Involved",
+  },
+
+  {
+    title: "Status",
+  },
+  {
+    title: "Contract Manager",
+  },
+
+  {
+    title: "Creation Date",
+  },
+
+  {
+    title: "Expiration Date",
+  },
+];
+export const contractFormationData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Service Agreement",
+    },
+    {
+      value: "ABC Corporation",
+    },
+    {
+      value: "Active",
+    },
+    {
+      value: "Contract Management Pro O",
+    },
+
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "2023-12-31",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "IA-002",
+    },
+    {
+      value: "Vendor Agreement",
+    },
+    {
+      value: "XYZ Builders Inc.",
+    },
+
+    {
+      value: "Expired",
+    },
+    {
+      value: "Contract Management Pro O",
+    },
+
+    {
+      value: "2023-14-10",
+    },
+    {
+      value: "2023-14-10",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "IA-003",
+    },
+    {
+      value: "Partnership Contract",
+    },
+    {
+      value: "LMN Developers",
+    },
+
+    {
+      value: "Active",
+    },
+
+    {
+      value: "Contract Management Pro O",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "2023-12-31",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+    {
+      value: "IA-004",
+    },
+    {
+      value: "Service Agreement",
+    },
+    {
+      value: "PQR Industries",
+    },
+
+    {
+      value: "Expired",
+    },
+
+    {
+      value: "Contract Management Pro O",
+    },
+
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "2023-12-31",
+    },
+  ],
+];
+export const agreementWritingHeading = [
+  {
+    title: "Sr",
+  },
+  {
+    title: "Agreement ID",
+  },
+
+  {
+    title: "Agreement Type",
+  },
+  {
+    title: "Party Involved",
+  },
+
+  {
+    title: "Status",
+  },
+  {
+    title: "Agreement Officer",
+  },
+
+  {
+    title: "Draft Date",
+  },
+
+  {
+    title: "Execution Date",
+  },
+];
+export const agreementWritingData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Service Agreement",
+    },
+    {
+      value: "ABC Corporation",
+    },
+    {
+      value: "Executed",
+    },
+    {
+      value: "Agreement Expert N",
+    },
+
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "2023-12-31",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "IA-002",
+    },
+    {
+      value: "Vendor Agreement",
+    },
+    {
+      value: "XYZ Builders Inc.",
+    },
+
+    {
+      value: "Pending Approval",
+    },
+    {
+      value: "Agreement Expert N",
+    },
+
+    {
+      value: "2023-14-10",
+    },
+    {
+      value: "2023-14-10",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "IA-003",
+    },
+    {
+      value: "Partnership Contract",
+    },
+    {
+      value: "LMN Developers",
+    },
+
+    {
+      value: "Executed",
+    },
+
+    {
+      value: "Agreement Expert N",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "2023-12-31",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+    {
+      value: "IA-004",
+    },
+    {
+      value: "Service Agreement",
+    },
+    {
+      value: "PQR Industries",
+    },
+
+    {
+      value: "Executed",
+    },
+
+    {
+      value: "Agreement Expert N",
+    },
+
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "2023-12-31",
+    },
+  ],
+];
+export const foiaRequestsHeading = [
+  {
+    title: "Sr",
+  },
+  {
+    title: "Request ID",
+  },
+
+  {
+    title: "Request Category",
+  },
+  {
+    title: "Requestor",
+  },
+
+  {
+    title: "Status",
+  },
+  {
+    title: "FOIA Coordinator",
+  },
+
+  {
+    title: "Request Submission Date",
+  },
+  {
+    title: "Expected Response Date",
+  },
+
+  {
+    title: "Response Date",
+  },
+  {
+    title: "Response Time",
+  },
+];
+export const foiaRequestsData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Legal",
+    },
+    {
+      value: "ABC Corporation",
+    },
+    {
+      value: "Response Received",
+    },
+    {
+      value: "FOIA Specialist M",
+    },
+
+    {
+      value: "....",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "2023-12-31",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "IA-002",
+    },
+    {
+      value: "Administrative",
+    },
+    {
+      value: "XYZ Builders Inc.",
+    },
+
+    {
+      value: "Pending Response",
+    },
+    {
+      value: "FOIA Specialist M",
+    },
+
+    {
+      value: "2023-14-10",
+    },
+    {
+      value: "2023-14-10",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "....",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "IA-003",
+    },
+    {
+      value: "Financial",
+    },
+    {
+      value: "LMN Developers",
+    },
+
+    {
+      value: "Response Received",
+    },
+
+    {
+      value: "FOIA Specialist M",
+    },
+    {
+      value: "....",
+    },
+
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "....",
+    },
+
+    {
+      value: "25 days",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+    {
+      value: "IA-004",
+    },
+    {
+      value: "Legal",
+    },
+    {
+      value: "PQR Industries",
+    },
+
+    {
+      value: "Pending Response",
+    },
+
+    {
+      value: "FOIA Specialist M",
+    },
+
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "2023-12-31",
+    },
+
+    {
+      value: "....",
+    },
+
+    {
+      value: "....",
+    },
+  ],
+];
+export const passportServicesHeading = [
+  {
+    title: "Sr",
+  },
+  {
+    title: "Application ID",
+  },
+
+  {
+    title: "Application Name",
+  },
+  {
+    title: "Passport Officer",
+  },
+
+  {
+    title: "Status",
+  },
+
+  {
+    title: "Application Submission Date",
+  },
+
+  {
+    title: "Issue Date",
+  },
+  {
+    title: "Expedited Processing Date",
+  },
+  {
+    title: "Common Application Issues",
+  },
+];
+export const passportServicesData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Emily Davis",
+    },
+
+    {
+      value: "Passport Expert L",
+    },
+    {
+      value: "Issued",
+    },
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "2023-12-31",
+    },
+
+    {
+      value: "....",
+    },
+    {
+      value: "....",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "IA-002",
+    },
+    {
+      value: "Rovert Johnson",
+    },
+    {
+      value: "Passport Expert L",
+    },
+
+    {
+      value: "Pending",
+    },
+
+    {
+      value: "2023-14-10",
+    },
+
+    {
+      value: "....",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "Awaiting final approval for removal.",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "IA-003",
+    },
+    {
+      value: "Jane Smith",
+    },
+    {
+      value: "Passport Expert L",
+    },
+
+    {
+      value: "Expedited - Issued",
+    },
+
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "....",
+    },
+
+    {
+      value: "2023-12-31",
+    },
+    {
+      value: "....",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+    {
+      value: "IA-004",
+    },
+    {
+      value: "John Doe",
+    },
+    {
+      value: "Passport Expert L",
+    },
+
+    {
+      value: "Pending",
+    },
+
+    {
+      value: "2023-12-31",
+    },
+
+    {
+      value: "....",
+    },
+
+    {
+      value: "....",
+    },
+    {
+      value: "Awaiting final approval for removal.",
+    },
+  ],
+];
+export const propertyRegistrationHeading = [
+  {
+    title: "Sr",
+  },
+  {
+    title: "Registration ID",
+  },
+
+  {
+    title: "Property Type",
+  },
+  {
+    title: "Property Address",
+  },
+
+  {
+    title: "Status",
+  },
+
+  {
+    title: "Registration Officer",
+  },
+
+  {
+    title: "Registration Date",
+  },
+];
+export const propertyRegistrationData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Residential",
+    },
+    {
+      value: "456 Oak Avenue",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "Registration Pro K",
+    },
+    {
+      value: "2023-12-31",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "IA-002",
+    },
+    {
+      value: "Commerical",
+    },
+    {
+      value: "789 Maple Street",
+    },
+
+    {
+      value: "Pending",
+    },
+    {
+      value: "Registration Pro K",
+    },
+
+    {
+      value: "2023-14-10",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "IA-003",
+    },
+    {
+      value: "Industrial",
+    },
+    {
+      value: "101 Pine Road",
+    },
+
+    {
+      value: "Completed",
+    },
+
+    {
+      value: "Registration Pro K",
+    },
+
+    {
+      value: "2023-08-15",
+    },
+  ],
+
+  [
+    {
+      value: "4",
+    },
+    {
+      value: "IA-004",
+    },
+    {
+      value: "Residential",
+    },
+    {
+      value: "222 Elm Lane",
+    },
+    {
+      value: "Completed",
+    },
+
+    {
+      value: "Registration Pro K",
+    },
+    {
+      value: "2023-12-31",
+    },
+  ],
+];
