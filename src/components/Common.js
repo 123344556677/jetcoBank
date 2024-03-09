@@ -61,6 +61,7 @@ export const truncateText = (text, maxLength) => {
       case "Pending Review":
       case "Ongoing":
       case "Moderate":
+      case "Freeze":
         return "medium-color";
       case "Low":
         return "closed-color";

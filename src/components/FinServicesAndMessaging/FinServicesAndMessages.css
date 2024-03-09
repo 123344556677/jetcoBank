@@ -1,0 +1,12 @@
+.debt-cards{
+    width: 290px;
+    height: 180px;
+    /* margin-left: 2px; */
+}
+.debt-cards-2{
+    width: 290px;
+    height: 170px;
+}
+.debt-card-title{
+    font-weight: 700;
+}

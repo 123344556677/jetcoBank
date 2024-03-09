@@ -24,9 +24,10 @@ function FinancialMessagingListing() {
         <br />
         <TopBar
           headings={finanicalMessagingHeadings}
-          buttonValue="Create Message"
+          buttonValue="Message"
           checkActiveLink={handleActiveFinanicalMessagingListing}
           defaultValue="All Messages"
+          component="financialMessaging"
           parentComponent="FinServicesAndMessaging"
         />
         <div className="mt-3">

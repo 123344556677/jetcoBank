@@ -170,3 +170,14 @@
         box-shadow: none;
     }
 }
+.small-circle{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+
+}
+.small-circle-title{
+    color:#7D96B3;
+    font-size: 13px;
+}

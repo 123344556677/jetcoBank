@@ -21,9 +21,9 @@ const BusinessManageServices = () => {
         <TopBar
           headings={businessManageServicesheadings}
           checkActiveLink={handleActiveRole}
-          buttonValue="no-button"
+          buttonValue={activeRole==="Custom Email"||activeRole==="Website Design"?"Preview Website":activeRole==="Custom Domains"?"Domains":"no-button"}
           defaultValue="New Business Registration"
-          parentComponent="Business and Tax Sevices"
+          parentComponent="BusinessAndTaxServices"
         />
         <div className="mt-3">
           {activeRole === "New Business Registration" && (

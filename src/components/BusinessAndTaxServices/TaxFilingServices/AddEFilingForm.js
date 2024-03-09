@@ -1,17 +1,17 @@
 import DynamicForm from 'components/DynamicForm/DynamicForm'
 import FormTopBar from 'components/Users/FormTopBar'
-import { addProductForm } from 'mock-data/FormData'
+import { addEFilingForm } from 'mock-data/FormData'
 import React from 'react'
 
-const AddProductManager = () => {
+const AddEFilingForm = () => {
   return (
     <div className="pt-5 pt-md-8 mb-3 ml-lg-3 mr-lg-3">
       <div className="main-div">
-      <FormTopBar buttonValue="Add Porduct"/>
-      <DynamicForm formData={addProductForm} component="Add Product Form" buttonValue="Add Product"/>
+      <FormTopBar buttonValue="Add E-Filing"/>
+      <DynamicForm formData={addEFilingForm} component="E-FilingForm" buttonValue="Add E-Filing"/>
       </div>
     </div>
   )
 }
 
-export default AddProductManager
+export default AddEFilingForm

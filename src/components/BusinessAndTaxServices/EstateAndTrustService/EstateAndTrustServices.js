@@ -27,7 +27,7 @@ const EstateAndTrustServices = () => {
         <TopBar
           headings={estateAndTrustheadings}
           checkActiveLink={handleActiveRole}
-          buttonValue="no-button"
+          buttonValue={activeRole==="Trustee Services"?"Trustee":activeRole==="Estate Planning"?"Estate Plan":"no-button"}
           defaultValue="Trust Formation"
           component="EstateAndTrustServices"
           parentComponent="Business And Tax Services"

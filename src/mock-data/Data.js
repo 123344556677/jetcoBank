@@ -1839,7 +1839,9 @@ export const courierOrderCardData = [
     icon: require("../assets/img/icons/common/package-cancelled-icon.png"),
   },
 ];
-export const previousMessages = [
+export const previousMessages = {
+  heading:"Your previous Message",
+  data:[
   {
     icon: require("../assets/img/icons/common/profile.png"),
     name: "Rajpal Yadav",
@@ -1861,7 +1863,41 @@ export const previousMessages = [
     message:
       "Thank you for using our VPN app! We value your feedback and would appreciate it if you could take a moment to share your thoughts with us. Your input helps us  improve our services.Thank you for using our VPN app! We value your feedback and would appreciate it if you could take a moment to share your thoughts with us. Your input helps us improve our services.",
   },
-];
+  ]
+}
+export const customerFeedback = {
+  heading:"Customer Product Feedback",
+  data:[
+  {
+    icon: require("../assets/img/icons/common/happy-emoji.png"),
+    name: "Rajpal Yadav",
+    duration: "3 Days ago",
+    message:
+      "Thank you for using our VPN app! We value your feedback and would appreciate it if you could take a moment to share your thoughts with us. Your input helps us  improve our services.",
+  },
+  {
+    icon: require("../assets/img/icons/common/glasses-emoji.png"),
+    name: "Rajpal Yadav",
+    duration: "3 Days ago",
+    message:
+      "Thank you for using our VPN app! We value your feedback and would appreciate it if you could take a moment to share your thoughts with us. Your input helps us  improve our services.",
+  },
+  {
+    icon: require("../assets/img/icons/common/angry-emoji.png"),
+    name: "Rajpal Yadav",
+    duration: "3 Days ago",
+    message:
+      "Thank you for using our VPN app! We value your feedback and would appreciate it if you could take a moment to share your thoughts with us. Your input helps us  improve our services.",
+  },
+  {
+    icon: require("../assets/img/icons/common/sad-emoji.png"),
+    name: "Rajpal Yadav",
+    duration: "3 Days ago",
+    message:
+      "Thank you for using our VPN app! We value your feedback and would appreciate it if you could take a moment to share your thoughts with us. Your input helps us  improve our services.",
+  },
+  ]
+}
 export const inboxChats = [
   {
     name: "Gus M.",
@@ -8496,7 +8532,20 @@ export const cryptoRecentActivityHeadingsTableData=[
    
   ],
 ]
-
+export const businessAndTaxServicesCardData = [
+  {
+    title: "Total Products",
+    price: "54,214",
+  },
+  {
+    title: "Total Services",
+    price: "54,214",
+  },
+  // {
+  //   title: "Total Tax Prepares",
+  //   price: "54,214",
+  // },
+];
 export const inboxColors = ["#F1F6FB", "#FFFFFF"];
 export const profileColors = [
   {
@@ -8568,6 +8617,47 @@ export const taxReturnData = {
     },
     {
       finalValue: "Tax",
+      finalAmount: 2592669959,
+    },
+  ],
+};
+export const finServicesBalanceSheetData = {
+  year: "Line Items",
+  title: "Amount",
+  sections: [
+    {
+      sr: 1,
+      heading: "Assets",
+      items: [
+        { label: "Cash", amount: 5994 },
+        { label: "Account", amount: 66051 },
+        { label: "Inventories", amount: 266266 },
+        { label: "Property & Equipments", amount: 266266 },
+        { label: "Current Assets", amount: 266266 },
+      ],
+      total: 2592669959,
+    },
+    {
+      sr: 2,
+      heading: "Liability",
+      items: [
+        { label: "Debt", amount: 5994 },
+        { label: "Account Payable", amount: 66051 },
+        { label: "Current Liabilities", amount: 66051 },
+      ],
+      total: 2592669959,
+    },
+    {
+      sr: 3,
+      heading: "Equity",
+      items: [
+        { label: "Total Assets", amount: 5994 },
+        { label: "Total Liabilities", amount: 66051 },
+      ],
+      total: 2592669959,
+    },
+    {
+      finalValue: "Amount",
       finalAmount: 2592669959,
     },
   ],

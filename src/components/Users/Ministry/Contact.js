@@ -6,6 +6,7 @@ import DynamicForm from "components/DynamicForm/DynamicForm";
 import PreviousMessages from "components/Inbox/PreviousMessages";
 import Inbox from "components/Inbox/Inbox";
 import Chat from "components/Chat/Chat";
+import { previousMessages } from "mock-data/Data";
 
 const Contact = () => {
   const [activeProfileBarComponent, setProfileBarComponent] = useState();
@@ -26,7 +27,7 @@ const Contact = () => {
       {activeProfileBarComponent === "Create" && (
         <>
           <DynamicForm formData={addContactForm} component="Contact" />
-          <PreviousMessages />
+          <PreviousMessages messagesData={previousMessages}/>
         </>
       )}
       {activeProfileBarComponent === "Inbox" &&(

@@ -13,6 +13,59 @@ const DynamicTable = ({ headings, tableData, component, parentComponent }) => {
       navigate(url);
     }
   };
+  const shouldRenderActions = ![
+    "Transaction Detail",
+    "CryptoTrading",
+    "StockTradingListing",
+    "Pass Through Account",
+    "Ledger",
+    "FinanicalMessagingListing",
+    "Mailbox Service",
+    "Trustee Services",
+    "Estate Last Will",
+    "Forensic Data",
+    "assetProtection",
+    "propertySecuritization",
+    "lockBoxService",
+    "healthSavingAccount",
+    "BudgetPlans",
+    "RetirementPlans",
+    "Credit Repair Review",
+    "Credit Repair Review Services",
+    "Credit Repair Dispute",
+    "Credit Management",
+    "UCC Management System Monitor",
+  ].includes(component);
+
+  const renderActionsColumn = () => {
+    if (shouldRenderActions) {
+      return <th className="table-headings">Actions</th>;
+    }
+    return null;
+  };
+
+  const renderActions = (rowIndex) => {
+    if (shouldRenderActions) {
+      return (
+        <td className="action-column">
+          <Button
+            size="sm"
+            className="add-button action-button pl-3 pr-3"
+            outline
+          >
+            Edit
+          </Button>{" "}
+          <Button color="danger" size="sm" className="action-button pl-3 pr-3">
+            Delete
+          </Button>{" "}
+          <Button size="sm" className="action-button block-button pl-3 pr-3">
+            Block
+          </Button>
+        </td>
+      );
+    }
+    return null;
+  };
 
   return (
     <div className="table-container">
@@ -25,30 +78,7 @@ const DynamicTable = ({ headings, tableData, component, parentComponent }) => {
                   {data?.title}
                 </th>
               ))}
-              {component !== "Transaction Detail" &&
-                component !== "CryptoTrading" &&
-                component !== "StockTradingListing" &&
-                component !== "Pass Through Account" &&
-                component !== "Ledger" &&
-                component !== "FinanicalMessagingListing" &&
-                component !== "Mailbox Service" && 
-                component !== "Mailbox Service" &&
-                component !== "Trustee Services" &&
-                component !== "Estate Last Will" &&
-                component !== "Forensic Data" &&
-                component !== "assetProtection" &&
-                component !== "propertySecuritization" &&
-                component !== "lockBoxService" &&
-                component !== "healthSavingAccount" &&
-                component !== "BudgetPlans" &&
-                component !== "RetirementPlans" &&
-                component !== "Credit Repair Review" &&
-                component !== "Credit Repair Review Services" &&
-                component !== "Credit Repair Dispute" &&
-                component !== "Credit Management" &&
-                component !== "UCC Management System Monitor" && (
-                  <th className="table-headings">Actions</th>
-                )}
+              {renderActionsColumn()}
             </tr>
           </thead>
           <tbody>
@@ -63,58 +93,18 @@ const DynamicTable = ({ headings, tableData, component, parentComponent }) => {
                     {cell.type === "img" && (
                       <img
                         src={cell.img}
-                        className="mr-2 table-profile-img"
+                        className={
+                          component !== "CardManagementListing"
+                            ? "mr-2 table-profile-img"
+                            : "mr-2 table-other-img"
+                        }
                         alt="profile"
                       />
                     )}
                     {cell.value}
                   </td>
                 ))}
-                {component !== "Transaction Detail" &&
-                  component !== "Pass Through Account" &&
-                  component !== "StockTradingListing" &&
-                  component !== "Ledger" &&
-                  component !== "CryptoTrading" &&
-                  component !== "FinanicalMessagingListing" &&
-                  component !== "Mailbox Service" && 
-                  component !== "Mailbox Service" &&
-                  component !== "Trustee Services" &&
-                  component !== "Estate Last Will" &&
-                  component !== "Forensic Data" &&
-                  component !== "assetProtection" &&
-                  component !== "propertySecuritization" &&
-                  component !== "lockBoxService" &&
-                  component !== "healthSavingAccount" &&
-                  component !== "BudgetPlans" &&
-                  component !== "RetirementPlans" &&
-                  component !== "Credit Repair Review" &&
-                  component !== "Credit Repair Review Services" &&
-                  component !== "Credit Repair Dispute" &&
-                  component !== "Credit Management" &&
-                  component !== "UCC Management System Monitor" && (
-                    <td className="action-column">
-                      <Button
-                        size="sm"
-                        className="add-button action-button pl-3 pr-3"
-                        outline
-                      >
-                        Edit
-                      </Button>{" "}
-                      <Button
-                        color="danger"
-                        size="sm"
-                        className="action-button  pl-3 pr-3"
-                      >
-                        Delete
-                      </Button>{" "}
-                      <Button
-                        size="sm"
-                        className="action-button block-button pl-3 pr-3"
-                      >
-                        Block
-                      </Button>
-                    </td>
-                  )}
+                {renderActions(rowIndex)}
               </tr>
             ))}
           </tbody>

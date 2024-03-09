@@ -1,4 +1,7 @@
+import CircularProgress from "components/CircularBar/CircularBar";
 import { renderSplitText } from "components/Common";
+import { businessAndTaxColors } from "mock-data/CircularProgressData";
+import { businessAndTaxPercentages } from "mock-data/CircularProgressData";
 import React from "react";
 import { Card } from "reactstrap";
 
@@ -8,9 +11,11 @@ const DataCards = ({ cardVal, component }) => {
       {cardVal?.map((data, index) => (
         <Card
           className={
-            (component === "mailbox"||component === "brokerageInvestments")
-              ? "mailbox-user-card ml-3 mb-3"
-              : "user-card ml-3 mb-3"
+            component === "mailbox" || component === "brokerageInvestments"
+              ? "mailbox-user-card ml-lg-3 mb-3"
+              : component === "Business and Tax Services"
+              ? "user-card ml-lg-5 mb-3"
+              : "user-card ml-lg-3 mb-3"
           }
           key={index}
         >
@@ -25,8 +30,8 @@ const DataCards = ({ cardVal, component }) => {
           <Card
             className={
               component === "brokerageInvestments"
-                ? "mailbox-user-card ml-3 mb-3"
-                : "user-card ml-3 mb-3"
+                ? "mailbox-user-card ml-lg-3 mb-3"
+                : "user-card ml-lg-3 mb-3"
             }
           >
             <h7 className="text-center user-card-title">
@@ -91,6 +96,50 @@ const DataCards = ({ cardVal, component }) => {
             </h7>
           </Card>
         </>
+      )}
+      {component === "Business and Tax Services" && (
+        <Card className="user-card ml-lg-5 mb-3" style={{ width: "480px" }}>
+          <h7 className="user-card-title ">Website Traffic</h7>
+          <div style={{ display: "flex" }} className="mt-2">
+            <CircularProgress
+              percentages={businessAndTaxPercentages}
+              colors={businessAndTaxColors}
+              height="70"
+              width="70"
+            />
+            <h3 className="mt-4 ml-3">
+              60%{" "}
+              <span>
+                <div
+                  className="small-circle ml-2"
+                  style={{ backgroundColor: "#91DF46" }}
+                ></div>
+                <span className="small-circle-title ml-2">Users</span>
+              </span>
+            </h3>
+
+            <h3 className="mt-4 ml-3">
+              25%{" "}
+              <span>
+                <div
+                  className="small-circle ml-2"
+                  style={{ backgroundColor: "#76C924" }}
+                ></div>
+                <span className="small-circle-title ml-2">Agents</span>
+              </span>
+            </h3>
+            <h3 className="mt-4 ml-3">
+              15%{" "}
+              <span>
+                <div
+                  className="small-circle ml-2"
+                  style={{ backgroundColor: "#5AB303" }}
+                ></div>
+                <span className="small-circle-title ml-2">Non Users</span>
+              </span>
+            </h3>
+          </div>
+        </Card>
       )}
     </div>
   );

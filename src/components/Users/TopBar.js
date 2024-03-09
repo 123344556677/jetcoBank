@@ -31,6 +31,15 @@ const TopBar = ({
     if (activeLink === "Orders Management") {
       return "Add Order";
     }
+    if (activeLink === "Custom Email" || activeLink === "Website Design") {
+      return "Preview Website";
+    }
+    if (component === "financialMessaging") {
+      return "Create Message";
+    }
+    if (component === "Ledger") {
+      return "Create Ledger";
+    }
     if (
       activeLink !== "Standard Branch" &&
       activeLink !== "Custom Branch" &&
@@ -43,6 +52,7 @@ const TopBar = ({
       return `Add ${buttonValue}`;
     }
   };
+
   return (
     <>
       <div className="top-bar">
@@ -80,6 +90,14 @@ const TopBar = ({
                   onClick={() =>
                     parentComponent === "role Management"
                       ? navigate(`/admin/accountsAndBranch/add${buttonValue}`)
+                      : parentComponent === "BusinessAndTaxServices"
+                      ? navigate(
+                          `/admin/businessAndTaxServices/add${buttonValue}`
+                        )
+                      : parentComponent === "FinServicesAndMessaging"
+                      ? navigate(
+                          `/admin/finServicesAndMessaging/add${buttonValue}`
+                        )
                       : navigate(`/admin/userManagement/add${buttonValue}`)
                   }
                 >

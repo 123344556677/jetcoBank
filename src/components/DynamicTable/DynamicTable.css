@@ -63,6 +63,10 @@
   height: 30px;
   border-radius: 50%;
 }
+.table-other-img{
+  width: 50px;
+  height: 30px;
+}
 .closed-color{
     color: #CECECE;
     font-size: 12px!important;

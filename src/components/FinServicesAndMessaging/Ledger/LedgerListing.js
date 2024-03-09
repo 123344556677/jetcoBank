@@ -1,5 +1,7 @@
 import DynamicTable from "components/DynamicTable/DynamicTable";
+import DynamicBalanceSheetTable from "components/DynamicTable/StrippedTable";
 import TopBar from "components/Users/TopBar";
+import { finServicesBalanceSheetData } from "mock-data/Data";
 import { ledgerTableTableData } from "mock-data/Data";
 import { ledgerTableTableDataCredit } from "mock-data/Data";
 import { ledgerTableHeading } from "mock-data/Data";
@@ -19,6 +21,7 @@ function LedgerListing() {
           buttonValue="Create Ledger"
           checkActiveLink={handleActiveLedgerListing}
           defaultValue="All Categories"
+          component="Ledger"
           parentComponent="FinServicesAndMessaging"
         />
         <div className="mt-3">
@@ -64,12 +67,7 @@ function LedgerListing() {
             />
           )}
           {LedgerListing === "Balance Sheet" && (
-            <DynamicTable
-              headings={ledgerTableHeading}
-              tableData={ledgerTableTableData}
-              component="Ledger"
-              parentComponent="FinServicingAndMessaging"
-            />
+            <DynamicBalanceSheetTable data={finServicesBalanceSheetData} />
           )}
         </div>
       </div>

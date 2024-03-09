@@ -71,6 +71,7 @@ const DynamicForm = ({
         );
       case "Mailbox Setup":
       case "Business Registration":
+      case "Custom Domain Form":
         return (
           <>
             <Button type="submit" className="login-button">

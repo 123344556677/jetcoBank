@@ -9,7 +9,7 @@ const BorderedTable = ({ tableHeadings, tableData }) => {
         <thead>
           <tr>
             {tableHeadings?.map((data, index) => (
-              <th key={index} className="balance-heading-col">
+              <th key={index} className="balance-heading-col" style={{textTransform:"none",fontSize:"12px"}}>
                 {data?.title}
               </th>
             ))}

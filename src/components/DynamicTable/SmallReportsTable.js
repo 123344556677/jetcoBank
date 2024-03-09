@@ -15,7 +15,7 @@ const SmallReportsTable = ({ data }) => {
             <tr>
               <th className="sr-column"></th>
               {data?.headings?.map((tableHeadings, index) => (
-                <th className="report-heading-col" key={index}>
+                <th className="report-heading-col" style={{textTransform:"none"}} key={index}>
                   {tableHeadings?.title}
                 </th>
               ))}

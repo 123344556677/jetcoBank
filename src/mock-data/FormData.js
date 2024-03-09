@@ -1499,10 +1499,10 @@ export const createMessageForm = [
     placeholder: "sender name",
   },
   {
-    label: "Receiver Name",
-    name: "receivername",
+    label: "Reciever Name",
+    name: "recievername",
     type: "text",
-    placeholder: "sender name",
+    placeholder: "reciever name",
   },
   {
     label: "Amount",
@@ -1654,21 +1654,21 @@ export const cardManagementFormPhyscial = [
 export  const withdrawalsForm=[
   {
     label: "Name Method",
-    name: "namemethod",
+    name: "nameMethod",
     type: "text",
     placeholder: "namemethod",
   },
   {
     label: "Transaction Limit",
-    name: "transactionlimit",
+    name: "transactionLimit",
     type: "date",
     placeholder: "transaction limit",
   },
   {
-    label: "Cardholder Name",
-    name: "cardholdername",
-    type: "text",
-    placeholder: "cardholder name",
+    label: "Description",
+    name: "description",
+    type: "textarea",
+    placeholder: "write description here...",
   }
 ]
 
@@ -1724,6 +1724,20 @@ export const createBusinessDomainForm = [
     name: "domain",
     type: "text",
     placeholder: "your domain",
+  },
+];
+export const createBusinessCustomDomainForm = [
+  {
+    label: "Domain Name",
+    name: "domain",
+    type: "text",
+    placeholder: "domain name",
+  },
+  {
+    label: "Subdomain Name",
+    name: "subDomain",
+    type: "text",
+    placeholder: "subdomain name",
   },
 ];
 export const addProductForm = [

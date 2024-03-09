@@ -113,6 +113,12 @@ import AddConsultantServices from "components/BusinessAndTaxServices/FinConsulta
 import ConsultantServicesProfile from "components/BusinessAndTaxServices/FinConsultantServices/ConsultantServices/ConsultantServicesProfile";
 import CreditManageServices from "components/BusinessAndTaxServices/CreditAndManageServices/CreditManageServices";
 import UccManagementSystem from "components/BusinessAndTaxServices/UCCManagementSysytem/UccManagementSystem";
+import BusinessAndTaxServices from "components/BusinessAndTaxServices/BusinessAndTaxServices";
+import AddEFilingForm from "components/BusinessAndTaxServices/TaxFilingServices/AddEFilingForm";
+import AddDomains from "components/BusinessAndTaxServices/BusinessManageServices/AddDomains";
+import CardManagementFormPrepaid from "components/FinServicesAndMessaging/Cards Management/CardManagementFormPrepaid";
+import CardManagementFormVirtual from "components/FinServicesAndMessaging/Cards Management/CardManagementFormVirtual";
+import WithdrawalsForm from "components/FinServicesAndMessaging/Withdrawals/WithdrawalsForm";
 
 
 var routes = [
@@ -693,7 +699,7 @@ var routes = [
   {
     path: "/finServicesAndMessaging",
     name: "Fin. Services & Messaging",
-    icon: "ni ni-tv-2 ",
+    icon: "fa fa-usd",
     component: <FinServiceAndMessage />,
     layout: "/admin",
   },
@@ -705,7 +711,7 @@ var routes = [
     layout: "/admin",
   },
   {
-    path: "/finServicesAndMessaging/financialMessagingForm",
+    path: "/finServicesAndMessaging/addMessage",
     name: "Financial Messaging Form",
     icon: "ni ni-tv-2 ",
     component: <FinancialMessaging />,
@@ -716,6 +722,27 @@ var routes = [
     name: "Ledger listing",
     icon: "ni ni-tv-2 ",
     component: <LedgerListing/>,
+    layout: "/admin",
+  },
+  {
+    path: "finServicesAndMessaging/addPrepaid Card",
+    name: "Add Prepaid Card",
+    icon: "ni ni-tv-2 ",
+    component:<CardManagementFormPrepaid/>,
+    layout: "/admin",
+  },
+  {
+    path: "finServicesAndMessaging/addPhysical Card",
+    name: "Add Physical Card",
+    icon: "ni ni-tv-2 ",
+    component:<CardManagementFormPhyscial/>,
+    layout: "/admin",
+  },
+  {
+    path: "finServicesAndMessaging/addVirtual Card",
+    name: "Add Virtual Card",
+    icon: "ni ni-tv-2 ",
+    component:<CardManagementFormVirtual/>,
     layout: "/admin",
   },
   {
@@ -737,6 +764,13 @@ var routes = [
     name: "Withdrawals",
     icon: "ni ni-tv-2 ",
     component: <WithdrawalsListing/>,
+    layout: "/admin",
+  },
+  {
+    path: "finServicesAndMessaging/addWithdrawal Method",
+    name: "Add Withdrawal Method",
+    icon: "ni ni-tv-2 ",
+    component:<WithdrawalsForm/>,
     layout: "/admin",
   },
   {
@@ -771,7 +805,7 @@ var routes = [
     path: "/businessAndTaxServices",
     name: "Business & Tax Services",
     icon: "fa fa-money",
-    component:<CourierMailboxService/>,
+    component:<BusinessAndTaxServices/>,
     layout: "/admin",
   },
   {
@@ -800,6 +834,20 @@ var routes = [
     name: "TaxFilingListing",
     icon: "ni ni-tv-2 ",
     component:<TaxFilingServices/>,
+    layout: "/admin",
+  },
+  {
+    path: "/businessAndTaxServices/addE-Filing",
+    name: "AddEFilingForm",
+    icon: "ni ni-tv-2 ",
+    component:<AddEFilingForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/businessAndTaxServices/addDomains",
+    name: "AddDomainForm",
+    icon: "ni ni-tv-2 ",
+    component:<AddDomains/>,
     layout: "/admin",
   },
   {

@@ -1,6 +1,5 @@
 import Chat from "components/Chat/Chat";
 import DynamicTable from "components/DynamicTable/DynamicTable";
-import StrippedTable from "components/DynamicTable/StrippedTable";
 import Inbox from "components/Inbox/Inbox";
 import TopBar from "components/Users/TopBar";
 import { taxFilingPreparationHeadings } from "mock-data/Data";
@@ -13,6 +12,7 @@ import { eFilingHeadings } from "mock-data/Data";
 import { taxFilingServicesheadings } from "mock-data/ToBarData";
 import React, { useState } from "react";
 import AddTaxFilingPlanningForm from "./AddTaxFilingPlanningForm";
+import DynamicBalanceSheetTable from "components/DynamicTable/StrippedTable";
 
 const TaxFilingServices = () => {
   const [activeRole, setActiveRole] = useState();
@@ -30,7 +30,7 @@ const TaxFilingServices = () => {
         <TopBar
           headings={taxFilingServicesheadings}
           checkActiveLink={handleActiveRole}
-          buttonValue="e-filing"
+          buttonValue={activeRole === "E-Filing"?"E-Filing":"no-button"}
           defaultValue="E-Filing"
           parentComponent="BusinessAndTaxServices"
         />
@@ -45,7 +45,7 @@ const TaxFilingServices = () => {
           )}
           {activeRole === "Planning" && <AddTaxFilingPlanningForm />}
           {activeRole === "Tax Returns" && (
-            <StrippedTable data={taxReturnData} />
+            <DynamicBalanceSheetTable data={taxReturnData} />
           )}
           {activeRole === "Preparation" && (
             <DynamicTable

@@ -1,10 +1,8 @@
 import DynamicTable from "components/DynamicTable/DynamicTable";
 import TopBar from "components/Users/TopBar";
-import { ledgerTableTableData } from "mock-data/Data";
 import { withdrawalsListingHeadingsTableData } from "mock-data/Data";
-import { ledgerTableTableDataCredit } from "mock-data/Data";
-import { ledgerTableHeading,withdrawalsListingHeadingsTable} from "mock-data/Data";
-import { withdrawalsListingHeadings} from "mock-data/ToBarData";
+import { withdrawalsListingHeadingsTable } from "mock-data/Data";
+import { withdrawalsListingHeadings } from "mock-data/ToBarData";
 
 import React, { useState } from "react";
 function WithdrawalsListing() {
@@ -24,7 +22,6 @@ function WithdrawalsListing() {
           parentComponent="FinServicesAndMessaging"
         />
         <div className="mt-3">
-         
           {WithdrawalsListing === "Pending" && (
             <DynamicTable
               headings={withdrawalsListingHeadingsTable}
@@ -35,23 +32,20 @@ function WithdrawalsListing() {
           )}
           {WithdrawalsListing === "Approve" && (
             <DynamicTable
-            headings={withdrawalsListingHeadingsTable}
-            tableData={withdrawalsListingHeadingsTableData}
+              headings={withdrawalsListingHeadingsTable}
+              tableData={withdrawalsListingHeadingsTableData}
               component="WithdrawalsListing"
               parentComponent="FinServicesAndMessaging"
             />
           )}
           {WithdrawalsListing === "Rejected" && (
             <DynamicTable
-            headings={withdrawalsListingHeadingsTable}
-            tableData={withdrawalsListingHeadingsTableData}
+              headings={withdrawalsListingHeadingsTable}
+              tableData={withdrawalsListingHeadingsTableData}
               component="WithdrawalsListing"
               parentComponent="FinServicesAndMessaging"
             />
           )}
-
-          
-       
         </div>
       </div>
     </div>
