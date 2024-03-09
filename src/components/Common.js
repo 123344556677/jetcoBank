@@ -41,17 +41,28 @@ export const truncateText = (text, maxLength) => {
       case "Married":
       case "Verified":
       case "Strong":
+      case "Executed":
+      case "Letter Sent":
+      case "Issued":
+      case "Completed Registration":
+      case "Response Received":
+      case "Received Response '":
+      case "Successful Removal":
+      case "Successful Discharge":
         return "active-color";
       case "Inactive":
       case "Closed":
       case "Delivered":
+      case "Pending Registration":
       case "High":
       case "Limited":
+      case "Pending Response":
       case "Not Started":
       case "On Hold":
       case "Pending":
       case "Weak":
       case "Expired":
+      case "Pending Approval":
         return "inactive-color";
       case "In Progress":
         return "progress-color";
@@ -62,6 +73,9 @@ export const truncateText = (text, maxLength) => {
       case "Ongoing":
       case "Moderate":
       case "Freeze":
+      case "Resolved":
+      case "Expedited - Issued":
+      case "Bond Renewal Due":
         return "medium-color";
       case "Low":
         return "closed-color";

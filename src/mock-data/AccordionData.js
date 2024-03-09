@@ -143,7 +143,7 @@ export const BusinessAndTaxItems=[
 export const OtherFinAndLegalItems=[
     {
         title:"Other Fin & Legal Services",
-        link:"businessAndTaxServices/businessManageServices"
+        link:"finAndLegal/otherFinAndLegalServices"
     },
     {
         title:"Official Services",
