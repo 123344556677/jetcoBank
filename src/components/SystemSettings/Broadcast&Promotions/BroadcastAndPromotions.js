@@ -26,7 +26,13 @@ const BroadcastAndPromotions = () => {
         <TopBar
           headings={broadcastAndPromotionsHeadings}
           buttonValue={
-            activeRole === "Document Registration" ? "Document" : "no-button"
+            activeRole === "Promotional Updates"
+              ? "New Promotion"
+              : activeRole === "Product News"
+              ? "Product News"
+              : activeRole === "In-App Promotions"
+              ? "In-App Promotions"
+              : "no-button"
           }
           checkActiveLink={handleActiveRole}
           defaultValue="Promotional Updates"
@@ -59,9 +65,9 @@ const BroadcastAndPromotions = () => {
           )}
           {activeRole === "Broadcast Message" && (
             <>
-          <DynamicForm formData={addContactForm} component="Contact" />
-          <PreviousMessages messagesData={previousMessages}/>
-        </>
+              <DynamicForm formData={addContactForm} component="Broadcast" />
+              <PreviousMessages messagesData={previousMessages} />
+            </>
           )}
         </div>
       </div>

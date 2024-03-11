@@ -2107,4 +2107,102 @@ export const createDocumentRegistrationForm = [
     placeholder: "registarion date",
   },
 ];
+export const promotionalUpdateForm = [
+  {
+    label: "Promotion Title",
+    name: "promotionTitle",
+    type: "text",
+    placeholder: "title",
+  },
+  {
+    label: "Start Date",
+    name: "startDate",
+    type: "date",
+    placeholder: "start date",
+  },
+  {
+    label: "End Date",
+    name: "endDate",
+    type: "date",
+    placeholder: "end date",
+  },
+  {
+    label: "Promotion Content",
+    name: "promotionContent",
+    type: "textarea",
+    placeholder: "write promotion content here...",
+  },
+];
+export const newsContentForm = [
+  {
+    label: "News Title",
+    name: "newsTitle",
+    type: "text",
+    placeholder: "title",
+  },
+  {
+    label: "Date",
+    name: "date",
+    type: "date",
+    placeholder: "date",
+  },
+  {
+    label: "News Content",
+    name: "newsContent",
+    type: "textarea",
+    placeholder: "write news content here...",
+  },
+];
+export const appPromotionForm = [
+  {
+    label: "Promotion Title",
+    name: "promotionTitle",
+    type: "text",
+    placeholder: "title",
+  },
+  {
+    label: "Start Date",
+    name: "startDate",
+    type: "date",
+    placeholder: "start date",
+  },
+  {
+    label: "End Date",
+    name: "endDate",
+    type: "date",
+    placeholder: "end date",
+  },
+  {
+    label: "Promotion Content",
+    name: "promotionContent",
+    type: "textarea",
+    placeholder: "write promotion content here...",
+  },
+];
+export const announcementForm = [
+  {
+    label: "Announcement Title",
+    name: "announcementTitle",
+    type: "text",
+    placeholder: "title",
+  },
+  {
+    label: "Start Date",
+    name: "startDate",
+    type: "date",
+    placeholder: "start date",
+  },
+  {
+    label: "End Date",
+    name: "endDate",
+    type: "date",
+    placeholder: "end date",
+  },
+  {
+    label: "Announcement Content",
+    name: "announcementContent",
+    type: "textarea",
+    placeholder: "write announcement content here...",
+  },
+];
 

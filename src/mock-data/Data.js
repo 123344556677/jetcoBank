@@ -12257,3 +12257,80 @@ export const appPromotionsData = [
     },
   ],
 ];
+export const announcementsTablesHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Announcement Title",
+  },
+  {
+    title: "Start Date",
+  },
+  {
+    title: "End Date",
+  },
+
+  {
+    title: "Announcement Detail",
+  },
+];
+export const announcementData = [
+  [
+    {
+      value: "1",
+    },
+
+    {
+      value: "Spring Sale",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "2023-12-21",
+    },
+
+    {
+      value: "A text area where the admin can provide details or content for the promotion.",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+
+    {
+      value: "Summer Clearance",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "2023-12-21",
+    },
+
+    {
+      value: "A text area where the admin can provide details or content for the promotion.",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+
+    {
+      value: "Holiday Special",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "2023-12-21",
+    },
+
+    {
+      value: "A text area where the admin can provide details or content for the promotion.",
+    },
+  ],
+];

@@ -161,7 +161,7 @@ export const SystemSettingsItems=[
     },
     {
         title:"Annoucements",
-        link:"businessAndTaxServices/taxFilingServicesListing"
+        link:"systemSettings/announcements"
     },
     {
         title:"Disclosures",

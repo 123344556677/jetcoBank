@@ -100,6 +100,8 @@ const TopBar = ({
                         )
                       : parentComponent === "OtherFinAndLegal"
                       ? navigate(`/admin/finAndLegal/add${buttonValue}`)
+                      :parentComponent === "SystemAndSettings"
+                      ? navigate(`/admin/systemSettings/add${buttonValue}`)
                       : navigate(`/admin/userManagement/add${buttonValue}`)
                   }
                 >

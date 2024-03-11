@@ -98,6 +98,31 @@ const DynamicForm = ({
             </Button>
           </div>
         );
+        case "Broadcast":
+        return (
+          <div className="inline text-center mt-5">
+            <Button
+              type="submit"
+              className="action-button bg-white form-broadcast-button button-shadow mt-1"
+              style={{ color: "#8EE30A", fontSize: "14px" }}
+            >
+              Send to one user
+            </Button>
+            <Button
+              type="submit"
+              className="action-button form-broadcast-button button-shadow mt-1"
+              style={{ color: "white", fontSize: "14px",backgroundColor:"#A3B6CC" }}
+            >
+              Send to Selected Groups
+            </Button>
+            <Button
+              type="submit"
+              className="login-button form-broadcast-button button-shadow mt-1"
+            >
+              Send to All Accounts
+            </Button>
+          </div>
+        );
       case "User Features":
         return (
           <div className="mt-5">

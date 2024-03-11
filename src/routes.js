@@ -126,6 +126,11 @@ import OtherFinAndLegalServicesListing from "components/OtherFinAndLegal/OtherFi
 import Dashboard from "components/Dashboard/Dashboard";
 import SystemSettings from "components/SystemSettings/SystemSettings";
 import BroadcastAndPromotions from "components/SystemSettings/Broadcast&Promotions/BroadcastAndPromotions";
+import AddPromotionalUpdateForm from "components/SystemSettings/Broadcast&Promotions/AddPromotionalUpdateForm";
+import AddProductNewsForm from "components/SystemSettings/Broadcast&Promotions/AddProductNewsForm";
+import AddAppPromotionForm from "components/SystemSettings/Broadcast&Promotions/AddAppPromotionForm";
+import AnnouncementsListing from "components/SystemSettings/Announcements.js/AnnouncementsListing";
+import AddAnnouncementForm from "components/SystemSettings/Announcements.js/AddAnnouncementForm";
 
 var routes = [
   {
@@ -952,6 +957,48 @@ var routes = [
     name: "BroadcastAndPromotions",
     icon: "fa fa-cog",
     component: <BroadcastAndPromotions/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addNew Promotion",
+    name: "AddNewPromotionForm",
+    icon: "fa fa-cog",
+    component: <AddPromotionalUpdateForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addNew Promotion",
+    name: "AddNewPromotionForm",
+    icon: "fa fa-cog",
+    component: <AddPromotionalUpdateForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addProduct News",
+    name: "AddProductNewsForm",
+    icon: "fa fa-cog",
+    component: <AddProductNewsForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addIn-App Promotions",
+    name: "AddInAppPromotionsForm",
+    icon: "fa fa-cog",
+    component: <AddAppPromotionForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addAnnouncement",
+    name: "AddAnnouncementForm",
+    icon: "fa fa-cog",
+    component: <AddAnnouncementForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/announcements",
+    name: "AnnouncementsListing",
+    icon: "fa fa-cog",
+    component: <AnnouncementsListing/>,
     layout: "/admin",
   },
   {
