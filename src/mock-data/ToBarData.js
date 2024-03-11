@@ -322,3 +322,18 @@ export const officialServicesHeadings=[
     },  
 
 ]
+export const broadcastAndPromotionsHeadings=[
+    {
+        title:"Promotional Updates"
+    },
+    {
+        title:'Product News'
+    },  
+    {
+        title:'In-App Promotions'
+    },  
+    {
+        title:'Broadcast Message'
+    },  
+
+]

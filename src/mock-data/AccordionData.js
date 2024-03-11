@@ -150,3 +150,25 @@ export const OtherFinAndLegalItems=[
         link:"finAndLegal/officialServices"
     },
 ]
+export const SystemSettingsItems=[
+    {
+        title:"Reports",
+        link:"businessAndTaxServices/businessManageServices"
+    },
+    {
+        title:"Broadcast & Promotions",
+        link:"systemSettings/broadcastAndPromotions"
+    },
+    {
+        title:"Annoucements",
+        link:"businessAndTaxServices/taxFilingServicesListing"
+    },
+    {
+        title:"Disclosures",
+        link:"businessAndTaxServices/estateAndTrustServices"
+    },
+    {
+        title:"App Settings",
+        link:"businessAndTaxServices/finConsultServices"
+    },
+]

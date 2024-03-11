@@ -1,0 +1,6 @@
+.line-chart-custom-labels {
+    position: absolute;
+    top: 1%;
+    right: 8%;
+    z-index: 999
+}

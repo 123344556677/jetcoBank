@@ -123,8 +123,18 @@ import OtherFinAndLegal from "components/OtherFinAndLegal/OtherFinAndLegal";
 import OfficialServicesListing from "components/OtherFinAndLegal/OfficialServices/OfficialServicesListing";
 import AddDocumentRegistrationForm from "components/OtherFinAndLegal/OfficialServices/AddDocumentRegistrationForm";
 import OtherFinAndLegalServicesListing from "components/OtherFinAndLegal/OtherFinAndLegalServices/OtherFinAndLegalServicesListing";
+import Dashboard from "components/Dashboard/Dashboard";
+import SystemSettings from "components/SystemSettings/SystemSettings";
+import BroadcastAndPromotions from "components/SystemSettings/Broadcast&Promotions/BroadcastAndPromotions";
 
 var routes = [
+  {
+    path: "/dashboard",
+    name: "Dashboard",
+    icon: "fa fa-television",
+    component:<Dashboard/>,
+    layout: "/admin",
+  },
   {
     path: "/userManagement",
     name: "User Management",
@@ -928,6 +938,20 @@ var routes = [
     name: "OtherFinAndLegalServicee",
     icon: "ni ni-tv-2 ",
     component: <OtherFinAndLegalServicesListing />,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings",
+    name: "System Settings",
+    icon: "fa fa-cog",
+    component: <SystemSettings/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/broadcastAndPromotions",
+    name: "BroadcastAndPromotions",
+    icon: "fa fa-cog",
+    component: <BroadcastAndPromotions/>,
     layout: "/admin",
   },
   {

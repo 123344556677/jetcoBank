@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Card, CardBody, Collapse, Button, ListGroup, ListGroupItem } from 'reactstrap';
+import { Collapse, ListGroup, ListGroupItem } from 'reactstrap';
 import './DynamicAccordion.css';
 import { useNavigate } from 'react-router-dom';
 

@@ -12043,3 +12043,217 @@ export const propertyRegistrationData = [
     },
   ],
 ];
+export const promotionalUpdatesTablesHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Promotion Title",
+  },
+  {
+    title: "Start Date",
+  },
+  {
+    title: "End Date",
+  },
+
+  {
+    title: "Product Detail",
+  },
+];
+export const promotionalUpdatesData = [
+  [
+    {
+      value: "1",
+    },
+
+    {
+      value: "Spring Sale",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "2023-12-21",
+    },
+
+    {
+      value: "A text area where the admin can provide details or content for the promotion.",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+
+    {
+      value: "Summer Clearance",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "2023-12-21",
+    },
+
+    {
+      value: "A text area where the admin can provide details or content for the promotion.",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+
+    {
+      value: "Holiday Special",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "2023-12-21",
+    },
+
+    {
+      value: "A text area where the admin can provide details or content for the promotion.",
+    },
+  ],
+];
+export const productNewsTablesHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "News Title",
+  },
+  {
+    title: "Date",
+  },
+  {
+    title: "News Detail",
+  },
+];
+export const productNewsData = [
+  [
+    {
+      value: "1",
+    },
+
+    {
+      value: "Spring Sale",
+    },
+    {
+      value: "2023-12-21",
+    },
+
+    {
+      value: "A text area where the admin can provide details or content for the promotion.",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+
+    {
+      value: "Summer Clearance",
+    },
+    {
+      value: "2023-12-21",
+    },
+
+    {
+      value: "A text area where the admin can provide details or content for the promotion.",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+
+    {
+      value: "Holiday Special",
+    },
+    {
+      value: "2023-12-21",
+    },
+
+    {
+      value: "A text area where the admin can provide details or content for the promotion.",
+    },
+  ],
+];
+export const appPromotionsTablesHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Promotion Title",
+  },
+  {
+    title: "Start Date",
+  },
+  {
+    title: "End Date",
+  },
+  {
+    title: "Promotion Detail",
+  },
+];
+export const appPromotionsData = [
+  [
+    {
+      value: "1",
+    },
+
+    {
+      value: "Spring Sale",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "A text area where the admin can provide details or content for the promotion.",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+
+    {
+      value: "Summer Clearance",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "A text area where the admin can provide details or content for the promotion.",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+
+    {
+      value: "Holiday Special",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "A text area where the admin can provide details or content for the promotion.",
+    },
+  ],
+];
