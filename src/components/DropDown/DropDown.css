@@ -1,0 +1,19 @@
+.settings-drop-down{
+    box-shadow:none;
+    border: 1px solid #8FE40F;
+    background-color: white;
+    border-radius: 20px;
+}
+.dropdown-menu{
+    height: auto;
+    overflow: auto;
+    max-height: 500px;
+}
+.settings-second-drop-down{
+    box-shadow:none;
+    border: 1px solid #8FE40F;
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px;
+    font-size: 10px;
+}

@@ -70,6 +70,35 @@
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
 }
 
+.custom-radio {
+  display: none; /* Hide the default radio button */
+}
+
+.custom-radio + label:before {
+  content: '';
+  display: inline-block;
+  width: 20px; /* Set the size of the custom radio button */
+  height: 20px; /* Set the size of the custom radio button */
+  margin-right: 10px; /* Adjust the spacing between the radio button and the label */
+  border: 2px solid #ccc; /* Set the border color */
+  border-radius: 50%; /* Make it circular */
+  box-sizing: border-box; /* Include border in element's total width and height */
+}
+
+.custom-radio:checked + label:before {
+  background-color: grey; /* Change the background color when checked */
+  border-color: black; /* Change the border color when checked */
+}
+
+/* Add padding inside the radio button when checked */
+.custom-radio:checked + label:before {
+  padding: 4px; /* Adjust the padding as needed */
+  margin: -2px; /* Create padding inside the border */
+}
+
+
+
+
 
 
 

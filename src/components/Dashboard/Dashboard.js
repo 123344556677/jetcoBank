@@ -10,7 +10,7 @@ const Dashboard = () => {
     <Row className='w-100 '>
     <Col xl={8}>
     <div className='line-chart-wrapper ml-lg-2 mrl-lg-2 p-3'>
-    <LineChart chartData={lineChartData}/>
+    <LineChart chartData={lineChartData} component="Dashboard"/>
     </div>
     </Col>
     </Row>

@@ -43,6 +43,20 @@ import LienPlacement from "components/OtherFinAndLegal/OtherFinAndLegalServices/
 import LienRemoval from "components/OtherFinAndLegal/OtherFinAndLegalServices/LienRemoval/LienRemoval";
 import PassportServices from "components/OtherFinAndLegal/OtherFinAndLegalServices/PassportServices/PassportServices";
 import PropertyRegistration from "components/OtherFinAndLegal/OtherFinAndLegalServices/PropertyRegistration/PropertyRegistration";
+import AppHistoryAndChangesLog from "components/SystemSettings/AppSettings/AppHistoryAndChangesLog/AppHistoryAndChangesLog";
+import CourierSettings from "components/SystemSettings/AppSettings/CourierSettings/CourierSettings";
+import CustomizeButtonAndText from "components/SystemSettings/AppSettings/CustomizeButtonAndText/CustomizeButtonAndText";
+import CustomizeColorAndTheme from "components/SystemSettings/AppSettings/CustomizeColorAndTheme/CustomizeColorAndTheme";
+import CustomizeUserDisplayListing from "components/SystemSettings/AppSettings/CustomizeUserDisplay/CustomizeUserDisplayListing";
+import DeveloperSettings from "components/SystemSettings/AppSettings/DeveloperSettings/DeveloperSettings";
+import FeatureDisplaySettings from "components/SystemSettings/AppSettings/FeatureDisplaySettings/FeatureDisplaySettings";
+import FinancialInstituitionSettings from "components/SystemSettings/AppSettings/FinancialInstituitionSettings/FinancialInstituitionSettings";
+import LanguageSettings from "components/SystemSettings/AppSettings/LanguageSettings/LanguageSettings";
+import LoginScreenSettings from "components/SystemSettings/AppSettings/LoginScreenSettings/LoginScreenSettings";
+import PaymentGateway from "components/SystemSettings/AppSettings/PaymentGateway/PaymentGateway";
+import SecuritySettings from "components/SystemSettings/AppSettings/SecuritySettings/SecuritySettings";
+import SettingsForAllSections from "components/SystemSettings/AppSettings/SettingsForAllSections/SettingsForAllSections";
+import VendorsAndContractors from "components/SystemSettings/AppSettings/VendorsAndContractors/VendorsAndContractors";
 
 export const userHeadings = [
   {
@@ -8650,7 +8664,7 @@ export const officialDocumentHandlingHeadings = [
     title: "Document ID",
   },
   {
-    title:"Document Type",
+    title: "Document Type",
   },
   {
     title: "Handling Officer",
@@ -8768,7 +8782,7 @@ export const officialDocumentAuthenticationHeadings = [
     title: "Document ID",
   },
   {
-    title:"Document Type",
+    title: "Document Type",
   },
   {
     title: "Athentication Officer",
@@ -8874,7 +8888,7 @@ export const officialDocumentApostileHeadings = [
     title: "Document ID",
   },
   {
-    title:"Document Type",
+    title: "Document Type",
   },
   {
     title: "Apostile Officer",
@@ -8971,7 +8985,6 @@ export const officialDocumentApostileData = [
       value: "Maclod Road near butt karahi and dial sing collage lahore",
     },
   ],
-  
 ];
 export const processServingHeadings = [
   {
@@ -8981,7 +8994,7 @@ export const processServingHeadings = [
     title: "Document ID",
   },
   {
-    title:"Document Type",
+    title: "Document Type",
   },
   {
     title: "Recipitent",
@@ -9087,7 +9100,7 @@ export const documentRegistrationHeadings = [
     title: "Registration ID",
   },
   {
-    title:"Document Type",
+    title: "Document Type",
   },
   {
     title: "Registration Officer",
@@ -12078,7 +12091,8 @@ export const promotionalUpdatesData = [
     },
 
     {
-      value: "A text area where the admin can provide details or content for the promotion.",
+      value:
+        "A text area where the admin can provide details or content for the promotion.",
     },
   ],
   [
@@ -12097,7 +12111,8 @@ export const promotionalUpdatesData = [
     },
 
     {
-      value: "A text area where the admin can provide details or content for the promotion.",
+      value:
+        "A text area where the admin can provide details or content for the promotion.",
     },
   ],
   [
@@ -12116,7 +12131,8 @@ export const promotionalUpdatesData = [
     },
 
     {
-      value: "A text area where the admin can provide details or content for the promotion.",
+      value:
+        "A text area where the admin can provide details or content for the promotion.",
     },
   ],
 ];
@@ -12148,7 +12164,8 @@ export const productNewsData = [
     },
 
     {
-      value: "A text area where the admin can provide details or content for the promotion.",
+      value:
+        "A text area where the admin can provide details or content for the promotion.",
     },
   ],
   [
@@ -12164,7 +12181,8 @@ export const productNewsData = [
     },
 
     {
-      value: "A text area where the admin can provide details or content for the promotion.",
+      value:
+        "A text area where the admin can provide details or content for the promotion.",
     },
   ],
   [
@@ -12180,7 +12198,8 @@ export const productNewsData = [
     },
 
     {
-      value: "A text area where the admin can provide details or content for the promotion.",
+      value:
+        "A text area where the admin can provide details or content for the promotion.",
     },
   ],
 ];
@@ -12217,7 +12236,8 @@ export const appPromotionsData = [
       value: "2023-12-21",
     },
     {
-      value: "A text area where the admin can provide details or content for the promotion.",
+      value:
+        "A text area where the admin can provide details or content for the promotion.",
     },
   ],
   [
@@ -12235,7 +12255,8 @@ export const appPromotionsData = [
       value: "2023-12-21",
     },
     {
-      value: "A text area where the admin can provide details or content for the promotion.",
+      value:
+        "A text area where the admin can provide details or content for the promotion.",
     },
   ],
   [
@@ -12253,7 +12274,8 @@ export const appPromotionsData = [
       value: "2023-12-21",
     },
     {
-      value: "A text area where the admin can provide details or content for the promotion.",
+      value:
+        "A text area where the admin can provide details or content for the promotion.",
     },
   ],
 ];
@@ -12292,7 +12314,8 @@ export const announcementData = [
     },
 
     {
-      value: "A text area where the admin can provide details or content for the promotion.",
+      value:
+        "A text area where the admin can provide details or content for the promotion.",
     },
   ],
   [
@@ -12311,7 +12334,8 @@ export const announcementData = [
     },
 
     {
-      value: "A text area where the admin can provide details or content for the promotion.",
+      value:
+        "A text area where the admin can provide details or content for the promotion.",
     },
   ],
   [
@@ -12330,7 +12354,1423 @@ export const announcementData = [
     },
 
     {
-      value: "A text area where the admin can provide details or content for the promotion.",
+      value:
+        "A text area where the admin can provide details or content for the promotion.",
     },
   ],
 ];
+export const disclosureTablesHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Document Type",
+  },
+  {
+    title: "Last Updated Date",
+  },
+  {
+    title: "Time",
+  },
+];
+export const disclosuresData = [
+  [
+    {
+      value: "1",
+    },
+
+    {
+      value: "General Terms & Conditions",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+
+    {
+      value: "AML Ploicy",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+
+    {
+      value: "Privacy Policy",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+
+    {
+      value: "General Terms & Conditions",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+  ],
+  [
+    {
+      value: "5",
+    },
+
+    {
+      value: "AML Ploicy",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+  ],
+  [
+    {
+      value: "6",
+    },
+
+    {
+      value: "Privacy Policy",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+  ],
+];
+export const appSettingsTopBar = [
+  {
+    title: "Customize User Display Settings",
+    component: <CustomizeUserDisplayListing/>
+  },
+  {
+    title: "Customize Color & Theme",
+    component: <CustomizeColorAndTheme/>
+  },
+  {
+    title: "Cutomize Buttons & Text",
+    component: <CustomizeButtonAndText/>
+  },
+  {
+    title: "In-App Feature(s) Display Settings",
+    component: <FeatureDisplaySettings/>,
+  },
+  {
+    title: "Courier Settings",
+    component: <CourierSettings/>
+  },
+  {
+    title: "Login Screen(s) Display Settings",
+    component: <LoginScreenSettings/>
+  },
+  {
+    title: "Setting for all Sections",
+    component: <SettingsForAllSections/>
+  },
+  {
+    title: "Language Settings",
+    component: <LanguageSettings/>
+  },
+  {
+    title: "App History & Changes Log",
+    component: <AppHistoryAndChangesLog/>
+  },
+  {
+    title: "Developer Settings",
+    component: <DeveloperSettings/>
+  },
+  {
+    title: "Financial Instituition Settings",
+    component: <FinancialInstituitionSettings/>
+  },
+  {
+    title: "Payment Gateways",
+    component: <PaymentGateway/>
+  },
+  {
+    title: "Vendor/Contractor Settings",
+    component: <VendorsAndContractors/>
+  },
+  {
+    title: "Security Settings",
+    component: <SecuritySettings/>
+  },
+];
+export const userDisplaysHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Last Updated Date",
+  },
+  {
+    title: "Time",
+  },
+  {
+    title: "Font Size",
+  },
+  {
+    title: "Layout",
+  },
+  {
+    title: "Info Density",
+  },
+];
+export const userDisplayData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "10 - 12 px",
+    },
+    {
+      value: "----",
+    },
+    {
+      value: "Medium",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "10 - 12 px",
+    },
+    {
+      type: "img",
+      img: require("../assets/img/icons/common/abbas poster.png"),
+    },
+    {
+      value: "High",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "10 - 12 px",
+    },
+    {
+      type: "img",
+      img: require("../assets/img/icons/common/lahore.png"),
+    },
+    {
+      value: "----",
+    },
+  ],
+];
+export const colorAndThemeHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Last Updated Date",
+  },
+  {
+    title: "Time",
+  },
+  {
+    title: "Color Scheme",
+  },
+  {
+    title: "Custom Colors",
+  },
+];
+export const colorAndThemeData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Red",
+    },
+    {
+      value: "#3498db, #ffffff",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Blue",
+    },
+    {
+      value: "----",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "----",
+    },
+    {
+      value: "#3498db, #ffffff",
+    },
+  ],
+];
+export const buttonAndTextHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Last Updated Date",
+  },
+  {
+    title: "Time",
+  },
+  {
+    title: "Button Style",
+  },
+  {
+    title: "Labels",
+  },
+  {
+    title: "Text Style",
+  },
+];
+export const buttonsAndTextData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "----",
+    },
+    {
+      value: "Submit, Back, Delet",
+    },
+    {
+      value: "Bold",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Default",
+    },
+    {
+      value: "----",
+    },
+    {
+      value: "----",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "----",
+    },
+    {
+      value: "----",
+    },
+    {
+      value: "Normal",
+    },
+  ],
+];
+export const featureAndDisplayHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Last Updated Date",
+  },
+  {
+    title: "Time",
+  },
+  {
+    title: "Feature 1:  Smart Notifications",
+  },
+  {
+    title: "Feature 2:  Advanced Analytics Dashboard",
+  },
+  {
+    title: "Feature 3:  Customizable User Profiles",
+  },
+];
+export const featureAndDisplayData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "OFF - ON",
+    },
+    {
+      value: "----",
+    },
+    {
+      value: "----",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "ON - OFF",
+    },
+    {
+      value: "----",
+    },
+    {
+      value: "OFF - ON",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "----",
+    },
+    {
+      value: "ON - OFF",
+    },
+    {
+      value: "ON - OFF",
+    },
+  ],
+];
+export const loginScreenHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Last Updated Date",
+  },
+  {
+    title: "Time",
+  },
+  {
+    title: "Background Image",
+  },
+  {
+    title: "Logo",
+  },
+];
+export const loginScreenData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "----",
+    },
+    {
+      value:"----"
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      type: "img",
+      img: require("../assets/img/icons/common/abbas poster.png"),
+    },
+    {
+      type: "img",
+      img: require("../assets/img/icons/common/jetco.png"),
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      type: "img",
+      img: require("../assets/img/icons/common/lahore.png"),
+    },
+    {
+      type: "img",
+      img: require("../assets/img/brand/jetcoLogo.png"),
+    },
+  ],
+];
+export const settingForAllHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Last Updated Date",
+  },
+  {
+    title: "Time",
+  },
+  {
+    title: "Button Style",
+  },
+  {
+    title: "Labels",
+  },
+  {
+    title: "Color Scheme",
+  },
+  {
+    title: "Text Style",
+  },
+  {
+    title: "Background Image",
+  },
+  {
+    title: "Logo",
+  },
+];
+export const settingForAllData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "----",
+    },
+    {
+      value:"Submit, Back, Delet"
+    },
+    {
+      value:"Red"
+    },
+    {
+      value:"Bold"
+    },
+    {
+      value:"----"
+    },
+    {
+      value:"----"
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Default",
+    },
+    {
+      value:"----"
+    },
+    {
+      value:"Blue"
+    },
+    {
+      value:"---"
+    },
+    {
+      type: "img",
+      img: require("../assets/img/icons/common/abbas poster.png"),
+    },
+    {
+      type: "img",
+      img: require("../assets/img/brand/jetcoLogo.png"),
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "----",
+    },
+    {
+      value:"Submit, Back, Delet"
+    },
+    {
+      value:"Red"
+    },
+    {
+      value:"Normal"
+    },
+    {
+      value:"----"
+    },
+    {
+      type: "img",
+      img: require("../assets/img/brand/jetcoLogo.png"),
+    },
+  ],
+
+];
+export const languageSettingsHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Last Updated Date",
+  },
+  {
+    title: "Time",
+  },
+  {
+    title: "Defualt Language",
+  },
+  {
+    title: "Add New Language",
+  },
+];
+export const languageSettingsData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "----",
+    },
+    {
+      value: "Spanish",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "English",
+    },
+    {
+      value: "----",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "----",
+    },
+    {
+      value: "Arabic",
+    },
+  ],
+];
+export const appHistoryHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Last Updated Date",
+  },
+  {
+    title: "Time",
+  },
+  {
+    title: "Actions",
+  },
+  {
+    title: "Details",
+  },
+];
+export const appHistoryData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Language Settings",
+    },
+    {
+      value: "Language Settings Updated",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Feature Modifications",
+    },
+    {
+      value: "In-App Feature Display Settings changed",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Language Settings",
+    },
+    {
+      value: "Language Settings Updated",
+    },
+  ],
+];
+export const developerSettingsHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Last Updated Date",
+  },
+  {
+    title: "Time",
+  },
+  {
+    title: "Key",
+  },
+  {
+    title: "Logging Level",
+  },
+];
+export const developerSettingsData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Language Settings",
+    },
+    {
+      value: "Debug",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Feature Modifications",
+    },
+    {
+      value: "Info",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Language Settings",
+    },
+    {
+      value: "Error",
+    },
+  ],
+];
+export const vendorSettingsHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Last Updated Date",
+  },
+  {
+    title: "Time",
+  },
+  {
+    title: "Vendor Name",
+  },
+  {
+    title: "Permissions",
+  },
+  {
+    title: "Notify On Updates",
+  },
+];
+export const vendorSettingsData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "ABC Suppliers",
+    },
+    {
+      value: "View,Edit,Delete",
+    },
+    {
+      value: "Enabled",
+    },
+  ],
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "ABC Suppliers",
+    },
+    {
+      value: "View,Edit,Delete",
+    },
+    {
+      value: "Enabled",
+    },
+  ],
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "ABC Suppliers",
+    },
+    {
+      value: "View,Edit,Delete",
+    },
+    {
+      value: "Enabled",
+    },
+  ],
+];
+export const contractorSettingsHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Last Updated Date",
+  },
+  {
+    title: "Time",
+  },
+  {
+    title: "Contractor Name",
+  },
+  {
+    title: "Permissions",
+  },
+  {
+    title: "Notify On Updates",
+  },
+];
+export const contractorSettingsData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "ABC Suppliers",
+    },
+    {
+      value: "View,Edit,Delete",
+    },
+    {
+      value: "Enabled",
+    },
+  ],
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "ABC Suppliers",
+    },
+    {
+      value: "View,Edit,Delete",
+    },
+    {
+      value: "Enabled",
+    },
+  ],
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "ABC Suppliers",
+    },
+    {
+      value: "View,Edit,Delete",
+    },
+    {
+      value: "Enabled",
+    },
+  ],
+];
+export const securitySettingsHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Last Updated Date",
+  },
+  {
+    title: "Time",
+  },
+  {
+    title: "Password Length",
+  },
+  {
+    title: "Uppercase Letters",
+  },
+  {
+    title: "Required Numbers",
+  },
+  {
+    title: "Special Characters",
+  },
+  {
+    title: "Two-Factor Authentication",
+  },
+  {
+    title: "Encryption",
+  },
+];
+export const securitySettingsData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "ABC Suppliers",
+    },
+    {
+      value: "12 Digit",
+    },
+    {
+      value: "Enabled",
+    },
+    {
+      value: "Enabled",
+    },
+    {
+      value: "Enabled",
+    },
+    {
+      value: "Enabled",
+    },
+    {
+      value: "AES-256",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "ABC Suppliers",
+    },
+    {
+      value: "12 Digit",
+    },
+    {
+      value: "Enabled",
+    },
+    {
+      value: "Enabled",
+    },
+    {
+      value: "Enabled",
+    },
+    {
+      value: "Enabled",
+    },
+    {
+      value: "AES-256",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "ABC Suppliers",
+    },
+    {
+      value: "12 Digit",
+    },
+    {
+      value: "Enabled",
+    },
+    {
+      value: "Enabled",
+    },
+    {
+      value: "Enabled",
+    },
+    {
+      value: "Enabled",
+    },
+    {
+      value: "AES-256",
+    },
+  ],
+  
+];
+export const courierSettingsHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Last Updated Date",
+  },
+  {
+    title: "Time",
+  },
+  {
+    title: "Courier Name",
+  },
+  {
+    title: "Shopping Option",
+  },
+  {
+    title: "Tracking Service",
+  },
+  {
+    title: "Delivery Preference",
+  },
+];
+export const courierSettingsData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "FedEx",
+    },
+    {
+      value: "Standard, Express",
+    },
+    {
+      value: "Standard, Express",
+    },
+    {
+      value: "Standard, Express",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "UPS",
+    },
+    {
+      value: "Standard, Express",
+    },
+    {
+      value: "Standard, Express",
+    },
+    {
+      value: "Standard, Express",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "DHL",
+    },
+    {
+      value: "Standard, Express",
+    },
+    {
+      value: "Standard, Express",
+    },
+    {
+      value: "Standard, Express",
+    },
+  ],
+  
+];
+export const paymentGatewayHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Last Updated Date",
+  },
+  {
+    title: "Time",
+  },
+  {
+    title: "Gateway Name",
+  },
+  {
+    title: "Status",
+  },
+];
+export const  paymentGatewayData = [
+  [
+    {
+      value: "1",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Stripe",
+    },
+    {
+      value: "Enabled",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Paypal",
+    },
+    {
+      value: "Enabled",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Square",
+    },
+    {
+      value: "Enabled",
+    },
+  ],
+];
+
+export const weekData=[
+{
+  title:"Week 1"
+},
+{
+  title:"Week 2"
+},
+{
+  title:"Week 3"
+},
+{
+  title:"Week 4"
+},
+]
+export const monthData=[
+{
+  title:"Jan"
+},
+{
+  title:"Feb"
+},
+{
+  title:"Mar"
+},
+{
+  title:"April"
+},
+{
+  title:"May"
+},
+{
+  title:"June"
+},
+{
+  title:"July"
+},
+{
+  title:"Aug"
+},
+{
+  title:"September"
+},
+{
+  title:"October"
+},
+{
+  title:"Nov"
+},
+{
+  title:"Dec"
+},
+]
+export const yearData=[
+{
+  title:"2024"
+},
+{
+  title:"2023"
+},
+{
+  title:"2022"
+},
+{
+  title:"2021"
+},
+{
+  title:"2020"
+},
+]

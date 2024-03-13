@@ -129,8 +129,12 @@ import BroadcastAndPromotions from "components/SystemSettings/Broadcast&Promotio
 import AddPromotionalUpdateForm from "components/SystemSettings/Broadcast&Promotions/AddPromotionalUpdateForm";
 import AddProductNewsForm from "components/SystemSettings/Broadcast&Promotions/AddProductNewsForm";
 import AddAppPromotionForm from "components/SystemSettings/Broadcast&Promotions/AddAppPromotionForm";
-import AnnouncementsListing from "components/SystemSettings/Announcements.js/AnnouncementsListing";
-import AddAnnouncementForm from "components/SystemSettings/Announcements.js/AddAnnouncementForm";
+import AnnouncementsListing from "components/SystemSettings/Announcements/AnnouncementsListing";
+import AddAnnouncementForm from "components/SystemSettings/Announcements/AddAnnouncementForm";
+import DisclosuresListings from "components/SystemSettings/Disclosures/DisclosuresListings";
+import AddDisclosureForm from "components/SystemSettings/Disclosures/AddDisclosureForm";
+import AppSettings from "components/SystemSettings/AppSettings/AppSettings";
+import AddCustomizeUserDisplayForm from "components/SystemSettings/AppSettings/CustomizeUserDisplay/AddCustomizeUserDisplayForm";
 
 var routes = [
   {
@@ -999,6 +1003,34 @@ var routes = [
     name: "AnnouncementsListing",
     icon: "fa fa-cog",
     component: <AnnouncementsListing/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/disclosures",
+    name: "DisclosuresListings",
+    icon: "fa fa-cog",
+    component: <DisclosuresListings/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addDisclosures",
+    name: "AddDisclosureForm",
+    icon: "fa fa-cog",
+    component: <AddDisclosureForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/appSettings",
+    name: "AppSettingsListings",
+    icon: "fa fa-cog",
+    component: <AppSettings/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addCustomizeUserDisplay",
+    name: "AppCustomizeUserDisplay",
+    icon: "fa fa-cog",
+    component: <AddCustomizeUserDisplayForm/>,
     layout: "/admin",
   },
   {

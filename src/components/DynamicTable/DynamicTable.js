@@ -116,7 +116,7 @@ const DynamicTable = ({ headings, tableData, component, parentComponent }) => {
                       <img
                         src={cell.img}
                         className={
-                          component !== "CardManagementListing"
+                          (component !== "CardManagementListing"&&component !== "UserDisplay"&&component !== "SettingForAll"&&component !== "LoginScreenSettings")
                             ? "mr-2 table-profile-img"
                             : "mr-2 table-other-img"
                         }

@@ -48,6 +48,7 @@ const DynamicForm = ({
     switch (component) {
       case "User":
       case "Agent":
+      case "Disclosures Form":
         return (
           <>
             <Button type="submit" className="login-button">
@@ -98,7 +99,7 @@ const DynamicForm = ({
             </Button>
           </div>
         );
-        case "Broadcast":
+      case "Broadcast":
         return (
           <div className="inline text-center mt-5">
             <Button
@@ -111,7 +112,11 @@ const DynamicForm = ({
             <Button
               type="submit"
               className="action-button form-broadcast-button button-shadow mt-1"
-              style={{ color: "white", fontSize: "14px",backgroundColor:"#A3B6CC" }}
+              style={{
+                color: "white",
+                fontSize: "14px",
+                backgroundColor: "#A3B6CC",
+              }}
             >
               Send to Selected Groups
             </Button>

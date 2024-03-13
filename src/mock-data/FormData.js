@@ -2205,4 +2205,18 @@ export const announcementForm = [
     placeholder: "write announcement content here...",
   },
 ];
+export const disclosureForm = [
+  {
+    label: "Document Type",
+    name: "documentType",
+    type: "text",
+    placeholder: "document type",
+  },
+  {
+    label: "Add Description of Document",
+    name: "description",
+    type: "textarea",
+    placeholder: "write general terms and coditions here...",
+  },
+];
 

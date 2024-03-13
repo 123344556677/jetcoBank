@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import ProfileBar from "../ProfileBar";
-import { Form, Input, Label } from "reactstrap";
 import { addContactForm } from "mock-data/FormData";
 import DynamicForm from "components/DynamicForm/DynamicForm";
 import PreviousMessages from "components/Inbox/PreviousMessages";

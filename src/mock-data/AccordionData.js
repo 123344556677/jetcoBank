@@ -165,10 +165,10 @@ export const SystemSettingsItems=[
     },
     {
         title:"Disclosures",
-        link:"businessAndTaxServices/estateAndTrustServices"
+        link:"systemSettings/disclosures"
     },
     {
         title:"App Settings",
-        link:"businessAndTaxServices/finConsultServices"
+        link:"systemSettings/appSettings"
     },
 ]
