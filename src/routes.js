@@ -147,6 +147,7 @@ import AddVendorContractorSettingForm from "components/SystemSettings/AppSetting
 import AddSecuritySettingsForm from "components/SystemSettings/AppSettings/SecuritySettings/AddSecuritySettingsForm";
 import AddCourierSetting from "components/SystemSettings/AppSettings/CourierSettings/AddCourierSetting";
 import AddPaymentGatewayForm from "components/SystemSettings/AppSettings/PaymentGateway/AddPaymentGatewayForm";
+import ReportsListing from "components/SystemSettings/Reports/ReportsListing";
 
 var routes = [
   {
@@ -1127,6 +1128,10 @@ var routes = [
     name: "AddPaymentGatewaysSetting",
     icon: "fa fa-cog",
     component: <AddPaymentGatewayForm/>,
+    path: "/systemSettings/reports",
+    name: "Reports",
+    icon: "fa fa-cog",
+    component: <ReportsListing/>,
     layout: "/admin",
   },
   {

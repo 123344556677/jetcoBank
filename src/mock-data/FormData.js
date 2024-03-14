@@ -2955,3 +2955,274 @@ export const paymentGatewayForm = [
 ];
 
 
+
+export const fincenSingleReportForm = [
+  {
+    label: "Accounts",
+    name: "accounts",
+    type: "text",
+    placeholder: "accounts",
+  },
+  {
+    label: "Start Date",
+    name: "startdate",
+    type: "date",
+    placeholder: "start date",
+  },
+  {
+    label: "End Date",
+    name: "enddate",
+    type: "date",
+    placeholder: "end date",
+  },
+  {
+    label: "Add Description ( Optional )",
+    name: "adddescription",
+    type: "textarea",
+    placeholder: "adddescription",
+  },
+ 
+]
+export const fincenXMEReportForm = [
+  {
+    label: "Report Type",
+    name: "reporttype",
+    type: "text",
+    placeholder: "report type",
+  },
+  {
+    label: "Start Date",
+    name: "startdate",
+    type: "date",
+    placeholder: "start date",
+  },
+  {
+    label: "End Date",
+    name: "enddate",
+    type: "date",
+    placeholder: "end date",
+  },
+  {
+    label: "Accounts",
+    name: "accounts",
+    type: "text",
+    placeholder: "accounts",
+  },
+ 
+]
+export const taxReportForm = [
+  {
+    label: "Report Type",
+    name: "accounts",
+    type: "text",
+    placeholder: "accounts",
+  },
+  {
+    label: "Start Date",
+    name: "startdate",
+    type: "date",
+    placeholder: "start date",
+  },
+  {
+    label: "End Date",
+    name: "enddate",
+    type: "date",
+    placeholder: "end date",
+  },
+  {
+    label: "Distribution Options",
+    name: "distributionoptions",
+    type: "text",
+    placeholder: "distributionoptions",
+  },
+ 
+]
+export const accountingReportForm = [
+  {
+    label: "Report Type",
+    name: "accounts",
+    type: "text",
+    placeholder: "accounts",
+  },
+  {
+    label: "Start Date",
+    name: "startdate",
+    type: "date",
+    placeholder: "start date",
+  },
+  {
+    label: "End Date",
+    name: "enddate",
+    type: "date",
+    placeholder: "end date",
+  },
+  {
+    label: "Distribution Options",
+    name: "distributionoptions",
+    type: "text",
+    placeholder: "distributionoptions",
+  },
+ 
+]
+export const msbReportForm = [
+  {
+    label: "Report Type",
+    name: "accounts",
+    type: "text",
+    placeholder: "accounts",
+  },
+  {
+    label: "Start Date",
+    name: "startdate",
+    type: "date",
+    placeholder: "start date",
+  },
+  {
+    label: "End Date",
+    name: "enddate",
+    type: "date",
+    placeholder: "end date",
+  },
+  {
+    label: "Distribution Options",
+    name: "distributionoptions",
+    type: "text",
+    placeholder: "distributionoptions",
+  },
+ 
+]
+export const systemHealthReportForm = [
+  {
+    label: "Report Type",
+    name: "accounts",
+    type: "text",
+    placeholder: "accounts",
+  },
+  {
+    label: "Start Date",
+    name: "startdate",
+    type: "date",
+    placeholder: "start date",
+  },
+  {
+    label: "End Date",
+    name: "enddate",
+    type: "date",
+    placeholder: "end date",
+  },
+  {
+    label: "Distribution Options",
+    name: "distributionoptions",
+    type: "text",
+    placeholder: "distributionoptions",
+  },
+ 
+]
+export const networkStatusReportForm = [
+  {
+    label: "Report Type",
+    name: "accounts",
+    type: "text",
+    placeholder: "accounts",
+  },
+  {
+    label: "Start Date",
+    name: "startdate",
+    type: "date",
+    placeholder: "start date",
+  },
+  {
+    label: "End Date",
+    name: "enddate",
+    type: "date",
+    placeholder: "end date",
+  },
+  {
+    label: "Distribution Options",
+    name: "distributionoptions",
+    type: "text",
+    placeholder: "distributionoptions",
+  },
+ 
+]
+export const ministryNotaryCourierServicesReportsForm = [
+  {
+    label: "Report Type",
+    name: "accounts",
+    type: "text",
+    placeholder: "accounts",
+  },
+  {
+    label: "Start Date",
+    name: "startdate",
+    type: "date",
+    placeholder: "start date",
+  },
+  {
+    label: "End Date",
+    name: "enddate",
+    type: "date",
+    placeholder: "end date",
+  },
+  {
+    label: "Distribution Options",
+    name: "distributionoptions",
+    type: "text",
+    placeholder: "distributionoptions",
+  },
+ 
+]
+export const productInventoryManagementReportsForm = [
+  {
+    label: "Report Type",
+    name: "accounts",
+    type: "text",
+    placeholder: "accounts",
+  },
+  {
+    label: "Start Date",
+    name: "startdate",
+    type: "date",
+    placeholder: "start date",
+  },
+  {
+    label: "End Date",
+    name: "enddate",
+    type: "date",
+    placeholder: "end date",
+  },
+  {
+    label: "Distribution Options",
+    name: "distributionoptions",
+    type: "text",
+    placeholder: "distributionoptions",
+  },
+ 
+]
+export const statisticsReportForm = [
+  {
+    label: "Report Type",
+    name: "accounts",
+    type: "text",
+    placeholder: "accounts",
+  },
+  {
+    label: "Start Date",
+    name: "startdate",
+    type: "date",
+    placeholder: "start date",
+  },
+  {
+    label: "End Date",
+    name: "enddate",
+    type: "date",
+    placeholder: "end date",
+  },
+  {
+    label: "Distribution Options",
+    name: "distributionoptions",
+    type: "text",
+    placeholder: "distributionoptions",
+  },
+ 
+]

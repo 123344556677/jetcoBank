@@ -57,6 +57,16 @@ import PaymentGateway from "components/SystemSettings/AppSettings/PaymentGateway
 import SecuritySettings from "components/SystemSettings/AppSettings/SecuritySettings/SecuritySettings";
 import SettingsForAllSections from "components/SystemSettings/AppSettings/SettingsForAllSections/SettingsForAllSections";
 import VendorsAndContractors from "components/SystemSettings/AppSettings/VendorsAndContractors/VendorsAndContractors";
+import AccountingReportsListing from "components/SystemSettings/Reports/AccountingReports/AccountingReportsListing";
+import FINCENSingleReportListing from "components/SystemSettings/Reports/FINCENSingleReport/FINCENSingleReportListing";
+import MSBReportsListing from "components/SystemSettings/Reports/MSBReports/MSBReportsListing";
+import MinistryNotaryCourierServicesReportsListing from "components/SystemSettings/Reports/MinistryNotaryCourierServicesReports/MinistryNotaryCourierServicesReportsListing";
+import NetworkStatusReportListing from "components/SystemSettings/Reports/NetworkStatusReport/NetworkStatusReportListing";
+import ProductInventoryManagementReportsListing from "components/SystemSettings/Reports/ProductInventoryManagementReports/ProductInventoryManagementReportsListing";
+import StatisticsReportListing from "components/SystemSettings/Reports/StatisticsReport/StatisticsReportListing";
+import SystemHealthReportListing from "components/SystemSettings/Reports/SystemHealthReports/SystemHealthReportListing";
+import TaxReportListing from "components/SystemSettings/Reports/TaxReports/TaxReportListing";
+import TransactionLogsListing from "components/SystemSettings/Reports/TransactionLogs/TransactionLogsListing";
 
 export const userHeadings = [
   {
@@ -12276,6 +12286,1474 @@ export const appPromotionsData = [
     {
       value:
         "A text area where the admin can provide details or content for the promotion.",
+    },
+  ],
+];
+
+export const reportsTopBar = [
+  {
+    title: "FinCEN Report",
+    component: <FINCENSingleReportListing />,
+  },
+  {
+    title: "Tax Reports",
+    component: <TaxReportListing />,
+  },
+  {
+    title: "Accounting Reports",
+    component: <AccountingReportsListing />,
+  },
+  {
+    title: "Transaction Logs",
+    component: <TransactionLogsListing />,
+  },
+  {
+    title: "MSB Reports",
+    component: <MSBReportsListing />,
+  },
+  {
+    title: "System Health Reports",
+    component: <SystemHealthReportListing />,
+  },
+  {
+    title: "Network Status Report",
+    component: <NetworkStatusReportListing />,
+  },
+  {
+    title: "Ministry/ Notary/ Courier Services Reports",
+    component: <MinistryNotaryCourierServicesReportsListing />,
+  },
+  {
+    title: "Product Inventory Management Reports",
+    component: <ProductInventoryManagementReportsListing />,
+  },
+  {
+    title: "Statistics Report",
+    component: <StatisticsReportListing />,
+  },
+];
+export const fincenSingleReportListingHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Report Name",
+  },
+  {
+    title: "Account Name",
+  },
+  {
+    title: "Date Generated",
+  },
+  {
+    title: "Time",
+  },
+  {
+    title: "Status",
+  },
+];
+
+export const fincenSingleReportListingData = [
+  [
+    {
+      value: "1",
+    },
+
+    {
+      value: "Account XYZ",
+    },
+    {
+      value: "Account XYZ",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+
+    {
+      value: "Monthly Summary",
+    },
+    {
+      value: "Monthly Summary",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "9:30 PM",
+    },
+    {
+      value: "In Progress",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+
+    {
+      value: "Q1 Transactions",
+    },
+    {
+      value: "Q1 Transactions",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+
+    {
+      value: "Q1 Transactions",
+    },
+    {
+      value: "Q1 Transactions",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+];
+export const fincenBatchReportHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Report Name",
+  },
+  {
+    title: "Account Name",
+  },
+  {
+    title: "Date Generated",
+  },
+  {
+    title: "Time",
+  },
+  {
+    title: "Status",
+  },
+];
+export const fincenBatchReportData = [
+  [
+    {
+      value: "1",
+    },
+
+    {
+      value: "Account XYZ",
+    },
+    {
+      value: "Account XYZ",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+
+    {
+      value: "Monthly Summary",
+    },
+    {
+      value: "Monthly Summary",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "9:30 PM",
+    },
+    {
+      value: "In Progress",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+
+    {
+      value: "Q1 Transactions",
+    },
+    {
+      value: "Q1 Transactions",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+
+    {
+      value: "Q1 Transactions",
+    },
+    {
+      value: "Q1 Transactions",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+];
+export const fincenXMEReportHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Report Name",
+  },
+  {
+    title: "Account Name",
+  },
+  {
+    title: "Date Generated",
+  },
+  {
+    title: "Time",
+  },
+  {
+    title: "Status",
+  },
+];
+export const fincenXMEReportData = [
+  [
+    {
+      value: "1",
+    },
+
+    {
+      value: "Account XYZ",
+    },
+    {
+      value: "Account XYZ",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+
+    {
+      value: "Monthly Summary",
+    },
+    {
+      value: "Monthly Summary",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "9:30 PM",
+    },
+    {
+      value: "In Progress",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+
+    {
+      value: "Q1 Transactions",
+    },
+    {
+      value: "Q1 Transactions",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+
+    {
+      value: "Q1 Transactions",
+    },
+    {
+      value: "Q1 Transactions",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+];
+export const taxReportListingHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Report Name",
+  },
+  {
+    title: "Distribution",
+  },
+  {
+    title: "Account Name",
+  },
+  {
+    title: "Date Generated",
+  },
+  {
+    title: "Time",
+  },
+  {
+    title: "Status",
+  },
+];
+export const taxReportListingData = [
+  [
+    {
+      value: "1",
+    },
+
+    {
+      value: "Q1 Transactions",
+    },
+    {
+      value: "Whole System",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+
+    {
+      value: "Q1 Transactions",
+    },
+    {
+      value: "Individual Account",
+    },
+    {
+      value: "Anas Sheikh",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+
+    {
+      value: "Account XYZ",
+    },
+    {
+      value: "Branches",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+
+    {
+      value: "Monthly Summary",
+    },
+    {
+      value: "Whole System",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "9:30 PM",
+    },
+    {
+      value: "In Progress",
+    },
+  ],
+];
+export const accountingReportsHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Report Name",
+  },
+  {
+    title: "Distribution",
+  },
+  {
+    title: "Account Name",
+  },
+  {
+    title: "Date Generated",
+  },
+  {
+    title: "Time",
+  },
+  {
+    title: "Status",
+  },
+];
+export const accountingReportsData = [
+  [
+    {
+      value: "1",
+    },
+
+    {
+      value: "Q1 Transactions",
+    },
+    {
+      value: "Whole System",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+
+    {
+      value: "Q1 Transactions",
+    },
+    {
+      value: "Individual Account",
+    },
+    {
+      value: "Anas Sheikh",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+
+    {
+      value: "Account XYZ",
+    },
+    {
+      value: "Branches",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+
+    {
+      value: "Monthly Summary",
+    },
+    {
+      value: "Whole System",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "9:30 PM",
+    },
+    {
+      value: "In Progress",
+    },
+  ],
+];
+export const transactionLogsHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "User ID",
+  },
+  {
+    title: "User Name",
+  },
+  {
+    title: "Transaction Type",
+  },
+  {
+    title: "Amount",
+  },
+  {
+    title: "Date Generated",
+  },
+  {
+    title: "Time",
+  },
+];
+export const transactionLogsData = [
+  [
+    {
+      value: "1",
+    },
+
+    {
+      value: "IA-001",
+    },
+    {
+      value: "Accounts XYZ",
+    },
+    {
+      value: "Deposit",
+    },
+    {
+      value: "$150,000",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+
+    {
+      value: "IA-002",
+    },
+    {
+      value: "Q1 Transactions",
+    },
+
+    {
+      value: "Withdrawal",
+    },
+    {
+      value: "$300,000",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+    {
+      value: "IA-003",
+    },
+
+    {
+      value: "Account XYZ",
+    },
+
+    {
+      value: "Transfer",
+    },
+    {
+      value: "$200,000",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+
+    {
+      value: "IA-004",
+    },
+    {
+      value: "Q1 Transactions",
+    },
+    {
+      value: "Withdrawal",
+    },
+    {
+      value: "$100,000",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "9:30 PM",
+    },
+  ],
+];
+export const msbReportsListingHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Report Name",
+  },
+  {
+    title: "Report Type",
+  },
+  {
+    title: "Distribution",
+  },
+  {
+    title: "Account Name",
+  },
+  {
+    title: "Date Generated",
+  },
+  {
+    title: "Time",
+  },
+  {
+    title: "Status",
+  },
+];
+export const msbReportsListingData = [
+  [
+    {
+      value: "1",
+    },
+
+    {
+      value: "Q1 Transactions",
+    },
+    {
+      value: "Transaction Summary",
+    },
+    {
+      value: "Whole System",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+
+    {
+      value: "Q1 Transactions",
+    },
+    {
+      value: "Compliance Report",
+    },
+    {
+      value: "Individual Account",
+    },
+    {
+      value: "Anas Sheikh",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+
+    {
+      value: "Account XYZ",
+    },
+    {
+      value: "Transaction Details",
+    },
+    {
+      value: "Branches",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+    {
+      value: "Completed",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+
+    {
+      value: "Monthly Summary",
+    },
+    {
+      value: "Transaction Summary",
+    },
+    {
+      value: "Whole System",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "9:30 PM",
+    },
+    {
+      value: "In Progress",
+    },
+  ],
+];
+export const systemHealthReportsHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Report Name",
+  },
+  {
+    title: "Distribution",
+  },
+  {
+    title: "Account Name",
+  },
+  {
+    title: "Date Generated",
+  },
+  {
+    title: "Time",
+  },
+  {
+    title: "Status",
+  },
+];
+export const systemHealthReportsData = [
+  [
+    {
+      value: "1",
+    },
+
+    {
+      value: "Daily System Status",
+    },
+    {
+      value: "Whole System",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+
+    {
+      value: "Weekly Performance Report",
+    },
+    {
+      value: "Individual Account",
+    },
+    {
+      value: "Anas Sheikh",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+
+    {
+      value: "Monthly Security Overview",
+    },
+    {
+      value: "Branches",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+
+    {
+      value: "Daily System Status",
+    },
+    {
+      value: "Whole System",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "In Progress",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "9:30 PM",
+    },
+  ],
+];
+export const networkStatusReportHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Report Name",
+  },
+  {
+    title: "Distribution",
+  },
+  {
+    title: "Account Name",
+  },
+  {
+    title: "Date Generated",
+  },
+  {
+    title: "Time",
+  },
+  {
+    title: "Status",
+  },
+];
+export const networkStatusReportData = [
+  [
+    {
+      value: "1",
+    },
+
+    {
+      value: "Monthly Network Summary",
+    },
+    {
+      value: "Whole System",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+
+    {
+      value: "Weekly Uptime Report",
+    },
+    {
+      value: "Individual Account",
+    },
+    {
+      value: "Anas Sheikh",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+
+    {
+      value: "Quarterly Security Review",
+    },
+    {
+      value: "Branches",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+
+    {
+      value: "Monthly Network Summary",
+    },
+    {
+      value: "Whole System",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "In Progress",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "9:30 PM",
+    },
+  ],
+];
+export const ministryNotaryCourierServicesReportsHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Report Name",
+  },
+  {
+    title: "Distribution",
+  },
+  {
+    title: "Account Name",
+  },
+  {
+    title: "Date Generated",
+  },
+  {
+    title: "Time",
+  },
+  {
+    title: "Status",
+  },
+];
+export const ministryNotaryCourierServicesReportsData = [
+  [
+    {
+      value: "1",
+    },
+
+    {
+      value: "Monthly Network Summary",
+    },
+    {
+      value: "Whole System",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+
+    {
+      value: "Weekly Uptime Report",
+    },
+    {
+      value: "Individual Account",
+    },
+    {
+      value: "Anas Sheikh",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+
+    {
+      value: "Quarterly Security Review",
+    },
+    {
+      value: "Branches",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+
+    {
+      value: "Monthly Network Summary",
+    },
+    {
+      value: "Whole System",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "In Progress",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "9:30 PM",
+    },
+  ],
+];
+export const productInventoryManagementReportsHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Report Name",
+  },
+  {
+    title: "Distribution",
+  },
+  {
+    title: "Account Name",
+  },
+  {
+    title: "Date Generated",
+  },
+  {
+    title: "Time",
+  },
+  {
+    title: "Status",
+  },
+];
+export const productInventoryManagementReportsData = [
+  [
+    {
+      value: "1",
+    },
+
+    {
+      value: "Monthly Network Summary",
+    },
+    {
+      value: "Whole System",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+
+    {
+      value: "Weekly Uptime Report",
+    },
+    {
+      value: "Individual Account",
+    },
+    {
+      value: "Anas Sheikh",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+
+    {
+      value: "Quarterly Security Review",
+    },
+    {
+      value: "Branches",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+
+    {
+      value: "Monthly Network Summary",
+    },
+    {
+      value: "Whole System",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "In Progress",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "9:30 PM",
+    },
+  ],
+];
+export const statisticsReportHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Report Name",
+  },
+  {
+    title: "Distribution",
+  },
+  {
+    title: "Account Name",
+  },
+  {
+    title: "Date Generated",
+  },
+  {
+    title: "Time",
+  },
+  {
+    title: "Status",
+  },
+];
+export const statisticsReportData = [
+  [
+    {
+      value: "1",
+    },
+
+    {
+      value: "User Activity Summary",
+    },
+    {
+      value: "Whole System",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+
+    {
+      value: "System Performance Stats",
+    },
+    {
+      value: "Individual Account",
+    },
+    {
+      value: "Anas Sheikh",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+
+    {
+      value: "Usage Trends Report",
+    },
+    {
+      value: "Branches",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "Completed",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "12:30 PM",
+    },
+  ],
+  [
+    {
+      value: "4",
+    },
+
+    {
+      value: "User Activity Summary",
+    },
+    {
+      value: "Whole System",
+    },
+    {
+      value: "....",
+    },
+    {
+      value: "In Progress",
+    },
+    {
+      value: "2023-12-21",
+    },
+    {
+      value: "9:30 PM",
     },
   ],
 ];
