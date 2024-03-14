@@ -14,6 +14,7 @@ const DynamicTable = ({ headings, tableData, component, parentComponent }) => {
     }
   };
   const shouldRenderActions = ![
+    "Transaction Logs",
     "Transaction Detail",
     "CryptoTrading",
     "StockTradingListing",

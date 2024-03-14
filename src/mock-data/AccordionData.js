@@ -153,7 +153,7 @@ export const OtherFinAndLegalItems=[
 export const SystemSettingsItems=[
     {
         title:"Reports",
-        link:"businessAndTaxServices/businessManageServices"
+        link:"systemSettings/reports"
     },
     {
         title:"Broadcast & Promotions",

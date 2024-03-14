@@ -337,3 +337,15 @@ export const broadcastAndPromotionsHeadings=[
     },  
 
 ]
+export const fincenSingleReportListingTopHeadings=[
+    {
+        title:"FinCEN Single Report"
+    },
+    {
+        title:'FinCEN Batch Report'
+    },  
+    {
+        title:'FinCEN XME Report'
+    },  
+
+]

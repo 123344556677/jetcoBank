@@ -126,6 +126,7 @@ import OtherFinAndLegalServicesListing from "components/OtherFinAndLegal/OtherFi
 import Dashboard from "components/Dashboard/Dashboard";
 import SystemSettings from "components/SystemSettings/SystemSettings";
 import BroadcastAndPromotions from "components/SystemSettings/Broadcast&Promotions/BroadcastAndPromotions";
+import ReportsListing from "components/SystemSettings/Reports/ReportsListing";
 
 var routes = [
   {
@@ -952,6 +953,13 @@ var routes = [
     name: "BroadcastAndPromotions",
     icon: "fa fa-cog",
     component: <BroadcastAndPromotions/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/reports",
+    name: "Reports",
+    icon: "fa fa-cog",
+    component: <ReportsListing/>,
     layout: "/admin",
   },
   {
