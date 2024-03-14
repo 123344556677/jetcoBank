@@ -74,7 +74,12 @@
   display: none; /* Hide the default radio button */
 }
 
-.custom-radio + label:before {
+.radio-label {
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Vertically center content */
+}
+
+.custom-radio + .radio-label:before {
   content: '';
   display: inline-block;
   width: 20px; /* Set the size of the custom radio button */
@@ -85,16 +90,60 @@
   box-sizing: border-box; /* Include border in element's total width and height */
 }
 
-.custom-radio:checked + label:before {
-  background-color: grey; /* Change the background color when checked */
-  border-color: black; /* Change the border color when checked */
+.custom-radio:checked + .radio-label:before {
+  background-color: #78828A; 
+  border: #000000;/* Change the background color when checked */
+  /* Change the border color when checked */
 }
 
-/* Add padding inside the radio button when checked */
-.custom-radio:checked + label:before {
-  padding: 4px; /* Adjust the padding as needed */
-  margin: -2px; /* Create padding inside the border */
+.radio-img{
+  width: 116px;
+  height: 251px;
 }
+.radio-div1{
+  width: 70px;
+  height: 51px;
+  border-radius: 3px 3px 3px 3px;
+}
+.radio-div2{
+  width: 70px;
+  height: 24px;
+  border-radius: 13px 0 13px 0;
+}
+.radio-div3{
+  width: 70px;
+  height: 24px;
+  border-radius: 12px;
+}
+.radio-div4{
+  width: 70px;
+  height: 24px;
+  border-radius: 5px;
+}
+
+.radio-heading-class{
+  color: #000000;
+}
+.radio-subHeading-class{
+  color: #CECECE;
+  font-size: 13px;
+  margin-left:28px;
+  margin-top: 8px;
+}
+.radio-logo-img{
+width: 100px;
+height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -135,6 +135,18 @@ import DisclosuresListings from "components/SystemSettings/Disclosures/Disclosur
 import AddDisclosureForm from "components/SystemSettings/Disclosures/AddDisclosureForm";
 import AppSettings from "components/SystemSettings/AppSettings/AppSettings";
 import AddCustomizeUserDisplayForm from "components/SystemSettings/AppSettings/CustomizeUserDisplay/AddCustomizeUserDisplayForm";
+import AddCustomizeColorAndThemeForm from "components/SystemSettings/AppSettings/CustomizeColorAndTheme/AddCustomizeColorAndThemeForm";
+import AddCustomizeButtonAndText from "components/SystemSettings/AppSettings/CustomizeButtonAndText/AddCustomizeButtonAndText";
+import AddFeatureAndDisplaySettings from "components/SystemSettings/AppSettings/FeatureDisplaySettings/AddFeatureAndDisplaySettings";
+import AddLoginScreenSettingsForm from "components/SystemSettings/AppSettings/LoginScreenSettings/AddLoginScreenSettingsForm";
+import AddSettingsForAllSectionsForm from "components/SystemSettings/AppSettings/SettingsForAllSections/AddSettingsForAllSectionsForm";
+import AddLanguageSettingsForm from "components/SystemSettings/AppSettings/LanguageSettings/AddLanguageSettingsForm";
+import AddDeveloperSettingsForm from "components/SystemSettings/AppSettings/DeveloperSettings/AddDeveloperSettingsForm";
+import AddFinancialInstituitionForm from "components/SystemSettings/AppSettings/FinancialInstituitionSettings/AddFinancialInstituitionForm";
+import AddVendorContractorSettingForm from "components/SystemSettings/AppSettings/VendorsAndContractors/AddVendorContractorSettingForm";
+import AddSecuritySettingsForm from "components/SystemSettings/AppSettings/SecuritySettings/AddSecuritySettingsForm";
+import AddCourierSetting from "components/SystemSettings/AppSettings/CourierSettings/AddCourierSetting";
+import AddPaymentGatewayForm from "components/SystemSettings/AppSettings/PaymentGateway/AddPaymentGatewayForm";
 
 var routes = [
   {
@@ -1031,6 +1043,90 @@ var routes = [
     name: "AppCustomizeUserDisplay",
     icon: "fa fa-cog",
     component: <AddCustomizeUserDisplayForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addCustomizeColor&Theme",
+    name: "AppCustomizeColor&Theme",
+    icon: "fa fa-cog",
+    component: <AddCustomizeColorAndThemeForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addCustomizeButtons&Text",
+    name: "AppCustomizeButtons&Text",
+    icon: "fa fa-cog",
+    component: <AddCustomizeButtonAndText/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addFeature&DisplaySettings",
+    name: "AppFeature&DisplaySettings",
+    icon: "fa fa-cog",
+    component: <AddFeatureAndDisplaySettings/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addLogicScreenSettings",
+    name: "AddLogiScreenSettings",
+    icon: "fa fa-cog",
+    component: <AddLoginScreenSettingsForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addSettingForAllSectios",
+    name: "AddSettingForAllSections",
+    icon: "fa fa-cog",
+    component: <AddSettingsForAllSectionsForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addLanguageSetting",
+    name: "AddLanguageSetting",
+    icon: "fa fa-cog",
+    component: <AddLanguageSettingsForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addDeveloperSetting",
+    name: "AddDeveloperSetting",
+    icon: "fa fa-cog",
+    component: <AddDeveloperSettingsForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addFinancialInstituitionSetting",
+    name: "AddFinancialInstituitionSetting",
+    icon: "fa fa-cog",
+    component: <AddFinancialInstituitionForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addVendor/Contractor Settings",
+    name: "AddVendorContractorSetting",
+    icon: "fa fa-cog",
+    component: <AddVendorContractorSettingForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addSecuritySetting",
+    name: "AddSecuritySetting",
+    icon: "fa fa-cog",
+    component: <AddSecuritySettingsForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addCourierSetting",
+    name: "AddCourierSetting",
+    icon: "fa fa-cog",
+    component: <AddCourierSetting/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addPaymentGatewaysSetting",
+    name: "AddPaymentGatewaysSetting",
+    icon: "fa fa-cog",
+    component: <AddPaymentGatewayForm/>,
     layout: "/admin",
   },
   {

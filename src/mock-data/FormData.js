@@ -2219,4 +2219,739 @@ export const disclosureForm = [
     placeholder: "write general terms and coditions here...",
   },
 ];
+export const customizeUserDisplayForm = [
+  {
+    label: "Font Size",
+    name: "fontSize",
+    type: "text",
+    placeholder: "font size",
+  },
+  {
+    label: "Selected Layout Style",
+    name: "layout",
+    type: "radio",
+    className:"d-flex flex-column flex-md-row",
+    options:[
+      {
+        type:"img",
+        className:"radio-img",
+        img:require('../assets/img/icons/common/layout3.png'),
+        value: 'Layout1'
+      },
+      {
+        type:"img",
+        className:"radio-img",
+        img:require('../assets/img/icons/common/layout2.png'),
+        value: 'Layout2'
+      },
+      {
+        type:"img",
+        className:"radio-img",
+        img:require('../assets/img/icons/common/layout1.png'),
+        value: 'Layout3'
+      }
+    ]
+  },
+  {
+    label: "Info Density",
+    name: "infoDensity",
+    type: "text",
+    placeholder: "info density"
+  }
+];
+export const customizeColorAndThemeForm = [
+  {
+    label: "Choose Color Scheme",
+    name: "colors",
+    type: "radio",
+    className:"d-flex flex-column flex-md-row",
+    options:[
+      {
+        type:"box",
+        className:"radio-div1",
+        backgroundColor:"#91DF46",
+        value: '#91DF46'
+      },
+      {
+        type:"box",
+        className:"radio-div1",
+        backgroundColor:"#DF4655",
+        value: '#DF4655'
+      },
+      {
+        type:"box",
+        className:"radio-div1",
+        backgroundColor:"#F3A60C",
+        value: '#F3A60C'
+      },
+      {
+        type:"box",
+        className:"radio-div1",
+        backgroundColor:"#000000",
+        value: '#000000'
+      },
+      {
+        type:"box",
+        className:"radio-div1",
+        backgroundColor:"#CECECE",
+        value: '#CECECE'
+      },
+      {
+        type:"box",
+        className:"radio-div1",
+        backgroundColor:"#A3B6CC",
+        value: '#A3B6CC'
+      },
+    ]
+  },
+  {
+    label: "Add Custom Colors Code",
+    name: "colorCode",
+    type: "text",
+    placeholder: "color code",
+  },
+  {
+    label: "Choose Theme",
+    name: "theme",
+    type: "radio",
+    className:"d-flex flex-column flex-md-row",
+    options:[
+      {
+        type:"img",
+        className:"radio-img",
+        img:require('../assets/img/icons/common/layout3.png'),
+        value: 'Layout1'
+      },
+      {
+        type:"img",
+        className:"radio-img",
+        img:require('../assets/img/icons/common/layout2.png'),
+        value: 'Layout2'
+      },
+      {
+        type:"img",
+        className:"radio-img",
+        img:require('../assets/img/icons/common/layout1.png'),
+        value: 'Layout3'
+      }
+    ]
+  }
+];
+export const customizeButtonAndTextForm = [
+  {
+    label: "Choose Button Styles",
+    name: "buttonStyles",
+    type: "radio",
+    className:"d-flex flex-column flex-md-row",
+    options:[
+      {
+        type:"box",
+        className:"radio-div4",
+        backgroundColor:"#91DF46",
+        value: '#91DF46'
+      },
+      {
+        type:"box",
+        className:"radio-div2",
+        backgroundColor:"#DF4655",
+        value: '#DF4655'
+      },
+      {
+        type:"box",
+        className:"radio-div3",
+        backgroundColor:"#F3A60C",
+        value: '#F3A60C'
+      },
+    ]
+  },
+  {
+    label: "Choose Text Styles",
+    name: "textStyles",
+    type: "radio",
+    className:"d-flex flex-column flex-md-row",
+    options:[
+      {
+        type:"text",
+        fontSize:"18px",
+        color:"#91DF46",
+        fontWeight: '500',
+        value:"Text",
+        name:"style1"
+      },
+      {
+        type:"text",
+        fontSize:"18px",
+        color:"#91DF46",
+        fontWeight: '700',
+        value:"Text",
+        name:"style2"
+      },
+      {
+        type:"text",
+        fontSize:"18px",
+        color:"#91DF46",
+        fontWeight: '500',
+        value:"Text",
+        name:"style3"
+      },
+    ]
+  },
+];
+export const addFeatureAndDisplayForm = [
+  {
+    label: "Select features for App Display Settings",
+    name: "features",
+    type: "radio",
+    className:"d-flex flex-column",
+    options:[
+      {
+        type:"other",
+        headingClassName:"radio-heading-class",
+        subHeadingClassName:"radio-subHeading-class",
+        value: 'feature1',
+        heading:"Feature 1:  Smart Notifications",
+        subHeading:"Description:  Enable smart notifications to receive personalized alerts based on user activity and preferences"
+      },
+      {
+        type:"other",
+        headingClassName:"radio-heading-class",
+        subHeadingClassName:"radio-subHeading-class",
+        value: 'feature2',
+        heading:"Feature 2:  Advanced Analytics Dashboard",
+        subHeading:"Description:  Enable smart notifications to receive personalized alerts based on user activity and preferences"
+      },
+      {
+        type:"other",
+        headingClassName:"radio-heading-class",
+        subHeadingClassName:"radio-subHeading-class",
+        value: 'feature3',
+        heading:"Feature 3:  Customizable User Profiles",
+        subHeading:"Description:  Enable smart notifications to receive personalized alerts based on user activity and preferences"
+      },
+    ]
+  },
+];
+export const addLoginScreenDisplayForm = [
+  {
+    label: "Choose Logo",
+    name: "logo",
+    type: "radio",
+    className:"d-flex flex-column flex-md-row",
+    options:[
+      {
+        type:"img",
+        className:"radio-logo-img",
+        img:require('../assets/img/brand/jetcoLogo.png'),
+        value: 'logo1'
+      },
+      {
+        type:"img",
+        className:"radio-logo-img",
+        img:require('../assets/img/icons/common/justLogo.png'),
+        value: 'logo2'
+      },
+      {
+        type:"img",
+        className:"radio-logo-img",
+        img:require('../assets/img/icons/common/jetco.png'),
+        value: 'logo3'
+      }
+    ]
+  },
+  {
+    label: "Additional Authentication Mehtods",
+    name: "authMehtods",
+    type: "radio",
+    className:"d-flex flex-column",
+    options:[
+      {
+        type:"other",
+        headingClassName:"radio-heading-class",
+        value: 'method1',
+        heading:"Two-Factor Authentication",
+      },
+      {
+        type:"other",
+        headingClassName:"radio-heading-class",
+        value: 'method1',
+        heading:"Biometric Authentication",
+      },
+      {
+        type:"other",
+        headingClassName:"radio-heading-class",
+        value: 'method1',
+        heading:"Pattern-Based Authentication",
+      },
+      {
+        type:"other",
+        headingClassName:"radio-heading-class",
+        value: 'method1',
+        heading:"Voice Recognition",
+      },
+    ]
+  },
+];
+export const settingForAllSectionForm = [
+  {
+    label: "Choose Logo",
+    name: "logo",
+    type: "radio",
+    className:"d-flex flex-column flex-md-row",
+    options:[
+      {
+        type:"img",
+        className:"radio-logo-img",
+        img:require('../assets/img/brand/jetcoLogo.png'),
+        value: 'logo1'
+      },
+      {
+        type:"img",
+        className:"radio-logo-img",
+        img:require('../assets/img/icons/common/justLogo.png'),
+        value: 'logo2'
+      },
+      {
+        type:"img",
+        className:"radio-logo-img",
+        img:require('../assets/img/icons/common/jetco.png'),
+        value: 'logo3'
+      }
+    ]
+  },
+  {
+    label: "Add Logo Location",
+    name: "logoLocation",
+    type: "text",
+    placeholder: "location",
+  },
+  {
+    label: "Choose Button Styles",
+    name: "buttonStyles",
+    type: "radio",
+    className:"d-flex flex-column flex-md-row",
+    options:[
+      {
+        type:"box",
+        className:"radio-div4",
+        backgroundColor:"#91DF46",
+        value: '#91DF46'
+      },
+      {
+        type:"box",
+        className:"radio-div2",
+        backgroundColor:"#DF4655",
+        value: '#DF4655'
+      },
+      {
+        type:"box",
+        className:"radio-div3",
+        backgroundColor:"#F3A60C",
+        value: '#F3A60C'
+      },
+    ]
+  },
+  {
+    label: "Add Labels",
+    name: "labels",
+    type: "text",
+    placeholder: "labels",
+  },
+  {
+    label: "Choose Text Styles",
+    name: "textStyles",
+    type: "radio",
+    className:"d-flex flex-column flex-md-row",
+    options:[
+      {
+        type:"text",
+        fontSize:"18px",
+        color:"#91DF46",
+        fontWeight: '500',
+        value:"Text",
+        name:"style1"
+      },
+      {
+        type:"text",
+        fontSize:"18px",
+        color:"#91DF46",
+        fontWeight: '700',
+        value:"Text",
+        name:"style2"
+      },
+      {
+        type:"text",
+        fontSize:"18px",
+        color:"#91DF46",
+        fontWeight: '500',
+        value:"Text",
+        name:"style3"
+      },
+    ]
+  },
+  {
+    label: "Font Size",
+    name: "fontSize",
+    type: "text",
+    placeholder: "font size",
+  },
+  {
+    label: "Selected Layout Style",
+    name: "layout",
+    type: "radio",
+    className:"d-flex flex-column flex-md-row",
+    options:[
+      {
+        type:"img",
+        className:"radio-img",
+        img:require('../assets/img/icons/common/layout3.png'),
+        value: 'Layout1'
+      },
+      {
+        type:"img",
+        className:"radio-img",
+        img:require('../assets/img/icons/common/layout2.png'),
+        value: 'Layout2'
+      },
+      {
+        type:"img",
+        className:"radio-img",
+        img:require('../assets/img/icons/common/layout1.png'),
+        value: 'Layout3'
+      }
+    ]
+  },
+];
+export const languageSettingForm = [
+  {
+    name: "languageSelect",
+    label: "Select Language",
+    type: "select",
+    value: "Spanish", // Default value
+    options: [
+      { title: "Urdu", value: "Urdu" },
+      { title: "English", value: "English" },
+      { title: "Hindi", value: "Hindi" },
+    ],
+  },
+  {
+    name: "addLanguage",
+    label: "Add New Language",
+    type: "select",
+    value: "Spanish", // Default value
+    options: [
+      { title: "Urdu", value: "Urdu" },
+      { title: "English", value: "English" },
+      { title: "Hindi", value: "Hindi" },
+    ],
+  },
+];
+export const developerSettingsForm = [
+  {
+    label: "Enable Dveloper Mode (On/Off)",
+    name: "developerMode",
+    type: "radio",
+    className:"d-flex flex-column flex-md-row",
+    options:[
+      {
+        type:"other",
+        headingClassName:"radio-heading-class",
+        value: true,
+        heading:"On",
+      },
+    ]
+    
+  },
+  {
+    label: "Logging Level",
+    name: "loggingLevel",
+    type: "text",
+    placeholder: "logging level",
+  },
+  {
+    label: "Select Debug Mode (On/Off)",
+    name: "debugMode",
+    type: "radio",
+    className:"d-flex flex-column flex-md-row",
+    options:[
+      {
+        type:"other",
+        headingClassName:"radio-heading-class",
+        value: false,
+        heading:"OFF",
+      },
+    ]
+    
+  },
+  {
+    label: "Debugging Port",
+    name: "dedbuggingPort",
+    type: "text",
+    placeholder: "port",
+  },
+  {
+    label: "Debugging Mode",
+    name: "dedbuggingMode",
+    type: "text",
+    placeholder: "mode",
+  },
+  {
+    label: "Git Integration (On/Off)",
+    name: "gitIntegration",
+    type: "radio",
+    className:"d-flex flex-column flex-md-row",
+    options:[
+      {
+        type:"other",
+        headingClassName:"radio-heading-class",
+        value: false,
+        heading:"ON",
+      },
+    ]
+    
+  },
+  
+];
+export const financialInstituitionSettingForm = [
+  {
+    label: "Instituition Name",
+    name: "instituitionName",
+    type: "text",
+    placeholder: "instituition name",
+  },
+  {
+    label: "Connection Type",
+    name: "ConnectionType",
+    type: "select",
+    value: "Bank Api", // Default value
+    options: [
+      { title: "Bank Api", value: "Bank Api" },
+      { title: "Manual Upload", value: "Manual Upload" },
+    ],
+  },
+  {
+    label: "API Key",
+    name: "apiKey",
+    type: "text",
+    placeholder: "api key",
+  },
+  {
+    label: "API Secret",
+    name: "apiSecret",
+    type: "text",
+    placeholder: "api secret",
+  },
+];
+export const vendorContractorSettingsForm = [
+  {
+    label: "Vendor Permissions",
+    name: "vendorPermissions",
+    type: "text",
+    placeholder: "vendor permissions",
+  },
+  {
+    label: "Contractor Permissions",
+    name: "contractorPermissions",
+    type: "text",
+    placeholder: "contractor permissions",
+  },
+  {
+    label: "Notify Vendor on Updates (On/OFF)",
+    name: "notifyVendor",
+    type: "radio",
+    className:"d-flex flex-column flex-md-row",
+    options:[
+      {
+        type:"other",
+        headingClassName:"radio-heading-class",
+        value: "On",
+        heading:"On",
+      },
+    ]
+    
+  },
+  {
+    label: "Notify Contractor on Updates (On/OFF)",
+    name: "notifyContractor",
+    type: "radio",
+    className:"d-flex flex-column flex-md-row",
+    options:[
+      {
+        type:"other",
+        headingClassName:"radio-heading-class",
+        value: "OFF",
+        heading:"OFF",
+      },
+    ]
+    
+  },
+  
+];
+export const securitySettingsForm = [
+  {
+    label: "Minimum Password Length",
+    name: "passwordLength",
+    type: "text",
+    placeholder: "password length",
+  },
+  {
+    label: "Require Uppercase Letters ( Enable/Disable )",
+    name: "uppercaseLetters",
+    type: "radio",
+    className:"d-flex flex-column flex-md-row",
+    options:[
+      {
+        type:"other",
+        headingClassName:"radio-heading-class",
+        value: "enable",
+        heading:"Enable",
+      },
+    ]
+    
+  },
+  {
+    label: "Require Numbers ( Enable/Disable )",
+    name: "numbers",
+    type: "radio",
+    className:"d-flex flex-column flex-md-row",
+    options:[
+      {
+        type:"other",
+        headingClassName:"radio-heading-class",
+        value: "enable",
+        heading:"Enable",
+      },
+    ]
+    
+  },
+  {
+    label: "Require Special Characters ( Enable/Disable )",
+    name: "specialCharacters",
+    type: "radio",
+    className:"d-flex flex-column flex-md-row",
+    options:[
+      {
+        type:"other",
+        headingClassName:"radio-heading-class",
+        value: "disable",
+        heading:"Disable",
+      },
+    ]
+    
+  },
+  {
+    label: "Enable Two-Factor Authentication ( On/OFF )",
+    name: "authentication",
+    type: "radio",
+    className:"d-flex flex-column flex-md-row",
+    options:[
+      {
+        type:"other",
+        headingClassName:"radio-heading-class",
+        value: "ON",
+        heading:"ON",
+      },
+    ]
+    
+  },
+  {
+    label: "Allow SMS Authentication ( On/OFF )",
+    name: "smsAuthentication",
+    type: "radio",
+    className:"d-flex flex-column flex-md-row",
+    options:[
+      {
+        type:"other",
+        headingClassName:"radio-heading-class",
+        value: "OFF",
+        heading:"OFF",
+      },
+    ]
+    
+  },
+  {
+    label: "Data Encryption Algorithm",
+    name: "encryption",
+    type: "text",
+    placeholder: "encryption algorithm",
+  },
+  
+];
+export const courierSettingForm = [
+  {
+    label: "Courier Name",
+    name: "courierName",
+    type: "text",
+    placeholder: "courier name",
+  },
+  {
+    label: "Shipping Options",
+    name: "shippingOptions",
+    type: "select",
+    value: "shipping", // Default value
+    options: [
+      { title: "Standard", value: "Standard" },
+      { title: "Express", value: "Express" },
+      { title: "Next Day", value: "Next Day" },
+    ],
+  },
+  {
+    label: "Tracking Services",
+    name: "trackingServices",
+    type: "text",
+    placeholder: "tracking services",
+  },
+  {
+    label: "Delivery Preferences",
+    name: "deliveryPreferences",
+    type: "text",
+    placeholder: "delivery preferences",
+  },
+];
+export const paymentGatewayForm = [
+  {
+    label: "Gateway Name",
+    name: "gatewayName",
+    type: "text",
+    placeholder: "gateway name",
+  },
+  {
+    label: "Gateway Type",
+    name: "gatewayType",
+    type: "select",
+    value: "gateway", // Default value
+    options: [
+      { title: "Debit Card", value: "Debit Card" },
+      { title: "Paypal", value: "Paypal" },
+    ],
+  },
+  {
+    label: "API Key",
+    name: "apiKey",
+    type: "text",
+    placeholder: "api key",
+  },
+  {
+    label: "API Secret",
+    name: "apiSecret",
+    type: "text",
+    placeholder: "api secret",
+  },
+
+  {
+    label: "Enable Gateway ( On/OFF )",
+    name: "enableGateway",
+    type: "radio",
+    className:"d-flex flex-column flex-md-row",
+    options:[
+      {
+        type:"other",
+        headingClassName:"radio-heading-class",
+        value: "OFF",
+        heading:"OFF",
+      },
+    ]
+    
+  },
+];
+
 

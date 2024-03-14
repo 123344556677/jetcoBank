@@ -16,9 +16,10 @@ const VendorsAndContractors = () => {
     <>
       <TopBar
         headings={VendorHeadings}
-        buttonValue="no-button"
+        buttonValue="Vendor/Contractor Settings"
         checkActiveLink={handleActiveVendors}
         defaultValue="Vendors"
+        parentComponent="SystemAndSettings"
       />
       <div className="mt-3">
         {activeVendors === "Vendors" && (

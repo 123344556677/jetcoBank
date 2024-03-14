@@ -15,7 +15,7 @@ const SecuritySettings = () => {
           size="md"
           className="add-button pl-3 pr-3 mr-3"
           onClick={() =>
-            navigate("/admin/accountsAndBranch/addCheckingAccount")
+            navigate("/admin/systemSettings/addSecuritySetting")
           }
         >
           Security Settings

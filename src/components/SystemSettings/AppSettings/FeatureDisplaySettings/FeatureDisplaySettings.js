@@ -17,7 +17,7 @@ const FeatureDisplaySettings = () => {
           size="md"
           className="add-button pl-3 pr-3 mr-3"
           onClick={() =>
-            navigate("/admin/accountsAndBranch/addCheckingAccount")
+            navigate("/admin/systemSettings/addFeature&DisplaySettings")
           }
         >
           In-App Feature(s) Display Settings

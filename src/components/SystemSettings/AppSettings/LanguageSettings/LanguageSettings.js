@@ -16,7 +16,7 @@ const LanguageSettings = () => {
             size="md"
             className="add-button pl-3 pr-3 mr-3"
             onClick={() =>
-              navigate("/admin/accountsAndBranch/addCheckingAccount")
+              navigate("/admin/systemSettings/addLanguageSetting")
             }
           >
             Translate Language
@@ -25,7 +25,7 @@ const LanguageSettings = () => {
             size="md"
             className="add-button pl-3 pr-3 mr-3 ml-auto"
             onClick={() =>
-              navigate("/admin/accountsAndBranch/addCheckingAccount")
+              navigate("/admin/systemSettings/addLanguageSetting")
             }
           >
             Language Settings

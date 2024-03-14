@@ -8,6 +8,7 @@ import {
   featureForMinistry,
 } from "mock-data/FormData";
 import { createEstateTrustBeneficiaryForm } from "mock-data/FormData";
+import RadioButtons from "./RadioButtons";
 
 const DynamicForm = ({
   formData,
@@ -53,6 +54,25 @@ const DynamicForm = ({
           <>
             <Button type="submit" className="login-button">
               Upload Document
+            </Button>
+            {defaultButton()}
+          </>
+        );
+        case "Developer Settings Form":
+        return (
+          <>
+            <Button type="submit" className="login-button">
+              Manage API Keys
+            </Button>
+            {defaultButton()}
+          </>
+        );
+      case "Login Screen(s) Display Settings Form":
+      case "Setting for all Sections Form":
+        return (
+          <>
+            <Button type="submit" className="login-button">
+              Upload Image
             </Button>
             {defaultButton()}
           </>
@@ -214,6 +234,10 @@ const DynamicForm = ({
                     </option>
                   ))}
                 </Input>
+              </>
+            ) : data.type === "radio" ? (
+              <>
+                <RadioButtons radioData={data}/>
               </>
             ) : (
               <>
