@@ -15252,3 +15252,29 @@ export const yearData=[
   title:"2020"
 },
 ]
+
+export const dashboardCardData = [
+  {
+    title: "Total Users",
+    amount: "5416.14",
+    percent: "18%",
+    duration: "from prev. month",
+    icon: require("../assets/img/icons/common/Iconly-Bold-Profile.png"),
+  },
+  {
+    title: "Total Accounts",
+    amount: "5416.14",
+    percent: "60%",
+    duration: "from prev. month",
+    icon: require("../assets/img/icons/common/Iconly-Bold-Work.png"),
+  },
+  {
+    title: "Active Business Clients",
+    amount: "5416.14",
+    percent: "3,55",
+    duration: "orders are delivering",
+    icon: require("../assets/img/icons/common/Iconly-Bold-Swap-active.png"),
+  },
+];
+
+

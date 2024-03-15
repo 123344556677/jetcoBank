@@ -148,6 +148,14 @@ import AddSecuritySettingsForm from "components/SystemSettings/AppSettings/Secur
 import AddCourierSetting from "components/SystemSettings/AppSettings/CourierSettings/AddCourierSetting";
 import AddPaymentGatewayForm from "components/SystemSettings/AppSettings/PaymentGateway/AddPaymentGatewayForm";
 import ReportsListing from "components/SystemSettings/Reports/ReportsListing";
+import TaxReportForm from "components/SystemSettings/Reports/TaxReports/TaxReportForm";
+import AccountingReportsForm from "components/SystemSettings/Reports/AccountingReports/AccountingReportsForm";
+import MSBReportsForm from "components/SystemSettings/Reports/MSBReports/MSBReportsForm";
+import SystemHealthReportForm from "components/SystemSettings/Reports/SystemHealthReports/SystemHealthReportForm";
+import NetworkStatusReportForm from "components/SystemSettings/Reports/NetworkStatusReport/NetworkStatusReportForm";
+import MinistryNotaryCourierServicesReportsForm from "components/SystemSettings/Reports/MinistryNotaryCourierServicesReports/MinistryNotaryCourierServicesReportsForm";
+import ProductInventoryManagementReportsForm from "components/SystemSettings/Reports/ProductInventoryManagementReports/ProductInventoryManagementReportsForm";
+import StatisticsReportForm from "components/SystemSettings/Reports/StatisticsReport/StatisticsReportForm";
 
 var routes = [
   {
@@ -1128,10 +1136,69 @@ var routes = [
     name: "AddPaymentGatewaysSetting",
     icon: "fa fa-cog",
     component: <AddPaymentGatewayForm/>,
+    layout: "/admin",
+  },
+  {
     path: "/systemSettings/reports",
     name: "Reports",
     icon: "fa fa-cog",
     component: <ReportsListing/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addTaxReports",
+    name: "AddTaxReports",
+    icon: "fa fa-cog",
+    component:<TaxReportForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addAccountingReports",
+    name: "AddAccountingReports",
+    icon: "fa fa-cog",
+    component:<AccountingReportsForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addMsbReports",
+    name: "AddMsbReports",
+    icon: "fa fa-cog",
+    component:<MSBReportsForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addSystemHealthReports",
+    name: "AddSystemHealthReports",
+    icon: "fa fa-cog",
+    component:<SystemHealthReportForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addNetworkStatusReports",
+    name: "AddNetworkStatusReports",
+    icon: "fa fa-cog",
+    component:<NetworkStatusReportForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addNotaryCourierMinistryReports",
+    name: "AddNotaryCourierMinistryReports",
+    icon: "fa fa-cog",
+    component:<MinistryNotaryCourierServicesReportsForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addProductInventoryReports",
+    name: "AddProductInventoryReports",
+    icon: "fa fa-cog",
+    component:<ProductInventoryManagementReportsForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addStatisticsReports",
+    name: "AddStatisticsReports",
+    icon: "fa fa-cog",
+    component:<StatisticsReportForm/>,
     layout: "/admin",
   },
   {

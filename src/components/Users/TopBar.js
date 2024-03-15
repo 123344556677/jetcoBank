@@ -40,6 +40,9 @@ const TopBar = ({
     if (component === "Ledger") {
       return "Create Ledger";
     }
+    if(buttonValue==="Generate FinCEN Single Report"||buttonValue==="Generate FinCEN Batch Report"||buttonValue==="Generate FinCEN XME Report"){
+      return `${buttonValue}`;
+    }
     if (
       activeLink !== "Standard Branch" &&
       activeLink !== "Custom Branch" &&

@@ -16,7 +16,7 @@ const LineChart = ({ chartData, component }) => {
           options={options}
           series={series}
           type="area"
-          height={350}
+          height={380}
         />
       </div>
       <div className="line-chart-custom-labels">

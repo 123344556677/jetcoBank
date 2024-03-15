@@ -20,7 +20,7 @@ function FINCENSingleReportListing() {
     <>
       <TopBar
         headings={fincenSingleReportListingTopHeadings}
-        buttonValue="Generate FinCEN Single Report"
+        buttonValue={FINCENSingleReportListing === "FinCEN Single Report"?"Generate FinCEN Single Report":FINCENSingleReportListing === "FinCEN Batch Report"?"Generate FinCEN Batch Report":"Generate FinCEN XME Report" }
         checkActiveLink={handleActiveFINCENSingleReportListing}
         defaultValue="FinCEN Single Report"
       />
