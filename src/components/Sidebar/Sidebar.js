@@ -132,10 +132,10 @@ const Sidebar = (props) => {
 
         {(prop?.name === "User Management" ||
           prop?.name === "Accounts, Branch & Office" ||
-          prop?.name === "Logistics & Support"|
-          prop?.name==="Fin. Services & Messaging"||
-          prop?.name === "Business & Tax Services"||
-          prop?.name === "Other Fin. & Legal"||
+          (prop?.name === "Logistics & Support") |
+            (prop?.name === "Fin. Services & Messaging") ||
+          prop?.name === "Business & Tax Services" ||
+          prop?.name === "Other Fin. & Legal" ||
           prop?.name === "System Settings") && (
           <i
             className={`${handleAccordionIcon(prop.name)} ${
@@ -144,6 +144,14 @@ const Sidebar = (props) => {
             onClick={() => handleAccordionToggle(prop.name)}
           />
         )}
+        {
+          // isActive && (
+          //       <span
+          //         className="small-circle ml-3"
+          //         style={{ backgroundColor: "#91DF46" }}
+          //       ></span>
+          //     )
+        }
       </NavLink>
     );
   };
@@ -192,11 +200,7 @@ const Sidebar = (props) => {
 
       return (
         <NavItem key={key}>
-        {prop?.name === "Dashboard" && (
-            <>
-              {createNavLink(prop)}
-            </>
-          )}
+          {prop?.name === "Dashboard" && <>{createNavLink(prop)}</>}
           {prop?.name === "User Management" && (
             <>
               {createNavLink(prop)}
@@ -230,8 +234,8 @@ const Sidebar = (props) => {
               <DyamicAccordion
                 isOpenVal={activeAccordion === "Fin. Services & Messaging"}
                 accordionVal={FinServicingAndMessagingItems}
-                />
-                </>
+              />
+            </>
           )}
           {prop?.name === "Business & Tax Services" && (
             <>

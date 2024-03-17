@@ -156,6 +156,10 @@ import NetworkStatusReportForm from "components/SystemSettings/Reports/NetworkSt
 import MinistryNotaryCourierServicesReportsForm from "components/SystemSettings/Reports/MinistryNotaryCourierServicesReports/MinistryNotaryCourierServicesReportsForm";
 import ProductInventoryManagementReportsForm from "components/SystemSettings/Reports/ProductInventoryManagementReports/ProductInventoryManagementReportsForm";
 import StatisticsReportForm from "components/SystemSettings/Reports/StatisticsReport/StatisticsReportForm";
+import FinCENSingleReportForm from "components/SystemSettings/Reports/FINCENSingleReport/FinCENSingleReportForm";
+import FinCENBatchReportForm from "components/SystemSettings/Reports/FINCENSingleReport/FinCENBatchReportForm";
+import FinCENXMLReportForm from "components/SystemSettings/Reports/FINCENSingleReport/FinCENXMLReportForm";
+import TranslateLanguage from "components/SystemSettings/AppSettings/LanguageSettings/TranslateLanguage";
 
 var routes = [
   {
@@ -1097,6 +1101,13 @@ var routes = [
     layout: "/admin",
   },
   {
+    path: "/systemSettings/translateLanguageSetting",
+    name: "TranslateLanguageSetting",
+    icon: "fa fa-cog",
+    component: <TranslateLanguage/>,
+    layout: "/admin",
+  },
+  {
     path: "/systemSettings/addDeveloperSetting",
     name: "AddDeveloperSetting",
     icon: "fa fa-cog",
@@ -1199,6 +1210,27 @@ var routes = [
     name: "AddStatisticsReports",
     icon: "fa fa-cog",
     component:<StatisticsReportForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addGenerate FinCEN Single Report",
+    name: "AddFinCEN Single Report",
+    icon: "fa fa-cog",
+    component:<FinCENSingleReportForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addGenerate FinCEN Batch Report",
+    name: "AddFinCEN Batch Report",
+    icon: "fa fa-cog",
+    component:<FinCENBatchReportForm/>,
+    layout: "/admin",
+  },
+  {
+    path: "/systemSettings/addGenerate FinCEN XML Report",
+    name: "AddGenerate FinCEN XML Report",
+    icon: "fa fa-cog",
+    component:<FinCENXMLReportForm/>,
     layout: "/admin",
   },
   {

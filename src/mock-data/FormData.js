@@ -2440,20 +2440,20 @@ export const addLoginScreenDisplayForm = [
     options:[
       {
         type:"img",
-        className:"radio-logo-img",
-        img:require('../assets/img/brand/jetcoLogo.png'),
+        className:"radio-logo-img1",
+        img:require('../assets/img/icons/common/settings-logo-1.png'),
         value: 'logo1'
       },
       {
         type:"img",
-        className:"radio-logo-img",
-        img:require('../assets/img/icons/common/justLogo.png'),
+        className:"radio-logo-img2",
+        img:require('../assets/img/icons/common/settings-logo-2.png'),
         value: 'logo2'
       },
       {
         type:"img",
-        className:"radio-logo-img",
-        img:require('../assets/img/icons/common/jetco.png'),
+        className:"radio-logo-img3",
+        img:require('../assets/img/icons/common/settings-logo-3.png'),
         value: 'logo3'
       }
     ]
@@ -2500,20 +2500,20 @@ export const settingForAllSectionForm = [
     options:[
       {
         type:"img",
-        className:"radio-logo-img",
-        img:require('../assets/img/brand/jetcoLogo.png'),
+        className:"radio-logo-img1",
+        img:require('../assets/img/icons/common/settings-logo-1.png'),
         value: 'logo1'
       },
       {
         type:"img",
-        className:"radio-logo-img",
-        img:require('../assets/img/icons/common/justLogo.png'),
+        className:"radio-logo-img2",
+        img:require('../assets/img/icons/common/settings-logo-2.png'),
         value: 'logo2'
       },
       {
         type:"img",
-        className:"radio-logo-img",
-        img:require('../assets/img/icons/common/jetco.png'),
+        className:"radio-logo-img3",
+        img:require('../assets/img/icons/common/settings-logo-3.png'),
         value: 'logo3'
       }
     ]

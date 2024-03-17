@@ -15259,14 +15259,18 @@ export const dashboardCardData = [
     amount: "5416.14",
     percent: "18%",
     duration: "from prev. month",
+    increaseIcon:require("../assets/img/icons/common/Polygon-up.png"),
     icon: require("../assets/img/icons/common/Iconly-Bold-Profile.png"),
+    chartIcon: require("../assets/img/icons/common/line-chart.png"),
   },
   {
     title: "Total Accounts",
     amount: "5416.14",
     percent: "60%",
     duration: "from prev. month",
+    increaseIcon:require("../assets/img/icons/common/Polygon-up.png"),
     icon: require("../assets/img/icons/common/Iconly-Bold-Work.png"),
+    chartIcon: require("../assets/img/icons/common/bar-chart.png"),
   },
   {
     title: "Active Business Clients",
@@ -15274,7 +15278,134 @@ export const dashboardCardData = [
     percent: "3,55",
     duration: "orders are delivering",
     icon: require("../assets/img/icons/common/Iconly-Bold-Swap-active.png"),
+    chartIcon: require("../assets/img/icons/common/circular-bar.png"),
   },
 ];
+export const dashboardHeadings = [
+  {
+    title: "Sr.",
+  },
+  {
+    title: "Parcel Type",
+  },
+  {
+    title: "Branc code",
+  },
+  {
+    title: "Delivery Location",
+  },
+  {
+    title: "Service Provider",
+  },
+  {
+    title: "Provider Contact",
+  },
+  {
+    title: "Delivery Time",
+  },
+  {
+    title: "Delivery Date",
+  },
+];
+export const dashboardData = [
+  [
+    {
+      value: "1",
+    },
+
+    {
+      value: "Stationary",
+    },
+    {
+      value: "098-547",
+    },
+    {
+      value: "Cambridge Street 547",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "04 days",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+  [
+    {
+      value: "2",
+    },
+
+    {
+      value: "Stationary",
+    },
+    {
+      value: "098-547",
+    },
+    {
+      value: "Cambridge Street 547",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "04 days",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+  [
+    {
+      value: "3",
+    },
+
+    {
+      value: "Stationary",
+    },
+    {
+      value: "098-547",
+    },
+    {
+      value: "Cambridge Street 547",
+    },
+    {
+      value: "Shamsi Ali",
+    },
+    {
+      value: "957-65877-300",
+    },
+    {
+      value: "04 days",
+    },
+    {
+      value: "14 Dec 2023",
+    },
+  ],
+];
+export const finBatchReportData = {
+  year: "CSV Columns",
+  title: "FinCEN Fields",
+  sections: [
+    {
+      sr: 1,
+      heading: "Report",
+      items: [
+        { label: "Date", amount: "25-04-2023" },
+        { label: "Account", amount: "123456789" },
+        { label: "Type", amount: "Purchase" },
+        { label: "Amount", amount: 266266 },
+        { label: "Description", amount: "Office Supplies" },
+      ],
+    },
+  ],
+};
 
 

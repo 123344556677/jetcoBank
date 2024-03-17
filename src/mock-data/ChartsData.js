@@ -115,8 +115,9 @@ export const systemSettingLineChartData = {
       text: "Crypto Rates",
       align: "left",
       style: {
-        fontSize: "13px",
+        fontSize: "14px",
         color: "#3e3e3e",
+        fontWeight: "500",
       },
     },
     grid: {
@@ -219,6 +220,173 @@ export const systemSettingsDownloadlineChartData = {
         fontSize: "12px",
         color: "#3e3e3e",
         fontWeight: "400",
+      },
+    },
+    grid: {
+      row: {
+        colors: ["#f3f3f3", "transparent"],
+        opacity: 0,
+      },
+    },
+    xaxis: {
+      categories: [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+      ],
+      labels: {
+        style: {
+          colors: "#000000",
+          fontSize: "12px",
+        },
+      },
+    },
+    yaxis: {
+      min: 100000,
+      max: 800000,
+      tickAmount: 4,
+      labels: {
+        style: {
+          colors: ["#000000"],
+          fontSize: "12px",
+        },
+      },
+    },
+    fill: {
+      type: "gradient",
+      gradient: {
+        shadeIntensity: 0,
+        opacityFrom: 0,
+        opacityTo: 0,
+        stops: [0, 0],
+      },
+    },
+    legend: {
+      show: false,
+    },
+    toolbar: {
+      show: false,
+    },
+  },
+};
+export const WealthManagementLineChartData = {
+  series: [
+    {
+      name: "Last Week",
+      data: [19000, 20000, 35000, 35000, 20000, 25000, 25000],
+      color: "#91DF46",
+    },
+  ],
+  options: {
+    chart: {
+      height: 350,
+      type: "area",
+      zoom: {
+        enabled: false,
+      },
+    },
+    dataLabels: {
+      enabled: false,
+    },
+    stroke: {
+      curve: "smooth",
+      width: 2,
+    },
+    title: {
+      text: "Crypto Rates",
+      align: "left",
+      style: {
+        fontSize: "13px",
+        color: "#3e3e3e",
+      },
+    },
+    grid: {
+      row: {
+        colors: ["#f3f3f3", "transparent"],
+        opacity: 0,
+      },
+    },
+    xaxis: {
+      categories: [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+      ],
+      labels: {
+        style: {
+          colors: "#000000",
+          fontSize: "12px",
+        },
+      },
+    },
+    yaxis: {
+      min: 10000,
+      max: 40000, // Adjusted max value to fit data range
+      tickAmount: 4,
+      labels: {
+        style: {
+          colors: "#000000",
+          fontSize: "12px",
+        },
+      },
+    },
+    fill: {
+      type: "gradient",
+      gradient: {
+        shadeIntensity: 1,
+        opacityFrom: 0.7,
+        opacityTo: 0.9,
+        stops: [0, 100],
+      },
+    },
+    legend: {
+      show: false,
+    },
+    toolbar: {
+      show: false,
+    },
+  },
+};
+export const finServicesAndMessagingTransactionlineChartData = {
+  series: [
+    {
+      name: "This Week",
+      data: [220000, 110000, 210000, 410000, 250000, 490000],
+      color: "#8EE30A",
+
+    },
+  ],
+  options: {
+    chart: {
+      height: 350,
+      type: "area",
+      zoom: {
+        enabled: false,
+      },
+      background: "#ffffff", // Set background color to white
+    },
+    dataLabels: {
+      enabled: false,
+    },
+    stroke: {
+      curve: "smooth",
+      width: 2,
+    },
+    title: {
+      text: "Transaction",
+      align: "left",
+      style: {
+        fontSize: "14px",
+        color: "#3e3e3e",
+        fontWeight: "500",
       },
     },
     grid: {

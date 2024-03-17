@@ -1,3 +1,12 @@
 .disclosure-document-pic{
     width:450px
 }
+.translate-language-text{
+    color: #CECECE;
+    font-weight: 500;
+}
+.translate-language-card{
+    border: 1px solid #8FE40F;
+    border-radius: 22px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.06);
+}

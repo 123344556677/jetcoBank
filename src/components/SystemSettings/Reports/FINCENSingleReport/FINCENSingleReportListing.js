@@ -20,9 +20,10 @@ function FINCENSingleReportListing() {
     <>
       <TopBar
         headings={fincenSingleReportListingTopHeadings}
-        buttonValue={FINCENSingleReportListing === "FinCEN Single Report"?"Generate FinCEN Single Report":FINCENSingleReportListing === "FinCEN Batch Report"?"Generate FinCEN Batch Report":"Generate FinCEN XME Report" }
+        buttonValue={FINCENSingleReportListing === "FinCEN Single Report"?"Generate FinCEN Single Report":FINCENSingleReportListing === "FinCEN Batch Report"?"Generate FinCEN Batch Report":"Generate FinCEN XML Report" }
         checkActiveLink={handleActiveFINCENSingleReportListing}
         defaultValue="FinCEN Single Report"
+        parentComponent="SystemAndSettings"
       />
       {FINCENSingleReportListing === "FinCEN Single Report" && (
         <DynamicTable
@@ -41,7 +42,7 @@ function FINCENSingleReportListing() {
         />
       )}
 
-      {FINCENSingleReportListing === "FinCEN XME Report" && (
+      {FINCENSingleReportListing === "FinCEN XML Report" && (
         <DynamicTable
           headings={fincenXMEReportHeadings}
           tableData={fincenXMEReportData}

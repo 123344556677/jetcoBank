@@ -5,19 +5,22 @@ import CustomDropDown from "components/DropDown/DropDown";
 import { weekData } from "mock-data/Data";
 import { monthData } from "mock-data/Data";
 import { yearData } from "mock-data/Data";
+import { Button } from "reactstrap";
 
 const LineChart = ({ chartData, component }) => {
   const { series, options } = chartData;
 
   return (
     <div style={{ position: "relative" }}>
-      <div id="chart">
+      <div id="chart" className={component==="WealthAndManagement"&&"mt-3"}>
+      
         <ReactApexChart
           options={options}
           series={series}
           type="area"
           height={380}
         />
+      
       </div>
       <div className="line-chart-custom-labels">
         {component === "Dashboard" &&
@@ -32,7 +35,7 @@ const LineChart = ({ chartData, component }) => {
               <span className="small-circle-title ml-2">{data.name}</span>
             </span>
           ))}
-        {component === "SystemSettingsCrypto" && (
+        {(component === "SystemSettingsCrypto"||component==="WealthAndManagement") && (
           <div className="d-flex">
             <CustomDropDown heading="Week" items={weekData} className="settings-drop-down" />
             <CustomDropDown heading="Month" items={monthData} className="settings-drop-down" />
@@ -46,8 +49,11 @@ const LineChart = ({ chartData, component }) => {
             <CustomDropDown heading="Year" items={yearData} className="settings-second-drop-down" />
           </div>
         )}
-        
       </div>
+      {
+          component==="WealthAndManagement"&&
+          <Button className="btn wealth-performance-button">Performance Analysis</Button>
+        }
     </div>
   );
 };

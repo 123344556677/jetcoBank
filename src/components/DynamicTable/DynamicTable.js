@@ -58,6 +58,7 @@ const DynamicTable = ({ headings, tableData, component, parentComponent }) => {
     "documentApostileHanling",
     "documentAthenticationHanling",
     "documentHanling",
+    "FinServicesAndMessaging"
   ].includes(component);
 
   const renderActionsColumn = () => {

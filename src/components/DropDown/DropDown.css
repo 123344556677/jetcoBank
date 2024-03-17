@@ -2,7 +2,9 @@
     box-shadow:none;
     border: 1px solid #8FE40F;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 13px;
 }
 .dropdown-menu{
     height: auto;
@@ -13,7 +15,16 @@
     box-shadow:none;
     border: 1px solid #8FE40F;
     background-color: white;
+    border-radius: 15px;
+    padding: 8px;
+    font-size: 10px;
+}
+.dashboard-drop-down{
+    box-shadow:none;
+    border: none;
+    background-color: white;
     border-radius: 20px;
     padding: 8px;
     font-size: 10px;
+    color:#7D96B3;
 }

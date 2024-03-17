@@ -14,6 +14,7 @@ import { trusteeServicesData } from "mock-data/Data";
 import { createEstateTrustInformationForm } from "mock-data/FormData";
 import { estateAndTrustheadings } from "mock-data/ToBarData";
 import React, { useState } from "react";
+import WealthManagement from "./WealthManagement";
 
 const EstateAndTrustServices = () => {
   const [activeRole, setActiveRole] = useState();
@@ -47,6 +48,9 @@ const EstateAndTrustServices = () => {
               component="Trustee Services"
               parentComponent="BusinessAndTaxServices"
             />
+          )}
+          {activeRole === "Wealth Management" && (
+            <WealthManagement/>
           )}
           {activeRole === "Estate Planning" && (
             <DynamicTable

@@ -11,12 +11,12 @@ const SystemSettings = () => {
     <div className="pt-5 pt-md-8 mb-3 ml-lg-2 mr-lg-2">
       <Row className="w-100">
         <Col xl={7}>
-          <div className="line-chart-wrapper ml-lg-2 mrl-lg-2 p-3">
+          <div className="line-chart-wrapper ml-lg-2 mrl-lg-2 p-3" style={{border:"1px solid #8FE40F"}}>
             <LineChart chartData={systemSettingLineChartData} component="SystemSettingsCrypto" />
           </div>
         </Col>
         <Col xl={5}>
-          <div className="line-chart-wrapper ml-lg-2 mrl-lg-2 p-3">
+          <div className="line-chart-wrapper ml-lg-2 mrl-lg-2 p-3" style={{border:"1px solid #8FE40F"}}>
             <LineChart chartData={systemSettingsDownloadlineChartData} component="SystemSettingsDownloads"/>
           </div>
         </Col>

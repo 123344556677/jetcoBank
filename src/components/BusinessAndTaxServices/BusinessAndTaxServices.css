@@ -40,3 +40,43 @@
     color:#707070;
     font-weight: 500;
 }
+.wealth-mangement-card  {
+    border-radius: 22px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    /* height: 600px!important; */
+}
+.wealth-portfolio-button{
+    background-color: white!important;
+    position: absolute;
+    border-radius: 22px 0 0 22px;
+    color: #000000;
+    padding-left: 5%!important;
+    padding-right: 5%!important;
+    right: -2%;
+    top:30%;
+}
+
+.wealth-assets-button{
+    background-color: white!important;
+    position: absolute;
+    border-radius: 0 22px 22px 0;
+    color: #000000;
+    left:1%;
+    top:7%;
+    /* padding-left: 5%!important; */
+    padding-right: 5%!important;
+}
+.wealth-performance-button{
+    background-color: white!important;
+    position: absolute;
+    border-radius: 0 22px 22px 0;
+    color: #000000;
+    left:-3%;
+    top:-1%;
+    padding-left: 5%!important;
+    padding-right: 5%!important;
+    margin-bottom: 15%!important;
+}

@@ -6,7 +6,14 @@ const RadioButtons = ({ radioData }) => {
     <div className={radioData?.className}>
       {radioData?.options?.map((option) =>
         option?.type === "img" ? (
-          <FormGroup check className="mt-3">
+          <FormGroup
+            check
+            className={
+              option?.className === "radio-logo-img3"
+                ? "radio-logo-img3-margin"
+                : "mt-3"
+            }
+          >
             <Input
               name={option?.value}
               type="radio"
@@ -14,7 +21,13 @@ const RadioButtons = ({ radioData }) => {
               className="custom-radio"
             />{" "}
             <Label check for={option?.value} className="radio-label">
-              <img src={option?.img} alt={option?.name} className={option?.className} />
+              <div className="radio-logo-img-wrapper">
+                <img
+                  src={option?.img}
+                  alt={option?.name}
+                  className={option?.className}
+                />
+              </div>
             </Label>
           </FormGroup>
         ) : option?.type === "text" ? (
