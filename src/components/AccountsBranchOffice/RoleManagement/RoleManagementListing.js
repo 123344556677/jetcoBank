@@ -30,6 +30,7 @@ const RoleManagementListing = () => {
               headings={GroupManagementHeadings}
               tableData={GroupManagementData}
               component="groupManagement"
+              parentComponent="role Management"
             />
           )}
           {activeRole === "Create Role" && (

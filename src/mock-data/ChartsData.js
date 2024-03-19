@@ -30,14 +30,14 @@ export const lineChartData = {
       curve: "smooth",
       width: 2,
     },
-    title: {
-      text: "Transaction",
-      align: "left",
-      style: {
-        fontSize: "13px", // Change font size of transaction text
-        color: "#3e3e3e", // Change color of transaction text
-      },
-    },
+    // title: {
+    //   text: "Transaction",
+    //   align: "left",
+    //   style: {
+    //     fontSize: "13px", // Change font size of transaction text
+    //     color: "#3e3e3e", // Change color of transaction text
+    //   },
+    // },
     grid: {
       row: {
         colors: ["#f3f3f3", "transparent"],
@@ -111,15 +111,15 @@ export const systemSettingLineChartData = {
       curve: "smooth",
       width: 2,
     },
-    title: {
-      text: "Crypto Rates",
-      align: "left",
-      style: {
-        fontSize: "14px",
-        color: "#3e3e3e",
-        fontWeight: "500",
-      },
-    },
+    // title: {
+    //   text: "Crypto Rates",
+    //   align: "left",
+    //   style: {
+    //     fontSize: "14px",
+    //     color: "#3e3e3e",
+    //     fontWeight: "500",
+    //   },
+    // },
     grid: {
       row: {
         colors: ["#f3f3f3", "transparent"],
@@ -201,27 +201,27 @@ export const systemSettingsDownloadlineChartData = {
       curve: "smooth",
       width: 2,
     },
-    title: {
-      text: "JETCO App Download",
-      align: "left",
-      style: {
-        fontSize: "14px",
-        color: "#3e3e3e",
-        fontWeight: "500",
-      },
-    },
-    subtitle: {
-      text: "Download",
-      align: "left",
-      margin: 5,
-      offsetX: 0,
-      offsetY: 30,
-      style: {
-        fontSize: "12px",
-        color: "#3e3e3e",
-        fontWeight: "400",
-      },
-    },
+    // title: {
+    //   text: "JETCO App Download",
+    //   align: "left",
+    //   style: {
+    //     fontSize: "14px",
+    //     color: "#3e3e3e",
+    //     fontWeight: "500",
+    //   },
+    // },
+    // subtitle: {
+    //   text: "Download",
+    //   align: "left",
+    //   margin: 5,
+    //   offsetX: 0,
+    //   offsetY: 30,
+    //   style: {
+    //     fontSize: "12px",
+    //     color: "#3e3e3e",
+    //     fontWeight: "400",
+    //   },
+    // },
     grid: {
       row: {
         colors: ["#f3f3f3", "transparent"],
@@ -296,14 +296,14 @@ export const WealthManagementLineChartData = {
       curve: "smooth",
       width: 2,
     },
-    title: {
-      text: "Crypto Rates",
-      align: "left",
-      style: {
-        fontSize: "13px",
-        color: "#3e3e3e",
-      },
-    },
+    // title: {
+    //   text: "Crypto Rates",
+    //   align: "left",
+    //   style: {
+    //     fontSize: "13px",
+    //     color: "#3e3e3e",
+    //   },
+    // },
     grid: {
       row: {
         colors: ["#f3f3f3", "transparent"],
@@ -380,15 +380,15 @@ export const finServicesAndMessagingTransactionlineChartData = {
       curve: "smooth",
       width: 2,
     },
-    title: {
-      text: "Transaction",
-      align: "left",
-      style: {
-        fontSize: "14px",
-        color: "#3e3e3e",
-        fontWeight: "500",
-      },
-    },
+    // title: {
+    //   text: "Transaction",
+    //   align: "left",
+    //   style: {
+    //     fontSize: "14px",
+    //     color: "#3e3e3e",
+    //     fontWeight: "500",
+    //   },
+    // },
     grid: {
       row: {
         colors: ["#f3f3f3", "transparent"],

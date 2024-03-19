@@ -209,6 +209,7 @@ export const userData = [
       value: "14 Dec 2023",
     },
   ],
+  
 ];
 export const AgentHeadings = [
   {
@@ -2354,6 +2355,9 @@ export const standardBranchHeadings = [
     title: "Branch Name",
   },
   {
+    title: "Branch Manager",
+  },
+  {
     title: "Operating Hours",
   },
   {
@@ -4438,6 +4442,9 @@ export const estateAncestoryHeadings = [
   },
   {
     title: "Address",
+  },
+  {
+    title: "Contact Number",
   },
   {
     title: "Birth Date",

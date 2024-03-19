@@ -7,7 +7,7 @@ import {
 } from "reactstrap";
 import "./DropDown.css";
 
-function CustomDropDown({ heading, items,className }) {
+function CustomDropDown({ heading, items, className, type,imageClassName }) {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   const toggle = () => setDropdownOpen((prevState) => !prevState);
@@ -16,12 +16,22 @@ function CustomDropDown({ heading, items,className }) {
     <div className="">
       <Dropdown isOpen={dropdownOpen} toggle={toggle}>
         <DropdownToggle caret className={className}>
-          {heading}
+        {type === "img"?<img src={require("../../assets/img/icons/common/country-drop-icon.png")} alt="icon"className={imageClassName} />:heading}
         </DropdownToggle>
         <DropdownMenu className="dropdown-menu">
-          {items?.map((data, index) => (
-            <DropdownItem key={index}>{data?.title}</DropdownItem>
-          ))}
+          {type === "img"
+            ? items?.map((data, index) => (
+                <DropdownItem key={index}>
+                  <img
+                    src={require("../../assets/img/icons/common/country-drop-icon.png")}
+                    alt="icon"
+                    className={imageClassName} 
+                  />{" "}
+                </DropdownItem>
+              ))
+            : items?.map((data, index) => (
+                <DropdownItem key={index}>{data?.title}</DropdownItem>
+              ))}
         </DropdownMenu>
       </Dropdown>
     </div>

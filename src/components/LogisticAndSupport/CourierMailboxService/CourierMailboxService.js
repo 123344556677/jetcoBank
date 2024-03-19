@@ -33,7 +33,7 @@ const CourierMailboxService = () => {
         <DynamicTable
           headings={shippingCourierHeadings}
           tableData={shippingCourierData}
-          component="Courier Service"
+          component="CourierServiceActive"
           parentComponent="LogisticAndSupport"
         />
       );
@@ -43,7 +43,7 @@ const CourierMailboxService = () => {
         <DynamicTable
           headings={CourierDeliveredHeadings}
           tableData={courierDeliveredData}
-          component="Courier Service"
+          component="CourierServiceDelivered"
           parentComponent="LogisticAndSupport"
         />
       );

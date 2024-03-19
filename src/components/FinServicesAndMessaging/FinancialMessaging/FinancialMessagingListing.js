@@ -67,7 +67,7 @@ function FinancialMessagingListing() {
             <DynamicTable
               headings={finanicalMessagingHeadingsTableFINCEN}
               tableData={finanicalMessagingHeadingsTableDataACH}
-              component="FinanicalMessagingListing"
+              component="FinanicalMessagingListingFINCEN"
               parentComponent="FinServicesAndMessaging"
             />
           )}

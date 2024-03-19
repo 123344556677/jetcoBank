@@ -52,6 +52,7 @@ import { BusinessAndTaxItems } from "mock-data/AccordionData";
 import { OtherFinAndLegalItems } from "mock-data/AccordionData";
 import SystemSettings from "components/SystemSettings/SystemSettings";
 import { SystemSettingsItems } from "mock-data/AccordionData";
+import LogOutModal from "components/Modals/LogOutModal";
 
 var ps;
 
@@ -73,6 +74,12 @@ const Sidebar = (props) => {
     setCollapseOpen(false);
   };
 
+  const [modalOpen, setModalOpen] = useState(false);
+
+  // Function to toggle modal visibility
+  const toggleModal = () => {
+    setModalOpen(!modalOpen);
+  };
   const [isOpen, setIsOpen] = useState(false);
 
   // const toggleAccordion = () => setIsOpen(!isOpen);
@@ -340,34 +347,16 @@ const Sidebar = (props) => {
                 </Media>
               </Media>
             </DropdownToggle>
-            {
-              // <DropdownMenu className="dropdown-menu-arrow" right>
-              // <DropdownItem className="noti-title" header tag="div">
-              //   <h6 className="text-overflow m-0">Welcome!</h6>
-              // </DropdownItem>
-              // <DropdownItem to="/admin/user-profile" tag={Link}>
-              //   <i className="ni ni-single-02" />
-              //   <span>My profile</span>
-              // </DropdownItem>
-              // <DropdownItem to="/admin/user-profile" tag={Link}>
-              //   <i className="ni ni-settings-gear-65" />
-              //   <span>Settings</span>
-              // </DropdownItem>
-              // <DropdownItem to="/admin/user-profile" tag={Link}>
-              //   <i className="ni ni-calendar-grid-58" />
-              //   <span>Activity</span>
-              // </DropdownItem>
-              // <DropdownItem to="/admin/user-profile" tag={Link}>
-              //   <i className="ni ni-support-16" />
-              //   <span>Support</span>
-              // </DropdownItem>
-              //   <DropdownItem divider />
-              //   <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-              //     <i className="ni ni-user-run" />
-              //     <span>Logout</span>
-              //   </DropdownItem>
-              // </DropdownMenu>
-            }
+
+            <DropdownMenu className="dropdown-menu-arrow" right>
+              <DropdownItem className="noti-title" header tag="div">
+                <h6 className="text-overflow m-0">Welcome!</h6>
+              </DropdownItem>
+              <DropdownItem href="#pablo" onClick={toggleModal}>
+                <i className="ni ni-user-run" />
+                <span>Logout</span>
+              </DropdownItem>
+            </DropdownMenu>
           </UncontrolledDropdown>
         </Nav>
         {/* Collapse */}
@@ -417,6 +406,7 @@ const Sidebar = (props) => {
           {/* Divider */}
         </Collapse>
       </Container>
+      <LogOutModal modalOpen={modalOpen} toggleModal={toggleModal} />
     </Navbar>
   );
 };
@@ -429,15 +419,9 @@ Sidebar.propTypes = {
   // links that will be displayed inside the component
   routes: PropTypes.arrayOf(PropTypes.object),
   logo: PropTypes.shape({
-    // innerLink is for links that will direct the user within the app
-    // it will be rendered as <Link to="...">...</Link> tag
     innerLink: PropTypes.string,
-    // outterLink is for links that will direct the user outside the app
-    // it will be rendered as simple <a href="...">...</a> tag
     outterLink: PropTypes.string,
-    // the image src of the logo
     imgSrc: PropTypes.string.isRequired,
-    // the alt for the img
     imgAlt: PropTypes.string.isRequired,
   }),
 };

@@ -6,7 +6,11 @@ import { businessAndTaxColors } from "mock-data/CircularProgressData";
 import { businessAndTaxPercentages } from "mock-data/CircularProgressData";
 import React from "react";
 import { Button, Card, Col, Row } from "reactstrap";
-import '../BusinessAndTaxServices.css';
+import "../BusinessAndTaxServices.css";
+import CustomDropDown from "components/DropDown/DropDown";
+import { weekData } from "mock-data/Data";
+import { monthData } from "mock-data/Data";
+import { yearData } from "mock-data/Data";
 
 const WealthManagement = () => {
   return (
@@ -21,14 +25,16 @@ const WealthManagement = () => {
       <Row className="w-100">
         <Col className="mt-3" xl={4}>
           <Card className="wealth-mangement-card ml-2 p-4  mb-3">
-          <Button className="btn wealth-portfolio-button">Portfolio Disribution</Button>
+            <Button className="btn wealth-portfolio-button">
+              Portfolio Disribution
+            </Button>
             <CircularProgress
               percentages={businessAndTaxPercentages}
               colors={businessAndTaxColors}
               height="150"
               width="150"
             />
-            <h2 className="ml-3" style={{marginTop:"50px"}}>
+            <h2 className="ml-3" style={{ marginTop: "50px" }}>
               60%{" "}
               <span>
                 <div
@@ -65,14 +71,37 @@ const WealthManagement = () => {
             </h2>
             <br />
             <br />
-            <br/>
+            <br />
           </Card>
         </Col>
         <Col xl={8} className="mt-3">
-          <Card className="wealth-mangement-card p-4">
+          <Card className="line-chart-wealth-wrapper  p-4">
+            <div className="d-flex align-items-center justify-content-between m-2">
+              <Button className="btn wealth-performance-button">
+                Performance Analysis
+              </Button>
+              <div className="d-flex">
+                <CustomDropDown
+                  heading="Week"
+                  items={weekData}
+                  className="settings-drop-down"
+                />
+                <CustomDropDown
+                  heading="Month"
+                  items={monthData}
+                  className="settings-drop-down"
+                />
+                <CustomDropDown
+                  heading="Year"
+                  items={yearData}
+                  className="settings-drop-down"
+                />
+              </div>
+            </div>
             <LineChart
               chartData={WealthManagementLineChartData}
               component="WealthAndManagement"
+              height="330"
             />
           </Card>
         </Col>

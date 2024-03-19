@@ -15,7 +15,7 @@ function TransactionListing() {
         </h3>
       
         </div>
-        <DynamicTable headings={transactionTableHeading} tableData={transactionTableData} component="Agent" parentComponent="UserManagement" />
+        <DynamicTable headings={transactionTableHeading} tableData={transactionTableData} component="Transaction" parentComponent="FinServicesAndMessaging" />
       </div>
     </div>
   )

@@ -28,3 +28,19 @@
     font-size: 10px;
     color:#7D96B3;
 }
+.country-drop-down{
+    box-shadow:none;
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    border: 1px solid #8FE40F;
+}
+.country-drop-img{
+    width: 16px;
+    height: 16px;
+}
+
+.dropdown-toggle::after {
+  color: #C4C4C4; 
+}

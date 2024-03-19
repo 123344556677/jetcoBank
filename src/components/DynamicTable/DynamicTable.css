@@ -58,6 +58,16 @@
     background-color:#91DF46;
     color: white;
 }
+.portfolio-button{
+    background-color:#A3B6CC;
+    border:#8497AD ;
+    color: white;
+}
+.download-button{
+    background-color:#F3A60C;
+    border: 1px solid #D28E06;
+    color: white;
+}
 .table-profile-img{
   width: 30px;
   height: 30px;

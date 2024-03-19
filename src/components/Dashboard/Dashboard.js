@@ -11,7 +11,6 @@ import { businessAndTaxColors } from "mock-data/CircularProgressData";
 import DynamicTable from "components/DynamicTable/DynamicTable";
 import { dashboardHeadings } from "mock-data/Data";
 import { dashboardData } from "mock-data/Data";
-
 const Dashboard = () => {
   return (
     <div className="pt-5 pt-md-8 mb-3">
@@ -23,7 +22,26 @@ const Dashboard = () => {
             width: "820px",
           }}
         >
-          <LineChart chartData={lineChartData} component="Dashboard" />
+          <div className="d-flex align-items-center justify-content-between m-2">
+            <h1 className="charts-transaction-heading">Transaction</h1>
+            <div className="d-flex mr-lg-3">
+              <span>
+                <div
+                  className="small-circle"
+                  style={{ backgroundColor: "#5AB303" }}
+                ></div>
+                <span className="small-circle-title ml-2">Last Week</span>
+              </span>
+              <span>
+                <div
+                  className="small-circle ml-lg-4"
+                  style={{ backgroundColor: "#91DF46" }}
+                ></div>
+                <span className="small-circle-title ml-2">This Week</span>
+              </span>
+            </div>
+          </div>
+          <LineChart chartData={lineChartData} component="Dashboard"  />
         </div>{" "}
         <Card
           className="dashboard-card-user ml-4  mb-3"

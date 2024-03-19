@@ -4,3 +4,31 @@
     right: 8%;
     z-index: 999
 }
+.line-chart-country-dropdown{
+    position: absolute;
+    top: -1%;
+    left: 20%;
+    z-index: 999;
+}
+.charts-crypto-heading{
+    font-Size: 15px;
+    color: #3e3e3e;
+    font-weight: 500
+}
+.charts-download-heading{
+    font-Size: 14px;
+    color: #3e3e3e;
+    font-weight: 500
+
+}
+.charts-transaction-heading{
+    font-size: 15px;
+    color: #3e3e3e;
+    font-weight: 700;
+
+}
+@media (max-width: 420px) {
+    .line-chart-custom-labels {
+       display: none;
+    }
+}

@@ -2958,10 +2958,10 @@ export const paymentGatewayForm = [
 
 export const fincenSingleReportForm = [
   {
-    label: "Accounts",
-    name: "accounts",
+    label: "Report Type",
+    name: "reporttype",
     type: "text",
-    placeholder: "accounts",
+    placeholder: "report type",
   },
   {
     label: "Start Date",
@@ -3013,9 +3013,9 @@ export const fincenXMEReportForm = [
 export const taxReportForm = [
   {
     label: "Report Type",
-    name: "accounts",
+    name: "reporttype",
     type: "text",
-    placeholder: "accounts",
+    placeholder: "report type",
   },
   {
     label: "Start Date",
@@ -3030,19 +3030,24 @@ export const taxReportForm = [
     placeholder: "end date",
   },
   {
+    name: "distributionSelect",
     label: "Distribution Options",
-    name: "distributionoptions",
-    type: "text",
-    placeholder: "distributionoptions",
+    type: "select",
+    value: "Whole System", // Default value
+    options: [
+      { title: "Whole System", value: "Whole System" },
+      { title: "Individual Account", value: "Individual Account" },
+      { title: "Branches", value: "Branches" },
+    ],
   },
  
 ]
 export const accountingReportForm = [
   {
     label: "Report Type",
-    name: "accounts",
+    name: "reporttype",
     type: "text",
-    placeholder: "accounts",
+    placeholder: "report type",
   },
   {
     label: "Start Date",
@@ -3057,19 +3062,24 @@ export const accountingReportForm = [
     placeholder: "end date",
   },
   {
+    name: "distributionSelect",
     label: "Distribution Options",
-    name: "distributionoptions",
-    type: "text",
-    placeholder: "distributionoptions",
+    type: "select",
+    value: "Whole System", // Default value
+    options: [
+      { title: "Whole System", value: "Whole System" },
+      { title: "Individual Account", value: "Individual Account" },
+      { title: "Branches", value: "Branches" },
+    ],
   },
  
 ]
 export const msbReportForm = [
   {
     label: "Report Type",
-    name: "accounts",
+    name: "reporttype",
     type: "text",
-    placeholder: "accounts",
+    placeholder: "report type",
   },
   {
     label: "Start Date",
@@ -3084,19 +3094,24 @@ export const msbReportForm = [
     placeholder: "end date",
   },
   {
+    name: "distributionSelect",
     label: "Distribution Options",
-    name: "distributionoptions",
-    type: "text",
-    placeholder: "distributionoptions",
+    type: "select",
+    value: "Whole System", // Default value
+    options: [
+      { title: "Whole System", value: "Whole System" },
+      { title: "Individual Account", value: "Individual Account" },
+      { title: "Branches", value: "Branches" },
+    ],
   },
  
 ]
 export const systemHealthReportForm = [
   {
     label: "Report Type",
-    name: "accounts",
+    name: "reporttype",
     type: "text",
-    placeholder: "accounts",
+    placeholder: "report type",
   },
   {
     label: "Start Date",
@@ -3111,19 +3126,24 @@ export const systemHealthReportForm = [
     placeholder: "end date",
   },
   {
+    name: "distributionSelect",
     label: "Distribution Options",
-    name: "distributionoptions",
-    type: "text",
-    placeholder: "distributionoptions",
+    type: "select",
+    value: "Whole System", // Default value
+    options: [
+      { title: "Whole System", value: "Whole System" },
+      { title: "Individual Account", value: "Individual Account" },
+      { title: "Branches", value: "Branches" },
+    ],
   },
  
 ]
 export const networkStatusReportForm = [
   {
     label: "Report Type",
-    name: "accounts",
+    name: "reporttype",
     type: "text",
-    placeholder: "accounts",
+    placeholder: "report type",
   },
   {
     label: "Start Date",
@@ -3138,19 +3158,24 @@ export const networkStatusReportForm = [
     placeholder: "end date",
   },
   {
+    name: "distributionSelect",
     label: "Distribution Options",
-    name: "distributionoptions",
-    type: "text",
-    placeholder: "distributionoptions",
+    type: "select",
+    value: "Whole System", // Default value
+    options: [
+      { title: "Whole System", value: "Whole System" },
+      { title: "Individual Account", value: "Individual Account" },
+      { title: "Branches", value: "Branches" },
+    ],
   },
  
 ]
 export const ministryNotaryCourierServicesReportsForm = [
   {
     label: "Report Type",
-    name: "accounts",
+    name: "reporttype",
     type: "text",
-    placeholder: "accounts",
+    placeholder: "report type",
   },
   {
     label: "Start Date",
@@ -3165,19 +3190,24 @@ export const ministryNotaryCourierServicesReportsForm = [
     placeholder: "end date",
   },
   {
+    name: "distributionSelect",
     label: "Distribution Options",
-    name: "distributionoptions",
-    type: "text",
-    placeholder: "distributionoptions",
+    type: "select",
+    value: "Whole System", // Default value
+    options: [
+      { title: "Whole System", value: "Whole System" },
+      { title: "Individual Account", value: "Individual Account" },
+      { title: "Branches", value: "Branches" },
+    ],
   },
  
 ]
 export const productInventoryManagementReportsForm = [
   {
     label: "Report Type",
-    name: "accounts",
+    name: "reporttype",
     type: "text",
-    placeholder: "accounts",
+    placeholder: "report type",
   },
   {
     label: "Start Date",
@@ -3192,19 +3222,24 @@ export const productInventoryManagementReportsForm = [
     placeholder: "end date",
   },
   {
+    name: "distributionSelect",
     label: "Distribution Options",
-    name: "distributionoptions",
-    type: "text",
-    placeholder: "distributionoptions",
+    type: "select",
+    value: "Whole System", // Default value
+    options: [
+      { title: "Whole System", value: "Whole System" },
+      { title: "Individual Account", value: "Individual Account" },
+      { title: "Branches", value: "Branches" },
+    ],
   },
  
 ]
 export const statisticsReportForm = [
   {
     label: "Report Type",
-    name: "accounts",
+    name: "reporttype",
     type: "text",
-    placeholder: "accounts",
+    placeholder: "report type",
   },
   {
     label: "Start Date",
@@ -3219,10 +3254,15 @@ export const statisticsReportForm = [
     placeholder: "end date",
   },
   {
+    name: "distributionSelect",
     label: "Distribution Options",
-    name: "distributionoptions",
-    type: "text",
-    placeholder: "distributionoptions",
+    type: "select",
+    value: "Whole System", // Default value
+    options: [
+      { title: "Whole System", value: "Whole System" },
+      { title: "Individual Account", value: "Individual Account" },
+      { title: "Branches", value: "Branches" },
+    ],
   },
  
 ]

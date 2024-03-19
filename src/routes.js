@@ -1233,13 +1233,13 @@ var routes = [
     component:<FinCENXMLReportForm/>,
     layout: "/admin",
   },
-  {
-    path: "/",
-    name: "Log Out",
-    icon: "fa fa-sign-out",
-    component: <Index />,
-    layout: "/admin",
-  },
+  // {
+  //   path: "/",
+  //   name: "Log Out",
+  //   icon: "fa fa-sign-out",
+  //   component: <Index />,
+  //   layout: "/admin",
+  // },
   // {
   //   path: "/icons",
   //   name: "Icons",

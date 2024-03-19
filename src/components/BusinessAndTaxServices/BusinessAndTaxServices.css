@@ -71,12 +71,14 @@
 }
 .wealth-performance-button{
     background-color: white!important;
-    position: absolute;
     border-radius: 0 22px 22px 0;
     color: #000000;
-    left:-3%;
-    top:-1%;
+    left:-5%;
     padding-left: 5%!important;
     padding-right: 5%!important;
-    margin-bottom: 15%!important;
+}
+.line-chart-wealth-wrapper{
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    border-radius: 22px;
 }
