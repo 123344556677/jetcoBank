@@ -56,7 +56,19 @@ const SystemSettings = () => {
                 <h1 className="charts-crypto-heading mb-0">
                   JETCO App Download
                 </h1>
-                <h2 className="charts-download-heading mt-1">Download</h2>
+                <h2 className="charts-download-heading mt-1">
+                  Download{" "}
+                  <span className="ml-2">
+                    <img
+                      src={require("../../assets/img/icons/common/Arrow - Up.png")}
+                      alt="arrow-up"
+                    />
+                    <img
+                      src={require("../../assets/img/icons/common/Arrow-down.png")}
+                      alt="arrow-down"
+                    />
+                  </span>
+                </h2>
               </div>
               <div className="d-flex">
                 <CustomDropDown
